@@ -9,7 +9,7 @@
 
 [What is Computer Science](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
 
-[What does a software enginner do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
+[What does a software engineer do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
 
 ### Five basic concepts of any programming language
 
