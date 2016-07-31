@@ -3,6 +3,14 @@
 #### Watch the following video
 [Mitch Resnick: Let's teach kids to code](https://www.youtube.com/watch?v=Ok6LbV6bqaE)
 
+### What do programmers do?
+
+[What is Programming](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsProgramming.html)
+
+[What is Computer Science](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
+
+[What does a software enginner do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
+
 ### Five basic concepts of any programming language
 
 [Variables](https://howtoprogramwithjava.com/programming-101-the-5-basic-concepts-of-any-programming-language)
@@ -15,11 +23,3 @@
 
 [Tools](https://howtoprogramwithjava.com/the-5-basic-concepts-of-any-programming-language-concept-5/) 
 
-### What do programmers do?
-
-
-[What is Programming](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsProgramming.html)
-
-[What is Computer Science](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
-
-[What does a software enginner do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
