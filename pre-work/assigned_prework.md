@@ -11,7 +11,7 @@
 
 [What does a software engineer do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
 
-### Five basic concepts of any programming language
+### Basic concepts of any programming language
 
 [Variables](https://howtoprogramwithjava.com/programming-101-the-5-basic-concepts-of-any-programming-language)
 
@@ -21,5 +21,5 @@
 
 [Syntax](https://howtoprogramwithjava.com/the-5-basic-concepts-of-any-programming-language-concept-4)
 
-[Tools](https://howtoprogramwithjava.com/the-5-basic-concepts-of-any-programming-language-concept-5/) 
+
 
