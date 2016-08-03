@@ -16,7 +16,8 @@
 -[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 -[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 -[Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
-
+-[Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+-[Android Architecture](https://source.android.com/devices/)
 # Lecture
 
 ## Control structures
@@ -109,6 +110,11 @@ if (input > 9) {
 ```
 
 ## Switch statement
+Switch statements are the equivalent of if else statements, with one key
+difference. Of all blocks of code defined in an if else statement, only one will
+be executed. In a switch statement, multiple blocks of code can be executed.
+First we demonstrate a switch statement runs one block of code at a time.
+
 ```java
 int input = 5;
 switch (input) {
@@ -125,3 +131,167 @@ default:
 	System.out.println("Can't say hello that many times");
 }
 ```
+
+Is the same as the following if else statment:
+
+```java
+int input = 5;
+if (input == 1) {
+  System.out.println("hello Tom");
+} else if (input == 2) {
+	System.out.println("hello Bob");
+} else if (input == 3) {}
+	System.out.println("hello world");
+} else {
+	System.out.println("Can't say hello that many times");
+}
+```
+
+In the switch statement, a single expression is used to evaluate all cases, and
+the first case that matches will execute. The code within the switch block will
+keep running until it reaches a break statement. Notice in our switch statement,
+we stop execution with break statements, so that only one println statement
+runs. We can execute all statements as follows:
+
+```java
+int input = 5;
+switch (input) {
+case 1:
+  System.out.println("hello Tom");
+case 2:
+	System.out.println("hello Bob");
+case 3:
+	System.out.println("hello world");
+default:
+	System.out.println("Can't say hello that many times");
+}
+```
+
+Is the same as the following if else statment:
+
+```java
+int input = 5;
+if (input == 1) {
+  System.out.println("hello Tom");
+  System.out.println("hello Bob");
+  System.out.println("hello world");
+  System.out.println("Can't say hello that many times");
+} else if (input == 2) {
+  System.out.println("hello Bob");
+  System.out.println("hello world");
+  System.out.println("Can't say hello that many times");
+} else if (input == 3) {
+  System.out.println("hello world");
+  System.out.println("Can't say hello that many times");
+} else {
+	System.out.println("Can't say hello that many times");
+}
+```
+
+The switch statement is also special because of the default keyword. The
+block of code following default will be executed if the other case expressions
+do not evaluate to true. By selectively placing break statements, we can run
+multiple blocks of code. However, it is important to write code that is easily
+readable to others, so be careful not to write confusing switch statements.
+For example:
+
+```java
+int input = 5;
+switch (input) {
+case 1:
+  System.out.println("hello Tom");
+case 2:
+	System.out.println("hello Bob");
+  break;
+case 3:
+	System.out.println("hello world");
+default:
+	System.out.println("Can't say hello that many times");
+}
+```
+
+Is the same as the following if else statment:
+
+```java
+int input = 5;
+if (input == 1) {
+  System.out.println("hello Tom");
+  System.out.println("hello Bob");
+} else if (input == 2) {
+  System.out.println("hello Bob");
+} else if (input == 3) {
+  System.out.println("hello world");
+  System.out.println("Can't say hello that many times");
+} else if(input != 1 && input != 2 && input != 3) {
+	System.out.println("Can't say hello that many times");
+}
+```
+
+Notice how the default case could not be translated to an else block of code
+without an expression guarding its execution.
+### Enums
+Enums are used to represent constant values in code, that are related to each
+other. Since our goal is to always write code that is self explanatory, enums
+are a great tool for replacing magic numbers in code. For example, which is
+easier to understand:
+
+```java
+// readGuest returns a number from System.in that represents a guest number
+int input = readGuest();
+switch (input) {
+case 1:
+  System.out.println("hello Tom");
+	break;
+case 2:
+	System.out.println("hello Bob");
+	break;
+case 3:
+	System.out.println("hello world");
+	break;
+default:
+	System.out.println("I don't know this person");
+}
+```
+
+compared to the following
+
+```java
+// Define an enum to represent our guests
+enum Guest {
+  TOM,
+  BOB,
+  THE_WORLD,
+  UNKNOWN
+}
+```
+```java
+// readGuest returns a Guest that represents a number from System.in
+Guest input = readGuest();
+switch (input) {
+case TOM:
+  System.out.println("hello Tom");
+	break;
+case BOB:
+	System.out.println("hello Bob");
+	break;
+case THE_WORLD:
+	System.out.println("hello world");
+	break;
+default:
+	System.out.println("Can't say hello that many times");
+}
+```
+
+Enums can not be defined within functions. They are often used to describe nouns
+or states in a code base.
+
+### The relationship between Java and Android
+Java is a programming language that can be used to build any program a
+developer conceives of. Android is a collection of applications and interfaces,
+referred to as a stack, that allow Java programs to interact with hardware.
+Android is based off of the Linux operating system, and any device running
+Android is also running Linux. The same way Android is built out of Java
+classes, any Java developer could build a system as complicated. Nor must one
+choose Java as the language to design it in. Many programming languages exist,
+each one expressing logic in a different pattern. Learning a different
+programming language will often teach you to thick about code in a new way.
