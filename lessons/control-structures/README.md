@@ -1,14 +1,11 @@
 - title: Control Structures
 - tags: java if else switch
 
-#Standards:
-
 #Objectives
 
 -Write an If statement
 -Write an If - Else statement
 -Write a Switch statement
--Enums
 -The relationship between Java and Android
 
 #Resources
@@ -16,7 +13,6 @@
 -[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 -[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 -[Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
--[Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
 -[Android Architecture](https://source.android.com/devices/)
 # Lecture
 
@@ -229,61 +225,6 @@ if (input == 1) {
 
 Notice how the default case could not be translated to an else block of code
 without an expression guarding its execution.
-### Enums
-Enums are used to represent constant values in code, that are related to each
-other. Since our goal is to always write code that is self explanatory, enums
-are a great tool for replacing magic numbers in code. For example, which is
-easier to understand:
-
-```java
-// readGuest returns a number from System.in that represents a guest number
-int input = readGuest();
-switch (input) {
-case 1:
-  System.out.println("hello Tom");
-	break;
-case 2:
-	System.out.println("hello Bob");
-	break;
-case 3:
-	System.out.println("hello world");
-	break;
-default:
-	System.out.println("I don't know this person");
-}
-```
-
-compared to the following
-
-```java
-// Define an enum to represent our guests
-enum Guest {
-  TOM,
-  BOB,
-  THE_WORLD,
-  UNKNOWN
-}
-```
-```java
-// readGuest returns a Guest that represents a number from System.in
-Guest input = readGuest();
-switch (input) {
-case TOM:
-  System.out.println("hello Tom");
-	break;
-case BOB:
-	System.out.println("hello Bob");
-	break;
-case THE_WORLD:
-	System.out.println("hello world");
-	break;
-default:
-	System.out.println("Can't say hello that many times");
-}
-```
-
-Enums can not be defined within functions. They are often used to describe nouns
-or states in a code base.
 
 ### The relationship between Java and Android
 Java is a programming language that can be used to build any program a
