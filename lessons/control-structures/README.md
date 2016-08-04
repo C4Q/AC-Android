@@ -122,7 +122,7 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
     }
 ```
 
-## Todo - Cover DeMorgan's Law and add in-class exercises.
+ *Todo - Cover DeMorgan's Law and add in-class exercises.
 
 ## Switch statement
 Switch statements are the equivalent of if else statements, with one key difference. Of all blocks of code defined in an if else statement, only one will be executed. In a switch statement, multiple blocks of code can be executed.
