@@ -9,7 +9,7 @@
 
 [What is Computer Science](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
 
-[What does a software engineer do?](http://interactivepython.org/courselib/static/pythonds/Introduction/WhatIsComputerScience.html)
+[What does a software engineer do?](http://tryengineering.org/ask-expert/what-does-computer-software-engineer-do-could-you-give-me-description-field)
 
 ### Basic concepts of any programming language
 
