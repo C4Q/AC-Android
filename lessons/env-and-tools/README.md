@@ -21,9 +21,11 @@
 -[Google Android Tutorials](https://developer.android.com/training/basics/firstapp/index.html)
 -[Android Source Code](https://source.android.com/)
 -[Github](https://www.github.com)
--[Git] (https://git-scm.com/docs/user-manual.html)
+-[Git Manual](https://git-scm.com/docs/user-manual.html)
+-[Git Install](Git.md)
 -[StackOverflow] (https://stackoverflow.com/)
 -[Slack] (https://slack.com/downloads)
+-[IntelliJ Install](IntelliJ.md)
 
 # Lecture
 
