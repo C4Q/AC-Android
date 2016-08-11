@@ -32,6 +32,23 @@
 |[2016-08-31](https://docs.google.com/a/c4q.nyc/forms/d/1TA_lEdSEQJyeCILViB77hdglqvRoHA3V2XeXwqt4k0o/edit)|
 |[2016-09-01]()|
 
+**Exit Ticket:**
+
+|Date|
+|:----------:|
+|[2016-08-20]()
+[2016-08-21]()|
+|[2016-08-22]()|
+|[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/1rWEIwPbYE_by4cZ9lR55XgBdCrTQ5WXTlTIumLangqg/edit)|
+|[2016-08-24]()|
+|[2016-08-25](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/edit)|
+|[2016-08-27](https://docs.google.com/a/c4q.nyc/forms/d/11COt3riU8L1ZDUDuL2CRAmkgfjZgD4mUwtboHTeqOew/edit)|
+|[2016-08-28]()|
+|[2016-08-29]()|
+|[2016-08-30](https://docs.google.com/a/c4q.nyc/forms/d/10RM7gpoXMXl0-C-O8p3p6oE9LatKYOqHeet0pNk91yw/edit)|
+|[2016-08-31]()|
+|[2016-09-01]()|
+
 **Homework:**
 
 |  Date      |Warmup|Challenge| Lesson |Check-in|
