@@ -1,4 +1,4 @@
-- title: For Loops
+- title: For Loops and Methods
 - tags: loops, for, strings
 
 # Objectives
@@ -6,18 +6,22 @@
 - Understand the components of a for loop
 - Properly use 'continue' and 'break'
 - Iterate through a String using a standard loop
+- Understand how to define functions
+- Understand how to properly call functions in Java
 
 # Resources
 
 [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
 [Java For-Loops Examples](http://www.java-examples.com/loop)
+[Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
+[Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
 
 
 # Lecture
 
-Loops are another power control structure, and a great way for your program to do a repeated set of actions.
+Loops are a very power control structure, and a great way for your program to do a repeated set of actions.
 
-A for loop has three important components that help determine how many times it will loop.
+A for-loop has three important components that help determine how many times it will loop.
 
 - Initialization
 - Termination/Condition
@@ -90,27 +94,87 @@ for (int i = 1; i <= 20; i++) {
 
 > **Exercise:** Simplify your code for FizzBuzz using `continue`.
 
-Iterating over strings
--
+## Methods
 
-Often, programmers need to iterate over text. Java provides two functions, `String.length()` and `String.charAt()` that make iterating over a `String` fun. Here is how to use them:
+Methods are another effective way for programmers to automate things, allowing us to repeatedly call a set of code on a number of inputs without retyping the code.
+
+*Definition*
+ A method is a piece of code that could perform some operations, then return something back to whatever happened to “call” the method. Or, a method will perform some operations, without needing to return anything when it’s done, the flow of code will just continue back from whatever called the method.  Either way, a method will execute some block of useful code that can be called repeatedly from anywhere in your program
+
+  System.out.println() is an example of a method call. It takes a single String as its input parameter and prints it.
+
+  Java provides many methods you may find familiar. Here are two particularly helpful methods for iterating through strings.
+
+  - `String.length()` and
+  - `String.charAt()`
+
+  here is how they are invoked in Java:
+
+  ```java
+  System.out.println("Queens!".length()); // 7
+  ```
+
+  The function `String.charAt()` returns the `char` at the index provided. For example:
+
+  ```java
+  System.out.println("Queens!".charAt(3)); // e
+  ```
+
+
+  We can also declare or define our own methods to add to our Java classes by specifying a name, required parameters, and return types. It's crucial to pay attention to four important things:
+
+
+- What will the method do?
+- What name will the method have?
+- What parameters are required? - the number of parameters and the type(s) are important!- (When calling the method, you must provide the same number of parameters, same exact types as specified, and in the right order.)
+- What type of value, if any, will the method return? (The data type of the return value must match the method's declared return type; EX: you can't return an integer value from a method declared to return a boolean.)
+
+*Composition of Methods*
+
+ The first line of a method is know as it's declaration. Here, we declare the method's return type, name, and its parameters in the declaration. The block of code within the curly braces of a function is known as the body of the function. This code is evaluated and run each time a method is called. the The block methods except those that return void require a return statement within the body. Code written after a return statement is generally unreachable because once the method returns, the code flow exits from the method and returns a value
+
+
+The following method is defined to take a number as an input and return a boolean.
+```java    
+//Method Defintion
+boolean isOdd(int number){
+   return number % 2 != 0;
+}
+```
+//Method Call
+isOdd(4)   //return false.
+
 
 ```java
-System.out.println("Queens!".length()); // 7
+void printHelloWorldNTimes(int N){
+     for(int i = 0; i < N; i++){
+       System.out.println("Hello World " + i);
+     }
+}
 ```
 
-The function `String.charAt()` returns the `char` at the index provided. For example:
+The above method prints "Hello World" N times. Notice that it simply prints and does not return anything. The return keyword is optional, because the method's declaration specifies a void return type. The following code is identical.
 
 ```java
-System.out.println("Queens!".charAt(3)); // e
+void printHelloWorldNTimes(int N){
+     for(int i = 0; i < N; i++){
+       System.out.println("Hello World " + i);
+     }
+     return;
+	}
 ```
+
+
+> **Exercise:** The original fizzbuzz problem required printing the numbers from 1 to 100. Let's modify the problem by using a method that still prints fizz, buzz, and fizzbuzz when appropriate but that only goes up to a variable N.
+
 
 
 > **In-class assignment:** [String exercise](exercises/string-loops.md)
 
 
 
-> **In-class assignment:** [hard] Below is a quote from [Grace Hopper](http://en.wikipedia.org/wiki/Grace_Hopper), the inventor of the first compiler. Write a program that uses a `for` loop to count how many times she says the word "data". You'll need to call two `String` functions in order to complete this assignment. Make sure to verify your answer.
+> **In-class assignment:** [hard] []
+Below is a quote from [Grace Hopper](http://en.wikipedia.org/wiki/Grace_Hopper), the inventor of the first compiler. Write a program that uses a `for` loop to count how many times she says the word "data". You'll need to call two `String` functions in order to complete this assignment. Make sure to verify your answer.
 
 > > "We must include in any language with which we hope to describe complex **data**-processing situations the capability for describing **data**. We must also include a mechanism for determining the priorities to be applied to the **data**. These priorities are not fixed and are indicated in many cases by the **data**.
 
