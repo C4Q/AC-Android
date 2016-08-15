@@ -4,28 +4,28 @@
 #Standards:
 
 #Objectives
--Install Intelli J
--Install Android Studio
--Run Java programs on repl.it
--Setup Github account
--The Command Line
--Setup StackOverflow Account
--Setup Slack Account
--The App Design Process
--Intro to Pair Programming
+* Install Intelli J
+* Install Android Studio
+* Run Java programs on repl.it
+* Setup Github account
+* The Command Line
+* Setup StackOverflow Account
+* Setup Slack Account
+* The App Design Process
+* Intro to Pair Programming
 
 #Resources
--[Java coding in browser](https://repl.it/languages/java)
--[Android Studio IDE](https://developer.android.com/studio/install.html)
--[Udacity Android Class](https://www.udacity.com/course/developing-android-apps--ud853)
--[Google Android Tutorials](https://developer.android.com/training/basics/firstapp/index.html)
--[Android Source Code](https://source.android.com/)
--[Github](https://www.github.com)
--[Git Manual](https://git-scm.com/docs/user-manual.html)
--[Git Install](Git.md)
--[StackOverflow] (https://stackoverflow.com/)
--[Slack] (https://slack.com/downloads)
--[IntelliJ Install](IntelliJ.md)
+* [Java coding in browser](https://repl.it/languages/java)
+* [Android Studio IDE](https://developer.android.com/studio/install.html)
+* [Udacity Android Class](https://www.udacity.com/course/developing-android-apps--ud853)
+* [Google Android Tutorials](https://developer.android.com/training/basics/firstapp/index.html)
+* [Android Source Code](https://source.android.com/)
+* [Github](https://www.github.com)
+* [Git Manual](https://git-scm.com/docs/user-manual.html)
+* [Git Install](Git.md)
+* [StackOverflow] (https://stackoverflow.com/)
+* [Slack] (https://slack.com/downloads)
+* [IntelliJ Install](IntelliJ.md)
 
 # Lecture
 

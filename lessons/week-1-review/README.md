@@ -3,17 +3,17 @@
 
 #Objectives
 
--Solve If Else Problems
--Solve Switch Statement Problems
--Solve While Loop Problems
--Pair Programming
+* Solve If Else Problems
+* Solve Switch Statement Problems
+* Solve While Loop Problems
+* Pair Programming
 
 #Resources
 
--[Java coding in browser](https://repl.it/languages/java)
--[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
--[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
--[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+* [Java coding in browser](https://repl.it/languages/java)
+* [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
+* [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+* [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
 # Lecture
 Input

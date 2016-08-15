@@ -2,15 +2,15 @@
 - tags: java enums while loops
 
 #Objectives
--Enums
--Write a While Loop
--How Android is built from Java
+* Enums
+* Write a While Loop
+* How Android is built from Java
 
 #Resources
--[Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
--[Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
--[Android Architecture](https://source.android.com/devices/)
--[Android Open Source Project](https://source.android.com/)
+* [Enum Types](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+* [Activity Lifecycle](https://developer.android.com/training/basics/activity-lifecycle/starting.html)
+* [Android Architecture](https://source.android.com/devices/)
+* [Android Open Source Project](https://source.android.com/)
 
 #Lecture
 ### Enums
