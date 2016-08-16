@@ -19,7 +19,7 @@
 
 |Date|
 |:----------:|
-|[2016-08-20]()
+|First Day of Class|
 [2016-08-21](https://docs.google.com/a/c4q.nyc/forms/d/1nUeY24TmA5bceswPvrRMhz95427s7yqbngaZRkEdbAM/edit)|
 |[2016-08-22](https://docs.google.com/a/c4q.nyc/forms/d/1KOMjfexbq-L8YE8eIYsLdlac07m8qhl3OSSmew01O70/edit)|
 |[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/14B2vkRnQRsk_D_UvloqX-RSgJxGiMFTYzp6RVDFahVM/edit)|
@@ -30,14 +30,14 @@
 |[2016-08-29](https://docs.google.com/a/c4q.nyc/forms/d/1d8tTX4B_S6H4RW2d6zriAU2cwan6ABSIieVRqXFuA0k/edit)|
 |[2016-08-30](https://docs.google.com/a/c4q.nyc/forms/d/1mDqsBQEPzl018WSGai21tywIwTVTP3DXGYiHQYNbiOo/edit)|
 |[2016-08-31](https://docs.google.com/a/c4q.nyc/forms/d/1TA_lEdSEQJyeCILViB77hdglqvRoHA3V2XeXwqt4k0o/edit)|
-|[2016-09-01]()|
+|Review first 2 weeks for assessment|
 
 **Exit Ticket:**
 
 |Date|
 |:----------:|
-|[2016-08-20]()
-[2016-08-21]()|
+|First Day of Class|
+|[2016-08-21]()|
 |[2016-08-22]()|
 |[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/1rWEIwPbYE_by4cZ9lR55XgBdCrTQ5WXTlTIumLangqg/edit)|
 |[2016-08-24]()|
@@ -47,7 +47,7 @@
 |[2016-08-29]()|
 |[2016-08-30](https://docs.google.com/a/c4q.nyc/forms/d/10RM7gpoXMXl0-C-O8p3p6oE9LatKYOqHeet0pNk91yw/edit)|
 |[2016-08-31]()|
-|[2016-09-01]()|
+|Assessment, No Exit Ticket|
 
 **Homework:**
 
