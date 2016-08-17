@@ -14,6 +14,12 @@
 |Jonathan| 2016-08-30 ||| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part1) ||
 |Abass| 2016-08-31 ||| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part2)||
 |Jonathan| 2016-09-01 ||| [Week 2 Review](lessons/week2-review)||
+|Jonathan| 2016-09-03 ||| [Networking](lessons/networking)||
+|Ramona| 2016-09-04 ||| [Json and IntelliJ Onboarding](lessons/json-and-intellij)||
+|Abass| 2016-09-05 ||| [HashMaps and Sets](lessons/hashmaps-and-sets)||
+|Jonathan| 2016-09-06 ||| [Stacks and Queues](lessons/stacks-and-queues)||
+|Abass| 2016-09-07 ||| [Review Networking and Json](lessons/week3-review-part1)||
+|Jonathan| 2016-09-08 ||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
 
 **Prework:**
 
