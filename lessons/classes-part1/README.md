@@ -15,6 +15,12 @@
 - How to call methods
 - How to declare a method
 
+
+# Warmup
+As part of an in class competition, you will solve as many string questions as
+you can from HackerRank, in the next 30 minutes.
+
+[HackerRank](https://www.hackerrank.com/domains/java/java-strings/difficulty/all/page/1)
 # Review
 - [`DrawRocket.java`](https://github.com/accesscode-2-1/unit-0/blob/master/in-class%20exercise%20solutions/DrawRocket.java)
 
