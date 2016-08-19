@@ -452,7 +452,7 @@ implement interfaces we define.
 The commands we will offer are:
 
 ```java
-public enum SystemCommands{
+public enum SystemCommands {
   READ_INPUT, // Read a single integer from input 0 - 9
   PRINT, // Print out a string
   ADD, // Add two integers
