@@ -317,10 +317,6 @@ System.out.println(p1.getName());
 
 Here, the variables `p1` and `p2` both reference the same object. When we change `p2`, `p1` also changes. This is beause a reference type refers to an object in memory but only stores the memory address of where the object is located.
 
-![Reference vs Primitive](http://thinkingweb.co/wp-content/uploads/2014/06/Capture.png)
-
-This memory address is called a *reference* to the object.
-
 #### Mutability
 
 To *mutate* means to change while still having the same identity. Some reference types are *mutable* while others are *immutable*. `Person` is mutable. It is possible to change the state of the object. `String`, on the other hand, is immutable.
@@ -472,12 +468,12 @@ SystemCommands getNextCommand();
 This is the only way for our programs to interface with the operating system,
 and will be the function you implement.
 
-Your job will be to write the following programs:
+Your job will be to write four classes. One do execute each of the following programs:
 
--Add any two numbers from input
--Add two numbers from input, then add another two numbers from input, then
+- Add any two numbers from input
+- Add two numbers from input, then add another two numbers from input, then
 multiply the two results
--Read numbers from input until you read a 0. Add all numbers and print the
+- Read numbers from input until you read a 0. Add all numbers and print the
 result
 
 To accomplish this, you will need to understand how the operating system
@@ -519,6 +515,46 @@ first, and sets the second location to 0
 MULTIPLY
 // MEMORY contains [ 12 ] [ 0 ]
 
+The following is a program that reads an input and then prints the value read:
+
+```java
+public class TestProgram implements ICustomOs {
+
+  int mCommandIndex = 0;
+  private int mSavedValue;
+  private int mInspectedValue;
+
+  List<SystemCommands> mProblem1 = Arrays.asList(
+      SystemCommands.READ_INPUT,
+      SystemCommands.PRINT,
+      SystemCommands.END
+  );
+
+  @Override
+  public SystemCommands getNextCommand() {
+    SystemCommands result = mProblem1.get(mCommandIndex);
+    mCommandIndex++;
+    return result;
+  }
+```
 #### Assignment
-For each problem, write a class with a single function getNextCommand() that
-solves the task.
+For each problem, you will only have to replace the list mProblem1 in the
+example code above. Each solution should look like the following, replacing #
+with the problem number:
+
+```java
+List<SystemCommands> mProblem# = Arrays.asList(
+  // COMMAND 1
+  // COMMAND 2
+  // COMMAND 3
+);
+
+The difficult part of this project is you can not test your solutions without an
+instructor, so try your best at understanding the computer architecture fully
+and executing the code mentally before asking to run your code for verification.
+
+> **Exercise 1** Add any two numbers from input
+> **Exercise 2** Add two numbers from input, then add another two numbers from
+input, and then multiply the two results
+> **Exercise 3** Read numbers from input until you read a 0. Add all numbers and
+ print the result
