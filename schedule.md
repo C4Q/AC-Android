@@ -44,18 +44,23 @@
 |Date|
 |:----------:|
 |First Day of Class|
-|[2016-08-21]()|
+|[2016-08-21](https://docs.google.com/a/c4q.nyc/forms/d/1k5_otHg_g2IDzgzbdxEBKsd-U47z717lvOO2rB38DQQ/)|
 |[2016-08-22]()|
-|[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/1rWEIwPbYE_by4cZ9lR55XgBdCrTQ5WXTlTIumLangqg/edit)|
+|[2016-08-23](https://docs.google.com/a/c4q.nyc/forms/d/1rWEIwPbYE_by4cZ9lR55XgBdCrTQ5WXTlTIumLangqg/)|
 |[2016-08-24](#)|
-|[2016-08-25](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/edit)|
-|[2016-08-27](https://docs.google.com/a/c4q.nyc/forms/d/11COt3riU8L1ZDUDuL2CRAmkgfjZgD4mUwtboHTeqOew/edit)|
-|[2016-08-28](#)|
+|[2016-08-25](https://docs.google.com/a/c4q.nyc/forms/d/1on3XlIN13ebCltZLhFo2PvjIubcjT3jGiScM6xB_84Y/)|
+|[2016-08-27](https://docs.google.com/a/c4q.nyc/forms/d/11COt3riU8L1ZDUDuL2CRAmkgfjZgD4mUwtboHTeqOew/)|
+|[2016-08-28](https://docs.google.com/a/c4q.nyc/forms/d/1X6gOZC-MF-dvjr8XlDHCEJd3TAuxOUmjQvP8bYN4z6k/)|
 |[2016-08-29](#)|
-|[2016-08-30](https://docs.google.com/a/c4q.nyc/forms/d/10RM7gpoXMXl0-C-O8p3p6oE9LatKYOqHeet0pNk91yw/edit)|
+|[2016-08-30](https://docs.google.com/a/c4q.nyc/forms/d/10RM7gpoXMXl0-C-O8p3p6oE9LatKYOqHeet0pNk91yw/)|
 |[2016-08-31](#)|
-|[2016-09-01](#)|
-|Assessment, No Exit Ticket|
+|2016-09-01 - Assessment|
+|[2016-09-03](#)|
+|[2016-09-04](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
+|[2016-09-05](#)|
+|[2016-09-06](#)|
+|[2016-09-07](#)|
+|[2016-09-08](#)|
 
 
 **Homework:**

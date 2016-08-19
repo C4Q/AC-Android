@@ -4,8 +4,12 @@
 # Objectives
 - To understand what wrapper classes are
 - To become comfortable with the subject of auto-boxing and unboxing
-- To understand about static methods of the Integer Class
+- To understand what a static method is and how to call one
 - To understand what exception handling is and how to use it
+- To read input from a file
+
+# Resources
+- [Java Tutorials: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/)
 
 # Lecture
 
@@ -19,7 +23,7 @@ Instead of:
 Integer i = new Integer(9);
 ```
 
-use this instead:
+use this:
 
 ```java
 Integer l = 9;
@@ -74,8 +78,8 @@ Integer number = 13;
 
 
 #### Why should you care? 
-- Autoboxing/unboxing is heavily used in java collections. More on this later!
 
+- Auto-boxing/unboxing is heavily used in Java Collections. More on this later!
 
 ## Static methods
 
@@ -87,7 +91,7 @@ You can call a static method directly on the class, for example:
 String.format("Formatting the number %d", 9);
 ```
 
-#### A useful static method  of the Integer class:
+#### A useful static method of the Integer class:
 
 ```java
 static int parseInt(String s) 
@@ -98,9 +102,9 @@ This method parses the string argument as a signed decimal integer.
 The following will generate a compiler error:
 
 ```java
-String strNum1 = "1000"; 
-int val = strNum1;
-System.out.println(val);
+String stringNumber = "1000"; 
+int value = stringNumber;
+System.out.println(value);
 ```
 
 Output:
@@ -114,35 +118,75 @@ found: java.lang.String
 
 ```java
 // Outputs 1000
-String strNum1 = "1000";     
-int val = Integer.parseInt(strNum1);
-System.out.println(val);
+String stringNumber = "1000";     
+int value = Integer.parseInt(stringNumber);
+System.out.println(value);
 ```
 
 ## Exception handling
 
+An **exception** is an event occurring during the execution of a program that disrupts the normal flow of the program's instructions. You may have already encountered some Java exceptions while building and debugging your programs, like `NullPointerException` or `IndexOutOfBoundsException`.
+
+The following block generates a `NumberFormatException`:
+
 ```java
-String strNum1 = "1000cats";
-int val = Integer.parseInt(strNum1);
-System.out.println(val);
+String stringNumber = "1000cats";
+int value = Integer.parseInt(stringNumber);
+System.out.println(value);
 ```
 
-Generates a NumberFormatException exception therefore you may wish to properly handle it:
+Valid Java must honor the **Catch or Specify Requirement**. This means code might throw certain exceptions must be enclosed by either of the following:
+
+* A `try` statement that catches the exception.
+* A method that specifies that it can `throw` the exception.
+
+Code that does not honor the Catch or Specify Requirement will not compile.
 
 ```java
-try{
-
-   String strNum1 = "1000cats";
-   int val = Integer.parseInt(strNum1);
-   System.out.println(val);
-
-} catch (NumberFormatException e){
-
-   System.out.println("Not a proper integer value!");
-
+// Try statement catches the exception
+// Output: Not a proper integer value!
+try {
+    String stringNumber = "1000cats";
+    int value = Integer.parseInt(stringNumber);
+    System.out.println(value);
+} catch (NumberFormatException e) {
+    System.out.println("Not a proper integer value!");
 }
 ```
 
-Outputs: Not a proper integer value!
+```java
+// Method specifies that it can throw the exception
+public void parseToInteger() throws NumberFormatException {
+    String stringNumber = "1000cats";
+    int value = Integer.parseInt(stringNumber);
+    System.out.println(value);
+}
+```
 
-##### But at least the exception is handled and the program execution is able to continue.
+## File I/O
+
+Last week, you learned how to accept user input with a Scanner object. A scanner can also be useful for reading input from a text file because it can break down formatted text into tokens. By default, a scanner uses white space (e.g. spaces, tabs, and `\n` line terminators) to separate tokens.
+
+The following program uses a scanner to read the individual words in `my_text_file.txt` and print each one out on a new line.
+
+```java
+public class ScanFile {
+    public static void main(String[] args) throws IOException {
+
+        Scanner scanner = null;
+
+        try {
+            scanner = new Scanner(new BufferedReader(new FileReader("my_text_file.txt")));
+            while (scanner.hasNext()) {
+                System.out.println(scanner.next());
+            }
+        } finally {
+            if (scanner != null) {
+                scanner.close();
+            }
+        }
+    }
+}
+```
+
+[In-class exercises](exercises.md)
