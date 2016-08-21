@@ -31,6 +31,7 @@ public class Hello {
 1. Modify the example program to print "Hello, *(your name)*!" instead.
 
 2. Insert a second print statement below the first to print "Hello, *(name of the person sitting to your left)*!"
+
 <!-- end @acxbank -->
 
 
@@ -129,6 +130,7 @@ For each one, be sure to choose a suitable data type and a descriptive name!
 6. Whether or not the current year is a leap year.
 7. The first three digits of pi.
 8. How many feet you'd guess there are between the earth and the sun.
+
 <!-- end @acxbank -->
 
 
@@ -164,6 +166,7 @@ String hannah = "Did Hannah see bees? Hannah did.";
 2. What is the value returned by the method call hannah.charAt(12)?
 
 3. Write an expression that refers to the letter b in the string referred to by hannah.
+
 <!-- end @acxbank -->
 
 
@@ -215,4 +218,5 @@ Play with characters and Strings. What happens if you do the following:
 5. A string and a char?
 6. A char and a string?
 7. Do any other mathematical operations work on strings?
+
 <!-- end @acxbank -->
