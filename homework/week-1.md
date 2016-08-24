@@ -29,7 +29,7 @@ calculateAge(1987, 2016);  // returns 'You are either 28 or 29.'
 <!-- @acxbank exes-and-ohs -->
 ### Q3. exes-and-ohs
 
-Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contains any char.
+Check to see if a string has the same count of 'x's and 'o's. The method must return a boolean and be case insensitive. The string may contain any Unicode character -- not just 'x's and 'o's -- and may be of any length.
 
 Example outputs:
 ```java
@@ -211,4 +211,4 @@ You can use [repl.it](https://repl.it/languages/java) to complete and submit the
 
 4. When you have completed all of the exercises, click the "Share" button then select Github to share the exercises to a Gist. 
 
-5. Copy the Gist URL and [submit it using this form](//TODO add hw submission form link) by ***Saturday 8/21 at 8pm***.
+5. Copy the Gist URL and [submit it using this form](//TODO add hw submission form link) by ***Saturday 8/27 at 8pm***.

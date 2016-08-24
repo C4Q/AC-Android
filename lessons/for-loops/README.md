@@ -11,10 +11,10 @@
 
 # Resources
 
-[Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
-[Java For-Loops Examples](http://www.java-examples.com/loop)
-[Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
-[Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
+- [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html)
+- [Java For-Loops Examples](http://www.java-examples.com/loop)
+- [Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
+- [Return Values](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
 
 
 # Lecture

@@ -3,17 +3,17 @@
 
 #Objectives
 
+- Learn object object-oriented vocabulary
 - Understand inheritance
-- Understand Subclasses
+- Understand the Java Class Hierachy
 - Understand Method Overriding
 - Introduction to Scope
-- Learn object object-oriented vocabulary
 #Resources
 
 -[Oracle Tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
 
 # Lecture
-# Terminology
+## Terminology
 
 - super class
 - base class

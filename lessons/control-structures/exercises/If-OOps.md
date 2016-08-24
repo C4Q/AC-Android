@@ -3,7 +3,7 @@
 Th following class, IfOOps.java, contains 7 syntactical errors.
 List the line numbers that have syntax errors.
 
-![IfOOps](exercises/IfOOps.png)
+![IfOOps](IfOOps.png)
 
 1) List the lines that contain flawed syntax
 

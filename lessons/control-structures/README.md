@@ -1,17 +1,18 @@
 - title: Control Structures
 - tags: java if else switch
 
-#Objectives
+# Objectives
 
-* Write an If statement
-* Write an If - Else statement
-* Write a Switch statement
+- Write an If statement
+- Write an If - Else statement
+- Write a Switch statement
 
-#Resources
--[Java coding in browser](https://repl.it/languages/java)
--[Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
--[Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
--[Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+# Resources
+- [Java coding in browser](https://repl.it/languages/java)
+- [Control Flow Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
+- [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
+- [Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
+
 
 
 # Lecture
@@ -126,10 +127,10 @@ if(requestCode == DOWNLOAD_IMAGES_REQUEST && resultCode == RESULT_OK{
 
 ```java
 public boolean isPalindrome(String input){
-    String reversed = input.reversed();
+    String reversed = new StringBuilder(input).reverse().toString();
     return reversed.equals(input);
-;}
-
+}
+```
 
 
 [Exercise 1](if-OOps.md)
@@ -163,7 +164,7 @@ if (input == 1) {
   System.out.println("hello Tom");
 } else if (input == 2) {
 	System.out.println("hello Bob");
-} else if (input == 3) {}
+} else if (input == 3) {
 	System.out.println("hello world");
 } else {
 	System.out.println("Can't say hello that many times");
@@ -177,7 +178,7 @@ we stop execution with break statements, so that only one println statement
 runs. We can execute all statements as follows:
 
 ```java
-int input = 5;
+int input = 1;
 switch (input) {
 case 1:
   System.out.println("hello Tom");
@@ -193,7 +194,7 @@ default:
 Is the same as the following if else statment:
 
 ```java
-int input = 5;
+int input = 1;
 if (input == 1) {
   System.out.println("hello Tom");
   System.out.println("hello Bob");
@@ -257,8 +258,7 @@ String comparison
   * When comparing two strings for equality, use the .equals() method not ==. The equals() method will check that two Strings have identical content while "=="checks whether both strings have the same in-memory reference.
 
 
-
-[Exercise 2](user_validation.md)
+[Exercises](exercises)
 
 
 [Exit Ticket](http://bit.ly/2aPVSOy)

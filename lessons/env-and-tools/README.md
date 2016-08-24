@@ -30,8 +30,8 @@
 # Lecture
 
 ## IDE setup
-Intall Intelli J
-Install Android Studio IDE
+* Install Intelli J [Tutorial](IntelliJ.md)
+* Install Android Studio IDE
 
 Navigate to repl.it and run your first Java program. By convention, the first
 program outputs Hello World! on the screen.
@@ -94,6 +94,7 @@ of the past. [Slack Bot Examples](http://www.wired.com/2015/08/slack-overrun-bot
 ## The App Design Process
 Building an app, whether its for a mobile phone or website, typically follows a
 process.
+
 1. Conception
 2. Design User Interaction
 3. Design interface

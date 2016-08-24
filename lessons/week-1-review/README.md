@@ -3,6 +3,7 @@
 
 #Objectives
 
+* Reading input from command line
 * Solve If Else Problems
 * Solve Switch Statement Problems
 * Solve While Loop Problems
@@ -75,21 +76,26 @@ Now try to use the `Scanner` yourself, but first...
 ```
 
 - After every exercise, commit your work to GitHub!
+
 ## If Else Problems
 
 > **Exercise:** [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
+
 > **Exercise:** [What if](http://programmingbydoing.com/a/what-if.html)
 
 ## Switch Statement Problems
+
 > **Exercise:**  Write a switch statement that checks an integer read from
 System.in. If the integer is greater than five, print "Big Number". Otherwise,
 print "Small Number"
+
 > **Exercise:**   Write a switch statement that checks an integer read from
 System.in. If the integer is greater than five, print "Big Number". If the
 integer is greater than five and 9, print "Really Big Number" Otherwise,
 print "Small Number";
 
 ## While Loop Problems
+
 > **Exercise:**   Write a while loop that continuously reads integers from
 System.in, until it reads 99. After reading 99, the code should print "Saw 99".
 
