@@ -26,20 +26,26 @@ You keep walking. Suddenly the floor disappears in front of you and you fall int
 
 This assignment is fairly open-ended, so be creative with your game ideas and have fun! However, the completed submission should include each of the following requirements:
 
-- At least one `if`/`else-if`/`else` type control structure.
-- At least one `switch` statement.
-- At least one `while` loop and one `for` loop.
-- At least one `ArrayList`.
 - Accept input from the user with a `Scanner` object.
+- At least one `if`/`else-if`/`else` type control structure and one `switch` statement.
+- At least one `while` loop and one `for` loop.
+- At least one `ArrayList` and one primitive array.
+- At least one case of exception handling.
+
+### Additional factors
+
+- Your game should be able to run to completion without noticeable bugs or crashes.
+- Code should be organized into methods as appropriate to demonstrate good modularization and code reuse.
+- All submitted code should be formatted as defined by the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 This is an individual assignment, so each student will be responsible for submitting their own original game.
 
 ### Some examples
 
-- http://play.textadventures.co.uk/Play.aspx?id=ztdzhocsh0itfnutvx06pq
-- http://play.textadventures.co.uk/Play.aspx?id=khgzt68_i0cjbwogpueqdg
-- http://play.textadventures.co.uk/Play.aspx?id=fjhtsi-mhuuowhhm8jluaq
-- http://play.textadventures.co.uk/Play.aspx?id=gq7hi7sgpe_gldqy0xb_mq
+- [Internet Archive: Supernova (1987)](https://archive.org/details/msdos_Supernova_1987)
+- [Internet Archive: Hamurabi (1996)](https://archive.org/details/msdos_Hamurabi_1996)
+- [Internet Archive: The Hobbit (1983)](https://archive.org/details/msdos_Hobbit_The_1983)
+- [Internet Archive: The Treasury of Zan (1989)](https://archive.org/details/treasury-of-zan)
 
 ### Fun ideas 
 
@@ -60,4 +66,4 @@ Example:
 
 1. Create a package in your ~/Desktop/accesscode directory (like we did today) called HW_09-03. Run through the Git workflow like we did earlier today: [Git + IntelliJ workflow](../resources/git-intellij-workflow.md). Create the GitHub repo but DON'T DELETE IT AND RE-CLONE IT. That was just an exercise.
 
-2. Submit a link to the repo as a comment on [this issue](//TODO issue link pending) issue by **Saturday 9/03 at 8pm**. See the issue for more precise formatting instructions.
+2. Commit and push all work and submit your repo link (along with the link to your VerbosityCalculator) using the appropriate Google Form (check Slack!) by **8pm on Saturday 9/3**.
