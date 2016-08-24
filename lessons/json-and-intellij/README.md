@@ -1,21 +1,14 @@
 - title: JSON
-- tags: apis, json, http
+- tags: web apis, json, http
 
 # Objectives
 
-- Summarize how the internet works ( in 30 seconds or less )
+- Summarize how the internet works
 - Review the HTTP request/response protocol and how web requests are made
 - Define what web APIs are and practice interacting with them
 - Understand what `JSON` is and how to manually parse it
 
-# Morning challenge
-
-[Link to the morning challenge](morning-challenge.md)
-
-# Lecture
-
-## The Internet
-- [How the internet works](https://www.youtube.com/watch?v=7_LPdttKXPc)  
+# Lecture 
 
 ## Making web requests
 ![ Web requests ] ( https://github.com/accesscode-2-1/unit-0/blob/master/images/makeRequests.png?raw=true )

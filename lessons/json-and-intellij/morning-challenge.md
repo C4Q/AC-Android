@@ -1,16 +1,27 @@
-## Morning challenge
+## Morning challenge :hatching_chick:
 
-Today is your first day on the job as chief technology officer at PS.123 in Flushing, Queens. Judy, your boss and acting principal greets you as soon as you walk in and gets you working right away. 
+1. Create a new [JSON object](http://www.w3resource.com/JSON/introduction.php) to represent an instance of the Java class `Student`. Populate the values with your own first name, last name, ID number and three of your favorite foods.
 
-Judy tells you that she needs a way to represent the "principle to teacher to student relationships" in such a way that she can later extract meaningful information from the raw data.
+```
+public class Student {
 
-She's provided a diagram which shows these relationships:
+	String firstName;
 
-![ principal to teacher to student relationship tree ]  (https://github.com/accesscode-2-1/unit-0/blob/master/images/principle_teacher_student_items_relationship.jpg)
+	String lastName;
 
-She's also gone ahead and created a skeleton for you which is available @ https://github.com/davisRoman/hierarchy 
-// TODO UPDATE LINK
+	int idNumber;
+	
+	String[] threeFavoriteFoods;
+	
+}
+```
 
-Clone the project, open it and help Judy find the best way to represent these relationships. 
+2. Go to the [Slack API: Message Formatting](https://api.slack.com/docs/messages/builder). In the 'Message buttons' example, See if you can:
 
-*Note: Don't forget to also implement the empty methods in the Principal class.*
+    - Change the name of the first game from 'Chess' to 'Checkers'.
+    
+    - Change the color of the message highlight to your favorite color. *Hint: you can find hex color values [here](http://www.w3schools.com/colors/colors_picker.asp)*.
+    
+	- Add a fourth game/button called 'Thermonuclear JSON!!!'.
+
+3. When you are finished, submit both JSON solutions using the Morning Challenge Google Form (check Slack!).
