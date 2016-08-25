@@ -39,4 +39,4 @@ public int getAsciiValue(char c){
 //ex: getAsciiValue('a') -> 97
 ```
 
-Write a Java program that takes a String from a user,and returns the sum of the ASCII value of each character. For example, calling getAsciiSum("Java") should return 418.
+Write a Java program that takes a String from a user,and returns the sum of the ASCII value of each character. For example, calling getAsciiSum("Java") should return 386.
