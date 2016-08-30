@@ -43,23 +43,28 @@ public class Hangman {
 
 
     public static void main(String[] args) {
-        Hangman hangman = new Hangman();
-        while (hangman.getMisses() < 5){
-            hangman.printCurrentWord();
-            hangman.promptPlayer("Enter a letter: ");
-            hangman.readLetter();
-            hangman.checkLetter();
-            if(hangman.guessedSuccessfully()){
-                break;
+        boolean playMore;
+        do {
+            Hangman hangman = new Hangman();
+            while (hangman.getMisses() < 5) {
+                hangman.printCurrentWord();
+                hangman.promptPlayer("Enter a letter: ");
+                hangman.readLetter();
+                hangman.checkLetter();
+                if (hangman.guessedSuccessfully()) {
+                    break;
+                }
+                System.out.println(Drawing.get(hangman.getMisses()));
+                System.out.println("Misses -> " + hangman.getMisses());
             }
-            System.out.println(Drawing.get(hangman.getMisses()));
-            System.out.println("Misses -> " +hangman.getMisses());
-        }
-        if(hangman.guessedSuccessfully()){
-            System.out.println("Success");
-        } else {
-            System.out.println("The answer was " + hangman.getSecretWord());
-        }
+            if (hangman.guessedSuccessfully()) {
+                System.out.println("Success");
+            } else {
+                System.out.println("The answer was " + hangman.getSecretWord());
+            }
+            playMore = hangman.wantToPlayAgain();
+
+        }while (playMore);
     }
 
     private String getSecretWord() {
@@ -70,4 +75,24 @@ public class Hangman {
         return mSecretWord.isGuessed();
     }
 
+    public boolean wantToPlayAgain(){
+        do {
+            System.out.println("Play again? Enter yes or no: ");
+            String userInput = readString();
+
+            if (userInput.equals("no") || userInput.equals("n")) {
+                return false;
+            } else if (userInput.equals("yes") || userInput.equals("y")) {
+                return true;
+            } else {
+                System.out.println("Please enter yes, y or no, n all lowercase");
+            }
+        } while(true);
+
+    }
+
+    public static String readString(){
+        Scanner scanner = new Scanner(System.in);
+        return scanner.next();
+    }
 }
