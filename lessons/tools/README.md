@@ -14,14 +14,15 @@
 ## Software writing / debugging tools
 - IntelliJ
 - git / GitHub
-- Java, JavaScript, HTML
-- Web APIs
+- API docs
 
 ## The tools that our language gives us
 - if / else
+- switches
 - loops
 - arrays
-- switch
+- lists
+- methods
 - classes
 - enums
 
@@ -41,5 +42,7 @@
 - Check your output
 - Read the error message
 - Run your code often
+- Read the docs
+- Ask an expert or a friend
 - Be organized!
 - Take a breather

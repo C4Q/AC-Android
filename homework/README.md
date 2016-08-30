@@ -1,3 +1,5 @@
+##### Feeling stuck? Try reading the [Problem Solving](explanation/w1_q13.md) guide or referencing the [toolkit](../lessons/tools).
+
 # IntelliJ project submission
 
 1. Create a new IntelliJ project in your `~/Desktop/accesscode` directory using the naming convention `XX_MM-DD` for the project name. For in-class exercises, the **XX** characters should be substituted with **EX** and **MM-DD** should be substituted with the current date. For homework assignments, the **XX** characters should be substituted with **HW** and **MM-DD** should be substituted with the homework due date. Use `nyc.c4q.yourname` (all lowercase) for the package name.
