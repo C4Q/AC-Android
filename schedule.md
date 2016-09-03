@@ -1,11 +1,12 @@
 # Unit 1
 
 
-# Office hours
+## Office hours
 
 - Mon + Wed, 6 - 7pm at CUNY Law
 - Thu + Fri, 1 - 2pm on Slack
 
+## Classes
 
 |Instructor |  Date      |Prework|Challenge| Lesson |Exit Ticket|
 |:----------:|:----------:|:--------:|:--:|:--|:--:|
@@ -19,17 +20,13 @@
 |Ramona| 2016-08-28 |[Prework](pre-work/08-28-2016-prework.md)|| [Problem Solving Toolkit](lessons/tools)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1X6gOZC-MF-dvjr8XlDHCEJd3TAuxOUmjQvP8bYN4z6k/)|
 |Abass| 2016-08-29 |[Prework](pre-work/08-29-2016-prework.md)|| [Week 2 Review](lessons/week-2-review) |[Exit Ticket](lessons/week-2-review/exit_ticket.md) |
 |Jonathan| 2016-08-30 |[Prework](pre-work/08-30-2016-prework.md)|| [Classes](lessons/classes-part1) |[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1DxJZkhEvckbRxuX5odAv02Uy99nnaAMp0Cji5jRKyPY/edit)|
-|Abass| 2016-08-31 |[Prework](pre-work/08-31-2016-prework.md)|| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part2)||
-|Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| [Interfaces and Abstract Classes](lessons/interfaces-abstract-part1)||
-|Jonathan| 2016-09-03 |[Prework](pre-work/09-03-2016-prework.md)|| [Networking](lessons/networking)||
-|Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
-|#| 2016-09-05 ||| Labor Day - No Class|
+|Abass| 2016-08-31 |[Prework](pre-work/08-31-2016-prework.md)|| Review||
+|Jonathan| 2016-09-01 |[Prework](pre-work/09-01-2016-prework.md)|| Assessment ||
+|Jonathan| 2016-09-03 |[Prework](pre-work/09-03-2016-prework.md)|| [Interfaces and Abstract Classes I](lessons/interfaces-abstract-part1)||
+|Ramona| 2016-09-04 |[Prework](pre-work/09-04-2016-prework.md)|| [Interfaces and Abstract Classes II](lessons/interfaces-abstract-part2)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1HWVUqs7dGH61BHoQQE_sNUcQJPUPzhBrrNJF4moeDo4/)|
+|🙂| 2016-09-05 ||| Labor Day - No Class||
 |Jonathan| 2016-09-06 |[Prework](pre-work/09-05-2016-prework.md)|| [Stacks and Queues](lessons/stacks-and-queues)||
 |Abass| 2016-09-07 ||| [HashMaps and Sets](lessons/hashmaps-and-sets/)||
 |Jonathan| 2016-09-08 ||| [Review HashMaps, Sets, Stacks, Queues](lessons/week3-review-part2)||
-|Jonathan| 2016-09-10 ||| [Intro to Android. Lifecycle, Activities, Contexts](lessons/intro-to-android)||
-|Ramona| 2016-09-11 ||| [Android Views, Observer Architecture](lessons/intro-to-android2)||
-|Abass| 2016-09-12 ||| [Model - View - Presenter Architecture](lessons/mvp)||
-|Jonathan| 2016-09-13 ||| [Activities, Contexts](lesson/activities-contexts)||
-|Abass| 2016-09-14 ||| [Review of Architecture](lesson/architecture-review) ||
-|Jonathan| 2016-09-15 ||| [Review of Android Lifecycle and Views](lesson/android-review)||
+|Jonathan| 2016-09-10 |[Prework](pre-work/09-10-2016-prework.md)|| [Networking](lessons/networking)||
+|Ramona| 2016-09-11 |[Prework](pre-work/09-11-2016-prework.md)|| [JSON + Web APIs](lessons/json-and-intellij)|||
