@@ -1,10 +1,22 @@
-# Unit 1
-
-
 ## Office hours
 
 - Mon + Wed, 6 - 7pm at CUNY Law
 - Thu + Fri, 1 - 2pm on Slack
+
+# Unit 2
+
+## Classes
+
+|Instructor |  Date      |Prework| Lesson |Exit Ticket|
+|:----------:|:----------:|:--------:|:--:|:--:|
+|Jonathan|2016-09-17|[Prework](pre-work/09-17-2016-prework.md)|[Structure of an Android Project](lessons/structure-android-project/Structure-of-Android-Project.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11TC_GZks3kZKetMBFE4MVOYtcYJUTOs2FrH6Ch1vj68/edit)|
+|Ramona|2016-09-18|[Prework](lessons/android-lifecycle/prework.md)|[Android Lifecycle](lessons/android-lifecycle/)||
+|🙂| 2016-09-19 || No Class||
+|Jonathan|2016-09-20|[Prework](pre-work/09-20-2016-prework.md)|First Android App|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1IMJZUoH_ynBNldEdqbotr_10WocWH4mBZWSlT4WFQSw/edit)|
+|Ramona|2016-09-21||[XML Layouts](lessons/layout-xml)||
+|Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+
+# Unit 1
 
 ## Classes
 
@@ -34,9 +46,4 @@
 |Jonathan|2016-09-13|[Prework](pre-work/09-13-2016-prework.md)|[Stacks and Queues](lessons/stacks-and-queues)||
 |Abass|2016-09-14|[Prework](pre-work/09-14-2016-prework.md) |[Generics](lessons/generics)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1aRVGucWtdZ8CDeWMxGpietYiGBcW8mg99m7K_2dyb1g/edit)|
 |Jonathan|2016-09-15|[Prework](pre-work/09-15-2016-prework.md)|Assessment||
-|Jonathan|2016-09-17|[Prework](pre-work/09-17-2016-prework.md)|[Structure of an Android Project](lessons/structure-android-project/Structure-of-Android-Project.md)|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/11TC_GZks3kZKetMBFE4MVOYtcYJUTOs2FrH6Ch1vj68/edit)|
-|Ramona|2016-09-18|[Prework](lessons/android-lifecycle/prework.md)|[Android Lifecycle](lessons/android-lifecycle/)||
-|🙂| 2016-09-19 || No Class||
-|Jonathan|2016-09-20|[Prework](pre-work/09-20-2016-prework.md)|First Android App|[Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1IMJZUoH_ynBNldEdqbotr_10WocWH4mBZWSlT4WFQSw/edit)|
-|Ramona|2016-09-21||[XML Layouts](lessons/layout-xml)||
-|Jonathan|2016-09-22|[Prework](pre-work/09-20-2016-prework.md)|[Android Resources](lessons/android-resources/Android-Resources.md)||
+
