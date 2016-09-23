@@ -1,3 +1,20 @@
+# Unit 2 
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
+|5|2016-09-18|[Build First App & Questions](https://github.com/C4Q/AC3.3/blob/master/homework/week-5.md)|2016-09-24 at 9pm|
+
+# Unit 1
+
+|Week|Date Assigned|Homework|Due Date|
+|:----------:|:----------:|:--------:|:--:|
+|1|2016-08-21|[Java Problems](https://github.com/C4Q/AC3.3/blob/master/homework/week-1.md)|2016-08-27 at 8pm|
+|2|2016-08-28|[Write a text-based game](https://github.com/C4Q/AC3.3/blob/master/homework/week-2.md)|2016-09-03 at 8pm|
+|3|2016-09-04|[signboard project](https://github.com/C4Q/AC3.3/blob/master/homework/week-3.md)|2016-09-10 at 8pm|
+|4|2016-09-11|[SlackBot](https://github.com/ramonaharrison/SlackBot) |2016-09-17 at 9pm|
+
+
+
 ##### Feeling stuck? Try reading the [Problem Solving](explanation/w1_q13.md) guide or referencing the [toolkit](../lessons/tools).
 
 # IntelliJ project submission
