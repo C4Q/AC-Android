@@ -60,3 +60,5 @@
 |Jonathan| 2016-10-08|[Prework](pre-work/10-08-2016-prework.md)| [RecyclerView](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
 |Abass| 2016-10-09|[Prework](pre-work/10-09-2016-prework.md)| [RecyclerView 2](lessons/recycler-view-2) | |
 |Jonathan| 2016-10-11|[Prework](pre-work/10-11-2016-prework.md)| [Adding Recycler View to AndroidGroceryStore](https://github.com/C4Q/AC3.3/tree/master/lessons/recyclerview) | |
+|Erick| 2016-10-15 | | | |
+|Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
