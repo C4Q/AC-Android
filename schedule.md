@@ -14,6 +14,7 @@
 |Ramona| 2016-10-16 | [Prework](lessons/project-management/prework.md) | [Intro to Project Management](lessons/project-management/) | |
 |Jonathan| 2016-10-19|[Prework](pre-work/10-19-2016-prework.md)| [Review Fragment Navigation](lessons/android-fragments2) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/1pxmSgLZocvwFPhXPIJ02yuzd1ZCVv7NkDIz05KgtiPo/edit) |
 |Abass| 2016-10-22| [Prework](pre-work/10-22-2016-prework.md) | [Concurrency Android](lessons/concurrency-android) | [Exit Ticket](https://docs.google.com/a/c4q.nyc/forms/d/19ZtP0_6i9bNiHt1188HwUwhjxJIL4HLlcEf8l_CLPX4/edit) |
+|Ramona| 2016-10-23| | [Retrofit](lessons/retrofit-intro) | |
 
 # Unit 2
 
