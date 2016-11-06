@@ -24,6 +24,7 @@
 |🙂| 2016-11-01 || Google Forum - No Class||
 |Jonathan| 2016-11-02 | | [Arrays vs ArrayLists](lessons/arrays_vs_arraylists) | |
 |Abass| 2016-11-05 |[Prework](pre-work/11-05-2016-prework.md) | [Debugging like a Pro](lessons/debugging-pro) |--- |
+|Ramona| 2016-11-06 | | [Git Review](lessons/git) | |
 
 
 # Unit 2
