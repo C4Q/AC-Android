@@ -20,7 +20,8 @@
 	Leigh Douglas,
 	Helen Chan,
 	Danny Lui,
-	Jordan Smith
+	Jordan Smith,
+	Andres Arango
 	
 **Group 5**	
 	Ashique Chowdhury,
