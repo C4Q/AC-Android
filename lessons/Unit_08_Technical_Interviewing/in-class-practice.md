@@ -267,7 +267,7 @@ In fact, for this type of practice slower is probably better!
         return new String(strChars);
     }
     ```
-    </details>
+   </details>
 
 10. Write a function that takes a string and reverses the order of words but not the characters within the words. E.g. "The eagle has landed" becomes "landed has eagle The".
 
