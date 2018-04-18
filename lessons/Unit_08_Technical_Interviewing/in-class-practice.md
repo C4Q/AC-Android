@@ -245,8 +245,8 @@ In fact, for this type of practice slower is probably better!
 
    <details><summary>Possible solution(s)...</summary>
 
-	    ```java
-	    public String reverse(String str) {
+    ```java
+    public String reverse(String str) {
 
 		char[] strChars = str.toCharArray();
 
@@ -265,8 +265,8 @@ In fact, for this type of practice slower is probably better!
 		}
 
 		return new String(strChars);
-	    }
-	    ```
+    }
+    ```
    </details>
 
 10. Write a function that takes a string and reverses the order of words but not the characters within the words. E.g. "The eagle has landed" becomes "landed has eagle The".
