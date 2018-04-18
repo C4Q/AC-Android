@@ -241,32 +241,32 @@ In fact, for this type of practice slower is probably better!
 	```
   </details>
   
-  9. Write a function to reverse a string. Do not use `StringBuilder`'s `reverse()` method.
+9. Write a function to reverse a string. Do not use `StringBuilder`'s `reverse()` method.
 
    <details><summary>Possible solution(s)...</summary>
 
-    ```java
-    public String reverse(String str) {
+	    ```java
+	    public String reverse(String str) {
 
-        char[] strChars = str.toCharArray();
+		char[] strChars = str.toCharArray();
 
-        int startIndex = 0;
-        int endIndex = strChars.length - 1;
+		int startIndex = 0;
+		int endIndex = strChars.length - 1;
 
-        while (startIndex < endIndex) {
-            // swap characters
-            char temp = strChars[startIndex];
-            strChars[startIndex] = strChars[endIndex];
-            strChars[endIndex] = temp;
+		while (startIndex < endIndex) {
+		    // swap characters
+		    char temp = strChars[startIndex];
+		    strChars[startIndex] = strChars[endIndex];
+		    strChars[endIndex] = temp;
 
-            // move towards middle
-            startIndex++;
-            endIndex--;
-        }
+		    // move towards middle
+		    startIndex++;
+		    endIndex--;
+		}
 
-        return new String(strChars);
-    }
-    ```
+		return new String(strChars);
+	    }
+	    ```
    </details>
 
 10. Write a function that takes a string and reverses the order of words but not the characters within the words. E.g. "The eagle has landed" becomes "landed has eagle The".
