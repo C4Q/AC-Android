@@ -45,3 +45,5 @@ There are [many](https://en.wikipedia.org/wiki/List_of_data_structures) data str
 ### Resources:
 
 The structures talked about in the Big O cheatsheet link are important to understand, at least as much as we can. Although we can gain a lot from reading the wiki pages linked there, we can also visualize these structures and interactively study them using: https://visualgo.net/en
+
+Further reading: This is  an excellent [article](http://discrete.gr/complexity/) on algorithm analysis. I `highly` suggest you take the time to read this. 
