@@ -152,6 +152,30 @@ char nine = '9';
 char newLine = '\n';
 ```
 
+`char` values are unique, in that they may also be stored as their decimal `int` value counterparts. For example, the letter `A` has a decimal value of `65` - so this code is still valid:
+
+```java
+char letterA = 'A';
+int decimalValueOfA = letterA;
+```
+
+Also, since all `char` values are unique, different characters will have different decimal values, and so `A` and `a` are in fact not equal in the eyes of Java:
+
+```java
+char uppercaseA = 'A';
+int decimalValueOfUppercaseA = uppercaseA;
+
+char lowercaseA = 'a';
+int decimalValueOfLowercaseA = lowercaseA;
+
+System.out.println(decimalValueOfUppercaseA);
+System.out.println(decimalValueOfLowercaseA);
+```
+
+Please see the character chart below for a more detailed list of `char` characters and their corresponding `int` values:
+
+![ascii table](https://codehs.gitbooks.io/apjava/content/static/methods/ascii-table.jpg)
+
 In addition to these eight, Java also has special support for character strings which allows them to assigned and used like a primitive data type. Wrapping a character string in double quotes will automatically create a new **String** object.
 
 ```java
@@ -291,4 +315,4 @@ Let's complete some more exercises to experiment with Strings and printing:
 
 ## Next Steps
 
-Please visit the Android Bridge Calendar on Canvas, and select **Midday Check-in: Intro to Java** to complete the daily check-in!
+Please visit the Android Calendar on Canvas, and select **Midday Check-in: Intro to Java** to complete the daily check-in!
