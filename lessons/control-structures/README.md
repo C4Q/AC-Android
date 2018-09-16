@@ -241,7 +241,7 @@ Is the same as the following if-else statement:
 ```java
 int input = 5;
 if (input == 1) {
-  System.out.println("hello Tom");
+  	System.out.println("hello Tom");
 } else if (input == 2) {
 	System.out.println("hello Bob");
 } else if (input == 3) {
@@ -303,7 +303,7 @@ For example:
 int input = 5;
 switch (input) {
 case 1:
-  System.out.println("hello Tom");
+  	System.out.println("hello Tom");
 case 2:
 	System.out.println("hello Bob");
   break;
