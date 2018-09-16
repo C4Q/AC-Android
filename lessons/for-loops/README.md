@@ -72,6 +72,7 @@ for(int i = 0; i < 4; i++) {
 ```
 
 **Exercise** Rewrite the following `while` loop as a `for` loop:
+
  ```java
  int i = 0;
  while (i <= 100) {
@@ -180,8 +181,8 @@ isOdd(4);
 
 ```
 ```java
-void printHelloWorldNTimes(int N){
-     for(int i = 0; i < N; i++){
+void printHelloWorldNTimes(int n){
+     for(int i = 0; i < n; i++){
        System.out.println("Hello World " + i);
      }
 }
@@ -190,12 +191,12 @@ void printHelloWorldNTimes(int N){
 The above method prints "Hello World" N times. Notice that it simply prints and does not return anything. The return keyword is optional, because the method's declaration specifies a void return type. The following code is identical.
 
 ```java
-void printHelloWorldNTimes(int N){
-     for(int i = 0; i < N; i++){
+void printHelloWorldNTimes(int n){
+     for(int i = 0; i < n; i++){
        System.out.println("Hello World " + i);
      }
      return;
-	}
+}
 ```
 
 <!--
