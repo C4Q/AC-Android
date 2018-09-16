@@ -199,20 +199,37 @@ void printHelloWorldNTimes(int n){
 }
 ```
 
-<!--
-> **Exercise:** The original fizzbuzz problem required printing the numbers from 1 to 100. Let's modify the problem by using a method that still prints fizz, buzz, and fizzbuzz when appropriate but that only goes up to a variable N.
+Let's review **Methods** in Java - how they are declared, how they accept arguments into their parameters (if any), and the return types of the values they return.
 
+When you create a method declaration - the first step is to determine its return type. If you want to write a method which ***runs*** a block of code when it is called, but returns nothing, we can write something like this:
 
+```java
+void returnNothing() {
+    System.out.println("This prints to the screen, but returns nothing else after it is called.");
+}
+```
+The ```void``` keyword lets the compiler know that when this method is called, and finishes running the code in its code block, it will not ```return``` a value to whatever code block the method was originally called.
 
-> **In-class assignment:** [String exercise](exercises/string-loops.md)
+If we want our method to both ***DO*** something **AND** return a value of a specific type, then we will use a return type other than ```void```:
 
-> **In-class assignment:** [hard] []
-Below is a quote from [Grace Hopper](http://en.wikipedia.org/wiki/Grace_Hopper), the inventor of the first compiler. Write a program that uses a `for` loop to count how many times she says the word "data". You'll need to call two `String` functions in order to complete this assignment. Make sure to verify your answer.
+```java
+boolean returnBoolean() {
+    System.out.println("This prints to the screen, but it will also RETURN a boolean value after it is called.");
+    return true;
+}
 
-> > "We must include in any language with which we hope to describe complex **data**-processing situations the capability for describing **data**. We must also include a mechanism for determining the priorities to be applied to the **data**. These priorities are not fixed and are indicated in many cases by the **data**.
+```
 
-> > "Thus we must have a language and a structure that will take care of the **data** descriptions and priorities, as well as the operations we wish to perform. If we think seriously about these problems, we find that we cannot work with procedures alone, since they are sequential. We need to define the problem instead of the procedures. The Language Structures Group of the Codasyl Committee has been studying the structure of languages that can be used to describe **data**-processing problems. The Group started out by trying to design a language for stating procedures, but soon discovered that what was really required was a description of the **data** and a statement of the relationships between the **data** sets. The Group has since begun writing an algebra of processes, the background for a theory of **data** processing.
+Now, you might have noticed that if you placed these methods in the ```class``` **Main** in repl.it, then try to call them from within the curly braces of the ```public static void main(String[] args)``` method, you will get an error, probably something like this:
 
-> > "Clearly, we must break away from the sequential and not limit the computers. We must state definitions and provide for priorities and descriptions of **data**. We must state relationships, not procedures."
---->
+<img src="https://github.com/C4Q/AC-Android/blob/master/lessons/week-1-review/images/non_static_context.PNG" alt="non-static context error" style="width:250px;height:316px;">
 
+Yikes! That looks scary! However, the compiler is trying to help you! We will talk about the difference between static and non-static methods and variables at a later date. Just know that if you are trying to call a method inside another method with the keyword ```static``` in its declaration, the method you are calling should also be static. There are ways around this (instantiation, etc.), and we will explore them in the near future.
+
+So, let's refactor (modify) our method a bit to add the keyword ```static```, so that it will run as expected:
+
+```java
+static void returnNothing() {
+    System.out.println("This prints to the screen, but returns nothing else after it is called.");
+}
+```
