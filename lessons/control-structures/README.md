@@ -223,7 +223,7 @@ First we demonstrate a switch statement runs one block of code at a time.
 int input = 5;
 switch (input) {
 case 1:
-  System.out.println("hello Tom");
+  	System.out.println("hello Tom");
 	break;
 case 2:
 	System.out.println("hello Bob");
@@ -261,7 +261,7 @@ runs. We can execute all statements as follows:
 int input = 1;
 switch (input) {
 case 1:
-  System.out.println("hello Tom");
+  	System.out.println("hello Tom");
 case 2:
 	System.out.println("hello Bob");
 case 3:
@@ -288,7 +288,7 @@ if (input == 1) {
   System.out.println("hello world");
   System.out.println("Can't say hello that many times");
 } else {
-	System.out.println("Can't say hello that many times");
+  System.out.println("Can't say hello that many times");
 }
 ```
 
@@ -327,7 +327,7 @@ if (input == 1) {
   System.out.println("hello world");
   System.out.println("Can't say hello that many times");
 } else if(input != 1 && input != 2 && input != 3) {
-	System.out.println("Can't say hello that many times");
+  System.out.println("Can't say hello that many times");
 }
 ```
 
