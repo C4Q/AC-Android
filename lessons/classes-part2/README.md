@@ -1,14 +1,13 @@
-- title: Classes II
-- tags: wrapper classes, auto-boxing, static methods, exception handling
+# Classes II
 
-# Objectives
+## Objectives
 - To understand what wrapper classes are
 - To become comfortable with the subject of auto-boxing and unboxing
 - To understand what a static method is and how to call one
 - To understand what exception handling is and how to use it
 - To read input from a file
 
-# Resources
+## Resources
 - [Java Tutorials: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/)
 
 # Lecture
