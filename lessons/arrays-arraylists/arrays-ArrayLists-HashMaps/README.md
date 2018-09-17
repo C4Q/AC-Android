@@ -220,6 +220,14 @@ Let's say, after putting a birthday and its milestone into a HashMap, we also wa
 importantBirthdays.get(21);
 ```
 
+If you call the method `get()` on a HashMap object with a key that doesn't exist yet in the collection of keys (called a keySet), the method will return a `null` value:
+
+```java
+// This will return "null", because this key does not exist for this HashMap instance
+
+importantBirthdays.get(25);
+```
+
 There is a catch to using a HashMap - although each value may be different, all of the keys you put into this data structure must be unique. This means that if you use the key ```21``` more than once to enter a milestone, you won't be adding a second milestone, you will instead effectively replace the previous one:
 
 ```java
