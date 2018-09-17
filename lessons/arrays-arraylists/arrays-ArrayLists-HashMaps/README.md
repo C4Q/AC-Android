@@ -1,4 +1,4 @@
-# ArrayLists and HashMaps
+# ArrayLists, HashMaps, and HashSets
 
 ## Objectives:
 - Review Arrays in Java
