@@ -25,7 +25,7 @@ Integer i = new Integer(9);
 use this:
 
 ```java
-Integer l = 9;
+Integer i = 9;
 ```
 
 A primitive-wrapper class in the Java language is one of eight classes provided in the `java.lang package` to provide object methods for the eight primitive types. All of the primitive wrapper classes in Java are immutable. J2SE 5.0 introduced **auto-boxing** of primitive types into their wrapper object, and automatic **unboxing** of the wrapper objects into their primitive value — the implicit conversion between the wrapper objects and primitive values.
