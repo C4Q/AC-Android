@@ -138,7 +138,7 @@ public class Apple {
   }
 
   public void setSeedCount(int seedCount) {
-    this.seedCount = seedCoutn;
+    this.seedCount = seedCount;
   }
 
 }
