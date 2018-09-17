@@ -54,6 +54,23 @@ If we move in the opposite direction, then it's called **unboxing**.
 
 ##### Here are a couple of examples:
 
+- Value passed to a variable
+
+```java
+// Autoboxing an int value to an Integer object wrapper type
+Integer number1 = 25;
+
+// Unboxing an int value from an Integer object into an int value
+int number2 = number1;
+
+System.out.println(number1);
+System.out.println(number2);
+```
+
+#### Why should you care? 
+
+- Auto-boxing/unboxing is heavily used in Java Collections:
+
 - Value passed as a parameter
 
 ```java
@@ -70,16 +87,7 @@ System.out.println(numbers.get(0)); // prints 5
 System.out.println(numbers.get(1)); // prints 6
 ```
 
-- Value passed to a variable
-
-```java
-Integer number = 13;
-```
-
-
-#### Why should you care? 
-
-- Auto-boxing/unboxing is heavily used in Java Collections. More on this later!
+More on this later!
 
 ## Static methods
 
@@ -162,6 +170,8 @@ public void parseToInteger() throws NumberFormatException {
     System.out.println(value);
 }
 ```
+
+**Note:** You should only use try/catch blocks to handle exceptions - not control the flow of execution of your program. If you want to change the direction on your program you should instead you logic to to do this - i.e. if/else statements, switch statements, loops, etc.
 
 ## File I/O
 
