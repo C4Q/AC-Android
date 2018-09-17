@@ -28,6 +28,20 @@
 
 Data structures are an important part of any programming language, especially Java. The Java programming language has a great number of data structures used to store elements/data in a myriad number of ways. Some of the more popular data structures you may encounter are Arrays, ArrayLists, and HashMaps.
 
+## Data Structures vs. Abstract Data Types
+
+Data Structures are ways for developers to organize data in useful ways, but they are based on real-world concepts, like lists, dictionaries, and sets. These are called Abstract Data Types. An ordered list is a list numbered in order, like a chore list:
+
+|Number|Task|
+|:-:|:-:|
+|1.|Brush Teeth|
+|2.|Wash Hair|
+|3.|Take out Trash|
+|4.|Go Grocery Shopping|
+|5.|Walk the Dog|
+
+If you were following these tasks in order, you would have to complete task #1 before you completed task #5 - and if you wanted to know exactly what your third task was, you could search for that number on the list, and find out what that task might be! In Java, a list is an ordered collection of objects or values, while the data structures which operate like this are Arrays and ArrayLists.
+
 ### Arrays
 
 Arrays are a data structure where elements of the same data type are assigned in order, by an index. An example of an array of int elements ( int[] ) can be seen in the code snippets below:
@@ -170,7 +184,17 @@ ArrayLists are a very flexible data structure when it comes to adding elements i
 
 ### Maps, and HashMaps
 
-Maps are different from ArrayLists, in that entries in this data structure are stored as key/value pairs. Maps like HashMaps are often called dictionaries in other languages, because they are similar to how one can search for the definition (value) of a word (key) by simply finding the word (key) in the dictionary. Let's create a HashMap:
+Maps are different from ArrayLists, in that entries in this data structure are stored as key/value pairs. Maps like HashMaps are often called dictionaries in other languages, because they are similar to how one can search for the definition (value) of a word (key) by simply finding the word (key) in the dictionary. 
+
+|Word|Definition|
+|:-:|:-:|
+|Apple|a round fruit that grows on a tree in temperate climates|
+|Tomato|a round fruit that grows on a vine|
+|Coconut|a round fuzzy fruit that grows on a tree in tropical climates|
+
+In this case, the Map would be the Abstract Data Type, while a HashMap would be the implementation of this Abstract Data type as a Data Structure.
+
+Let's create a HashMap:
 
 ```java
 HashMap<Integer, String> importantBirthdays = new HashMap<>();
@@ -296,3 +320,27 @@ for (String animal : animalFoods.keySet()){
 A HashMap entry doesn't just have one type parameter, it has two - one for its key, and one for its value. So we can't simply look through the HashMap directly, like we did with the ArrayList. We have to call a method on the HashMap object called ```.keySet()```, which is exactly what the method name implies - it returns the set containing all the keys for each entry in the HashMap. A ```Set``` is another data structure we will go into later - a ```Set``` can only contain unique values - since HashMaps can only have unique keys, a list of all the keys is also technically a set.
 
 #### You may begin working on exercises 7, 8, and 9
+
+### Sets, and HashSets
+
+The Abstract Data Type of a Set is a collection of elements that are completely unique. The days of the week, for example, would be a unique set:
+
+|Days|
+|:-:|
+|Monday|
+|Tuesday|
+|Wednesday|
+|Thursday|
+|Friday|
+|Saturday|
+|Sunday|
+
+It would not make sense to add `Tuesday` multiple times, since it is already there, and having more than one would be redundant. Another way to think about it would be to imagine everyone in the class voting for the same TV show, then writing it on the board - it's highly likely that many students might like the same shows, so writing the name of the same show multiple times wouldn't make much sense.
+
+In Java we can implement a Set by using a `HashSet` Data Structure:
+
+Let's create a HashSet:
+
+```java
+HashSet<String> favoriteShows = new HashSet<>();
+```
