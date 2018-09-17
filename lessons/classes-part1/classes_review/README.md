@@ -69,7 +69,6 @@ class Main {
   public static void main(String[] args) {
     Apple apple = new Apple(true, 6);
   }
-
 }
 ```
 
@@ -144,7 +143,3 @@ public class Apple {
 
 }
 ```
-
-Todo: Create a class `Orange` that has fields `isRipe` and `seedCount`. Should have a `getName()` method that returns "Orange [seedCount] [isRipe]".
-
-Todo: Create a class `BananaPlantain`, similar to Orange but with a constructor that takes another String param `name` and sets the field name.
