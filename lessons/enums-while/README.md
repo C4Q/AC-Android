@@ -180,6 +180,20 @@ Java programs can accept input from a variety of sources: Android views, website
 
 There are several ways to do this. The one we will introduce today, but use more often in the coming weeks, is with something called a Scanner object.
 
+First, we *import* the ```Scanner```, meaning we tell the Java compiler to include some code written by another developer. 
+
+```java
+import java.util.Scanner;
+```
+
+Then to create a new `Scanner`, we type:
+
+```java
+Scanner input = new Scanner(System.in);
+```
+
+Don't worry if you don't know exactly what this does. Think of this like driving: you don't need to know how a car engine works in order to drive a car. In programming, we call this *abstraction*. We don't care *how* the `Scanner` works, but we know what it *does*. What can you do with a `Scanner`?
+
 ```java
 Scanner scanner = new Scanner(System.in);
 String name = scanner.next();
@@ -197,6 +211,25 @@ We will talk more about what a **Scanner** object is, and what the ```new``` key
 |\.nextDouble()|returns the 1st or next ```double``` value entered by a user|
 |\.nextBoolean()|returns the 1st or next ```boolean``` value entered by a user|
 |**...and many, many more!**|You can find a complete list of all ```Scanner``` methods [here](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)|
+
+### Functions
+
+The ```Scanner``` gives you the programmer some magical powers called *functions*. A function, like the gas and break pedals on a car, allows you to interact with the `Scanner`. For example, we can ask the `Scanner` to ask the user for an `int` like this:
+
+```java
+int usersAge = input.nextInt();
+```
+
+Functions in Java are called **Methods**.
+
+[This page](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html) has a full list of `Scanner` functions.
+
+Let's go through the first exercise together.
+
+#### Mid-Lecture Exercise: [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
+For this exercise, we will ask the user a number of questions back-to-back, store thier answers in variables, and print their answers back to them. Follow the link above for more information.
+
+Now try to use the `Scanner` yourself!
 
 ## Exercises
 
