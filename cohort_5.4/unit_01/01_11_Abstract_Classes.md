@@ -1,4 +1,14 @@
-# Abstract classes
+# Abstract Classes
+
+## Objecives
+* Fellows will explore the differences between concrete and abstract classes
+* Fellows will learn to create abstract method signatures
+* Fellows will learn to create concrete classes which inherit from abstract classes
+
+## Resources
+* [Video - Abstract Classes in Java](https://www.youtube.com/watch?v=CUC522qMGe8)
+
+# Lecture
 
 Abstract classes are classes which should not be directly instantiated, but still encapsulate important funtionality. They must be extended by concrete subclasses, which should then be instantiated.
 
@@ -36,5 +46,8 @@ IntelliJ forces you to override this method, and add your own method body. This 
 
 Abstract classes can implement interfaces as well by using the ```implement``` keyword. However, because they are abstract, they don't need to implement all methods. The AbstractList interface implements common methods, which allows concrete implementations like ArrayList to be free from the burden of implementing all methods, rather than if they implemented the List interface directly.
 
-Because abstract classes need to have subclasses, they cannot be declared as final. They are also opposites of each other - the ```abstract``` keyword forces a user to extend a class. On the other hand, the ```final``` keyword prevents a class from being extended. In human language terms, abstract signifies incompleteness, while final is used to demonstrate completeness. In short - you cannot make your class ```abstract``` AND ```final``` in Java, as it will result in a compile time error.
+Because abstract classes need to be subclassed, they cannot be declared as final. They are also opposites of each other - the ```abstract``` keyword forces a user to extend a class. On the other hand, the ```final``` keyword prevents a class from being extended. In human language terms, abstract signifies incompleteness, while final is used to demonstrate completeness. In short - you cannot make your class ```abstract``` AND ```final``` in Java, as it will result in a compile time error.
 
+## Exercises
+
+* TBD
