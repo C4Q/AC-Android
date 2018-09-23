@@ -27,7 +27,7 @@ Syllabus for Unit 01 of Pursuit Android 5.4 Cohort:
 |01.20|Static Factory Methods / Singletons|
 |01.21|Builder Pattern|
 |01.22|OOP Review|
-|01.23|Introduction to Threading|
+|01.23|Introduction to Threads|
 |01.24|Regular Expressions|
 |01.25|DS&A - Intro to Big Θ: Θ(1) vs Θ(n)|
 |01.26|2D Arrays and Θ(n²)|
