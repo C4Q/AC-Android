@@ -1,6 +1,6 @@
 # Abstract Classes
 
-## Objecives
+## Objectives
 * Fellows will explore the differences between concrete and abstract classes
 * Fellows will learn to create abstract method signatures
 * Fellows will learn to create concrete classes which inherit from abstract classes
