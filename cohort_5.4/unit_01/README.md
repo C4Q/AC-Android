@@ -2,7 +2,7 @@
 
 Syllabus for Unit 01 of Pursuit Android 5.4 Cohort:
 
-|Unit|Lesson|
+|Unit/Lesson|Topic|
 |:-:|:--|
 |01.00|[InstallFest 2018 Tutorial](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_00_Android_InstallFest_2018.md)|
 |01.01|[Introduction to BaSH](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_01_Intro_to_Bash.md)|
