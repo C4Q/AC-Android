@@ -25,5 +25,6 @@ Syllabus for Unit 03 of Pursuit Android 5.4 Cohort:
 |03.19|[Room]()|
 |03.20|[Architecture Components]()|
 |03.21|[Networking App from Scratch]()|
+|03.22|[DS&A - Trees]()|
 |03.22|[Unit 03 Review]()|
 |03.23|[Unit 03 Assessment / Project]()|
