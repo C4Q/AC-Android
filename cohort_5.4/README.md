@@ -1,6 +1,6 @@
-# Pursuit Core Android 5.4 Technical Mastery Course 2018-2019
+# Pursuit Core Android 5.4 Technical Mastery 2018-2019
 
-Syllabus for Units 01 through 05 of Pursuit Core Android 5.4 Cohort
+Syllabus for Units 01 through 05 of Pursuit Core Android 5.4 Cohort.
 
 ## Unit 01
 
