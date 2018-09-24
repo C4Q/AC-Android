@@ -220,7 +220,7 @@ And like magic, the screen is cleared!
 
 ### Is there more to learn?
 
-ABSOLUTELY. However, we've reached a point where we can successfully navigate the BaSH shell to start creating Java programs! We'll learn more about BaSH commands in the next 6 weeks, such as seraching for and closing programs (Processes), and keeping multiple versions of our apps intact (Git) - but right now, let's take the time to explore some of the new commands we learned today!
+ABSOLUTELY. However, we've reached a point where we can successfully navigate the BaSH shell to start creating Java programs! We'll learn more about BaSH commands in the next 6 weeks, such as searching for and closing programs (Processes), and keeping multiple versions of our apps intact (Git) - but right now, let's take the time to explore some of the new commands we learned today!
 
 ## Exercises
 
