@@ -1,6 +1,6 @@
-# Pursuit Android 5.4 Technical Mastery Course 2018-2019
+# Pursuit Core Android 5.4 Technical Mastery Course 2018-2019
 
-### Syllabus for Unit 01 of Pursuit Android 5.4 Cohort:
+Syllabus for Units 01 through 05 of Pursuit Core Android 5.4 Cohort
 
 ## Unit 01
 
@@ -41,3 +41,96 @@
 |01.32|[Big Θ Review](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_32_Big_O_Review.md)|
 |01.33|[Unit 01 Review](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_33_Unit_01_Review.md)|
 |01.34|Unit 01 Project/Assessment|
+
+## Unit 02
+
+|Unit / Lesson|Topic|
+|:-:|:--|
+|02.00|[Introduction to Android]()|
+|02.01|[Your First Android App]()|
+|02.02|[Sorting: Bubble Sort]()|
+|02.03|[Layouts and Resources for the UI]()|
+|02.04|[Text and Scrolling Views]()|
+|02.05|[Activities and Intents]()|
+|02.06|[Activity Lifecycle and State]()|
+|02.07|[Implicit Intents]()|
+|02.08|[Android Studio Debugger]()|
+|02.09|[DS&A - Sorting: Merge Sort]()|
+|02.10|[App Testing]()|
+|02.11|[The Android Support Library]()|
+|02.12|[Activities and Views Review]()|
+|02.13|[Buttons and Clickable Images]()|
+|02.14|[Input Controls]()|
+|02.15|[Input and Interactions Review]()|
+|02.16|[Menus and Pickers]()|
+|02.17|[User Navigation]()|
+|02.18|[DS&A - Sorting: Quick Sort]()|
+|02.19|[RecyclerView]()|
+|02.20|[Drawables, Styles, and Themes]()|
+|02.21|[Material Design]()|
+|02.22|[Resources for Adaptive Layouts]()|
+|02.23|[UI Testing]()|
+|02.24|[DS&A - Linked Lists]()|
+|02.25|[RecyclerView Review]()|
+|02.26|[Unit 2 Review]()|
+|02.27|[Unit 2 Assessment/Project]()|
+
+## Unit 03
+
+|Unit / Lesson|Topic|
+|:-:|:--|
+|03.01|[AsyncTask and AsyncTaskLoader]()|
+|03.02|[Broadcasts]()|
+|03.03|[DS&A - Stacks]()|
+|03.04|[Services]()|
+|03.05|[Notifications]()|
+|03.06|[Alarms]()|
+|03.07|[JobScheduler, and Services Review]()|
+|03.08|[HTTP and Internet Connectivity]()|
+|03.09|[JSON and JSON Parsing]()|
+|03.10|[DS&A - Queues]()|
+|03.11|[JSON Review]()|
+|03.12|[Data Storage]()|
+|03.13|[Shared Preferences]()|
+|03.14|[App Settings]()|
+|03.15|[JSON, Retrofit2, and Picasso]()|
+|03.16|[HashTables]()|
+|03.17|[Retrofit Review]()|
+|03.18|[SQLite Primer]()|
+|03.19|[Room]()|
+|03.20|[Architecture Components]()|
+|03.21|[Networking App from Scratch]()|
+|03.22|[DS&A - Trees]()|
+|03.22|[Unit 03 Review]()|
+|03.23|[Unit 03 Assessment / Project]()|
+
+## Unit 04
+
+|Unit / Lesson|Topic|
+|:-:|:--|
+|04.01|[Arch Components App from Scratch]()|
+|04.02|[DS&A - Graphs]()|
+|04.03|[Arch Components Review]()|
+|04.04|[Fragments]()|
+|04.05|[Fragment Lifecycle]()|
+|04.06|[Fragments Review]()|
+|04.07|[Fragments App from Scratch]()|
+|04.08|[DS&A - Whiteboarding]()|
+|04.09|[Memory in Android]()|
+|04.10|[Languages and Layouts]()|
+|04.11|[Locales]()|
+|04.12|[Accessability]()|
+|04.13|[Location Services]()|
+|04.14|[Places API]()|
+|04.15|[DS&A - Whiteboarding]()|
+|04.16|[Google Maps API]()|
+|04.17|[Custom Views]()|
+|04.18|[The Canvas Class]()|
+|04.19|[The SurfaceView Class]()|
+|04.20|[Animations]()|
+|04.21|[Simple Media Playback]()|
+|04.22|[Fragments/Maps App from Scratch]()|
+|04.23|[DS&A - Whiteboarding]()|
+|04.24|[Custom Views Review]()|
+|04.25|[Unit 04 Review]()|
+|04.26|[Unit 04 Assessment / Project]()|
