@@ -170,7 +170,7 @@ public void parseToInteger() throws NumberFormatException {
 }
 ```
 
-**Note:** You should only use try/catch blocks to handle exceptions - not control the flow of execution of your program. If you want to change the direction on your program you should instead you logic to to do this - i.e. if/else statements, switch statements, loops, etc.
+**Note:** You should only use try/catch blocks to handle exceptions - not control the flow of execution of your program. If you want to change the direction of your program you should instead use logic to do this - i.e. if/else statements, switch statements, loops, etc.
 
 ## File I/O
 
