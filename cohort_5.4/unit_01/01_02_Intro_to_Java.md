@@ -186,7 +186,7 @@ You may also concatenate, or combine Strings with letters or numbers when printi
 System.out.println("My favorite number is " + 3);
 
 // This will not work, because since the first value is a number, 
-    Java will interpret the + symbol as 'addition', not 'concatenation':
+// Java will interpret the + symbol as 'addition', not 'concatenation':
 System.out.println(3 + "is my favorite number, but you won't know that because this won't work");
 
 // Run each of these in the main(String[] args) method, and see what prints to the screen:
