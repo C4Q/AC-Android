@@ -353,7 +353,7 @@ if (studentName == teacherName) {
 ```
 ## Ternary Operator Statements
 
-Another control statement which may come in handy when making decisions is called the Ternary Operator Statement, or the If-Then-Else statement. It gets its name from the ```?``` operator it uses to control the flow of a program.
+Another control statement which may come in handy when making decisions is called the Ternary Operator Statement, or the If-Then-Else statement. It gets its name from the ```?``` operator it uses to control the flow of a program. Ternary Operator Statements are used to assign a value to a variable, based of whether the condition given is true or not.
 
 The statement "If 5 is greater than 3, the expression is correct - otherwise, it is incorrect" can be written in code like this:
 
