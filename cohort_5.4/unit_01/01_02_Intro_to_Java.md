@@ -82,12 +82,6 @@ These files are then compiled by the **javac** compiler into `.class` files cont
 
 ![diagram of flow from Java source to machine language](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
-### Exercises
-
-1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
-
-2. [Java Exercises](exercises.md#java)
-
 ### Java Output
 
 To output a string to the console, use `System.out.println(`**`"some string"`**`)`
@@ -102,9 +96,6 @@ public class Hello {
 ```
 
 Go to [repl.it](https://repl.it/languages/java) and try it out!
-
-#### Exercise: [Printing to the Console](https://github.com/C4Q/AC3.3/blob/master/lessons/intro-to-java/exercises.md#java-output)
-
 
 ### Variables & data types
 
@@ -182,13 +173,27 @@ In addition to these eight, Java also has special support for character strings 
 String example = "This is a string";
 ```
 
-Two strings can be **concatenated** using the ```+``` operator:
+Two strings can be **concatenated** (combining Strings) using the ```+``` operator:
 
 ```java
 String hello = "Hello, " + "world!";
 ```
 
-[Exercises: Exploring Data Types](exercises.md#data-types)
+You may also concatenate, or combine Strings with letters or numbers when printing to the console, as long as the String is the first value in the concatenation expression:
+
+```java
+// This will work:
+System.out.println("My favorite number is " + 3);
+
+// This will not work, because since the first value is a number, Java will interpret the + symbol as 'addition', not 'concatenation':
+System.out.println(3 + "is my favorite number, but you won't know that because this won't work");
+
+// Run each of these in the main(String[] args) method, and see what prints to the screen:
+System.out.println(3 + 3); // addition
+System.out.println("3" + 3);  // concatenation
+System.out.println("3" + "3"); // concatenation
+System.out.println(3 + "3"); ???
+```
 
 ### Naming & assigning variables
 
@@ -280,6 +285,24 @@ result--;
 
 ```
 
+Unary operators can be tricky, and it's important to remember that their placement can affect which values are actually printed to the screen. Run the code below to see how a Unary operator's location can have surprising results:
+
+```java
+int first = 0;
+int second = 0;
+
+System.out.println(first);
+System.out.println(second);
+System.out.println("******");
+
+System.out.println(++first);
+System.out.println(second++);
+System.out.println("******");
+
+System.out.println(first);
+System.out.println(second);
+```
+
 **Be careful when dividing integers!**  In Java, when you divide an integer by an integer, the answer will be an integer rounded towards zero from the real number value.
 
 ```java
@@ -301,12 +324,12 @@ double result = 7.0/2.0;
 |   ++   |    Increment   |
 |   --   |    Decrement   |
 
-## More printing + Strings
+## Strings
 
-String is the most commonly used class in Java. It represents a "character string", or sequence of characters.
+The `String` object type is the most commonly used class in Java. It represents a "character string", or sequence of characters.
 
-The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html).
+Strings are not primitive values though - they are a **Class** type. We will learn more about this super-useful class in the coming weeks.
 
-TODO - add brief description of concatenation when printing to screen
+The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html). Warning - you can look at that page for more info, but it probably won't make much sense yet. That's okay! You've made a great deal of progress so far!
 
 ## Exercises
