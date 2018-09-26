@@ -1,4 +1,4 @@
-# Intro to Java
+# Introduction to Java
 
 ## Objectives
 
