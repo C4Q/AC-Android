@@ -32,7 +32,7 @@ Syllabus for Unit 01 of Pursuit Android 5.4 Cohort:
 |01.25|[DS&A - Intro to Big Θ: Θ(1) vs Θ(n)](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_25_DSA_Intro_to_Big_O_Constant_and_Linear.md)|
 |01.26|[2D Arrays and Θ(n²)](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_26_2D_Arrays.md)|
 |01.27|[Binary Search and Θ(log(n))](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_27_Binary_Search.md)|
-|01.28|[Bits and Bytes](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_28_Bits_and_Bytes.md)|
+|01.28|[Bits and Bytes](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_28_Bits_and_Bytes.md)|
 |01.29|[Project Management](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_29_Project_Management.md)|
 |01.30|[DS&A - Recursion](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_30_DSA_Recursion.md)|
 |01.31|[Bash and GitHub Review](https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_31_Bash_and_GitHub_Review.md)|
