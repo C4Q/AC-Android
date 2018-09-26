@@ -305,7 +305,7 @@ public void pieIsBaked() {
 
 We added a default empty constructor, so if anyone instantiates a pie, without passing in any arguments to parameters, they'll get a cherry pie, just like the original recipe stated it to be! And now we have the opportunity to instantiate different types of pies whenever we want, based on the recipe, but with little tweaks here-and-there, to add variety and flexibility - without ever having to change the original recipe!
 
-So, there is one thing we can do to make our code better. It won't change the way things look on the screen, but it will make our code cleaner.
+So, there is one thing we can do to make our code better. It won't change the way things look on the screen, but it will make our code cleaner. When we change something to mkae our code better, but no one using the code will notice, we call this **Refactoring**.
 
 In the default constructor, we can actually call the other constructor, and fill it with the assignments we originally initialized our variables with:
 
@@ -453,3 +453,7 @@ class Main {
 }
 
 Huzzah! We have just bizzarly sucked out the old filling, and replaced it with a new one! Congrats!
+
+## Exercises
+
+* TBD
