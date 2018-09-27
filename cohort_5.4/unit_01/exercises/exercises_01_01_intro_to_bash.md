@@ -1,5 +1,18 @@
 # Exercises - Lesson 01.01
 
+|Question|
+|:-:|
+|[01.01.01]()|
+|[01.01.02]()|
+|[01.01.03]()|
+|[01.01.04]()|
+|[01.01.05]()|
+|[01.01.06]()|
+|[01.01.07]()|
+|[01.01.08]()|
+|[01.01.09]()|
+|[01.01.10]()|
+
 #### 01.01.01
 
 Open up terminal. Enter the command `whoami`. Copy the output, and paste it into the box below.
