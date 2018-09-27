@@ -12,7 +12,7 @@
 |[01.01.08](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_01_intro_to_bash.md#010108)|
 |[01.01.09](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_01_intro_to_bash.md#010109)|
 |[01.01.10](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_01_intro_to_bash.md#010110)|
-|[01.01.10](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_01_intro_to_bash.md#010111)|
+|[01.01.11](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_01_intro_to_bash.md#010111)|
 
 #### 01.01.01
 
