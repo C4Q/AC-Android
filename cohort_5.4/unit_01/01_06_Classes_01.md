@@ -14,6 +14,14 @@
 * [Video: Constructors](http://www.youtube.com/watch?v=oSiN1J_G01Q)
 * [Video: Static and Final Keywords](http://www.youtube.com/watch?v=yImBET6EO8c)
 
+## Warm-up (5 minutes)
+
+Using a `Scanner` object, loop through a user's input, until they enter the number `42` - if they do not, print to the screen the `String`:
+`Wrong number, try again!`
+
+If they do enter the number `42`, print to the screen the `String`:
+`You entered 42!`
+
 # Lecture
 
 In Java, it is not enough to use primitive variables to store values, and methods to do things and change the flow of a program. We must also make sure that our code is well-organized, and blocks of code are seperated based on the jobs they perform.
