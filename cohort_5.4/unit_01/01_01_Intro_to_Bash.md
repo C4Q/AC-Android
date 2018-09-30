@@ -226,4 +226,4 @@ ABSOLUTELY. However, we've reached a point where we can successfully navigate th
 
 ## Exercises
 
-* TBD
+Please see the Exercises link on Canvas for more information.
