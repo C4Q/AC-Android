@@ -25,6 +25,21 @@
 - [repl.it: Java coding in browser](https://repl.it/languages/java)
 - [CodingBat: Boolean Logic](http://codingbat.com/doc/java-if-boolean-logic.html)
 
+## Warm-Up (5 minutes)
+
+Create 4 (five) variables, using proper naming conventions, for the following primitive data types:
+
+* `boolean`
+* `char`
+* `int`
+* `double`
+
+and 1 (one) for the following object type:
+
+* `String`
+
+Once each variable has been assigned a value, print each variable's value to the console.
+
 # Lecture
 
 ## Boolean Expressions
