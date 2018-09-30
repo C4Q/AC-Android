@@ -28,6 +28,8 @@ But what if we wanted to get just **ONE** of the letters, or _characters_ from t
 
 Strings are just collections of characters in a row - with each character located at a certain spot, or `index` of a String. Strings are `zero-indexed`, meaning the first character is said to be at index 0, the second character would be at index 1, the third character would be at index 2, and so on.
 
+Use a `String` method to get the letter `g` from the variable `musician` above, and save it to a `char` variable named `letterG`.
+
 **Hint** - If you were to google "charAt() Java", that might be helpful....
 
 # Lecture
