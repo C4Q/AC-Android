@@ -37,6 +37,11 @@
 |Parameter|a variable in the declaration of a method, which the code within a method can use to manipulate arguments|
 |Argument|data passed into a method's parameters|
 
+## Warm-up (5 minutes)
+Declare a variable of type `int`, and assign it a value of `0`.
+
+Create a `while` loop that increases (increments) the value of an `int` variable outside the `while` loop, and if the variable's value grows to equal the number `5`, break the loop.
+
 # Lecture
 
 Loops are a very power control structure, and a great way for your program to do a repeated set of actions.
