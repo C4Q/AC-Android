@@ -27,7 +27,7 @@
 
 ## Warm-Up (5 minutes)
 
-Create 4 (five) variables, using proper naming conventions, for the following primitive data types:
+Create 4 (four) variables, using proper naming conventions, for the following primitive data types:
 
 * `boolean`
 * `char`
