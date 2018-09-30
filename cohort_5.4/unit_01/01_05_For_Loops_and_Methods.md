@@ -40,7 +40,7 @@
 ## Warm-up (5 minutes)
 Declare a variable of type `int`, and assign it a value of `0`.
 
-Create a `while` loop that increases (increments) the value of an `int` variable outside the `while` loop, and if the variable's value grows to equal the number `5`, break the loop.
+Create a `while` loop that increases (increments) the value of an `int` variable outside the `while` loop, and prints the value of the variable to the screen. When the variable's value grows to equal the number `5`, break the loop.
 
 # Lecture
 
