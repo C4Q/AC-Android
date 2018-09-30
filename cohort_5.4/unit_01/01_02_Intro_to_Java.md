@@ -40,6 +40,18 @@
 |JRE|Java Runtime Environment, a software package that contains what is needed to run a Java program (including the JVM)|
 |JDK|Java Development Kit, contains the basics needed to develop a Java program (including the JRE as well as tools such as javac)|
 
+## Warm-Up (5 minutes)
+
+* Create a directory in your `Desktop` directory named `Favorite Colors`
+* In the directory `Favorite Colors`, create 3 (three) files with the following names:
+    * `red.txt`
+    * `blue.txt`
+    * `green.txt`
+* Open each file, write a sentence about how the color is your favorite color, then save the file:
+    * `Red is my favorite color.`
+    * `Blue is my favorite color.`
+    * `Green is my favorite color.`
+    
 # Lecture
 
 Welcome! 🌻
