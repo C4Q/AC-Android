@@ -9,6 +9,8 @@
 
 * [BaSH Cheat Sheet](https://courses.cs.washington.edu/courses/cse391/16sp/bash.html)
 * [Video - Beginner's Guide to the Bash Terminal](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+* [BaSH Terminal Online Simulator](https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/buildroot-x86.cfg)
+* [Git BaSH (for Windows Users)](https://gitforwindows.org/)
 
 # Lecture
 
