@@ -10,7 +10,7 @@
 * [Tutorial: While Loops](https://www.tutorialspoint.com/java/java_while_loop.htm)
 * [Tutorial: Do-While Loops](https://www.tutorialspoint.com/java/java_do_while_loop.htm)
 
-## Warm Up
+## Warm Up (5 minutes)
 
 Let's review Strings! As we've seen before, if we want to declare and initialize a String variable by assigning it a value, we can do something like this:
 
