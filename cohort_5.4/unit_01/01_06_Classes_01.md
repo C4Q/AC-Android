@@ -16,7 +16,7 @@
 
 ## Warm-up (5 minutes)
 
-Using a `Scanner` object, loop through a user's input, until they enter the number `42` - if they do not, print to the screen the `String`:
+Using a `Scanner` object and a `while` loop, loop through a user's input, until they enter the number `42` - if they do not, print to the screen the `String`:
 `Wrong number, try again!`
 
 If they do enter the number `42`, print to the screen the `String`:
