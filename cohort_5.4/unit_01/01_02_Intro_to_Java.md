@@ -42,7 +42,7 @@
 
 ## Warm-Up (5 minutes)
 
-* Create a directory in your `Desktop` directory named `Favorite Colors`
+* Create a directory in your `Desktop` directory named `FavoriteColors`
 * In the directory `Favorite Colors`, create 3 (three) files with the following names:
     * `red.txt`
     * `blue.txt`
