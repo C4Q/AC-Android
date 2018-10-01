@@ -350,3 +350,5 @@ Strings are not primitive values though - they are a **Class** type. We will lea
 The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html). Warning - you can look at that page for more info, but it probably won't make much sense yet. That's okay! You've made a great deal of progress so far!
 
 ## Exercises
+
+Please see the corresponding Exercises link on Canvas calendar on today's date for more information.
