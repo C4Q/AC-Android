@@ -178,6 +178,8 @@ int decimalValueOfLowercaseA = lowercaseA;
 System.out.println(decimalValueOfUppercaseA);
 System.out.println(decimalValueOfLowercaseA);
 ```
+`
+**Note:** `char` values are wrapped in single quotes, i.e.: `'A'` in `char uppercaseA = 'A';`
 
 Please see the character chart below for a more detailed list of `char` characters and their corresponding `int` values:
 
@@ -348,6 +350,8 @@ The `String` object type is the most commonly used class in Java. It represents 
 Strings are not primitive values though - they are a **Class** type. We will learn more about this super-useful class in the coming weeks.
 
 The full documentation for the String class is here: [Java Docs: Strings](http://docs.oracle.com/javase/7/docs/api/java/lang/String.html). Warning - you can look at that page for more info, but it probably won't make much sense yet. That's okay! You've made a great deal of progress so far!
+
+**Note:** `String` values are wrapped in double quotes, i.e.: `"Apple"` in `String fruit = "Apple";`
 
 ## Exercises
 
