@@ -86,7 +86,7 @@ Java is a programming language and computing platform that was released by Sun M
 
 Java is the primary programming language used to develop Android apps.
 
-Java was created to solve a problem: it was the first programming language in which programs could be written to run anywhere, regardless of operating system or microprocessor.
+Java was created to solve a problem: it was the first programming language in which programs could be written to run anywhere, regardless of operating system or microprocessor. The phrase used to describe this phenomenon is ***"Write once, run anywhere."***
 
 In Java, source code is written in plain text files ending with a `.java` extension. 
 
