@@ -135,8 +135,10 @@ boolean answer = 7 > 3;
 byte myAge = 28;
 short activeCitiBikesInNyc = 6603;
 int yearsSinceDinosaurs = 65000000;
-long humansOnEarth = 7400000000;
+long humansOnEarth = 7400000000l;
 ```
+
+**Note:** if you wish to assign a `long` value to a variable of type `long`, you'll have to add the letter `l` to the end of the value, since all whole numbers are of type `int` by default.
 
 * **float** - a real number, single-precision 32-bit floating point. For our uses, **real numbers** are just numbers that can have decimals in them. For example, 2 is an integer but 2.1 is a real number.
 
@@ -146,6 +148,8 @@ long humansOnEarth = 7400000000;
 float percentOfPizza = 33.3f;
 double pi = 3.14159265359d;
 ```
+
+**Note:** if you wish to assign a `float` value to a variable of type `float`, you'll have to add the letter `f` to the end of the value, since all decimal numbers are of type `float` by default.
 
 * **char** - a single [Unicode](http://unicode.org/charts/) character.
 
