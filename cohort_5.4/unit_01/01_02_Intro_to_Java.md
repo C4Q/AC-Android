@@ -205,7 +205,7 @@ System.out.println(3 + "is my favorite number, but you won't know that because t
 System.out.println(3 + 3); // addition
 System.out.println("3" + 3);  // concatenation
 System.out.println("3" + "3"); // concatenation
-System.out.println(3 + "3"); ???
+System.out.println(3 + "3"); // ???
 ```
 
 ### Naming & assigning variables
