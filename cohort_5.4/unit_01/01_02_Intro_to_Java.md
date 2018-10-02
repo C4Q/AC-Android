@@ -260,8 +260,6 @@ A **reserved word** is a word that already has a defined meaning in Java. Becaus
 Some example reserved words: `int`, `for`, `if`, `else`, `this`, `new`, `return`, `void`.
 
 You can find a full list of reserved words [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) or [here](https://en.wikipedia.org/wiki/List_of_Java_keywords).
-
-[Exercises: Assigning Variables](exercises.md#assigning)
     
 ### Math & Operators
 
