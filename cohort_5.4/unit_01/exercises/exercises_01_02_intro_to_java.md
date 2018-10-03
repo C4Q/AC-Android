@@ -40,7 +40,7 @@ Assign the number `72` to a variable of type `char`. Print the value of that var
 
 #### 01.02.05
 
-Assign values to two variables, based on the evaluation of the following arithmetic expressions:
+Assign values to 4 (four) variables, based on the evaluation of the following arithmetic expressions:
 
 * 10 / 2
 * 10.00 / 2
