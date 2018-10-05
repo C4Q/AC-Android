@@ -24,7 +24,7 @@ If we wanted to get the value of that String variable, we could simply reference
 System.out.println(musician);
 ```
 
-But what if we wanted to get just **ONE** of the letters, or _characters_ from the String, like the letter 'u'? What if we didn't even know what the character was, and we just wanted the third one in the String?
+But what if we wanted to get just **ONE** of the letters, or _characters_ from the String, like the letter 'r' in the `String` "Louis Armstrong"? What if we didn't even know what the character was, and we just wanted the third one in the String?
 
 Strings are just collections of characters in a row - with each character located at a certain spot, or `index` of a String. Strings are `zero-indexed`, meaning the first character is said to be at index 0, the second character would be at index 1, the third character would be at index 2, and so on.
 
