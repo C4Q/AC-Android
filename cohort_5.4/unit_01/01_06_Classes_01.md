@@ -44,7 +44,7 @@ public static String pieFilling = "cherry";
 public static int diameter = 12;
 
 public static void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+    System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -56,8 +56,8 @@ As you can see, all of the variables inside class ```Pie``` are ```static``` - t
 class Main {
   public static void main(String[] args) {
     System.out.println(Pie.crust);
-	System.out.println(Pie.pieFilling);
-	System.out.println(Pie.diameter);
+    System.out.println(Pie.pieFilling);
+    System.out.println(Pie.diameter);
   }
 }
 ```
@@ -80,8 +80,8 @@ When you get a static value directly from the class, you are essentially getting
 class Main {
   public static void main(String[] args) {
     System.out.println(Pie.crust);
-	Pie.crust = "graham cracker";
-	System.out.println(Pie.crust);
+    Pie.crust = "graham cracker";
+    System.out.println(Pie.crust);
   }
 }
 ```
@@ -94,9 +94,9 @@ When we make an object from a class, we are said to **instantiate** it. This mea
 
 ```java
 public class Main {
-	public static void main(String[] args) {
-		Pie myPie = new Pie();
-	}
+  public static void main(String[] args) {
+    Pie myPie = new Pie();
+    }
 }
 ```
 
@@ -120,11 +120,11 @@ Let's revisit our pie analogy. When we instantiate an object from a class type, 
 
 ```java
 public class Main {
-	public static void main(String[] args) {
-		Pie myPie = new Pie();
-		System.out.println(Pie.pieFilling);
-		System.out.println(myPie.pieFilling);
-	}
+  public static void main(String[] args) {
+    Pie myPie = new Pie();
+    System.out.println(Pie.pieFilling);
+    System.out.println(myPie.pieFilling);
+  }
 }
 ```
 
@@ -142,19 +142,19 @@ private static String pieFilling = "cherry";
 private static int diameter = 12;
 
 public static String getCrust() {
-	return crust;
+  return crust;
 }
 
 public static String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public static int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public static void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -170,19 +170,19 @@ private String pieFilling = "cherry";
 private int diameter = 12;
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -218,25 +218,25 @@ private String pieFilling = "cherry";
 private int diameter = 12;
 
 public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
-	crust = chefChoiceCrust;
-	pieFilling = chefChoicePieFilling;
-	diameter = chefChoiceDiameter;
+  crust = chefChoiceCrust;
+  pieFilling = chefChoicePieFilling;
+  diameter = chefChoiceDiameter;
 }
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -254,10 +254,8 @@ Okay, let's make a rhubarb pie this time:
 ```java
 class Main {
   public static void main(String[] args) {
-    
     Pie rhubarbPie = new Pie("sourdough", "rhubarb", 12);
-    rhubarbPie.pieIsBaked();
-		
+    rhubarbPie.pieIsBaked();	
   }
 }
 ```
@@ -269,12 +267,9 @@ Just for old times sake, let's make a good old fashioned cherry pie like before 
 ```java
 class Main {
   public static void main(String[] args) {
-    
     Pie rhubarbPie = new Pie("sourdough", "rhubarb", 12);
     rhubarbPie.pieIsBaked();
-
-	Pie cherryPie = new Pie();
-		
+    Pie cherryPie = new Pie();	
   }
 }
 ```
@@ -293,25 +288,25 @@ public Pie() {
 }
 
 public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
-	crust = chefChoiceCrust;
-	pieFilling = chefChoicePieFilling;
-	diameter = chefChoiceDiameter;
+  crust = chefChoiceCrust;
+  pieFilling = chefChoicePieFilling;
+  diameter = chefChoiceDiameter;
 }
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -329,29 +324,29 @@ private String pieFilling;
 private int diameter;
 
 public Pie() {
-	this("filo dough", "cherry", 12);
+  this("filo dough", "cherry", 12);
 }
 
 public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
-	crust = chefChoiceCrust;
-	pieFilling = chefChoicePieFilling;
-	diameter = chefChoiceDiameter;
+  crust = chefChoiceCrust;
+  pieFilling = chefChoicePieFilling;
+  diameter = chefChoiceDiameter;
 }
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -377,29 +372,29 @@ private String pieFilling;
 private int diameter;
 
 public Pie() {
-	this("filo dough", "cherry", 12);
+  this("filo dough", "cherry", 12);
 }
 
 public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
-	crust = chefChoiceCrust;
-	pieFilling = chefChoicePieFilling;
-	diameter = chefChoiceDiameter;
+  crust = chefChoiceCrust;
+  pieFilling = chefChoicePieFilling;
+  diameter = chefChoiceDiameter;
 }
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -413,41 +408,41 @@ private String pieFilling;
 private int diameter;
 
 public Pie() {
-	this("filo dough", "cherry", 12);
+  this("filo dough", "cherry", 12);
 }
 
 public Pie(String chefChoiceCrust, String chefChoicePieFilling, int chefChoiceDiameter) {
-	crust = chefChoiceCrust;
-	pieFilling = chefChoicePieFilling;
-	diameter = chefChoiceDiameter;
+  crust = chefChoiceCrust;
+  pieFilling = chefChoicePieFilling;
+  diameter = chefChoiceDiameter;
 }
 
 public String getCrust() {
-	return crust;
+  return crust;
 }
 
 public String getPieFilling() {
-	return pieFilling;
+  return pieFilling;
 }
 
 public int getDiameter() {
-	return diameter;
+  return diameter;
 }
 
 public void setCrust(String newCrust) {
-	crust = newCrust;
+  crust = newCrust;
 }
 
 public void setPieFilling(String newPieFilling) {
-	pieFilling = newPieFilling;
+  pieFilling = newPieFilling;
 }
 
 public void setDiameter(int newDiameter) {
-	diameter = newDiameter;
+  diameter = newDiameter;
 }
 
 public void pieIsBaked() {
-	System.out.println("I am a " + pieFilling + " pie!");
+  System.out.println("I am a " + pieFilling + " pie!");
 }
 ```
 
@@ -456,11 +451,10 @@ As you can see, these methods are ```void```, because they do not return anythin
 ```java
 class Main {
   public static void main(String[] args) {
-    
     Pie cherryPie = new Pie();
-	cherryPie.pieIsBaked();
-	cherryPie.setPieFilling("Sour Cherry");
-	cherryPie.pieIsBaked();
+    cherryPie.pieIsBaked();
+    cherryPie.setPieFilling("Sour Cherry");
+    cherryPie.pieIsBaked();
   }
 }
 ```
@@ -469,4 +463,4 @@ Huzzah! We have just bizzarly sucked out the old filling, and replaced it with a
 
 ## Exercises
 
-* TBD
+Please see the corresponding Exercises link on Canvas calendar on today's date for more information.
