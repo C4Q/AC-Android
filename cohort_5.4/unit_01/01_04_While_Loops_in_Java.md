@@ -180,4 +180,4 @@ Now try to use the `Scanner` yourself!
 
 ## Exercises
 
-* TBD
+Please see the corresponding Exercises link on Canvas calendar on today's date for more information.
