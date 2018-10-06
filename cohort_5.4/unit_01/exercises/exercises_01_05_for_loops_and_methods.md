@@ -59,6 +59,8 @@ When the method `printMe("My name is Hector");` is called in the `main(String[] 
 My name is Hector
 ```
 
+Copy and paste the code you wrote below.
+
 #### 01.05.04 
 
 Outside the `main(String[] args)` method, but inside the `Main` class, create a `public` and  `static` method called `timesFive` that:
@@ -76,6 +78,8 @@ When the method `System.out.println(timesFive(6));` is called in the `main(Strin
 ```java
 30
 ```
+
+Copy and paste the code you wrote below.
 
 #### 01.05.05
 
@@ -95,6 +99,8 @@ s
 o
 n
 ```
+
+Copy and paste the code you wrote below.
 
 #### 01.05.06
 
@@ -123,3 +129,5 @@ K
 L
 ....
 ```
+
+Copy and paste the code you wrote below.
