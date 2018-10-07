@@ -1,4 +1,4 @@
-# Classes II
+# Classes 02
 
 ## Objectives
 - To understand what wrapper classes are
