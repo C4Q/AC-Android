@@ -1,11 +1,11 @@
 # Classes 02
 
 ## Objectives
-- To understand what wrapper classes are
-- To become comfortable with the subject of auto-boxing and unboxing
-- To understand what a static method is and how to call one
-- To understand what exception handling is and how to use it
-- To read input from a file
+- Fellows will learn what wrapper classes are
+- Fellows will learn to become comfortable with the subject of auto-boxing and unboxing
+- Fellows will learn what `null` is as a value
+- Fellows will learn what exception handling is and how to use it
+- Fellows will learn read input from a file
 
 ## Resources
 - [Java Tutorials: Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/)
@@ -68,7 +68,7 @@ System.out.println(number2);
 
 #### Why should you care? 
 
-- Auto-boxing/unboxing is heavily used in Java Collections:
+- Auto-boxing/unboxing is heavily used in Java Collections
 
 - Value passed as a parameter
 
@@ -171,6 +171,48 @@ public void parseToInteger() throws NumberFormatException {
 ```
 
 **Note:** You should only use try/catch blocks to handle exceptions - not control the flow of execution of your program. If you want to change the direction of your program you should instead use logic to do this - i.e. if/else statements, switch statements, loops, etc.
+
+## What is `null`? (Java don't hurt me, don't hurt me, no more...)
+
+When working with objects, you might have noticed that the unassigned fields of your classes have default values. For primitives, the values seemed predictable: `0` for `int` values, `0.0` for `double` values, `false` for `boolean` values, etc. However, class fields which were unassigned seemed to have an odd default value: `null`.
+
+Fields of a class type which are unassigned possess a `null` value, which describes the absense of a reference to an object. Remember - variables do not store object instances as variables, but instead as references to the object's location in memory. If a field has no reference to an object in memory, its value is said to be `null`.
+
+A developer can run into problems if they try to perform objects of fields which are `null`, since most code is written with the understanding that a field or parameter possesses some sort of value to work with. For example:
+
+```java
+class Fruit {
+  private String name;
+
+  public String getName() {
+    return name;
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Fruit apple = null;
+    System.out.println(apple.getName()); // this will throw a NullPointerException
+  }
+}
+```
+
+We could easily avoid this by performing a `null` check - effectively checking if a field or variable passed to a parameter is `null` or not:
+
+```java
+Fruit apple = null;
+if(apple != null) {
+  System.out.println(apple.getName());
+  }
+```
+
+Although this might seem like a good idea, it's more of a quick fix, and should be used sparingly. When you encounter a null object, it is usually caused by one of several reasons:
+
+* the user accidentally passed an non-initialized variable
+* the field was not properly assigned a reference
+* the user treated `null` as a placeholder
+
+In those situations, it makes sense to either give that field an actual value before using it, or let it throw an exception, so you can better diagnose the problem.
 
 ## File I/O
 
