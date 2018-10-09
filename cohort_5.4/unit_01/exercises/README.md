@@ -9,3 +9,4 @@
 |01.05|[For Loops and Methods](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_05_for_loops_and_methods.md)|
 |01.06|[Classes 01](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_06_classes_01.md)|
 |01.07|[Classes 02](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_07_classes_02.md)|
+|01.07|[Inheritance and Encapsulation](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_08_inheritance_and_encapsulation.md)|
