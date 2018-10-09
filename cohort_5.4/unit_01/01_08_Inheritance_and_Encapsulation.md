@@ -113,7 +113,7 @@ public class MountainBike extends Bicycle {
 
 A subclass inherits all of the public and protected members of its parent, no matter what package the subclass is in.
 
-![java access modifiers] (https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/java_accessmodifiers.jpg)
+![java access modifiers](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/java_accessmodifiers.jpg)
 
 If the subclass is in the same package as its parent, it also inherits the `package-private` members of the parent (this means it is labelled neither `public`, `private`, or `protected`). You can use the inherited members as is, replace them, hide them, or supplement them with new members.
 
