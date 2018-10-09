@@ -206,20 +206,33 @@ public class Cat extends Animal {
     public void testInstanceMethod() {
         System.out.println("The instance method in Cat");
     }
+    
+}
 
-    public static void main(String[] args) {
+// in Main class:
+
+public static void main(String[] args) {
         Cat myCat = new Cat();
         Animal myAnimal = myCat;
+
+        Cat.testClassMethod();
+        myCat.testClassMethod();
+        myCat.testInstanceMethod();
+        
         Animal.testClassMethod();
+        myAnimal.testClassMethod();
         myAnimal.testInstanceMethod();
     }
-}
 ```
 
 The `Cat` class overrides the instance method in `Animal` and hides the `static` method in `Animal`. The main method in this class creates an instance of Cat and invokes testClassMethod() on the class and testInstanceMethod() on the instance.
 
 The output from this program is as follows:
 ```
+The static method in Cat
+The static method in Cat
+The instance method in Cat
+The static method in Animal
 The static method in Animal
 The instance method in Cat
 ```
