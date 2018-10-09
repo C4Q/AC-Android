@@ -9,7 +9,7 @@
 
 ## Resources
 
-* TBD
+* [Video - Inheritance](https://www.youtube.com/watch?v=wzW-251bGgM)
 
 # Lecture
 
@@ -21,8 +21,8 @@ A class that is derived from another class is called a `subclass` (also an exten
 
 When you want to create a new class and there is already a class that includes some of the code that you want, you can `extend` your new class from the existing class. In doing this, you can reuse the fields and methods of the existing class without having to write (and debug!) them yourself in order to adapt your new class to new situations!
 
-![ Animal Hierarchy ](img/animalHiearchy3.jpg)
-![ upcasting downcasting ]( img/updown_upcasting.png)
+![Animal Hierarchy](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/animalHiearchy3.jpg)
+![upcasting downcasting](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/updown_upcasting.png)
 
 Other than `Object` (shown above), which has no superclass, every class has one and only one direct superclass.
 
@@ -41,7 +41,7 @@ Constructors are not members, so they are not inherited by subclasses, but the c
 The Object class, defined in the `java.lang` package, defines and implements behavior common to all classes — including the ones that you write. In the Java platform, many classes derive directly from `Object`, other classes derive from some of those classes, and so on, forming a hierarchy of classes.
 
 All Classes in the Java Platform are Descendants of `Object`:
-![classes-object](img/classes-object.gif)
+![classes-object](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/classes-object.gif)
 
 At the top of the hierarchy, `Object` is the most general of all classes. Classes near the bottom of the hierarchy provide more specialized behavior.
 
@@ -113,9 +113,7 @@ public class MountainBike extends Bicycle {
 
 A subclass inherits all of the public and protected members of its parent, no matter what package the subclass is in.
 
-[java access modifiers ] (img/java_accessmodifiers.jpg)
-<br />
-![java access modifiers](img/java_accessmodifiers_graphic.jpg)
+![java access modifiers] (https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/java_accessmodifiers.jpg)
 
 If the subclass is in the same package as its parent, it also inherits the `package-private` members of the parent (this means it is labelled neither `public`, `private`, or `protected`). You can use the inherited members as is, replace them, hide them, or supplement them with new members.
 
@@ -165,7 +163,7 @@ Here the instanceof operator verifies that obj refers to a MountainBike so that 
 
 ## Overriding and Hiding Methods
 
-![ method overriding ](img/methodOverriding.gif)
+![method overriding](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/methodOverriding.gif)
 
 ### Instance Methods
 
@@ -175,7 +173,7 @@ The ability of a subclass to override a method allows a class to inherit from a 
 
 **IMPORTANT** - When overriding a method, you should use the `@Override` annotation that instructs the compiler that you intend to override a method in the superclass. If, for some reason, the compiler detects that the method does not exist in one of the superclasses, then it will generate an error.
 
-![overrides](img/overrides.png)
+![overrides](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part1/img/overrides.png)
 
 ### Static Methods
 
