@@ -9,7 +9,7 @@
 
 # Lecture
 
-Up until now, you've mostly been working on either simple, seemingly pointless things, or complicated, abstract things which seem to have no real-world use. That makes sense. You're not a bad programmer for feeling like apps shouldn't just be variables, logic, loops, methods, parameters, data storage, classes, Strings, numbers, reading input values, displaying output values, and interfaces.
+Up until now, you've mostly been working on either simple, seemingly pointless things, or complicated, abstract things which seem to have no real-world use. That makes sense. You're not a bad programmer for feeling like apps shouldn't just be variables, logic, loops, methods, parameters, data storage, classes, Strings, numbers, reading input values, displaying output values, and interfaces. But....
 
 Surprise! That's all coding is though!!!
 
@@ -23,7 +23,7 @@ When interviewing for jobs, you'll eventually reach a point when you'll be asked
 * Whiteboarding, where you'll be asked to answer a coding question either on a whiteboard, or online
 * or some combination of the two
 
-Today we will perform the first one in class - project submission
+Today we will perform the first one in class - Project Submission!
 
 We will - as a class, create a game from scratch, using all the skills we've learned since launch. This game will be called `PathFinder`.
 
@@ -41,7 +41,7 @@ Fellows will come up, one-by-one, to pair/peer program with the instructor. This
 Instructions:
 
 This game is called 'PathFinder'. The goal of this game is to reach the end of the path, 100 tiles.
-You start at the first tile, and press enter to roll.
+You start at the first tile, then press enter to roll.
 You can roll any number from 1 to 10 - then move that number of tiles forward.
 If you roll a 7, you get to move 7 tiles, plus a random roll between 1 an 10.
 If you roll a 10, you move back a random roll from between 1 and 10.
@@ -155,4 +155,6 @@ Process finished with exit code 0
 
 We will try to complete this game in under 3 (three) hours. Code challenges are often time-boxed, meaning you will have a limited amount of time to complete your project, and submit it by a deadline.
 
-Let's do this!
+So, what are we waiting for? Let's do this!
+
+![Engage!](https://percolatorconsulting.com/wp-content/uploads/2018/06/2c0zzs.jpg)
