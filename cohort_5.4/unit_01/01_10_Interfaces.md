@@ -20,13 +20,13 @@ Let's create an ```interface``` in a file called Vehicle.java:
 
 ```java
 public interface Vehicle {
-  
-  public void drive();
-  
-  public void brake();
-  
-  public void wipeWindShield(boolean isRaining);
-  
+
+    void drive(int speed);
+
+    void brake();
+
+    void wipeWindShield(boolean isRaining);
+
 }
 ```
 We can see three method signatures WITHOUT a method body (no curly brackets):
@@ -40,11 +40,61 @@ This is intentional - this means that for every subclass that extends `Vehicle`,
 Now, let's create a concrete subclass which will implement the `Vehicle` interface:
 
 ```java
-public class Chair extends Furniture {
-  
-  @Override
-    public void textileType() {
-        System.out.println("Wood");
+public class UncleMannysChevy implements Vehicle {
+
+    private int gas;
+    private int milesDriven;
+    private int milesToGo;
+    private int speed;
+    private boolean areWipersOn;
+
+    public UncleMannysChevy(int milesToGo) {
+        this.milesToGo = milesToGo;
+    }
+
+    @Override
+    public void drive(int speed) {
+        this.speed = speed;
+        if (this.speed > 0) {
+            while (milesToGo > 0) {
+                if (gas > 0) {
+                    System.out.println("I'm driving - whoooohooooo!!!");
+                    System.out.println("Miles Driven: " + (++milesDriven));
+                    gas--;
+                    milesToGo--;
+                } else {
+                    System.out.println("Out of gas :\\");
+                    break;
+                }
+            }
+            System.out.println("We have arrived at our destination!");
+        }
+    }
+
+    @Override
+    public void brake() {
+        speed = 0;
+        System.out.println("Whoah! I almost hit that deer!");
+    }
+
+    @Override
+    public void wipeWindShield(boolean isRaining) {
+        areWipersOn = !areWipersOn;
+        if (isRaining && !areWipersOn) {
+            System.out.println("Wipe away those Angel Tears!");
+        } else if (!areWipersOn) {
+            System.out.println("Spraying on wiper fluid and wiping!");
+        } else {
+            System.out.println("Wipers off!");
+        }
+    }
+
+    public int getGas() {
+        return gas;
+    }
+
+    public void setGas(int gas) {
+        this.gas = gas;
     }
 }
 ```
