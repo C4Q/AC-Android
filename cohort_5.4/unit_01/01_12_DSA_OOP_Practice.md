@@ -17,7 +17,7 @@ Surprise! That's all coding is though!!!
 
 Everything else we'll be learning from now on, will either be ways to make our jobs easier, make our code shorter, manipulate different forms of input, or make our output faster or prettier! That's it!
 
-When interviewing for jobs, you'll eventually reach a point when you'll be asked to participate in a coding challenge. There are three forms of coding challeneges:
+When interviewing for jobs, you'll eventually reach a point when you'll be asked to participate in a coding challenge. There are three forms of coding challenges:
 
 * Project Submission, where you'll be required to make an actual program from scratch
 * Whiteboarding, where you'll be asked to answer a coding question either on a whiteboard, or online
