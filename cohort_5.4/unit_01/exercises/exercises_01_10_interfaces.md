@@ -71,7 +71,7 @@ For example:
 ```java
 FruitBat fruitBat = new FruitBat("fruits", "nocturnal", "cave");
 
-parrot.printCharacteristics();
+fruitBat.printCharacteristics();
 ```
 
 should print to the screen:
