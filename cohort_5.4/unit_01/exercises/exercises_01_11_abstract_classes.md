@@ -18,7 +18,7 @@ This class should have a method called ancestor. It should return nothing. It sh
 I am a Cephalopod. Cephalopods descended from Mollusks.
 ```
 
-This class should also have an abstract method called `tentacleCount`. It should return nothing.
+This class should also have an `abstract` method signature called `tentacleCount`. It should return nothing.
 
 Copy and paste the code you wrote below.
 
