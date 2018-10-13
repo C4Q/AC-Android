@@ -29,7 +29,7 @@ We will - as a class, create a game from scratch, using all the skills we've lea
 
 Fellows will come up, one-by-one, to pair/peer program with the instructor. This means that we will be working together, as a team, to reach our goals. The goal of this game is to create output and user interaction similar to the output below:
 
-```java
+```
 ######                      #######
 #     #   ##   ##### #    # #       # #    # #####  ###### #####
 #     #  #  #    #   #    # #       # ##   # #    # #      #    #
