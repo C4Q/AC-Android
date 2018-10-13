@@ -12,7 +12,11 @@
 
 Create a class called `Bird` in a file called `Bird.java`.
 
-This class should have a single method called ancestor. It should return nothing. It should 
+This class should have a single method called ancestor. It should return nothing. It should print to the screen:
+
+```java
+I am a Bird. Our ancestors are Dinosaurs.
+```
 
 Copy and paste the code you wrote below.
 
