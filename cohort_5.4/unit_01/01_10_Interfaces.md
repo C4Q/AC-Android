@@ -64,7 +64,7 @@ public class UncleMannysChevy implements Vehicle {
                     milesToGo--;
                 } else {
                     System.out.println("Out of gas :\\");
-                    break;
+                    return;
                 }
             }
             System.out.println("We have arrived at our destination!");
@@ -79,7 +79,6 @@ public class UncleMannysChevy implements Vehicle {
 
     @Override
     public void wipeWindShield(boolean isRaining) {
-        areWipersOn = !areWipersOn;
         if (isRaining && !areWipersOn) {
             System.out.println("Wipe away those Angel Tears!");
         } else if (!areWipersOn) {
@@ -87,6 +86,7 @@ public class UncleMannysChevy implements Vehicle {
         } else {
             System.out.println("Wipers off!");
         }
+        areWipersOn = !areWipersOn;
     }
 
     public int getGas() {
