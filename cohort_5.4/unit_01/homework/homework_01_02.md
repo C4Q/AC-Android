@@ -15,27 +15,32 @@ The way text-based games work usually goes something like this:
 Example:
 
 ```
-You wake up and find yourself in a room so dark that you can't see anything. You hear a strange noise on the other side. Do you want to investigate it? (Y or N)
+You wake up and find yourself in a room so dark that you can't see anything. 
+You hear a strange noise on the other side. Do you want to investigate it? (Y or N)
 > Y
 
-You walk closer to the sound. As you approach it, you feel something drip from the ceiling on your shoulder. Keep going?
+You walk closer to the sound. As you approach it, you feel something - 
+a drip from the ceiling on your shoulder. Keep going?
 > Y
 
-You keep walking. Suddenly the floor disappears in front of you and you fall into a pit and perish. GAME OVER!!!
+You keep walking. Suddenly the floor disappears in front of you and you...
+Fall into a pit and perish. GAME OVER!!!
 ```
 
 ### Requirements
 
 This assignment is fairly open-ended, so be creative with your game ideas and have fun! However, the completed submission should include each of the following requirements:
 
-- Accept input from the user with a `Scanner` object.
-- At least one `if`/`else-if`/`else` type control structure and one `switch` statement.
-- At least one `while` loop and one `for` loop.
+- Accept input from the user with a `Scanner` object
+- At least one `if`/`else-if`/`else` type control structure, AND one `switch` statement
+- At least one `while` loop, AND one `for` loop
+- All of the above should exist in methods
+- At least one `class` and one `interface`
 
 ### Additional factors
 
 - Your game should be able to run to completion without noticeable bugs or crashes.
-- Code should be organized into methods as appropriate to demonstrate good modularization and code reuse.
+- Code should be organized into methods and classes as appropriate to demonstrate good modularization and code reuse.
 - All submitted code should be formatted as defined by the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 This is an individual assignment, so each student will be responsible for submitting their own original game.
