@@ -99,11 +99,13 @@ public class UncleMannysChevy implements Vehicle {
 }
 ```
 
-IntelliJ forces you to override this method, and add your own method body. This class has not only inherited the LEG\_COUNT field and method, but it created its own version of the ```textileType()``` method, which was previously only a method signature in the parent class.
+IntelliJ forces you to override the methods from all the method signatures inherited from the `Vehicle` interface, and add your own method bodies (code blocks with opening `{` and closing `}` tags) with your own code. 
 
-Abstract classes can implement interfaces as well by using the ```implement``` keyword. However, because they are abstract, they don't need to implement all methods. The AbstractList interface implements common methods, which allows concrete implementations like ArrayList to be free from the burden of implementing all methods, rather than if they implemented the List interface directly.
+Interfaces may seem like something you'd rarely use in the future, but that's far from the truth. Interfaces are useful for several reasons, but the main three are:
 
-Because abstract classes need to be subclassed, they cannot be declared as final. They are also opposites of each other - the ```abstract``` keyword forces a user to extend a class. On the other hand, the ```final``` keyword prevents a class from being extended. In human language terms, abstract signifies incompleteness, while final is used to demonstrate completeness. In short - you cannot make your class ```abstract``` AND ```final``` in Java, as it will result in a compile time error.
+* to keep method names, return types, and parameter types the same for all child classes, but guarantee that all methods will be unique - because you'll have to override them and make them the way you want to
+* to leverage the power of Polymorphism: different classes having the same "parent", so they can be used in the same data structure
+* to ensure your code is "scaleable" - the implementations of class types might change over time, but the method names might need to stay the same, so that other classes can use them without having to change much, as long as their parameter types and return types are of the classes' parent types
 
 ## Exercises
 
