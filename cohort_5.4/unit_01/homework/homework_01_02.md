@@ -1,4 +1,6 @@
-# Write a text-based game
+# Pursuit Android 5.4 Homework 01.02
+
+## Write a text-based game
 
 ### Project overview
 
