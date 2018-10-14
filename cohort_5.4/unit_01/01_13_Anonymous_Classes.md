@@ -25,7 +25,7 @@ If you're trying to create an instance of a class with only non-static methods t
 
 This can be a problem, and it's why we say that interfaces and abstract classes SHOULD NOT be instantiated. However...
 
-There is another way to do this, and it is called creating anonymous methods!
+There is another way to do this, and it is called creating anonymous classes!
 
 Let's start my creating two files - one for an `interface` called `SomeInterface` in a file called `SomeInterface.java`, and a `class` called `Apple.java`:
 
