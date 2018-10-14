@@ -80,7 +80,7 @@ should have the output:
 class org.pursuit.Main$1
 ```
 
-So, that's unusual. Since the variable `apple02` is of type `Apple`, we'd expect the output to be `class org.pursuit.Main$1`, but it's not. It has a class type of `Main$1`. This is because at runtime, since it is no longer the same as a typical instance of type `Apple`, and we're instantiating it in the `Main` class, it is now an unnamed class instance within the `Main` class - called `$1`. If we made other anonymous classes, they would be named `$2, $3, $4`, etc...
+So, that's unusual. Since the variable `apple02` is of type `Apple`, we'd expect the output to be `class org.pursuit.Main$1`, but it's not. It has a class type of `Main$1`. This is because at runtime, since it is no longer the same as a typical instance of type `Apple`, and we're instantiating it in the `Main` class, it is now an unnamed class instance within the `Main` class that inherits from `Apple` - called `$1`. If we made other anonymous classes, they would be named `$2, $3, $4`, etc...
 
 So, let's override the method `iAmAnApple` to print something else:
 
