@@ -188,3 +188,72 @@ import java.lang.reflect.Method;
 
 Next, we'll have to confirm what methods are actually present at runtime:
 
+```java
+Class c = anon.getClass();
+System.out.println(c);
+Method[] n = c.getDeclaredMethods();
+for (int i = 0; i < n.length; i++) {
+    System.out.println(n[i].toString());
+}
+```
+
+should have the output:
+
+```
+class org.pursuit.Main$2
+public void org.pursuit.Main$2.thisIsWeird()
+public void org.pursuit.Main$2.pleaseOverrideMe()
+```
+
+Let's talk about what's happening here:
+
+* first, we get the class type of the `anon` object at runtime: `org.pursuit.Main$2`
+* next, we get all the methods associated with this anonymous type at runtime:
+    ** public void org.pursuit.Main$2.thisIsWeird()
+    ** public void org.pursuit.Main$2.pleaseOverrideMe()
+
+Great! We can confirm that there is in fact a method called `thisIsWeird` for this anonymous class instance!
+
+However, this is where it gets dangerous. When we use reflection, we need to be ABSOLUTELY SURE we know what we're doing, otherwise we can throw an exception. So, if we want to call the method `thisIsWeird` on the `anon` instance, we'll have to:
+* make sure we know exactly what to expect at runtime (method name, field name, etc.)
+* wrap everything in the right kind of try/catch block to catch all possible exceptions
+
+For example:
+
+```java
+SomeInterface anon = new SomeInterface() {
+    @Override
+    public void pleaseOverrideMe() {
+        System.out.println("I am anonymous! " + this.getClass().toString());
+        thisIsWeird();
+    }
+    
+    public void thisIsWeird() {
+        System.out.println("This is weird though, right? " + this.getClass().toString());
+    }
+};
+
+Class c = anon.getClass();
+try {
+    Method m = c.getMethod("thisIsWeird");
+    m.invoke(anon);
+} catch (IllegalAccessException e) {
+    e.printStackTrace();
+} catch (InvocationTargetException e) {
+    e.printStackTrace();
+} catch (NoSuchMethodException e) {
+    e.printStackTrace();
+}
+```
+
+What are we doing here:
+* getting the class of the anonymous class at runtime
+* getting the method with the name `thisIsWeird`
+* invoking the method on the anonymous instance `anon`
+* wrapping everything in a try/catch block to account for THREE POSSIBLE EXCEPTIONS
+
+So there we go - anonymous classes in Java: easy to use, dangerous to explore!
+
+## Exercises
+
+* TDB
