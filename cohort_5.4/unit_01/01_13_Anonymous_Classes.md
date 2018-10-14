@@ -17,6 +17,10 @@ Anonymous classes are actually quite simple - they are object instances with a d
 
 Remember when we spoke about how an object variable assignment has both a static type known at compile time, and a dynamic type known at runtime? Let's break it down:
 
-|static type known at compile time|variable|assignment|new keyword|constructor for dynamic type at runtime|
+|static type known at compile time|variable|assignment|new keyword|constructor for dynamic instance type at runtime|
 |:-:|:-:|:-:|:-:|:-:|
 |Apple|apple|=|new|Apple();|
+
+If you're trying to create an instance of a class with only non-static methods that have full method signatures, you'll be okay - because the constructor exists, and all the methods are defined. But what if you have abstract methods, like an `interface`, or an `abstract` class?
+
+![Dramatic Chipmunk](https://media.giphy.com/media/kKdgdeuO2M08M/giphy.gif)
