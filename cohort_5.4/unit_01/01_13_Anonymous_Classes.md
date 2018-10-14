@@ -209,8 +209,8 @@ Let's talk about what's happening here:
 
 * first, we get the class type of the `anon` object at runtime: `org.pursuit.Main$2`
 * next, we get all the methods associated with this anonymous type at runtime:
-    ** public void org.pursuit.Main$2.thisIsWeird()
-    ** public void org.pursuit.Main$2.pleaseOverrideMe()
+** public void org.pursuit.Main$2.thisIsWeird()
+** public void org.pursuit.Main$2.pleaseOverrideMe()
 
 Great! We can confirm that there is in fact a method called `thisIsWeird` for this anonymous class instance!
 
