@@ -16,13 +16,13 @@ Syllabus for Unit 01 of Pursuit Android 5.4 Cohort:
 |01.09|[Classes Review](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_09_Classes_Review.md)|
 |01.10|[Interfaces](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_10_Interfaces.md)|
 |01.11|[Abstract Classes](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_11_Abstract_Classes.md)|
-|01.12|[DS&A - String Manipulation](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_12_DSA_String_Manipulation.md)|
+|01.12|[DS&A - OOP Practice](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_18_DSA_OOP_Practice.md)|
 |01.13|[Anonymous Classes](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_13_Anonymous_Classes.md)|
 |01.14|[Inheritance and Polymorphism](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_14_Inheritance_and_Polymorphism.md)|
 |01.15|[Arrays and ArrayLists](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_15_Arrays_and_ArrayLists.md)|
 |01.16|[HashMaps and HashSets](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_16_HashMaps_and_HashSets.md)|
 |01.17|[Git and GitHub](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_17_Git_and_GitHub.md)|
-|01.18|[DS&A - OOP Practice](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_18_DSA_OOP_Practice.md)|
+|01.18|[DS&A - String Manipulation](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_12_DSA_String_Manipulation.md)|
 |01.19|[Generics](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_19_Generics.md)|
 |01.20|[Static Factory Methods / Singletons](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_20_Static_Factory_Methods_Singletons.md)|
 |01.21|[Builder Pattern](/https://github.com/C4Q/AC-Android/blob/master/cohort_5.4/unit_01/01_21_Builder_Pattern.md)|
