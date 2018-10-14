@@ -233,6 +233,8 @@ SomeInterface anon = new SomeInterface() {
     }
 };
 
+anon.pleaseOverrideMe();
+
 Class c = anon.getClass();
 try {
     Method m = c.getMethod("thisIsWeird");
@@ -246,8 +248,15 @@ try {
 }
 ```
 
+Which should have the following output:
+
+```
+I am anonymous! class org.pursuit.Main$2
+This is weird though, right? class org.pursuit.Main$2
+```
+
 What are we doing here:
-* getting the class of the anonymous class at runtime
+* getting the class type of the anonymous class at runtime (without knowing what it is)
 * getting the method with the name `thisIsWeird`
 * invoking the method on the anonymous instance `anon`
 * wrapping everything in a try/catch block to account for THREE POSSIBLE EXCEPTIONS
