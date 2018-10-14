@@ -21,6 +21,13 @@ Remember when we spoke about how an object variable assignment has both a static
 |:-:|:-:|:-:|:-:|:-:|
 |Apple|apple|=|new|Apple();|
 
-If you're trying to create an instance of a class with only non-static methods that have full method signatures, you'll be okay - because the constructor exists, and all the methods are defined. But what if you have abstract methods, like an `interface`, or an `abstract` class?
+If you're trying to create an instance of a class with only non-static methods that have full method signatures, you'll be okay - because the constructor exists, and all the methods are defined. But what if you want to create an instance of a concrete class, but you want to override a method on-the-go? Or what if you have abstract methods, like with an `interface`, or an `abstract` class?
 
 ![Dramatic Chipmunk](https://media.giphy.com/media/kKdgdeuO2M08M/giphy.gif)
+
+This can be a problem, and it's why we say that interfaces and abstract classes SHOULD NOT be instantiated. However...
+
+![There is another...](http://dentedbarrelspodcast.com/wp-content/uploads/2017/11/SRyMh.jpg)
+
+way to do this, and it is called creating anonymous methods!
+
