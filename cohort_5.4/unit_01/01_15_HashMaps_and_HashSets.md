@@ -193,4 +193,49 @@ Let's create a HashSet:
 
 ```java
 HashSet<String> favoriteShows = new HashSet<>();
+
+favoriteShows.add("Game of Thrones");
+favoriteShows.add("The Walking Dead");
+favoriteShows.add("Last Week Tonight");
+favoriteShows.add("Stranger Things");
+favoriteShows.add("The Haunting of Hill House");
+favoriteShows.add("WestWorld");
+favoriteShows.add("The Golden Girls");
+favoriteShows.add("Stranger Things");
+favoriteShows.add("The Walking Dead");
+favoriteShows.add("WestWorld");
+
+for (String s : favoriteShows) {
+    System.out.println(s);
+}
 ```
+
+After running the `for-each` loop, we can expect to see the following output printed to the screen:
+
+```
+Last Week Tonight
+The Golden Girls
+Stranger Things
+The Haunting of Hill House
+WestWorld
+The Walking Dead
+Game of Thrones
+```
+
+Several things are worth noting here:
+
+* even though duplicate values were added to the `HashSet`, only unique values were saved to the data structure
+* the elements of the `HashSet` were not actually printed in any order
+
+This is because `HashSets` are very much like the keys of a `HashMap` - they must all be unique, and are by nature unordered.
+
+There are a number of useful methods to consider when working with `HashSets`:
+
+|Method|Use Case|
+|:-:|---|
+|add(Object o)|Adds the specified element to this set if it is not already present|
+|clear()|Removes all of the elements from this set|
+|contains(Object o)|Returns true if this set contains the specified element|
+|isEmpty()|Returns true if this set contains no elements|	
+|remove(Object o)|Removes the specified element from this set if it is present|
+|size()|Returns the number of elements in this set (its cardinality)|
