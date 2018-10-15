@@ -1,10 +1,8 @@
 # HashMaps and HashSets
 
-# ArrayLists, HashMaps, and HashSets
-
 ## Objectives:
 - Review Arrays in Java
-- Explore ArrayLists and their Methods
+- Review ArrayLists and their Methods
 - Explore HashMaps and their Methods
 
 ## Vocabulary
