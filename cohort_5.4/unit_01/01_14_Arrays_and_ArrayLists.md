@@ -1,7 +1,7 @@
 # Arrays and ArrayLists
 
-## Objectives:
-- Review Arrays in Java
+## Objectives
+- Explore Arrays in Java
 - Explore ArrayLists and their Methods
 - Explore HashMaps and their Methods
 
