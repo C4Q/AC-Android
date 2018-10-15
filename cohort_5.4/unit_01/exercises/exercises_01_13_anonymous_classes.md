@@ -51,6 +51,3 @@ I am a Parrot, and I fly with colorful feathers on my wings! But I'm anonymous, 
 ```
 
 Copy and paste the code you wrote below.
-
-#### 01.13.05
-
