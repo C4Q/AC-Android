@@ -6,7 +6,6 @@
 |[01.13.02](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_13_anonymous_classes.md#011302)|
 |[01.13.03](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_13_anonymous_classes.md#011303)|
 |[01.13.04](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_13_anonymous_classes.md#011304)|
-|[01.13.05](https://github.com/joinpursuit/AC-Android/blob/master/cohort_5.4/unit_01/exercises/exercises_01_13_anonymous_classes.md#011305)|
 
 #### 01.13.01
 
