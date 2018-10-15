@@ -39,3 +39,5 @@ Copy and paste the code you wrote below.
 #### 01.14.05
 
 Create an `ArrayList` object which can store `Integer` objects. Add 15 `Integer` values to it. Write a `for` loop to get every value, and print it to the screen. 
+
+Copy and paste the code you wrote below.
