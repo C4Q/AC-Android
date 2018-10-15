@@ -20,34 +20,22 @@ Copy and paste the code you wrote below.
 
 #### 01.14.02
 
-Create an anonymous class instance of the `Mogwai` class called `gremlin`. It should `@Override` the method `isGremlin`. It should print to the screen:
-
-```java
-I am now a Gremlin! Someone poured water on me, and fed me after midnight! Muahahahahaha!!!!!
-```
-
-It should return the value `true`.
+Create an `int` array, store 5 elements in it, then print its length to the screen. 
 
 Copy and paste the code you wrote below.
  
 #### 01.14.03
 
-Create an `interface` called `Flier` in a file called `Flier.java`.
-
-This class should have a single method signature for a method named `fly`, and it should return nothing
+Create an `int` array, store 10 elements in it, then write a `for` loop to iterate through the array, and print every element to the screen. 
 
 Copy and paste the code you wrote below.
 
 #### 01.14.04
 
-Create an anonymous class instance of the `Flier` interface called `bird`. It should `@Override` the method `fly`. It should print to the screen:
-
-```java
-I am a Parrot, and I fly with colorful feathers on my wings! But I'm anonymous, so you probably didn't know that....
-```
+Create an `ArrayList` object which can store `String` objects. Add 10 `String` values to it. 
 
 Copy and paste the code you wrote below.
 
 #### 01.14.05
 
-
+Create an `ArrayList` object which can store `Integer` objects. Add 15 `Integer` values to it. Write a `for` loop to get every value, and print it to the screen. 
