@@ -12,8 +12,6 @@
 
 # Lecture
 
-* TODO - Post lesson after approval
-
 For the last few weeks, we've explored Object-Oriented Programming concepts in Java:
 
 * Encapsulation: keeping all fields and methods in a single class, so we can make unique instances
