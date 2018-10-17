@@ -55,7 +55,7 @@ class HumanXenomorph extends AlienXenomorph {
 
 ```java
 class DogXenomorph extends AlienXenomorph {
-  public void walkLikeAHuman() {
+  public void walkLikeADog() {
     System.out.println("I spawned from a dog, so I can run on all four feet!");
   }
 }
@@ -63,7 +63,7 @@ class DogXenomorph extends AlienXenomorph {
 
 ```java
 class PredatorXenomorph extends AlienXenomorph {
-  public void walkLikeAHuman() {
+  public void biteLikeAPredator() {
     System.out.println("I spawned from a Predator, so I can bite with crab mandibles!");
   }
 }
@@ -71,16 +71,73 @@ class PredatorXenomorph extends AlienXenomorph {
 
 We can see that inheritance is very useful, but it has some unique issues:
 
-* Anything that inherits from a parent class can do whatever a parent class can do, as long as those methods are `public` or `protected` when the cild class extends it
+* Anything that inherits from a parent class can do whatever a parent class can do, as long as those methods are `public` or `protected` when the child class extends it
 * the opposite is not true - if an instance of the child class is assigned to a variable with a static type of a parent class, it can only do or use the `public` or `protected` things a parent can do, and that is all:
 
 ```java
 class Main {
   public static void main(String[] args) {
     AlienXenomorph alienXenomorph = new AlienXenomorph();
+    // this makes sense, as they are native to the AlienXenomorph class:
     alienXenomorph.iAmAXenomorph();
     alienXenomorph.acidBlood();
+    
+    HumanXenomorph humanXenomorph = new HumanXenomorph();
+    humanXenomorph.iAmAXenomorph();
+    humanXenomorph.acidBlood();
+    humanXenomorph.walkLikeAHuman();
+    
+    DogXenomorph dogXenomorph = new DogXenomorph();
+    dogXenomorph.iAmAXenomorph();
+    dogXenomorph.acidBlood();
+    dogXenomorph.walkLikeADog();
+    
+    PredatorXenomorph predatorXenomorph = new PredatorXenomorph();
+    predatorXenomorph.iAmAXenomorph();
+    predatorXenomorph.acidBlood();
+    predatorXenomorph.biteLikeAPredator();
   }
 }
-
 ```
+
+The above example makes sense, because the parent class does not have the unique methods found in the child classes, but the child classes still have access to all the public methods of the parent class.
+
+The tricky part is figuring out which methods are still available to an instance of a child class, once it is assigned to a variable with the static type of a parent:
+
+```java
+class Main {
+  public static void main(String[] args) {
+    AlienXenomorph alienXenomorph = new AlienXenomorph();
+    // this makes sense, as they are native to the AlienXenomorph class:
+    alienXenomorph.iAmAXenomorph();
+    alienXenomorph.acidBlood();
+    
+    AlienXenomorph humanXenomorph = new HumanXenomorph();
+    humanXenomorph.iAmAXenomorph();
+    humanXenomorph.acidBlood();
+    
+    // This method IS NOT AVAILABLE TO THIS INSTANCE!
+    humanXenomorph.walkLikeAHuman();
+    
+    AlienXenomorph dogXenomorph = new DogXenomorph();
+    dogXenomorph.iAmAXenomorph();
+    dogXenomorph.acidBlood();
+    
+    // This method IS NOT AVAILABLE TO THIS INSTANCE!
+    dogXenomorph.walkLikeADog();
+    
+    AlienXenomorph predatorXenomorph = new PredatorXenomorph();
+    predatorXenomorph.iAmAXenomorph();
+    predatorXenomorph.acidBlood();
+    
+    // This method IS NOT AVAILABLE TO THIS INSTANCE!
+    predatorXenomorph.biteLikeAPredator();
+  }
+}
+```
+
+As you can see, when you assign an object reference to a variable with a static type of the parent, you are effectively LIMITING the number of things you can do with that instance. This might not seem like a good idea at first, but when this is done, you're allowed to compose new classes with better ways to do things, without having to change the methods in the old parent class, or even the methods and classes that use instances of your parent class, thereby saving you A TON OF TIME AND HARD WORK IN THE LONG RUN! A good programmer is a lazy programmer - never forget that!
+
+## Exercises
+
+* Please visit the canvas calendar for today's date to see today's exercises.
