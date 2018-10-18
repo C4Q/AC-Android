@@ -9,8 +9,8 @@
 5. [Reviews + Extras](/units/reviews) Generics, Design Patterns 2, Custom Views
 6. [Home Stretch + Capstone](/units/capstone) Extra Stuff, Reviews, Final Assessment
 
-Welcome to Access Code!
-- [Calendar](https://calendar.google.com/calendar/embed?src=accesscode%40c4q.nyc&ctz=America/New_York) Check out the latest updates on workshops and events on the Access Code calendar
+Welcome to Pursuit Core!
+-  Calendar Check out the latest updates on workshops and events on the Canvas calendar
 - [Schedule](schedule.md)
 - [Homework](homework/)
 - [Resources](resources/)
