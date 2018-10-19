@@ -15,9 +15,9 @@
 For the last few weeks, we've explored Object-Oriented Programming concepts in Java:
 
 * Encapsulation: keeping all fields and methods in a single class, so we can make unique instances
-  * an extension of this concept is "Abstraction", where we keep important things hidden, and only make certain fields, methods, and constructors public, not all of them 
-* Inheritance: where a parent class can have its funtionality (public and protected fields, methods, and contructors) passed on to the child classes that inherit from the parent class (`extends` and `implements`)
-  * an extension of this "Composition", where although certain methods may be inherited, but it might make sense to `@Override` those methods, or just ignore them, and make different methods all together
+  * an extension of this concept is "Abstraction", where we keep important things hidden, and only make certain fields, methods, and constructors public, but not all of them 
+* Inheritance: where a parent class can have its functionality (public and protected fields, methods, and constructors) passed on to the child classes that inherit from the parent class (`extends` and `implements`)
+  * an extension of this concept is "Composition", where although certain methods may be inherited, it might make sense to `@Override` those methods, or just ignore them, and make different methods all together
 * Polymorphism: meaning "many forms", from the ancient greek roots "poly" (many) and "morph" (shape, form, structure) - in other words, a child class, if it inherits from more than one class, can be assigned to a variable of that type statically, and can only have access to the public fields and methods associated with that static type
 
 Polymorphism is usually where people hit their first wall in Java. And that's okay! It's a bit of an alien concept, kind of like the creature from the "Alien" movies, actually. Wait - I think I'm onto something.
