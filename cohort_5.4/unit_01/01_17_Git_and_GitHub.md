@@ -255,7 +255,7 @@ This is the same content, but in the form of a numbered list:
 
 This is an example of a code block:
 
-````
+~~~
 ```java
 class Main {
     public static void main(String[] args) {
@@ -263,7 +263,7 @@ class Main {
     }
 }
 ```
-````
+~~~
 
 Here's an image:
 
