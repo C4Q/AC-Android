@@ -208,3 +208,13 @@ On branch master
 nothing to commit, working tree clean
 ```
 
+If we wanted to see a list of all the commits made to this repository, we could run the `git log` command, which would provide the following output:
+
+```
+commit ddf0b4da37981f655d9b4d085806785ebbf77683 (HEAD -> master)
+Author: John Doe <johndoe@example.com>
+Date:   Fri Oct 19 23:33:37 2018 -0400
+
+    initial commit
+```
+
