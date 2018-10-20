@@ -101,6 +101,28 @@ String result = "";
   } else {
   result = s.substring(0, 3) + "..." + s.substring(s.length() - 1);
   }
-return result
+return result;
 }
 ```
+We could actually cut this down even more:
+```java
+public static String elide(String s) {
+  if(s.length() <= 7) {
+    return s;
+  }
+  return s.substring(0, 3) + "..." + s.substring(s.length()-1);
+}
+```
+Awesome! We just reduced the code necessary by two lines! But we can make this even shorter, using a ternary operator expression:
+
+```java
+public static String elide(String s) {
+  return s.length() <= 7 ? s : s.substring(0, 3) + "..." + s.substring(s.length()-1);
+}
+```
+
+Look at that! The entire method, with just one line of code! We don't have to store any values, just return immediately with certain values, if certain conditions are met!
+
+Concatenation is great - but it can be an expensive use of memory for the computer. It's not a big deal if you're using just one line of concatenation, but if you are looping through a string, this can get costly.
+
+Enter: the `StringBuilder` class!
