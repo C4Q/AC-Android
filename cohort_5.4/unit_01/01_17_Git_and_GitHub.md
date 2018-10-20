@@ -17,7 +17,7 @@
 
 ## Warm Up - Do This First! (60 minutes)
 
-Visit the [CodeCademy Git Tutorial here](https://www.codecademy.com/learn/learn-git), and complete ONLY the interactive tutorial entitled "Basic Git Workflow". It should have only 9 (nine) sections.
+Visit the [CodeCademy Git Tutorial here](https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/hello-git), and complete ONLY the interactive tutorial entitled "Basic Git Workflow". It should have only 9 (nine) sections.
 
 # Lecture
 
@@ -239,7 +239,7 @@ nano README.md
 and add the following text:
 
 ```
-# The Text Files Projecy
+# The Text Files Project
 
 This is a README.md file for the repository `text_files`, containing the following files (using a bulleted list):
 * chapter_01.txt
@@ -300,3 +300,66 @@ then commit that file to your local repository:
 git commit -m "add README.md file to repository"
 ```
 
+Now, let's set up a remote repository on Github. First, login to your Github account on the Github website, then select the `profile` tab, followed by the `repositories` tab.
+
+Next, click on the green `New` button on the right-hand side of the screen.
+
+A new page will appear. In the `repository name` box, enter the following name:
+
+```
+The_Text_Files_Project
+```
+
+Under description, add this text:
+
+```
+This is a README.md file for the repository "text_files"
+```
+
+Once this is done, click on the green `Create repository` button. Once pressed, the remote repository will have been created. It will redirect to a new page, which will have 4 (four) different command blocks it will ask you to choose from:
+
+* `Quick setup — if you’ve done this kind of thing before`
+* `…or create a new repository on the command line`
+* `…or push an existing repository from the command line`
+* `…or import code from another repository`
+
+Since we already have an existing repository, we will copy and paste the following commands into the command line:
+
+```
+git remote add origin https://github.com/JohnDoe/The_Text_Files_Project.git
+git push -u origin master
+```
+
+**Note:** The first command will be different when you do it, since it will be from your Github account's repository.
+
+Once this is done, you'll be prompted to enter your Github email address and password, then it will push the files commited to your local repository, up to your remote repository:
+
+```
+Username for 'https://github.com': johndoe@example.com
+Password for 'https://johndoe@example.com@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.13 KiB | 1.13 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/JohnDoe/The_Text_Files_Project/pull/new/master
+remote: 
+To https://github.com/JohnDoe/The_Text_Files_Project.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
+Refresh the page on Github, and you should [see something like this if you click on this link](https://github.com/JDVila/The_Text_Files_Project)
+
+## Exercises
+
+Today's exercises will be different, in that they involve you creating local and remote repositories FOR EVERY INTELLIJ IDEA PROJECT YOU'VE WORKED ON IN CLASS.
+
+* Look into adding `.gitignore` files to your repo for `.dstore` and `.idea` files and folders
+* be creative with your `README.md` files, by adding fun images, headings, and text
+* `clone` the projects of other fellows in the class, to see if you can save them to your computer - start by cloning [this repository](https://github.com/JDVila/Pathfinder_text_based_game_pursuit_5_4)
+* complete [this codecademy code lab](https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/backtracking-intro) to explore rolling back commits
+* complete [this codecademy code lab](https://www.codecademy.com/courses/learn-git/lessons/git-branching/exercises/why-branch) to explore making branches OTHER THAN MASTER
