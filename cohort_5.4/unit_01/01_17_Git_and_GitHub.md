@@ -201,7 +201,7 @@ Now, if we run the `git status` command again, we'll see the following output:
  create mode 100644 chapter_03.txt
 ```
 
-To confirm that everything was commited as expected, run the `git status` command:
+To confirm that everything was commited as expected, that everything has been commited from the **Stagin Index** to the **Local Repository**, run the `git status` command:
 
 ```
 On branch master
@@ -216,5 +216,77 @@ Author: John Doe <johndoe@example.com>
 Date:   Fri Oct 19 23:33:37 2018 -0400
 
     initial commit
+```
+
+Great! Things have worked as expected!
+
+### How do we post our Local Repository to Github?
+
+First, we should clarify that we are making a **Public Repository**, meaning anyone on Github will be able to see it. For now, this is a good thing - since we are not creating proprietary software. However, since it is public, we should probably create an introduction, to give those who stumble upon our repository on Github some context.
+
+This means we will have to create a `README.md` file at the root directory level of our repository - in this case the root directory for our repository is `text_files`. Let's make this file now:
+
+```bash
+touch README.md
+```
+
+You'll notice that the extension of this file is `.md`, indicating that this is a **Markdown** file. This means that it is readable as a static website page on Github, which uses the Markdown format to display text to the screen. Let's open up this file in `nano`:
+
+```bash
+nano README.md
+```
+
+and add the following text:
+
+```
+# The Text Files Projecy
+
+This is a README.md file for the repository `text_files`, containing the following files (using a bulleted list):
+* chapter_01.txt
+* chapter_02.txt
+* chapter_03.txt
+
+This is the same content, but in the form of a numbered list:
+1. chapter_01.txt
+1. chapter_02.txt
+1. chapter_03.txt
+
+### Random Code Section
+
+This is an example of a code block:
+
+\```java
+class Main {
+    public static void main(String[] args) {
+        System.out.println("This is a block of valid Java code.");
+    }
+}
+\```
+
+Here's an image:
+
+![puppy image](https://puppyspot-photos-prod.s3.us-west-2.amazonaws.com/breeds/219/card/500000282_medium.jpg)
+
+Here's the clickable link to that image:
+
+[Click this link for the puppy image!](https://puppyspot-photos-prod.s3.us-west-2.amazonaws.com/breeds/219/card/500000282_medium.jpg)
+
+And here's an indented text block:
+> "'You miss 100% of the shots you don't take. - Wayne Gretzky' - Michael Scott"
+```
+
+If you'd like more info on Markdown formatting, [click this link for a great resource!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+Once you've added the text to the README.md file in `nano`, save the file. Then run `git status`, to see the file in the working directory.
+
+Run this command to add the new file to the staging index:
+
+```bash
+git add README.md
+```
+then commit that file to your local repository:
+
+```bash
+git commit -m "add README.md file to repository"
 ```
 
