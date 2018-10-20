@@ -181,3 +181,22 @@ public static String reverseMe(String input) {
 
 Not everything you create needs to be assigned to a variable before it can be used - with method chaining, you're allowed to interact with an object immediately after it has been created, and add more functionality as necessary - you can even return a value once the task has completed!
 
+Here are a few additional methods for working with Strings:
+
+|Method|Use Case|
+|:-:|---|
+|.substring()|allows you to copy and return a range of chars from a String|
+|.charAt()|allows you to retreive a particular char in a String at a certain index|
+|.length()|allows you to find out the number of chars in a String|
+|.charAt(length()-1)|allows you to retreive the last char in a String|
+|String.valueOf()|allows you to convert primitives to Strings|
+|StringBuilder()|allows you to manipulate a String before it is created|
+|new StringBuilder().append()|allows you to append chars and Strings to a StringBuilder object|
+|new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
+|new StringBuilder().toString()|allows you to return a completed String object as needed|
+
+
+
+## Exercises
+
+Please see the canvas calendar to today's date for the link to today's exercises.
