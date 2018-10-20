@@ -63,7 +63,7 @@ Now, how can `String.substring()` help us in this situation?
 
 When the method `substring()` is called on an object of type `String`, it returns a shorter version of the original `String` object, based on what parameters are passed into the `substring()` method.
 
-The method `substring()` is an **Overloaded** method in the `String` class, meaning there are several methods with that same method signature, and are differntiated between each other based on the number, type, and order of its parameters. 
+The method `substring()` is an **Overloaded** method in the `String` class, meaning there are several methods with that same method signature, and are differentiated between each other based on the number, type, and order of its parameters. 
 
 The method `substring()` takes in indices of chars within a string - one of its several methods takes in 1 (one) index, another takes in 2 (two). The method that takes only one index as a parameter, takes the string it is called on, and returns a new string with every char from the index passed into the `.substring()` method, up until the end of the string. For example:
 
@@ -126,3 +126,58 @@ Look at that! The entire method, with just one line of code! We don't have to st
 Concatenation is great - but it can be an expensive use of memory for the computer. It's not a big deal if you're using just one line of concatenation, but if you are looping through a string, this can get costly.
 
 Enter: the `StringBuilder` class!
+
+Let's say we're asked to make a method that turns a `char` array into a `String`:
+
+```java
+public static String charArrayToString(char[] array) {
+  String result = "";
+  for(int i = 0; i < array.length; i++) {
+    result = result + array[i]; 
+  }
+  return result;
+}
+```
+
+This is expensive because we are constantly clearing and reassigning a new value to the same variable, thereby creating multiple instances of the `String` class in memory, waiting to be garbage collected. However, when using a `StringBuilder` object, we don't actually create a `String` until the very last moment:
+
+```java
+public static String charArrayToString(char[] array) {
+  StringBuilder result = new StringBuilder();
+  for(int i = 0; i < array.length; i++) {
+    result.append(array[i]); 
+  }
+  return result.toString();
+}
+```
+
+The `StringBuilder` class has a few helper methods that can save a lot of time in algorithms. Remember how to reverse a `String` object?
+
+```java
+public static String reverseMe(String input) {
+  String result = "";
+  for(int i = input.length()-1; i <= 0; i--) {
+    result = result + input.charAt(i);
+  }
+  return result;
+}
+```
+That works, but it requires you creating a loop to iterate through the string input in reverse. You can instead do this with the `StringBuilder` class:
+
+```java
+public static String reverseMe(String input) {
+  StringBuilder result = new StringBuilder().append(input);
+  return result.reverse().toString();
+}
+```
+
+You could even reduce the code even further by adding more method chaining:
+
+```java
+public static String reverseMe(String input) {
+  return new StringBuilder().append(input).reverse().toString();
+}
+```
+
+Not everything you create needs to be assigned to a variable before it can be used - with method chaining, you're allowed to interact with an object immediately after it has been created, and add more functionality as necessary - you can even return a value once the task has completed!
+
