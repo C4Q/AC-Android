@@ -199,4 +199,4 @@ Here are a few additional methods for working with Strings:
 
 ## Exercises
 
-Please see the canvas calendar to today's date for the link to today's exercises.
+Please see the canvas calendar for today's date to see the link to today's exercises.
