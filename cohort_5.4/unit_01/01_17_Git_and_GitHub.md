@@ -123,3 +123,27 @@ Git sees this repository has having 3 (three) main states:
 Please see the illustrated example below:
 
 ![git workflow](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/images/basic_local_git_workflow.png)
+
+To see the state of our current repository, run the following command:
+
+```bash
+git status
+```
+
+As we can see, we have files in this directory that we should track. These files are in the color **red** Let's add our files from the **Working Directory**, to the **Staging Index**:
+
+```bash
+git add chapter_01.txt
+git add chapter_02.txt
+git add chapter_03.txt
+```
+
+If we run the `git status` command again, we'll see that the files have now changed color from **red** to **green**, as they have shifted from being untracked in the working directory, to being tracked in the staging index.
+
+Before we can save these files officially in our local repository, we'll have to call the following command:
+
+```
+git commit
+```
+
+This command should not be called without adding a human readable message associated with this commit. If you run the command `git commit` alone, it will open up a text editor like `vim` 
