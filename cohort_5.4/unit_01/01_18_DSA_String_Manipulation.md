@@ -48,4 +48,17 @@ So, those are given requirements. However, there are some inferred ones as well,
 * How long a `String` is too long a `String`?
 * What is `String.substring()`, and how does that work?
 
+Well, the first one is actually answered for us:
+> if the resulting string is not shorter than the argument, the method should return the argument instead.
 
+How do we know what that would be? If we pass in the `String` "1234567", using the given instructions, we'd get the string:
+
+```
+123...7
+```
+
+But guess what? That `String` is **equal** in length to the original input, **not less**, so we'd actually have to return the original value, which in this case is `1234567`. This means that if the `String` parameter length is less than or equal to 7, return the parameter unchanged. If its length is greater than 7, modify the `String`, and return a new `String` parameter with the the first 3 original letters, 3 dots, and the final character as one `String`.
+
+Now, how can `String.substring()` help us in this situation?
+
+When the method `substring()` is called on an object of type `String`, it returns a shorter version of the original `String` object, based on what parameters are passed into the `substring()` method.
