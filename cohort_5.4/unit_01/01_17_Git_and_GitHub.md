@@ -277,7 +277,17 @@ And here's an indented text block:
 
 If you'd like more info on Markdown formatting, [click this link for a great resource!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Once you've added the text to the README.md file in `nano`, save the file. Then run `git status`, to see the file in the working directory.
+Once you've added the text to the README.md file in `nano`, save the file. Then run `git status`, to see the file in the working directory:
+
+```
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
 
 Run this command to add the new file to the staging index:
 
