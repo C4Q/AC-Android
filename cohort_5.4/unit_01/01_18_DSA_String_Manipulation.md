@@ -62,3 +62,32 @@ But guess what? That `String` is **equal** in length to the original input, **no
 Now, how can `String.substring()` help us in this situation?
 
 When the method `substring()` is called on an object of type `String`, it returns a shorter version of the original `String` object, based on what parameters are passed into the `substring()` method.
+
+The method `substring()` is an **Overloaded** method in the `String` class, meaning there are several methods with that same method signature, and are differntiated between each other based on the number, type, and order of its parameters. 
+
+The method `substring()` takes in indices of chars within a string - one of its several methods takes in 1 (one) index, another takes in 2 (two). The method that takes only one index as a parameter, takes the string it is called on, and returns a new string with every char from the index passed into the `.substring()` method, up until the end of the string. For example:
+
+```java
+String name = "Apollo Creed";
+name.substring(5);
+```
+should return the `String` value:
+
+```
+o Creed
+```
+
+Essentially, return a new `String` consisting of the `char` at index 5 of the `String` `name`, and every `char` after that until the end of the `String`.
+
+The method that takes two indices as parameters, takes the string it is called on, and returns a new string with every char from the index passed into the `.substring()` method, up until the `char` at the index RIGHT BEFORE the index passed to the second parameter. For example:
+
+```java
+String name = "Apollo Creed";
+name.substring(0, 5);
+```
+should return the `String` value:
+
+```
+Apoll
+```
+
