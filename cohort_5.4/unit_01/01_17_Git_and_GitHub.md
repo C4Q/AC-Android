@@ -112,7 +112,7 @@ In the `text_files` directory, we must let git know that we want to track the co
 git init
 ```
 
-which should in tern print the following message to the screen:
+which should in turn print the following message to the screen:
 
 ```
 Initialized empty Git repository in /home/eutherian/Desktop/text_files/.git/
@@ -185,7 +185,7 @@ Before we can save these files officially in our local repository, we'll have to
 git commit
 ```
 
-This command should not be called without adding a human readable message associated with this commit. If you run the command `git commit` alone, it will open up a text editor like `vim`, which we actually don't need to do. We can simply run the `git commit` command with the `-m` flag, and add a simple message in double quotes:
+This command should not be called without adding a human-readable message associated with this commit. If you run the command `git commit` alone, it will open up a text editor like `vim`, which we actually don't need to do. We can simply run the `git commit` command with the `-m` flag, and add a simple message in double quotes:
 
 ```bash
 git commit -m "initial commit"
@@ -201,7 +201,7 @@ Now, if we run the `git status` command again, we'll see the following output:
  create mode 100644 chapter_03.txt
 ```
 
-To confirm that everything was commited as expected, that everything has been commited from the **Stagin Index** to the **Local Repository**, run the `git status` command:
+To confirm that everything was commited as expected, that everything has been commited from the **Staging Index** to the **Local Repository**, run the `git status` command:
 
 ```
 On branch master
