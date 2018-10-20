@@ -104,4 +104,10 @@ Chapter 01: It was a dark and stormy night.
 
 Now that the files are created, let's explore how git works in greater detail.
 
+### How do we create a Git Repository?
 
+In the `text_files` directory, we must let git know that we want to track the contents of the directory by running the following command:
+
+```bash
+
+```
