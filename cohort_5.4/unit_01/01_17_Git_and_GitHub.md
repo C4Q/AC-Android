@@ -191,7 +191,7 @@ This command should not be called without adding a human-readable message associ
 git commit -m "initial commit"
 ```
 
-Now, if we run the `git status` command again, we'll see the following output:
+Now, if we run the command above, we'll see the following output:
 
 ```
 [master (root-commit) ddf0b4d] initial commit
