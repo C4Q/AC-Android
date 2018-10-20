@@ -91,3 +91,16 @@ should return the `String` value:
 Apoll
 ```
 
+So, how can we use this to our advantage? Let's create the method together:
+
+```java
+public static String elide(String s) {
+String result = "";
+  if(s.length() <= 7) {
+    return s;
+  } else {
+  result = s.substring(0, 3) + "..." + s.substring(s.length() - 1);
+  }
+return result
+}
+```
