@@ -38,3 +38,14 @@ Remember this question from our first Homework Assignemnt?
 >elide("That's not my name.")  // returns "Tha...."
 >
 >Remember that String.substring() can take two arguments: the start index and the end index.
+
+Let's break down this question to see exactly what it's asking of us:
+* Write a method that accepts a `String` as a parameter
+* It should return a `String` value
+* If a `String` parameter value is "too long", return the first 3 letters, then three dots, then the last char
+
+So, those are given requirements. However, there are some inferred ones as well, for example:
+* How long a `String` is too long a `String`?
+* What is `String.substring()`, and how does that work?
+
+
