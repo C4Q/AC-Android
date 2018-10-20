@@ -6,7 +6,7 @@
 * Fellows will learn how to initialize repos within their working directories
 * Fellows will learn how to add new or modified files from their working directory to their staging index
 * Fellows will learn how to commit files from their staging index to thir local repository
-* Fellows will learn how to push their local repositoy to their remote repository on Github
+* Fellows will learn how to push their local repository to their remote repository on Github
 
 ## Resources
 
@@ -60,4 +60,48 @@ git config --global user.name "John Doe"
 Once this is completed, you can confirm that the information was added correctly by calling the commands `git config --global user.email` and `git config --global user.name` resepectively, and confirming that their output on the screen is expected.
 
 ### How do we maintain Version Control with Git?
+
+First, let's open up Bash, and type in this command:
+
+```bash
+cd ~
+```
+
+This will ensure that we are in our computer's home directory. Next, let's move to our `Desktop`:
+
+```bash
+cd Desktop
+```
+
+Once there, let's create a folder called `text_files`, and change into this directory:
+
+```bash
+mkdir text_files
+cd text_files
+```
+
+Now that we are currently in the `text_files` directory, let's make a few new files, and add text to them:
+
+```bash
+echo "Chapter 01: It was a dark and stormy night." >> chapter_01.txt
+echo "Chapter 02: It was the best of times, it was the worst of times." >> chapter_02.txt
+echo "Chapter 01: Call me Ishmael." >> chapter_03.txt
+```
+
+Now, if we were to call the `ls -top` command in the `text_files` directory, we'd see the following output:
+
+```bash
+chapter_01.txt
+chapter_02.txt
+chapter_03.txt
+```
+
+and if we were to run the command `cat chapter_01.txt`, we'd see the text inside the file printed to the screen:
+
+```
+Chapter 01: It was a dark and stormy night.
+```
+
+Now that the files are created, let's explore how git works in greater detail.
+
 
