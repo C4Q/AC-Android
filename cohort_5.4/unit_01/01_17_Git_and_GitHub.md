@@ -122,4 +122,4 @@ Git sees this repository has having 3 (three) main states:
 
 Please see the illustrated example below:
 
-![]()
+![git workflow](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/images/basic_local_git_workflow.png)
