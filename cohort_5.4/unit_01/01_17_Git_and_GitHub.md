@@ -109,5 +109,17 @@ Now that the files are created, let's explore how git works in greater detail.
 In the `text_files` directory, we must let git know that we want to track the contents of the directory by running the following command:
 
 ```bash
-
+git init
 ```
+
+Now, whenever we add to this directory, or modify any of the files within this directory, git will know, and complain that these files are `untracked`, meaning these changes haven't been saved to our local repository.
+
+Git sees this repository has having 3 (three) main states:
+
+* Working Directory: where changed files reside, but have not been added to the staging index
+* Staging Index: a holding place where changed files are added, to confirm that they will be "commited" to the local repository
+* Local Repository: where changed files are saved based on a certain commit hash, with a specific commit message
+
+Please see the illustrated example below:
+
+![]()
