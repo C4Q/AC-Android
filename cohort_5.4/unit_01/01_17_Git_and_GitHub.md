@@ -112,6 +112,12 @@ In the `text_files` directory, we must let git know that we want to track the co
 git init
 ```
 
+which should in tern print the following message to the screen:
+
+```
+Initialized empty Git repository in /home/eutherian/Desktop/text_files/.git/
+```
+
 Now, whenever we add to this directory, or modify any of the files within this directory, git will know, and complain that these files are `untracked`, meaning these changes haven't been saved to our local repository.
 
 Git sees this repository has having 3 (three) main states:
@@ -130,7 +136,27 @@ To see the state of our current repository, run the following command:
 git status
 ```
 
-As we can see, we have files in this directory that we should track. These files are in the color **red** Let's add our files from the **Working Directory**, to the **Staging Index**:
+Which should provide the following output:
+
+```
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	chapter_01.txt
+	chapter_02.txt
+	chapter_03.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+As we can see, we have files in this directory that we should track. These files are in the color **red**:
+
+
+Let's add our files from the **Working Directory**, to the **Staging Index**:
 
 ```bash
 git add chapter_01.txt
@@ -138,7 +164,20 @@ git add chapter_02.txt
 git add chapter_03.txt
 ```
 
-If we run the `git status` command again, we'll see that the files have now changed color from **red** to **green**, as they have shifted from being untracked in the working directory, to being tracked in the staging index.
+If we run the `git status` command again, we'll see that the files have now changed color from **red** to **green**, as they have shifted from being untracked in the working directory, to being tracked in the staging index:
+
+```
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   chapter_01.txt
+	new file:   chapter_02.txt
+	new file:   chapter_03.txt
+```
 
 Before we can save these files officially in our local repository, we'll have to call the following command:
 
@@ -146,4 +185,26 @@ Before we can save these files officially in our local repository, we'll have to
 git commit
 ```
 
-This command should not be called without adding a human readable message associated with this commit. If you run the command `git commit` alone, it will open up a text editor like `vim` 
+This command should not be called without adding a human readable message associated with this commit. If you run the command `git commit` alone, it will open up a text editor like `vim`, which we actually don't need to do. We can simply run the `git commit` command with the `-m` flag, and add a simple message in double quotes:
+
+```bash
+git commit -m "initial commit"
+```
+
+Now, if we run the `git status` command again, we'll see the following output:
+
+```
+[master (root-commit) ddf0b4d] initial commit
+ 3 files changed, 3 insertions(+)
+ create mode 100644 chapter_01.txt
+ create mode 100644 chapter_02.txt
+ create mode 100644 chapter_03.txt
+```
+
+To confirm that everything was commited as expected, run the `git status` command:
+
+```
+On branch master
+nothing to commit, working tree clean
+```
+
