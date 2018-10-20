@@ -358,7 +358,7 @@ Refresh the page on Github, and you should [see something like this if you click
 
 Today's exercises will be different, in that they involve you creating local and remote repositories FOR EVERY INTELLIJ IDEA PROJECT YOU'VE WORKED ON IN CLASS.
 
-* Look into adding `.gitignore` files to your repo for `.dstore` and `.idea` files and folders
+* Look into adding `.gitignore` files to your repo for `.DS_Store` and `.idea` files and folders
 * be creative with your `README.md` files, by adding fun images, headings, and text
 * `clone` the projects of other fellows in the class, to see if you can save them to your computer - start by cloning [this repository](https://github.com/JDVila/Pathfinder_text_based_game_pursuit_5_4)
 * complete [this codecademy code lab](https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/backtracking-intro) to explore rolling back commits
