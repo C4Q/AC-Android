@@ -171,3 +171,7 @@ Which should have the output:
 Print First: 8
 Print Second: 16
 ```
+
+## Exercises
+
+Please see the canvas calendar for today's date to find the exercises associated with today's lesson.
