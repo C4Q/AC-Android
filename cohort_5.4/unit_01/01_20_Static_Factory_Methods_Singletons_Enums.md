@@ -49,7 +49,7 @@ public void checkWeather(boolean isSunny, boolean isRainy, boolean isCloudy) {
 }
 ```
 
-This will work, but because the order in which these conditions are checked, if isSunny were true, and isCloudy were also true somehow, you might not get the results you'd expect, especially if the order of the code block were to be reversed. There's no singular sorce of truth.
+This will work, but because the order in which these conditions are checked, if isSunny were true, and isCloudy were also true somehow, you might not get the results you'd expect, especially if the order of the code block were to be reversed. There's no singular source of truth.
 
 However, if you were only checking one item for the weather, like a String, you could then run it through a switch statement:
 
