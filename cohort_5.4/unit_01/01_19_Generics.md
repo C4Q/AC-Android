@@ -38,7 +38,7 @@ public class ArrayList<E> extends AbstractList<E> implements List<E>{
 }
 ```
 
-We can see that the HashMap class, its Abstract parent class, and implemented interface all have a reference to some K type for key, and V type for value- and for the ArrayList class, its Abstract parent class, and implemented interface all have a reference to some E type for element. 
+We can see that the `HashMap` class, its Abstract parent class, and implemented interface all have a reference to some `K` type for key, and `V` type for value - and for the `ArrayList` class, its Abstract parent class, and implemented interface all have a reference to some `E` type for element. 
 
 ```java
 Map<String, Integer> map = new HashMap<>(); //Good
