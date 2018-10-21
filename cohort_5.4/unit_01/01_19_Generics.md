@@ -92,7 +92,7 @@ The recommended naming convention is to use uppercase, single-letter names for t
 * `E` - Element - Can also be An exception class
 * `T` - A generic type
 
-## Creating classes with Parameterized Types
+### Creating classes with Parameterized Types
 
 We can use generics to add data types to our instance class fields, and return types to our instance class methods at runtime. For example:
 
