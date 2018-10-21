@@ -54,11 +54,11 @@ It is also preferred because it is best practice to specify the parent types as 
 
 Generic types, or generics for short are the secret to being able to specify a certain type when creating our earlier instances of HashMaps and ArraysLists.
 
-Generics allow us to create a class that works for any Object, while the type isn't specified until instantiation. The syntax for Generics is angle brackets and an uppercase letter, e.g. ArrayList<E>. Some interesting things to note:
+Generics allow us to create a class that works for any Object, while the type isn't specified until instantiation. The syntax for Generics is angle brackets and an uppercase letter, i.e. `ArrayList<E>`.
 
-You can think of a type parameter as a placeholder for a type to be specified at the time the parameterized type is used, just as a formal method argument is a placeholder for a value that is passed at runtime.
+You can think of a type parameter as a placeholder for a type to be specified at the time the parameterized type is used, just as a formal method parameter is a placeholder for a value that is passed at runtime.
 
-Prior to Java 1.6, implementations of the Collections library required that the elements be implicitly upcasted to type `Object`, before being passed into these data structures, then be downcasted back into their original data types:
+Prior to Java 1.7, implementations of the Collections library required that the elements be implicitly upcasted to type `Object`, before being passed into these data structures, then be downcasted back into their original data types:
 
 ```java
 List list = new ArrayList();
@@ -90,19 +90,12 @@ This syntax works for any type of object that is Iterable (that is, implements t
 ### Naming type parameters
 
 The recommended naming convention is to use uppercase, single-letter names for type parameters. For common generic patterns, some recommended names are:
-K - A key, such as the key to a map
-V - A value, such as the contents of a List, Set, or the values in a Map
-E - Element - Can also be An exception class
-T - A generic type
+
+* `K` - a key, such as the key to a map
+* `V` - A value, such as the contents of a List, Set, or the values in a Map
+* `E` - Element - Can also be An exception class
+* `T` - A generic type
 
 ## Creating classes with Parameterized Types
 
 
-
-
-
-Any parameter we pass to add would have to be a subtype of this unknown type. Since we don't know what type that is, we cannot pass anything in. The sole exception is null, which is a member of every type.
-
-### Bounded WildCard
-
-![Bounded WildCard](http://i.imgur.com/6ofVsCK.png)
