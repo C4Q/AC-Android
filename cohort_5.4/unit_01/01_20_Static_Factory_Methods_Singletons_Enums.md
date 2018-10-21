@@ -12,6 +12,10 @@
 * [Software Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 * [GrepCode: Java Source Code search](http://grepcode.com)
 
+## Warm-Up (5 minutes) - Do This First!
+
+Make a class called `Bucket<T>` in a file called `Bucket.java`. It should have a private field of type `T` called `contents`. Set the value of the field using a constructor, and create a getter method for this field as well.
+
 # Lecture
 
 According to the educational website [Sourcemaking.com](http://Sourcemaking.com):
