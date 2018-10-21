@@ -1,13 +1,13 @@
 # Generics
 
-# Objectives
+## Objectives
 
 * Review extending abstract classes
 * Master reading types and Generic notation
 * Understand when to use generics
 * Review techniques to organize code in an object-oriented fashion.
 
-# Resources
+## Resources
 
 * [Video - Generics](https://www.youtube.com/watch?v=rOBtgaXaba0)
 * [Video - Wildcards](https://www.youtube.com/watch?v=QqLBp7MdkEU)
@@ -50,7 +50,7 @@ The above example is preferred, because Inheritance and Polymorphism allows us t
 
 It is also preferred because it is best practice to specify the parent types as static variable types when declaring and creating new instances of concrete objects like `HashMap` and `ArrayList`, and pass in parameterized return types in the angle brackets (also known as diamond operators). Parameterized return types leverage the power of something called **Generics**.
 
-## Generics
+### Generics
 
 Generic types, or generics for short are the secret to being able to specify a certain type when creating our earlier instances of HashMaps and ArraysLists.
 
