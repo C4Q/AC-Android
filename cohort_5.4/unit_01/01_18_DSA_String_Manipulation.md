@@ -196,4 +196,4 @@ Here are a few additional methods for working with Strings:
 
 ## Exercises
 
-Break up into groups of 2 (two). Please complete [the first 5 (five) questions of of the section "String-2"](https://codingbat.com/java/String-2) for CodingBat. Ask the TA's for dry-erase markers and whiteboard panels.
+Break up into groups of 2 (two). Please complete [the first 5 (five) questions of of the section "String-2"](https://codingbat.com/java/String-2) for CodingBat. Ask the TA's for dry-erase markers and whiteboard panels, to talk through each problem, and your approach to solving it prior to actually completing it on the website.
