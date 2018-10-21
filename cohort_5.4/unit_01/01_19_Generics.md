@@ -65,11 +65,7 @@ List list = new ArrayList();
 list.add("hello");
 String s = (String) list.get(0);
 ```
-In the above example, "hello" is a `String` object which extends from `Object`, so it is passed in without a problem. However, when the `.get()` method is called on that `list` object, it returns an element of type `Object`, which then must be downcasted back to a `String`. Downcasting, as we already know, can be dangerous if we get it wrong. This is why parameterized return types can be so useful.
-
-### More on Generics
-
-List<E> is read as "list of E", and List<String> is read as "list of string", where String is the actual type parameter.
+In the above example, "hello" is a `String` object which extends from `Object`, so it is passed in without a problem. However, when the `.get()` method is called on that `list` object, it returns an element of type `Object`, which then must be downcasted back to a `String`. Downcasting, as we already know, can be dangerous if we get it wrong. This is why parameterized return types can be so useful. List<E> is read as "list of E", and List<String> is read as "list of string", where String is the actual type parameter.
 
 Generics enhance Java with special syntax for dealing with entities, such as Lists, that you commonly want to step through element by element. If you want to iterate through ArrayList, for instance, you could write code like:
 
@@ -83,8 +79,8 @@ This syntax works for any type of object that is Iterable (that is, implements t
 
 ### Benefits of Generics
 
-* Stronger type checks at compile time. Fixing compile-time errors is easier than fixing runtime errors
-* Enabling programmers to implement generic algorithms
+* Stronger type checks at compile time: Fixing compile-time errors is easier than fixing runtime errors
+* Enabling programmers to implement generic algorithms: keeps things D.R.Y. - "Don't repeat yourself"
 * Better code reusability: By using generics, programmers can implement generic algorithms that work on collections of different types, can be customized, and are type safe and easier to read.
 
 ### Naming type parameters
