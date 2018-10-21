@@ -11,6 +11,10 @@
 * [GrepCode: Java Source Code search](http://grepcode.com)
 * [Nested Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
 
+## Warm-Up (5 minutes) - Do This First!
+
+Create a class with a private default constructor, called `Party` in a file called `Party.java`. It should have a private `static` field of type `Party` called `privateParty`. Create a public static method called `getInstance`, that checks that the value of `privateParty` is not null. If it is, assign it the value of a `new Party()`, using the private constructor. If it already has a value, return that value.
+
 # Lecture
 
 According to the educational website [Sourcemaking.com](Sourcemaking.com):
