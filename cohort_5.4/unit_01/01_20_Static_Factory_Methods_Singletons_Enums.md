@@ -1,4 +1,4 @@
-# Static Factory Methods and Singletons
+# Static Factory Methods, Singletons, and Enums
 
 ## Objectives
 * Fellows will discover why design patterns are useful in programs
