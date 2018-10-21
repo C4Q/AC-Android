@@ -7,8 +7,7 @@
 
 ## Resources
 
-* [HackerRank]()
-* [CodingBat]()
+* [CodingBat](https://codingbat.com/java)
 
 # Lecture
 
@@ -195,8 +194,6 @@ Here are a few additional methods for working with Strings:
 |new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
 |new StringBuilder().toString()|allows you to return a completed String object as needed|
 
-
-
 ## Exercises
 
-Please see the canvas calendar for today's date to see the link to today's exercises.
+Break up into groups of 2 (two). Please complete [the first 5 (five) questions of of the section "String-2"](https://codingbat.com/java/String-2) for CodingBat. Ask the TA's for dry-erase markers and whiteboard panels.
