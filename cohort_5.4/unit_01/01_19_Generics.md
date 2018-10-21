@@ -98,4 +98,80 @@ The recommended naming convention is to use uppercase, single-letter names for t
 
 ## Creating classes with Parameterized Types
 
+We can use generics to add data types to our instance class fields, and return types to our instance class methods at runtime. For example:
 
+```java
+public class Box<T> {
+    private T item;
+
+    public T getItem() {
+        return this.item;
+    }
+
+    public void addContents(T input) {
+        if (this.item == null) {
+            this.item = input;
+        } else {
+            System.out.println("Box already has item: " + item);
+        }
+    }
+
+    public void emptyContents() {
+        this.item = null;
+    }
+}
+```
+Then, in the `main(String[] args)` method, you can create instances of the `Box` class, and include parameterized types for your `Box` class's instances:
+
+```java
+public static void main(String[] args) {
+    Box<Integer> box = new Box<>();
+    box.addContents(8);
+    System.out.println("Item: " + box.getItem() + "\nClass Type: " + box.getItem().getClass().getSimpleName());
+    
+    Box<String> box02 = new Box<>();
+    box02.addContents("eight");
+    System.out.println("Item: " + box02.getItem() + "\nClass Type: " + box02.getItem().getClass().getSimpleName());
+}
+```
+
+You can also do this with constructors:
+
+```java
+public class Tuple<T1, T2> {
+    private T1 first;
+    private T2 second;
+
+    public Tuple(T1 first, T2 second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public T1 getFirst() {
+        return first;
+    }
+
+    public T2 getSecond() {
+        return second;
+    }
+}
+```
+
+In the `main(String[] args)` method, you can also create instances of the `Tuple` class, and include parameterized types for your `Tuple` class's instances and constructor's parameters:
+
+```java
+public static void main(String[] args) {
+    Tuple<Integer, Integer> tuple = new Tuple<>(8, 16);
+    List<Tuple> tupleList = new ArrayList<>();
+    tupleList.add(tuple);
+    System.out.println("Print First: " + tupleList.get(0).getFirst());
+    System.out.println("Print Second: " + tupleList.get(0).getSecond());
+}
+```
+
+Which should have the output:
+
+```
+Print First: 8
+Print Second: 16
+```
