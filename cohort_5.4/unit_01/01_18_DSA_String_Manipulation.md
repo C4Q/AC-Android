@@ -22,7 +22,7 @@ Today, we will explore some of the simplest whiteboarding questions you may ever
 
 `String` objects are immutable. This means that although you can reassign a variable of type `String` with a new `String` object, you won't actually be able to change the previous String, only replace it. However, the concept of String manipulation usually describes the action of taking a `String` parameter, and returning a variation of that parameter, based on certain requirements.
 
-Remember this question from our first Homework Assignemnt?
+Remember this question from our first Homework Assignment?
 
 **01.01.06 string-elide**
 
