@@ -11,6 +11,7 @@
 * [Design Patterns Book](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Software Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 * [GrepCode: Java Source Code search](http://grepcode.com)
+* [Video - Enums](https://www.youtube.com/watch?v=A0GHaVRlYAQ)
 
 ## Warm-Up (5 minutes) - Do This First!
 
