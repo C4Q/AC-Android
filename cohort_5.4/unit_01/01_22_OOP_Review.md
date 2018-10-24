@@ -218,11 +218,19 @@ Strings have certain helper methods associated with them, which can be called on
 
 ### Methods
 
-Methods are functions that exist within a class. Methods have signatures, and definitions. The method signature contains access modifiers, static designators, return types, method names, and method parameters:
+Methods are functions that exist within a class. Methods have signatures, and definitions. The method signature contains access modifiers, static designators, return types, method names, and method parameters with their corresponding types:
 
 |access modifier|static or non-static|return type|name|parameter(s)|
 |:-:|:-:|:-:|:-:|:-:|
 |public|static|void|main|(String[] args)|
+
+A method definition includes a method signature, and a code block, designated by opening `{` and closing `}` curly brackets:
+
+```java
+public static void main(String[] args) {
+  System.out.println("This code runs!);
+}
+```
 
 ### Classes
 
@@ -304,4 +312,6 @@ If you want to call non-static (instance) methods, or get access to non-static (
 Person person = new Person("Aziza", 25);
 person.printNameAndAge();
 ```
+
+### Inheritance
 
