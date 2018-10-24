@@ -223,17 +223,37 @@ This is an example of a class:
 
 ```java
 class Person {
+
+  //fields
   private String name;
   private int age;
   
+  //custom constructor
   public Person(String name, int age) {
     this.name = name;
     this.age = age;
   }
   
+  //non-static method
   public void printNameAndAge(){
     System.out.println("Name: " + this.name);
     System.out.println("Age: " + this.age);
+  }
+  
+  public String getName() {
+    return this.name;
+  }
+  
+  public int getAge() {
+    return this.age;
+  }
+  
+  public void setName(String name) {
+    this.name = name;
+  }
+  
+  public int setAge(int age) {
+    this.age = age;
   }
 }
 ```
