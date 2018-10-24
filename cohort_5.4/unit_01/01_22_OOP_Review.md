@@ -19,7 +19,7 @@ There are 8 (eight) primitive data types in Java:
 
 All primitive data types are written in lower case.
 
-* `char` and `int` values are interchangeable.
+* `char` and `int` values are effectively interchangeable up to a certain value
 * integer division rounds down the value of dividing two whole numbers by each other
 
 
