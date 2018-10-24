@@ -241,18 +241,22 @@ class Person {
     System.out.println("Age: " + this.age);
   }
   
+  //non-static method that gets the value of name and returns it
   public String getName() {
     return this.name;
   }
   
+  //non-static method that gets the value of age and returns it
   public int getAge() {
     return this.age;
   }
   
+  //non-static method that sets the value of name and returns nothing
   public void setName(String name) {
     this.name = name;
   }
   
+  //non-static method that sets the value of age and returns nothing
   public int setAge(int age) {
     this.age = age;
   }
