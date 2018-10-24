@@ -70,7 +70,7 @@ Logical operators are used in logical expressions, i.e. - when comparing 1 or mo
 
 `||` expressions evaluate to `true` if AT LEAST ONE of the values compared are `true`.
 
-`!` expressions evaluate to the opposive boolean value to the original value given.
+`!` expressions evaluate to the opposite boolean value to the original value given.
 
 ### Control Structures
 
