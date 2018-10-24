@@ -72,6 +72,8 @@ Logical operators are used in logical expressions, i.e. - when comparing 1 or mo
 
 `!` expressions evaluate to the opposite boolean value to the original value given.
 
+Click here for [CodingBat Questions utilizing Logical Operators](https://codingbat.com/java/Logic-1)
+
 ### Control Structures
 
 Control Structures redirect the flow of a program's execution based on certain conditions:
@@ -131,6 +133,8 @@ Ternary operators can be used to assign variables to values based on certain con
 ```java
 String greeting = time < 12 ? "Good Morning!" : "Good Afternoon";
 ```
+
+Click here for [CodingBat Questions utilizing Logical Operators](https://codingbat.com/java/Logic-2)
 
 ### Loops
 
@@ -216,6 +220,8 @@ Strings have certain helper methods associated with them, which can be called on
 |new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
 |new StringBuilder().toString()|allows you to return a completed String object as needed|
 
+Click here for [CodingBat Questions on Strings](https://codingbat.com/java/String-1)
+
 ### Methods
 
 Methods are functions that exist within a class. Methods have signatures, and definitions. The method signature contains access modifiers, static designators, return types, method names, and method parameters with their corresponding types:
@@ -231,6 +237,8 @@ public static void main(String[] args) {
   System.out.println("This code runs!);
 }
 ```
+
+Click here for [CodingBat questions which use Methods](https://codingbat.com/java/Warmup-1)
 
 ### Classes
 
@@ -358,11 +366,45 @@ public ChildClass {
 
 ### Abstract Classes, Interfaces, and Anonymous Classes
 
-Abstract classes cannot be instantiated, and must be extended by child classes. They may have abstract methods as method signatures, which must be overridden by subclasses, and given functionality.
+**Abstract Classes** cannot be instantiated, and must be extended by child classes. They may have abstract methods as method signatures, which must be overridden by subclasses, and given functionality:
 
-Interfaces are a collection of method signatures which must be overridden by subclasses, and given functionality. Interfaces cannot be instantiated, and must be implemented by child classes.
+```java
+public abstract class Furniture {
 
-Anonymous classes are nameless instances of their parent classes which exist in memory at runtime. They are instances that exist without being subclassed, and so must have all abstract methods overridden, and given functionality. They only have access to the methods of their assigned static type, as those are the only methods known at compile time. However, they ARE NOT actual instances of their static type at runtime.
+  public static final int LEG_COUNT = 4;
+  
+  public abstract void myFurnitureType();
+}
+```
+
+**Interfaces** are a collection of method signatures which must be overridden by subclasses, and given functionality. Interfaces cannot be instantiated, and must be implemented by child classes.
+
+```java
+public interface Shootable {
+
+  void loadAmmo(int ammoCount);
+  
+  void pullTrigger();
+  
+}
+```
+
+**Anonymous Classes** are nameless instances of their parent classes which exist in memory at runtime. They are instances that exist without being subclassed, and so must have all abstract methods overridden, and given functionality. They only have access to the methods of their assigned static type, as those are the only methods known at compile time. However, they ARE NOT actual instances of their static type at runtime.
+
+```java
+Shootable gun = new Shootable() {
+  @Override
+  public void loadAmmo(int ammoCount) {
+    System.out.println("I have " + ammoCount + " bullets left!");
+  }
+  
+  @Override
+  public void pullTrigger() {
+    System.out.println("Bang!");
+  }
+  
+};
+```
 
 ### Polymorphism
 
