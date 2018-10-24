@@ -356,5 +356,12 @@ public ChildClass {
 }
 ```
 
-### Interfaces, Abstract Classes, and Anonymous Classes
+### Abstract Classes, Interfaces, and Anonymous Classes
 
+Abstract classes cannot be instantiated, and must be extended by child classes. They may have abstract methods as method signatures, which must be overridden by subclasses, and given functionality.
+
+Interfaces are a collection of method signatures which must be overridden by subclasses, and given functionality. Interfaces cannot be instantiated, and must be implemented by child classes.
+
+Anonymous classes are nameless instances of their parent classes which exist in memory at runtime. They are instances that exist without being subclassed, and so must have all abstract methods overridden, and given functionality. They only have access to the methods of their assigned static type, as those are the only methods known at compile time. However, they ARE NOT actual instances of their static type at runtime.
+
+### Data Structures
