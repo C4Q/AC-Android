@@ -4,7 +4,7 @@
 * Review what has been covered concerning the Java programming language since the second day of class
 
 ## Resources
-* [CodingBat]()
+* [CodingBat - Java](https://codingbat.com/java)
 
 ### Primitive Data Types
 There are 8 (eight) primitive data types in Java:
