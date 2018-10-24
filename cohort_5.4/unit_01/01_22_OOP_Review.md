@@ -7,7 +7,7 @@
 * [CodingBat]()
 
 ### Primitive Data Types
-Ther are 8 (eight) primitive data types in Java:
+There are 8 (eight) primitive data types in Java:
 * `byte`
 * `short`
 * `int`
@@ -16,3 +16,13 @@ Ther are 8 (eight) primitive data types in Java:
 * `double`
 * `char`
 * `boolean`
+
+All primitive data types are written in lower case.
+
+### Variable Assignment
+
+Variables can hold either values, or references to objects in memory, depending on their static type. When we declare a variable named `number` of type `int`, we may do the following:
+
+|type|variable name|
+|:-:|:-:|
+|int|number|
