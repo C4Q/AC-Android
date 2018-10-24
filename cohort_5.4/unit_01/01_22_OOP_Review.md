@@ -64,3 +64,12 @@ Logical operators are used in logical expressions, i.e. - when comparing 1 or mo
 |:-:|:-:|
 |&&|AND|
 |\|\||OR|
+|!|NOT|
+
+`&&` expressions evaluate to `true` if ALL values compared are `true`. Otherwise, they evaluate to `false`.
+`||` expressions evaluate to `true` if AT LEAST ONE of the values compared are `true`.
+`!` expressions evaluate to the opposive boolean value to the original value given.
+
+### Control Structures
+
+
