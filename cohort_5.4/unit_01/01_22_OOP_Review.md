@@ -74,4 +74,61 @@ Logical operators are used in logical expressions, i.e. - when comparing 1 or mo
 
 ### Control Structures
 
+Control Structures redirect the flow of a program's execution based on certain conditions:
 
+```java
+if(true) {
+  doThisThing();
+}
+```
+
+You can use an if/else code block to direct a program's flow of execution even further:
+
+```java
+if(true) {
+  doThisThing();
+} else {
+  doThatOtherThing();
+}
+```
+
+If more than one condition needs to be evaluated, you might want to use an if/else if control block:
+
+```java
+if(true) {
+  doThisThing();
+} else if(true){
+  doThatOtherThing();
+} else {
+  doSomethingElseEntirely();
+}
+```
+
+You can compose a `switch` statement if you want to direct flow based on the value of a variable:
+
+```java
+char letter = 'B';
+    switch (letter) {
+      case 'A':
+            System.out.println('A');
+            break;
+      case 'B':
+            System.out.println('B');
+      case 'C':
+            System.out.println('C');
+      default:
+            System.out.println("Does not compute!");
+            break;
+    }
+```
+
+`break` statements are necessary for breaking out of the switch statement once a case has been met.
+
+Ternary operators can be used to assign variables based on certain conditions as well:
+
+```java
+String greeting = time < 12 ? "Good Morning! : "Good Afternoon";
+
+```
+
+### Loops
