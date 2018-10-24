@@ -365,3 +365,37 @@ Interfaces are a collection of method signatures which must be overridden by sub
 Anonymous classes are nameless instances of their parent classes which exist in memory at runtime. They are instances that exist without being subclassed, and so must have all abstract methods overridden, and given functionality. They only have access to the methods of their assigned static type, as those are the only methods known at compile time. However, they ARE NOT actual instances of their static type at runtime.
 
 ### Data Structures
+
+Data structures are objects that can store more than one element in various ways. Data structures are based on Abstract data types found in the real-world (Lists, Dictionaries, etc).
+
+**Arrays:**
+
+Array objects have a type declared by the kinds of elements they will be used to store, followed by opening `[` and closing `]` square brackets:
+
+```java
+int[] numberArray;
+```
+
+They can be assigned values in several ways - at the moment of initialization:
+
+```java
+int[] numberArray = {3, 6, 9, 12, 15};
+```
+
+or have the number of elements declared first, then the actual elements assigned later:
+
+```java
+int[] numberArray02 = new int[5];
+```
+
+You can assign values to elements by accessing the element's index number:
+
+```java
+numberArray02[3] = 32;
+```
+
+You can find the number of elements within an array by accessing its property `.length`:
+
+```java
+numberArray.length();
+```
