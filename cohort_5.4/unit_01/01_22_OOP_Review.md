@@ -129,8 +129,7 @@ char letter = 'B';
 Ternary operators can be used to assign variables to values based on certain conditions as well:
 
 ```java
-String greeting = time < 12 ? "Good Morning! : "Good Afternoon";
-
+String greeting = time < 12 ? "Good Morning!" : "Good Afternoon";
 ```
 
 ### Loops
