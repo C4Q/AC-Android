@@ -209,6 +209,8 @@ Strings have certain helper methods associated with them, which can be called on
 
 `StringBuilder` is a helpful class when creating or modifying Strings with loops:
 
+|Method|Use Case|
+|:-:|---|
 |StringBuilder()|allows you to manipulate a String before it is created|
 |new StringBuilder().append()|allows you to append chars and Strings to a StringBuilder object|
 |new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
