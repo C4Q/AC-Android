@@ -240,6 +240,12 @@ class Person {
     this.age = age;
   }
   
+  //default constructor
+  public Person() {
+    //calls the custom constructor above
+    this("Name", 0);
+  }
+  
   //non-static method
   public void printNameAndAge(){
     System.out.println("Name: " + this.name);
