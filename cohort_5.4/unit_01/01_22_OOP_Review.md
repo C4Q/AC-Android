@@ -364,6 +364,8 @@ Interfaces are a collection of method signatures which must be overridden by sub
 
 Anonymous classes are nameless instances of their parent classes which exist in memory at runtime. They are instances that exist without being subclassed, and so must have all abstract methods overridden, and given functionality. They only have access to the methods of their assigned static type, as those are the only methods known at compile time. However, they ARE NOT actual instances of their static type at runtime.
 
+### Polymorphism
+
 ### Data Structures
 
 Data structures are objects that can store more than one element in various ways. Data structures are based on Abstract data types found in the real-world (Lists, Dictionaries, etc).
@@ -430,3 +432,10 @@ Keys within a HashMap must all be unique.
 
 HashSets are like HashMaps, with the keys AS the values. Each entry in a HashSet must be unique - if it is not unique, its value will be ignored.
 
+**Parameterized Types**
+
+ArrayLists, HashMaps, and HashSets are all able to store objects in them with type safety effectively due to the use of parameterized types. These types are passed within the diamond operators (angle brackets) at the moment of declaration.
+
+### Generics
+
+Parameterized types leverage the power of Generics - where a generic symbol is used within a class instead of an actual type as a placeholder, for one that would be passed at the moment of declaration and instantiation through diamond operators.
