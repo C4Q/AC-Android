@@ -284,4 +284,18 @@ Person person = new Person("Amy", "21");
 
 Default constructors are created the second a class is composed. Once a custom constructor exists, the original default constructor is no longer available.
 
+Constructors create objects in memory at the moment of instantiation. They can also be used to set the values of fields at the moment of instantiation.
+
+If you want to call static methods, or get access to static public fields, you can use the name of the class, followed by a dot, then the name of the field or method you wish to access:
+
+```java
+System.out.println(Person.FACT);
+```
+
+If you want to call non-static (instance) methods, or get access to non-static (instance) public fields, you will have to instantiate an object of the class, followed by a dot, then the name of the field or method you wish to access:
+
+```java
+Person person = new Person("Aziza", 25);
+person.printNameAndAge();
+```
 
