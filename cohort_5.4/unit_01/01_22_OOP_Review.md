@@ -114,8 +114,10 @@ char letter = 'B';
             break;
       case 'B':
             System.out.println('B');
+            break;
       case 'C':
             System.out.println('C');
+            break;
       default:
             System.out.println("Does not compute!");
             break;
