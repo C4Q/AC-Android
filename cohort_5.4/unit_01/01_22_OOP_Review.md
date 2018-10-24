@@ -399,3 +399,34 @@ You can find the number of elements within an array by accessing its property `.
 ```java
 numberArray.length();
 ```
+
+You can access the last element of any array, as long as the array has elements, by using `length - 1`:
+
+```java
+numberArray[numberArray.length-1] = 40;
+```
+
+Arrays are immutable, meaning although the values of elements can change, the number of elements cannot change due to how they are stored in memory.
+
+**ArrayLists:**
+
+ArrayLists are like arrays, except that they can change in size. They are also a kind of List, a type in the Collections library.
+
+You can add an element to the end of an ArrayList by using the `.add()` method.
+
+You can find out the size of an ArrayList with the `.size()` method.
+
+**HashMaps:**
+
+HashMaps are like ArrayLists, except that you can use anything as indices, not just numbers. Also, HashMap elements are unordered. In this case, elements are actually key/value entry pairs of data, like a word and definition in a dictionary.
+
+You can put an entry inside a HashMap by using the `.put()` method.
+
+You can find out the size of an HashMap with the `.size()` method.
+
+Keys within a HashMap must all be unique.
+
+**HashSets**
+
+HashSets are like HashMaps, with the keys AS the values. Each entry in a HashSet must be unique - if it is not unique, its value will be ignored.
+
