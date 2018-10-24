@@ -40,3 +40,27 @@ Assignment requires an `=` operator, where we assign a value on the right of the
 |int|number|=|25;|
 
 When a value or reference has been assigned to a variable, we say that **it has been initialized**.
+
+### Comparison Operators
+
+When comparing numerical values, we can use the following operators:
+
+|operator|name|
+|:-:|:-:|
+|==|equals to|
+|>|greater than|
+|<|less than|
+|>=|greater than or equal to|
+|<=|less than or equal to|
+|!=|not equal to|
+
+Numerical comparisons result to true/false, or boolean values.
+
+### Logical Operators
+
+Logical operators are used in logical expressions, i.e. - when comparing 1 or more boolean values, or expressions that resolve to boolean values:
+
+|operator|name|
+|:-:|:-:|
+|&&|AND|
+|\|\||OR|
