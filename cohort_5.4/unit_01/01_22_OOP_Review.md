@@ -231,6 +231,9 @@ class Person {
   private String name;
   private int age;
   
+  //static final field that can be accessed by calling Person.FACT
+  public static final String FACT = "People have inalienable rights.";
+  
   //custom constructor
   public Person(String name, int age) {
     this.name = name;
@@ -274,3 +277,5 @@ Person person = new Person("Amy", "21");
 ```
 
 Default constructors are created the second a class is composed. Once a custom constructor exists, the original default constructor is no longer available.
+
+
