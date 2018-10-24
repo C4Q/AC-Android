@@ -366,6 +366,16 @@ Anonymous classes are nameless instances of their parent classes which exist in 
 
 ### Polymorphism
 
+Polymorphism exploits Inheritance by allowing object class instances to be assigned to variables of static types that the instance's class inherits from.
+
+**Upcasting:**
+
+When a child instance is casted up to an instance of a parent class. This is considered a safe form of casting, since all child class instances can also be of the same type of a parent class.
+
+**Downcasting**
+
+When a parent instance is casted down to an instance of a child class. This is considered a dangerous form of casting, since there is no guarantee that the current instance is also the same type of a parent class. Should only be used if this is definitely known prior to runtime.
+
 ### Data Structures
 
 Data structures are objects that can store more than one element in various ways. Data structures are based on Abstract data types found in the real-world (Lists, Dictionaries, etc).
