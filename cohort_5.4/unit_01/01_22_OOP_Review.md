@@ -218,6 +218,12 @@ Strings have certain helper methods associated with them, which can be called on
 
 ### Methods
 
+Methods are functions that exist within a class. Methods have signatures, and definitions. The method signature contains access modifiers, static designators, return types, method names, and method parameters:
+
+|access modifier|static or non-static|return type|name|parameter(s)|
+|:-:|:-:|:-:|:-:|:-:|
+|public|static|void|main|(String[] args)|
+
 ### Classes
 
 Classes are blueprints for a compact object, containing fields (variables inside a class), methods (functions inside a class), and are based on the idea of real-world objects. Fields are used to store the **state** of an object, while methods are used to modify or exhibit the **behavior** of a class.
