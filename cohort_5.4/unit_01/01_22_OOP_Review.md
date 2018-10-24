@@ -181,3 +181,37 @@ for(char c : name) {
   System.out.println(c);
 }
 ```
+
+### Strings
+
+Strings are objects in Java, and NOT primitives. 
+
+Concatenation is the process of combining a String with another data type to form a new String:
+
+```java
+String newName = "John" + "Doe";
+String stringAndChar = "Letter: " + 'A';
+String stringAndNumber = "Number: " + 100;
+```
+
+For concatenation to be effective, the first element being concatenated MUST be a String.
+
+Strings have certain helper methods associated with them, which can be called on a String object:
+
+|Method|Use Case|
+|:-:|---|
+|.substring()|allows you to copy and return a range of chars from a String|
+|.charAt()|allows you to retreive a particular char in a String at a certain index|
+|.length()|allows you to find out the number of chars in a String|
+|.charAt(length()-1)|allows you to retreive the last char in a String|
+|.toLowerCase|allows to you return a String from another String, where all of the characters are lower case|
+|.toUpperCase|allows to you return a String from another String, where all of the characters are upper case|
+|String.valueOf()|allows you to convert primitives to Strings|
+
+`StringBuilder` is a helpful class when creating or modifying Strings with loops:
+
+|StringBuilder()|allows you to manipulate a String before it is created|
+|new StringBuilder().append()|allows you to append chars and Strings to a StringBuilder object|
+|new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
+|new StringBuilder().toString()|allows you to return a completed String object as needed|
+
