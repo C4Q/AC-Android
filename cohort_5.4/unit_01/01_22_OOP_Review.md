@@ -172,3 +172,12 @@ for(int i = 0; i < 10; i++) {
   System.out.println("This loop: " + i);
 }
 ```
+
+**For-Each Loop**
+
+```java
+char[] name = {'J', 'o', 's', 'e'};
+for(char c : name) {
+  System.out.println(c);
+}
+```
