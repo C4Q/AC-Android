@@ -124,7 +124,7 @@ char letter = 'B';
 
 `break` statements are necessary for breaking out of the switch statement once a case has been met.
 
-Ternary operators can be used to assign variables based on certain conditions as well:
+Ternary operators can be used to assign variables to values based on certain conditions as well:
 
 ```java
 String greeting = time < 12 ? "Good Morning! : "Good Afternoon";
