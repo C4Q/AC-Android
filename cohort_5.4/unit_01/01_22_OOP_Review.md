@@ -315,3 +315,46 @@ person.printNameAndAge();
 
 ### Inheritance
 
+All classes can inherit public methods and fields from another class or interface. All classes silently inherit from the `Object` class, and so can use that class's public or protected methods.
+
+You can inherit from another class, by using the `extends` keyword:
+
+```java
+public ParentClass {
+  private int amount
+  
+  public ParentClass(int amount) {
+    this.amount = amount;
+  }
+  
+  public int getAmount() {
+    return this.amount;
+  }
+}
+
+....
+
+public ChildClass {
+  public ChildClass(int amount) {
+    super(amount);
+  }
+}
+```
+
+If you want to modify the contents of a parent class's method within a child class, you must `@Override` that method within the child class:
+
+```java
+public ChildClass {
+  public ChildClass(int amount) {
+    super(amount);
+  }
+  
+  @Override
+  public int getAmount() {
+    return this.amount + 5;
+  }
+}
+```
+
+### Interfaces, Abstract Classes, and Anonymous Classes
+
