@@ -132,3 +132,35 @@ String greeting = time < 12 ? "Good Morning! : "Good Afternoon";
 ```
 
 ### Loops
+
+There are 4 (four) loops we've discussed so far:
+* while loop
+* do-while loop
+* for loop
+* for-each loop
+
+**While Loop:**
+
+Do a thing as long as a condition evaluates to `true`:
+
+while(number < 10) {
+  doThisThing();
+  number--;
+}
+
+**Do-While Loop:**
+
+Do a thing at least once whether the while condition is true or not, then do it again as long as a while condition evaluates to `true`:
+
+do {
+  doThisThing();
+  number--;
+} while(number < 10);
+
+**For Loop:**
+
+Set a value for a counter variable, do a thing a certain number of times, as long as a condition evaluates to `true`, and also change the value of a counter variable with each iteration of a loop:
+
+for(int i = 0; i < 10; i++) {
+  System.out.println("This loop: " + i);
+}
