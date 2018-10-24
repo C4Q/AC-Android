@@ -216,6 +216,8 @@ Strings have certain helper methods associated with them, which can be called on
 |new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
 |new StringBuilder().toString()|allows you to return a completed String object as needed|
 
+### Methods
+
 ### Classes
 
 Classes are blueprints for a compact object, containing fields (variables inside a class), methods (functions inside a class), and are based on the idea of real-world objects. Fields are used to store the **state** of an object, while methods are used to modify or exhibit the **behavior** of a class.
@@ -262,3 +264,13 @@ class Person {
   }
 }
 ```
+
+Keeping all fields and methods associated with a kind of object inside a class is call **Encapsulation.** Keeping fields private, and certain methods public, or not giving access to everything but only the important things, is called **Abstraction**.
+
+Constructors instantiate objects based on a class in memory with the `new` keyword:
+
+```java
+Person person = new Person("Amy", "21");
+```
+
+Default constructors are created the second a class is composed. Once a custom constructor exists, the original default constructor is no longer available.
