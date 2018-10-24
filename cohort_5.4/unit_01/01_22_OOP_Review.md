@@ -148,7 +148,7 @@ Do a thing as long as a condition evaluates to `true`:
 ```java
 while(number < 10) {
   doThisThing();
-  number--;
+  number++;
 }
 ```
 
@@ -159,7 +159,7 @@ Do a thing at least once whether the while condition is true or not, then do it 
 ```java
 do {
   doThisThing();
-  number--;
+  number++;
 } while(number < 10);
 ```
 
@@ -215,3 +215,25 @@ Strings have certain helper methods associated with them, which can be called on
 |new StringBuilder().reverse()|allows you to reverse the order of chars in a StringBuilder object|
 |new StringBuilder().toString()|allows you to return a completed String object as needed|
 
+### Classes
+
+Classes are blueprints for a compact object, containing fields (variables inside a class), methods (functions inside a class), and are based on the idea of real-world objects. Fields are used to store the **state** of an object, while methods are used to modify or exhibit the **behavior** of a class.
+
+This is an example of a class:
+
+```java
+class Person {
+  private String name;
+  private int age;
+  
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  public void printNameAndAge(){
+    System.out.println("Name: " + this.name);
+    System.out.println("Age: " + this.age);
+  }
+}
+```
