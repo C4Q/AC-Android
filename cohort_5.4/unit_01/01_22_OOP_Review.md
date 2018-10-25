@@ -342,7 +342,7 @@ public ParentClass {
 
 ....
 
-public ChildClass {
+public ChildClass extends ParentClass {
   public ChildClass(int amount) {
     super(amount);
   }
@@ -352,7 +352,7 @@ public ChildClass {
 If you want to modify the contents of a parent class's method within a child class, you must `@Override` that method within the child class:
 
 ```java
-public ChildClass {
+public ChildClass extends ParentClass {
   public ChildClass(int amount) {
     super(amount);
   }
