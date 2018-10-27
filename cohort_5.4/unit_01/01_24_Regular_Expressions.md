@@ -10,7 +10,7 @@
 
 ## Pre-Work (2 Hours) - Do This First!
 
-Complete all of the exercises from [RegexOne.com](https://regexone.com/), to explore how Regular Expressions can be used to solve searching problems with Strings in Java.
+Complete all of the exercises from [RegexOne.com](https://regexone.com/), to explore how Regular Expressions can be used to solve problems with searching Strings in Java. You will work in pairs of 2 fellows, working together as pair programmers, to complete each task.
 
 # Lecture
 
@@ -18,3 +18,4 @@ Instead of reinventing the wheel, we will use the [educational resource found he
 
 ## Exercises
 
+Please use this time to complete your Homework Assignment, and submit the assignment to Github, and the Github link through Canvas, by 8:00pm tonight.
