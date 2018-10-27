@@ -51,7 +51,7 @@ This is an individual assignment, so each student will be responsible for submit
 
 ### Fun Ideas 
 
-* SMake a Logo for your Bank
+* Make a Logo for your Bank
 * Can you make "Secret Accounts", that only those with a High Clearance can see?
 
 ## Homework submission
