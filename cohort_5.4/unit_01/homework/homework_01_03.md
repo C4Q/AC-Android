@@ -13,8 +13,8 @@ This program should have the following funtionality:
 * Allow a user to add new customers
 * Allow a user to list all of the bank accounts for each user of the bank
 * Allow a user to add new bank accounts
-* Allow a user to view and update the account balances for every user
-* Allow a user to withdraw an amount of money, or close an entire account
+* Allow a user to view and update the account balances for every user (deposit or withdraw an amount of money)
+* Allow a user to close an entire account
 * Allow a user to delete a customer, and all their data
 * Allow a user to sign out of the program
 
