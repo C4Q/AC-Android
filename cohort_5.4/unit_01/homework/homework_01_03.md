@@ -4,7 +4,7 @@
 
 ### Project overview
 
-Write a command line tool that allows users to Create, Read, Update, and Delete customers and their back accounts.
+Write a command line tool for a Bank that allows users to Create, Read, Update, and Delete customers and their back accounts.
 
 This program should have the following funtionality:
 
@@ -24,10 +24,6 @@ This program should have the following funtionality:
 * Each customer should have at least 1 (one) account
 * Each account should have a current balance
 * When the Bank Teller signs out, and signs back in - the account data should return to their pre-set values 
-
-```
-
-```
 
 ### Requirements
 
