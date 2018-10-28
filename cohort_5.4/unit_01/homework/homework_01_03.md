@@ -21,7 +21,7 @@ This program should have the following funtionality:
 **Note:**
 
 * Upon sign-in, the system should already have 5 customers in the data structure
-* Each customer should have at least 1 (account)
+* Each customer should have at least 1 (one) account
 * Each account should have a current balance
 * When the Bank Teller signs out, and signs back in - the account data should return to their pre-set values 
 
