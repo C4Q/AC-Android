@@ -4,7 +4,7 @@
 
 ### Project overview
 
-Write a command line tool for a Bank that allows users to Create, Read, Update, and Delete customers and their bank accounts.
+Write a command line tool for a Bank that allows users to Create, Read, Update, and Delete data for customers and their bank accounts.
 
 This program should have the following funtionality:
 
