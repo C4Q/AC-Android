@@ -13,7 +13,7 @@ This program should have the following funtionality:
 * Allow a user to add new customers
 * Allow a user to list all of the bank accounts for each user of the bank
 * Allow a user to add new bank accounts
-* Allow a user to view and update the account balances for every user (deposit or withdraw an amount of money)
+* Allow a user to view and update the account balances for every customer (deposit or withdraw an amount of money)
 * Allow a user to close an entire account
 * Allow a user to delete a customer, and all their data
 * Allow a user to sign out of the program
@@ -34,7 +34,7 @@ This assignment is fairly open-ended, so be creative with your game ideas and ha
 * At least one `ArrayList`
 * At least one `HashMap`
 * At least one `HashSet`
-* All of the above should exist in methods
+* Access to and use of all of the above data structures and input, should exist in methods
 * At least one `class`
 
 ### Additional Factors
