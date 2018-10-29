@@ -27,7 +27,7 @@ An algorithm is said to run in linear time if its time execution is directly pro
 
 An algorithm is said to run in logarithmic time if its time execution is proportional to the logarithm of the input size. Example:
 
-* binary search: locate the element a in a sorted (in ascending order) array by first comparing a with the middle element and then (if they are not equal) dividing the array into two subarrays; if a is less than the middle element you repeat the whole procedure in the left subarray, otherwise - in the right subarray. The procedure repeats until a is found or subarray is a zero dimension.
+* binary search: locate the element a in a sorted (in ascending order) array by first comparing it with the middle element and then (if they are not equal) dividing the array into two subarrays; if it is less than the middle element, you repeat the whole procedure in the left subarray, otherwise - in the right subarray. The procedure repeats until it is found or subarray is empty
 
 ### Quadratic Time: O(n²)
 
