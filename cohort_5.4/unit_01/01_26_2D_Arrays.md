@@ -87,4 +87,21 @@ Because of the way 2D arrays organize data, they are often used to assign x/y co
 
 As seen above, a useful way to traverse a 2D Array is by using nested for loops. Although this might seem like an inefficient use of time complexity (quadradic time) - as long as the number is low, or constant (8x8 checkerboard, tic-tac-toe board), nested loops may be the obvious choice for solving a task.
 
+## Exercises
 
+Complete the exercises below:
+
+1) Write a method that returns a two-dimensional array representing a random grayscale image using the ░, ▒, and ▓ characters. Your method should accept an int x and int y as parameters that determine the width and height of the image.
+
+![greyscale image](https://processing.org/tutorials/2darray/imgs/points.jpg)
+
+2) Write a method int[][] addPairs(int[] array, int k) that receives an array of numbers and returns all the pairs that sum up to a specified value k. What is the worst-case runtime complexity of your solution?
+
+pairSums(new int[]{-3, 4, 2, 1, 6, -1}, 3) // returns {{-3, 6}, {4, -1}, {2, 1}}
+pairSums(new int[]{0, 2, 4, 6, 8, 10}, 10) // returns {{0, 10}, {2, 8}, {4, 6}}
+
+3) This is slightly more difficult version of the famous FizzBuzz problem which is sometimes given as a first problem for job interviews. (See also: FizzBuzz Code.) Consider the series of numbers beginning at start and running up to but not including end, so for example start=1 and end=5 gives the series 1, 2, 3, 4. Return a new String[] array containing the string form of these numbers, except for multiples of 3, use "Fizz" instead of the number, for multiples of 5 use "Buzz", and for multiples of both 3 and 5 use "FizzBuzz". In Java, String.valueOf(xxx) will make the String form of an int or other type. This version is a little more complicated than the usual version since you have to allocate and index into an array instead of just printing, and we vary the start/end instead of just always doing 1..100.
+
+fizzBuzz(1, 6) → ["1", "2", "Fizz", "4", "Buzz"]
+fizzBuzz(1, 8) → ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7"]
+fizzBuzz(1, 11) → ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"]
