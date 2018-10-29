@@ -29,7 +29,7 @@ An algorithm is said to run in logarithmic time if its time execution is proport
 
 * binary search: locate the element a in a sorted (in ascending order) array by first comparing a with the middle element and then (if they are not equal) dividing the array into two subarrays; if a is less than the middle element you repeat the whole procedure in the left subarray, otherwise - in the right subarray. The procedure repeats until a is found or subarray is a zero dimension.
 
-### Quadratic Time: O(n2)
+### Quadratic Time: O(n²)
 
 An algorithm is said to run in logarithmic time if its time execution is proportional to the square of the input size:
 
