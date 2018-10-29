@@ -56,7 +56,7 @@ Let's say we wanted to create an 8x8 checkerboard pattern, using the hash symbol
     for(int i = 0; i < row; i++) {
       for(int j = 0; j < col; j++) {
         if((i % 2 == 0 && j % 2 == 0) || (i % 2 == 1 && j % 2 == 1)) {
-          array[i][j] = "*";
+          array[i][j] = " ";
         } else {
           array[i][j] = "#";
         }
