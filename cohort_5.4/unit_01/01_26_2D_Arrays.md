@@ -50,7 +50,7 @@ int[][] array02 = new int[3][3];
 Let's say we wanted to create an 8x8 checkerboard pattern, using the hash symbol - "#". We could assign spaces and hash symbols as required, using a modulo to interweave the characters:
 
 ```java
-    int col = 2;
+    int col = 8;
     int row = 8;
     String[][] array = new String[row][col];
     for(int i = 0; i < row; i++) {
