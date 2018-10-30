@@ -98,11 +98,11 @@ Complete the exercises below:
 
 2) Write a method int[][] addPairs(int[] array, int k) that receives an array of numbers and returns all the pairs that sum up to a specified value k. What is the worst-case runtime complexity of your solution?
 
-pairSums(new int[]{-3, 4, 2, 1, 6, -1}, 3) 
+addPairs(new int[]{-3, 4, 2, 1, 6, -1}, 3) 
 
 // returns {{-3, 6}, {4, -1}, {2, 1}}
 
-pairSums(new int[]{0, 2, 4, 6, 8, 10}, 10) 
+addPairs(new int[]{0, 2, 4, 6, 8, 10}, 10) 
 
 // returns {{0, 10}, {2, 8}, {4, 6}}
 
