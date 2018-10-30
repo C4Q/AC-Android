@@ -118,3 +118,4 @@ Whether you copose your own methods, or use methods from other libraries, the di
 
 ## Exercises
 
+Please see the calendar on canvas for today's date to find the exercises for this lesson.
