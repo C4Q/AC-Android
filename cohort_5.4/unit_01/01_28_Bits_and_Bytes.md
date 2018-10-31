@@ -17,4 +17,4 @@ Please complete the following problems to prepare for your HW Assignment:
 * [Word Count](https://codingbat.com/prob/p117630)
 * [All Swap](https://codingbat.com/prob/p134133)
 
-Once completed, use the time available to work on your HW Assignment.
+Once completed, use the time available to work on your HW Assignment, and reach out to Instructors/TA's for assistance.
