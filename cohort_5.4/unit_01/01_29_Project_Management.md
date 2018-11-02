@@ -9,7 +9,7 @@
 
 ## Resources
 
-- [Trello - Open a new Trello Account using your C4Q email](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjXuNmLm5TXAhVEWCYKHbLfB9MQFggtMAA&url=https%3A%2F%2Ftrello.com%2F&usg=AOvVaw2MxeUTjBtzSFqg1FEnPYYj)
+- [Trello - Open a new Trello Account using your Pursuit email](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjXuNmLm5TXAhVEWCYKHbLfB9MQFggtMAA&url=https%3A%2F%2Ftrello.com%2F&usg=AOvVaw2MxeUTjBtzSFqg1FEnPYYj)
 - [Beginner's Guide to Scrum and Agile Project Management](http://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
 - [Using Trello for Agile Software Development](http://buildbettersoftware.com/trello-for-software-development)
 - [Quora: What is a minimum viable product?](https://www.quora.com/What-is-a-minimum-viable-product)
