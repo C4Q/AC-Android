@@ -6,7 +6,7 @@
 
 Write a command line tool for a Bank that allows users to Create, Read, Update, and Delete data for customers and their bank accounts.
 
-This program should have the following funtionality:
+This program should have the following functionality:
 
 * Require that a user (Bank Teller) sign-in with a pre-determined Username and Password
 * Allow a user to list all of the current customers for your bank
