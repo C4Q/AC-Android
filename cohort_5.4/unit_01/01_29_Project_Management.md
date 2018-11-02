@@ -89,14 +89,14 @@ During initial project or sprint planning meetings, user stories are written on 
 A feature is a small, client-valued function of your product. Features are very small and typically can be implemented within a few hours.
 
 For example:
-- Show four differently colored buttons, one in each corner of the screen.
-- Display the current round number in a TextView.
-- Show a Toast at the beginning of the game with instructions.
-- For each round, activate the buttons in the same order.
-- For each round, record the order that the player presses the buttons.
-- If the activated order and the pressed order do not match, end the game.
-- Show a Toast when the game ends telling the player they've lost.
-- When the game ends, start over with a new game.
+- Show the game logo on the screen.
+- Display the current points earned value at the top of every turn.
+- Show a block of text at the beginning of the game with instructions.
+- For each round, give the user a number of choices.
+- For each round, record the answer given by the user.
+- If the choice leads to a fatal move, end the game.
+- Show a block of text when the game ends telling the player they've lost.
+- When the game ends, give the user the option to start over with a new game.
 
 ###### Estimate
 
