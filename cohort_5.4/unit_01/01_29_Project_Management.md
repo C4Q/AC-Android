@@ -23,7 +23,14 @@
 
 Agile is a time boxed, iterative approach to software delivery that aims to build software incrementally from the start of the project, instead of trying to deliver it all at once near the end.
 
-The principles behind Agile came out of a meeting in the early 2000's by a group of software developers who were looking for a better way to manage software projects. They collectively devised [The Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/), a methodology for developing software which is based on twelve principles:
+The principles behind Agile came out of a meeting in the early 2000's by a group of software developers who were looking for a better way to manage software projects. They collectively devised [The Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/), a methodology for developing software which is based on these values:
+
+- Individuals and Interactions over processes and tools
+- Working Software over comprehensive documentation
+- Customer Collaboration over contract negotiation
+- Responding to Change over following a plan
+
+Which are then expanded to these twelve principles:
 
 1. Customer satisfaction by early and continuous delivery of valuable software.
 
