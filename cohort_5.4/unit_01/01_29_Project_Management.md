@@ -16,6 +16,7 @@
 - [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [The Easy Way to Writing Good User Stories](http://codesqueeze.com/the-easy-way-to-writing-good-user-stories/)
 - [Daily Scrum Meeting](https://www.mountaingoatsoftware.com/agile/scrum/daily-scrum)
+- [Uncle Bob's Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
 # Lecture
 
