@@ -1,8 +1,11 @@
 # DS&A - Recursion
 
 ## Objectives
-- Identify recursion as a solution to problems
-- Identify when recursion is and is not appropriate
+* Identify recursion as a solution to problems
+* Identify when recursion is and is not appropriate
+
+## Resources
+*
 
 # Lecture
 
