@@ -11,15 +11,15 @@
 
 ![recusion](http://www.eccentricclub.cz/wp-content/uploads/2015/03/mirror.jpg)
 
-**Recursion** is when a method calls itself. You need two things to avoid an infinite loop where the method keeps calling itself forever:
+**Recursion** is when a method calls itself. You need two things to avoid a situation where the method keeps calling itself forever (or until you run out of allocated memory and get a `StackOverflowException`):
 1. A _base case_, which returns a value without any further recursive calls (you can have more than one base case sometimes)
-2. A _reduction step_, which changes the input before making the next recursive call, so as to make progress toward the base case
+1. A _reduction step_, which changes the input before making the next recursive call, so as to make progress toward the base case
 
-Each time a recursive function calls itself, some space in the program's stack is allocated for that function to store its local
-variables while it runs. 
+Each time a recursive function calls itself, some space in the program's stack in memory is allocated for that function to store its local variables while it runs. 
 
-A program that has an infinite recursive function
-calls (no base) will eventually crash with a StackOverFlow exception, because there is no more space on the stack left for the next function call.
+A program that has infinite recursive function calls (no base) will eventually crash with a StackOverFlow exception, because there is no more space on the stack left for the next function call.
+
+#### Using Recursion vs. Iteration
 
 Here is an example of a problem that can be solved iteratively, and an alternative recursive solution.
 
@@ -104,7 +104,6 @@ public static String reverse(String str) {
 Sketch of the recursive calls on the stack for `reverse("abcd")`:
 ![reverse](https://github.com/joinpursuit/Pursuit-Core-Android/blob/v2/DSA/recursion/images/reverse.png)
 
-
 ### The Fibonacci sequence
 
 The fibonacci sequence is 1, 1, 2, 3, 5, 8, etc. where the sequence starts with two 1s, then each following entry is the sum of the previous two entries. 
@@ -173,3 +172,10 @@ Sketch of the recursive calls on the stack for `isPalindrome("civic")`:
 
 ## Exercises
 
+Using whiteboard tablets and dry-erase markers, work with a partner to discuss strategies for solving the following questions on CodingBat, then complete them on your own:
+
+1. [Factorial](https://codingbat.com/prob/p154669)
+1. [Bunny Ears](https://codingbat.com/prob/p183649)
+1. [Fibonacci](https://codingbat.com/prob/p120015)
+1. [Bunny Ears 2](https://codingbat.com/prob/p107330)
+1. [Triangle](https://codingbat.com/prob/p194781)
