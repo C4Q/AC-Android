@@ -5,7 +5,7 @@
 * Identify when recursion is and is not appropriate
 
 ## Resources
-* https://www.youtube.com/watch?v=i-eQjzQtNU4
+* [Video - Recursion](https://www.youtube.com/watch?v=i-eQjzQtNU4)
 
 # Lecture
 
