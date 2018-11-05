@@ -199,6 +199,40 @@ String stringAndChar = "Letter: " + 'A';
 String stringAndNumber = "Number: " + 100;
 ```
 
+**Note:** Concatenating values into `Strings` may have unexpected results if primitive values with types like `int` or `char` are added together before they are concatenated to an assigned variable of type `String`, or a string literal:
+
+For example:
+
+```java
+String a = "c" + 'a' + 't';
+String b = 'c' + 'a' + "t";
+System.out.println(a);
+System.out.println(b);
+```
+
+Will print to the screen:
+
+```
+cat
+196t
+```
+
+The same is seen for `int` values as well:
+
+```java
+String c = "1" + 2 + 3;
+String d = 1 + 2 + "3";
+System.out.println(c);
+System.out.println(d);
+```
+
+This will print to the screen as:
+
+```
+123
+33
+```
+
 Strings have certain helper methods associated with them, which can be called on a String object:
 
 |Method|Use Case|
