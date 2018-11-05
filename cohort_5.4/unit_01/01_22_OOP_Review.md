@@ -31,7 +31,7 @@ Variables can hold either values, or references to objects in memory, depending 
 |:-:|:-:|
 |int|number;|
 
-If we were to print the contents of this value to the screen, we would get an error, because **it is not initialized**. We should assign it a value before we can make any real use of it.
+If we were to print the contents of this value to the screen, we would get an error, because it is a local variable and **it is not initialized**. We should assign it a value before we can make any real use of it.
 
 Assignment requires an `=` operator, where we assign a value on the right of the `=`, to a variable of the appropriate data type on the left:
 
@@ -40,6 +40,8 @@ Assignment requires an `=` operator, where we assign a value on the right of the
 |int|number|=|25;|
 
 When a value or reference has been assigned to a variable, we say that **it has been initialized**.
+
+Fields, or instance variables that are declared within a class but outside of methods, which have not been initialized at the moment of instantiation with a constructor, will have default values (`0` for variables of type `int`, `0.0` for variables of type `double`, `false` for variables of type `boolean`, etc) assigned to them when an object is instantiated.
 
 ### Comparison Operators
 
@@ -196,8 +198,6 @@ String newName = "John" + "Doe";
 String stringAndChar = "Letter: " + 'A';
 String stringAndNumber = "Number: " + 100;
 ```
-
-For concatenation to be effective, the first element being concatenated MUST be a String.
 
 Strings have certain helper methods associated with them, which can be called on a String object:
 
