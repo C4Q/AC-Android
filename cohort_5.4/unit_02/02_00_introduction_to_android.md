@@ -1,4 +1,4 @@
-# Indroduction to Android
+# Introduction to Android
 
 ## Objectives
 * Fellows will learn about the history of the Android Open Source Project, or AOSP
