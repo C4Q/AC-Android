@@ -1,9 +1,12 @@
 # Layouts and Resources for the UI
 
 ## Objectives
-* Fellows will learn how to install Android Studio
-* Fellows will learn how to create Android Device Emulators
-* Fellows will learn how to develop their first Android Application
+* Fellows will review how to install Android Studio
+* Fellows will review how to create Android Device Emulators
+* Fellows will review how to develop their first Android Application
+* Fellows will learn about various UI elements within an Android Application
+* Fellows will be introduced to the concept of a view hierarchy
+* Fellows will learn about how to implement various widgets within various layouts
 
 ## Resources
 * [Core Concepts: Layouts and Resources for the UI](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-1-get-started/lesson-1-build-your-first-app/1-2-c-layouts-and-resources-for-the-ui/1-2-c-layouts-and-resources-for-the-ui.html)
