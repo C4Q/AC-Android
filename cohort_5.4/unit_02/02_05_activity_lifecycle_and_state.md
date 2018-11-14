@@ -5,7 +5,7 @@
 * Fellows will practice transitioning their apps between Lifecycle Callback Events
 
 ## Resources
-* [Core Concepts - Activity Lifecycle and State]()
+* [Core Concepts - Activity Lifecycle and State](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-1-get-started/lesson-2-activities-and-intents/2-2-c-activity-lifecycle-and-state/2-2-c-activity-lifecycle-and-state.html)
 
 # Lecture
 
