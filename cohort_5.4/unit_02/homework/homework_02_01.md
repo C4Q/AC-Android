@@ -19,7 +19,7 @@ Enter a Type of Reward: Gold Bars
 Should create a story like the one below:
 
 ```
-One day, the Warrior Shannon was travelling through the countryside when suddenly, a Dragon came out to attack the local farmers! Shannon jumped to the rescue to Fight with the Warrior's favorite weapon, the Battle Axe! Once the Dragon was defeated, it exploded into a giant pile of Gold Bars! The End!
+One day, the Warrior Shannon was travelling through the countryside eating a Rice Crispie Treat when suddenly, a Dragon came out to attack the local farmers! Shannon jumped to the rescue to Fight with the Warrior's favorite weapon, the Battle Axe! Once the Dragon was defeated, it exploded into a giant pile of Gold Bars! The End!
 ```
 
 This App should have the following functionality:
