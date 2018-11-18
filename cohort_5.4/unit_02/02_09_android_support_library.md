@@ -15,4 +15,4 @@
 
 * [Codelab - The Android Support Library](https://codelabs.developers.google.com/codelabs/android-training-support-libraries/#0)
 
-You will have until 8:00pm EST to complete this codelab. Please push all code for the "7. Coding Challenge" section to a remote repository on your Github account, then post it on the exercises link for today's lesson on Canvas.
+You will have until 11:00pm EST to complete this codelab. Please push all code for the "7. Coding Challenge" section to a remote repository on your Github account, then post it on the exercises link for today's lesson on Canvas.
