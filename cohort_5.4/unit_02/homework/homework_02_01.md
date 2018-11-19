@@ -57,4 +57,4 @@ This is an individual assignment, so each student will be responsible for submit
 
 1. Create a package called Story_App_HW_LASTNAME_FIRSTNAME (replace `LASTNAME` and `FIRSTNAME` with your own last and first name)
 
-2. Commit and push all work and submit your repo link using the Canvas link on the calendar by **12am on FRIDAY 11/30/2018**. Submitting this assignment in on time, and to completion, is expected of all participants.
+2. Commit and push all work and submit your repo link using the Canvas link on the calendar by **11:59pm on FRIDAY 11/30/2018**. Submitting this assignment in on time, and to completion, is expected of all participants.
