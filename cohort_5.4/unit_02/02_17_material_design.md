@@ -1,7 +1,7 @@
 # Material Design
 
 ## Objectives
-* Fellows will the concepts and theories behind the implementation of Android's approach to Material Design
+* Fellows will explore the concepts and theories behind the implementation of Android's approach to Material Design
 
 ## Resources
 * [Core Concepts - Material Design](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-5-delightful-user-experience/5-2-c-material-design/5-2-c-material-design.html)
