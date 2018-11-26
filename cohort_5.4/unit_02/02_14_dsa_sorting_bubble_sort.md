@@ -172,12 +172,12 @@ Is the array sorted? true
     
 ### Some Final Stats
       |               |               |       
-      | ------------- |:-------------:|
-      | Time-Complexity    | O( n<sup>2</sup> ) | 
-      | Space-Complexity   | O( 1 )      |   
-      | Internal or External | Internal        |  
-      | Recursive or Non-recursive | non-recursive         |  
-      | Comparison or Non Comparison | non-comparison         |  
+      |-------------|:-------------:|
+      |Time-Complexity    | O( n<sup>2</sup> ) | 
+      |Space-Complexity   | O( 1 )      |   
+      |Internal or External | Internal        |  
+      |Recursive or Non-recursive | non-recursive         |  
+      |Comparison or Non Comparison | non-comparison         |  
 
 ## Exercises
 
