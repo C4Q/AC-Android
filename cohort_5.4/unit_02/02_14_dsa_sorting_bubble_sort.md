@@ -190,3 +190,11 @@ Please complete the exercises found on the Canvas Calendar for Today's date.
 1) Suppose you have the following list of numbers to sort: [19, 1, 9, 7, 3, 10, 13, 15, 8, 12] what will the partially sorted list look like after three complete passes of bubble sort?
 
 2) Implement the simple swapping operation as a function swap(int[] t, int i, int j) which swaps the elements at indices i and j in the array t.
+
+3) Consider an array A of n elements example a[0]...a[n − 1] and the pseudocode for bubbleSort discussed in class:
+       for k = 1 to n-1 do
+         for i = 0 to n-1-j
+            if (A[i] > A[i+1]) swap A[i] and A[i+1]
+    (a) Describe what happens when you bubblesort an array A that is already sorted. How many swaps are performed by the inner loop each time? How many times is the outer loop executed?
+
+4) Implement bubble sort where you float the smallest number up instead of the largest (order elements largest to smallest)
