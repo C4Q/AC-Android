@@ -187,4 +187,6 @@ Is the array sorted? true
 
 Please complete the exercises found on the Canvas Calendar for Today's date.
 
-// TODO - Bryant will add these exercises to Canvas
+1) Suppose you have the following list of numbers to sort: [19, 1, 9, 7, 3, 10, 13, 15, 8, 12] what will the partially sorted list look like after three complete passes of bubble sort?
+
+2) Implement the simple swapping operation as a function swap(int[] t, int i, int j) which swaps the elements at indices i and j in the array t.
