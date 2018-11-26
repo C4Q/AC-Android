@@ -61,17 +61,11 @@
 
 * Generalization 
     * Given a collection of n unsorted elements it takes (n - 1) iterations through the list in order to sort using the bubble sort algorithm
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 ## Optimization
+
 * Lets try to catch another pattern in the bubble sort 
+
 <br />
 <img src="https://i.imgur.com/wHgKpB6.png">
 <br />
@@ -173,8 +167,7 @@ Is the array sorted? true
     Multiplication gives us n * n = n<sup>2</sup>  Quadratic runtime or O(n<sup>2</sup>)
     * If our collection doubled in size the amount of time it would take would quadruple
     * But it doesnt take more than O(1) memory so its useful in sorting small collections 
-
-    * Some Final Stats
+### Some Final Stats
       |               |               |       
       | ------------- |:-------------:|
       | Time-Complexity    | O( n<sup>2</sup> ) | 
@@ -183,7 +176,7 @@ Is the array sorted? true
       | Recursive or Non-recursive | non-recursive         |  
       | Comparison or Non Comparison | non-comparison         |  
 
-# Exercises
+## Exercises
 
 Please complete the exercises found on the Canvas Calendar for Today's date.
 
