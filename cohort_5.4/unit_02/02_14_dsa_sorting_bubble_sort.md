@@ -42,14 +42,14 @@
 
 <img align= "left" hspace="20" src="https://i.imgur.com/v4rSd0Z.png">
 
-* We start by comparing the first two elements 9 and 7 and since theyre out of order swap 
+* We start by comparing the first two elements 9 and 7 and since they're out of order swap 
 * Next compare the second and third elements 9 and 4. Since 9 is bigger than 4 it should come after, So we swap the two elements as well 
 * The next two elements are 9 and 1. Again 9 should come after 1, another swap will take place
 * Finally 9 and 2 are the last two elements of the first iteration. The number 2 should come before 9 so swap these two elements.
 * Great We've Completed the first iteration of our bubble sort but out list isn't sorted yet!
 * We will need to continue to repeat this process for each of the remaining elements until our collection is confirmed to be sorted 
-* Question is now, How many times will we have to iterate through the collection in order to 
-* Lets see if we can notice a patter 
+* Question is now, How many times will we have to iterate through the collection in order to sort the entire thing?
+* Let's see if we can notice a pattern
 
    |       2 Elements        |    3 Elemenets           |  4 Elements     |
     | ------------- |:-------------:| -----:|
@@ -60,7 +60,7 @@
     |  |      |  Ordered! |
 
 * Generalization 
-    * Given a collection of n unsorted elements it takes (n - 1) iterations through the list in order to sort using the bubble sort algorithim
+    * Given a collection of n unsorted elements it takes (n - 1) iterations through the list in order to sort using the bubble sort algorithm
 <br />
 <br />
 <br />
@@ -75,7 +75,7 @@
 <br />
 <img src="https://i.imgur.com/wHgKpB6.png">
 <br />
-* Note we didnt need to compare or check the last element because we already know that it already has the correct number 9
+* Note we didn't need to compare or check the last element because we already know that it already has the correct number 9
 * For the next iteration we wouldnt have to check 7 or the number 9 since they are already in their correct positions so
     * After 2 iterations of bubble sort checking the last two spots in the array is unnecessary
     * This can keep going if After 3 iterations through the array we dont need to check the last 3 elements 
@@ -166,7 +166,7 @@ One full pass through the array complete
 Is the array sorted? true
 [1, 2, 4, 7, 9]
 ```
-* Even though the code has been optimized our 
+* Even though the code has been optimized we can tell that its still a repetitive process
 * If the bubble sort is bad, then just how bad is it?
     * If we have to n number of iterations through our array 
     * And if each iteration has to check all n elements in the array 
