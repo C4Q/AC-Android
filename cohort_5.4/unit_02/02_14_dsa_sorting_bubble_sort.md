@@ -69,6 +69,7 @@
 <br />
 <img src="https://i.imgur.com/wHgKpB6.png">
 <br />
+
 * Note we didn't need to compare or check the last element because we already know that it already has the correct number 9
 * For the next iteration we wouldnt have to check 7 or the number 9 since they are already in their correct positions so
     * After 2 iterations of bubble sort checking the last two spots in the array is unnecessary
@@ -160,6 +161,7 @@ One full pass through the array complete
 Is the array sorted? true
 [1, 2, 4, 7, 9]
 ```
+
 * Even though the code has been optimized we can tell that its still a repetitive process
 * If the bubble sort is bad, then just how bad is it?
     * If we have to n number of iterations through our array 
@@ -167,6 +169,7 @@ Is the array sorted? true
     Multiplication gives us n * n = n<sup>2</sup>  Quadratic runtime or O(n<sup>2</sup>)
     * If our collection doubled in size the amount of time it would take would quadruple
     * But it doesnt take more than O(1) memory so its useful in sorting small collections 
+    
 ### Some Final Stats
       |               |               |       
       | ------------- |:-------------:|
