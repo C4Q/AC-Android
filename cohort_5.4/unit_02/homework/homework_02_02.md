@@ -39,7 +39,7 @@ This assignment is fairly open-ended, so be creative with your ideas and have fu
 - Code should be organized into methods and classes as appropriate to demonstrate good modularization and code reuse.
 - All submitted code should be formatted as defined by the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
-This is a GROUP ASSIGNMENT, so each student will be responsible for their individual job title tasks, AND contribute an EQUAL AMOUNT OF CODE when working with their other teammates.
+This is a GROUP ASSIGNMENT, so each student will be responsible for their individual job title tasks, AND for contributing an EQUAL AMOUNT OF CODE when working with their other teammates.
 
 ### Fun Ideas 
 
