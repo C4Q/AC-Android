@@ -29,7 +29,7 @@ This assignment is fairly open-ended, so be creative with your ideas and have fu
 * Although all team members are required to submit code, in addition to the app work, each member will choose a job title for the group, and complete a specific responsibility:
   * Tech Lead: responsible for creating a remote Github repo, and merging feature branches
   * Project Manager: responsible for recording/assigning tasks, and managing the team's Trello Board
-  * Design Lead: responsible for choosing/formatting images, and designing layouts on storyboards prior to code composition
+  * Design Lead: responsible for choosing/formatting images/colors/fonts, and designing layouts on storyboards prior to code composition
   * Demo Lead: responsible for creating a presentation deck in Google Slides, for a 5 (five) minute long presentation to the cohort
 * Each team member is responsible for their own biography activity, which should be made on their own feature branch, then pushed to Github with a pull request to the master branch
 
