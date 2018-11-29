@@ -21,7 +21,7 @@ This App should have the following functionality:
 This assignment is fairly open-ended, so be creative with your ideas and have fun! However, the completed submission should include each of the following requirements:
 * All Biography Activities should have a parent activity declared for it in the `AndroidManifest.XML` file
 * All String values, View Dimensions, Color Values should be stored in their corresponding values XML files as necessary
-* All Activity view values should account for Orientation changes (`onSavedInstanceState`, different layouts for Portrait/Landscape, or Locked Orienation)
+* All Activity view values should account for Orientation changes (`onSavedInstanceState`, different layouts for Portrait/Landscape, or Locked Orientation)
 * All Activity Layout Root Views should be a `ConstraintLayout`
 
 ### Group Requirements
