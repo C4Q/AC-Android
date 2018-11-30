@@ -26,12 +26,14 @@ This assignment is fairly open-ended, so be creative with your ideas and have fu
 
 ### Group Requirements
 
+* Each team member is responsible for their own biography activity, which should be made on their own feature branch, then pushed to Github with a pull request to the master branch
+* All team members are responsible for coming up with a name for their team: i.e. "Team Aftercastle", "Team Supernova", "Team Mayacoba", etc.
 * Although all team members are required to submit code, in addition to the app work, each member will choose a job title for the group, and complete a specific responsibility:
   * Tech Lead: responsible for creating a remote Github repo, and merging feature branches
   * Project Manager: responsible for recording/assigning tasks, and managing the team's Trello Board
   * Design Lead: responsible for choosing/formatting images/colors/fonts, and designing layouts on storyboards prior to code composition
   * Demo Lead: responsible for creating a presentation deck in Google Slides, for a 5 (five) minute long presentation to the cohort
-* Each team member is responsible for their own biography activity, which should be made on their own feature branch, then pushed to Github with a pull request to the master branch
+
 
 ### Additional Factors
 
@@ -49,6 +51,6 @@ This is a GROUP ASSIGNMENT, so each student will be responsible for their indivi
 
 ## Homework submission
 
-1. Create a package called Group_Portfolio_HW_LASTNAME_FIRSTNAME (replace `LASTNAME` and `FIRSTNAME` with your own last and first name)
+1. Create a package called Group_Portfolio_HW_TEAM_NAME (the Tech Lead should replace `NAME` with your own team's name), and push to Github
 
-2. Commit and push all work and submit your repo link using the Canvas link on the calendar by **11:59pm on FRIDAY 12/14/2018**. Submitting this assignment on time, and to completion, is expected of all participants.
+2. Commit and push all work and submit your repo link using the Canvas link on the calendar by **11:59pm on FRIDAY 12/14/2018**. Although the Tech Lead is responsible for creating the initial project/repo, and for merging final branches, EACH TEAM MEMBER should submit their team's Github repo link individually to Canvas. Submitting this assignment on time, and to completion, is expected of all participants.
