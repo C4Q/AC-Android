@@ -4,7 +4,7 @@
 
 ### Project overview
 
-Create an Android Application that allows users to explore the portfolios of each member of a group.
+Create an Android Application that allows users to explore the Java/Android Application Github portfolios of each member of a group.
 
 This App should have the following functionality:
 
