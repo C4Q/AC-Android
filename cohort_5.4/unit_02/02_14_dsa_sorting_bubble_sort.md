@@ -5,12 +5,12 @@
 * Fellows will explore how to implement Bubble Sort, and its runtime complexity
 
 ## Resources
-* [Link to External Resources](https://www.google.com)
+* [Link to External Resources](https://www.guru99.com/bubble-sort-java.html)
 
 # Lecture
 
 ## What we know so far
-![sort java](https://i.imgur.com/knwdR9e.png )
+![sort java](https://i.imgur.com/knwdR9e.png)
 
 * Now lets see how these methods work
 
