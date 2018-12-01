@@ -5,7 +5,7 @@
 * Fellows will explore how to implement Bubble Sort, and its runtime complexity
 
 ## Resources
-* [Link to External Resources](https://www.guru99.com/bubble-sort-java.html)
+* [Link to External Resources](https://www.mkyong.com/java/java-bubble-sort-example/)
 
 # Lecture
 
