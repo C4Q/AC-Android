@@ -10,7 +10,12 @@
 **Expectations:** Fellows are expected to be able to make their own activity classes that inherit from AppCompatActivity, and add a corresponding XML Layout File. Fellows are expected to override Activity Lifecycle callback methods as necessary.
 
 ### Views
-**Expectations:** Fellows are expected to be able to add views, and manipulate the properties of these views within XML layout files. Fellows are expected to be able to reference these views in their activities directly using Java code, and extract the data within them as necessary.
+**Expectations:** Fellows are expected to be able to add views, and manipulate the properties of these views within XML layout files. Fellows are expected to be able to reference these views in their activities directly using Java code, and extract the data within them as necessary. These views include, but are not limited to:
+* ConstraintLayout
+* TextView
+* EditText
+* Button
+* ImageView
 
 ### Intents
 **Expectations:** Fellows are expected to create both explicit intents to move between their own app's activities, but also implicit intents to open other applications, using appropriate flags. Fellows are expected to be able to pass intent extras between activities, and access this data in new activities.
