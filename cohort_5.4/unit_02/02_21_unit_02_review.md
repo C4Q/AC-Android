@@ -17,6 +17,8 @@
 * Button
 * ImageView
 
+**Note:** RecyclerView implementations will not be included in this unit's assessment - it will be included in the Unit 03 assessment.
+
 ### Intents
 **Expectations:** Fellows are expected to create both explicit intents to move between their own app's activities, but also implicit intents to open other applications, using appropriate flags. Fellows are expected to be able to pass intent extras between activities, and access this data in new activities.
 
