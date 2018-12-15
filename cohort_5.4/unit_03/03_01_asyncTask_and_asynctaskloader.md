@@ -1,14 +1,9 @@
 # Asynchronous Tasks
 
-## Objective
+## Objectives
 
-Students will understand:
-
-* what processes and threads are in general
-* how processes and threads work on Android
-* the role of the main (aka UI) thread and what to do and NOT do
-* the different ways to work with threading on Android
-
+* Fellows will explore what processes and threads are in general
+* Fellows will learn how processes and threads work on Android
 
 ## Resources
 - [Concurrency](http://docs.oracle.com/javase/tutorial/essential/concurrency/)
@@ -91,7 +86,3 @@ AsyncTask isn't for everything!
 * Use them to perform work that could take an indeterminate amount of time.
 
 * Otherwise, don't. Like threads, they're expensive to create, manage and destroy.
-
-### Exercises 
-
-**Question 1** 
