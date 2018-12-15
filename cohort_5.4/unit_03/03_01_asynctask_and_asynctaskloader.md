@@ -1,4 +1,4 @@
-# Asynchronous Tasks
+# AsyncTask and AsyncTaskLoader
 
 ## Objectives
 
@@ -13,6 +13,7 @@
 - [Components and the UI Thread](https://www.youtube.com/watch?v=A0PAhoHzlsQ)
 - [Android Multithreading Overview](https://www.youtube.com/watch?v=lznss-0gEHU)
 - [AsyncTasks](https://www.youtube.com/watch?v=V4q0sTIntsk)
+- [Core Concepts - AsyncTask and AsyncTaskLoader](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-3-working-in-the-background/lesson-7-background-tasks/7-1-c-asynctask-and-asynctaskloader/7-1-c-asynctask-and-asynctaskloader.html)
 
 ## Definitions
 
@@ -28,11 +29,11 @@
 
 **Thread** - represents one path of execution in a process. Threads can run concurrently, which makes them tricky to reason about.
 
-Race Condition - Running more than one thread inside the same application does not by itself cause problems. The problems arise when multiple threads access the same resources. For instance the same memory (variables, arrays, or objects), systems (databases, web services etc.) or files.
+**Race Condition** - Running more than one thread inside the same application does not by itself cause problems. The problems arise when multiple threads access the same resources. For instance the same memory (variables, arrays, or objects), systems (databases, web services etc.) or files.
 
 # Lecture
 
-* [AsyncTask and AsyncTaskLoader](https://docs.google.com/presentation/d/1A7anDTS8NQCunbxoJnqJqkSHNFCvRIn9moE7Zww-gds/edit#slide=id.p)
+* [Slides - AsyncTask and AsyncTaskLoader](https://docs.google.com/presentation/d/1A7anDTS8NQCunbxoJnqJqkSHNFCvRIn9moE7Zww-gds/edit#slide=id.p)
 
 ## The Android Main Thread
 
