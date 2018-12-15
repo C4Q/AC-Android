@@ -78,7 +78,7 @@ When an asynchronous task is executed, the task goes through 4 steps:
 
 Try copying modifying the UI (let's say setting adapter of recyclerView) in the `doInBackground` method. What happened? Why?
 
-## AsyncTask are great, but...
+### AsyncTask are great, but...
 
 AsyncTask isn't for everything!
 
@@ -87,3 +87,7 @@ AsyncTask isn't for everything!
 * Use them to perform work that could take an indeterminate amount of time.
 
 * Otherwise, don't. Like threads, they're expensive to create, manage and destroy.
+
+## In-Class Exercises
+
+Please explore [this codelab (optional)](https://codelabs.developers.google.com/codelabs/android-training-create-asynctask/index.html?index=..%2F..%2Fandroid-training#0) to learn more about, and explore AsyncTasks in Android, during class hours.
