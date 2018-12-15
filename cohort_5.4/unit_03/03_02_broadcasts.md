@@ -1,6 +1,9 @@
 # Broadcasts
 
 ## Objectives
+* Fellows will expore the concept of Broadcasts in Android
+* Fellows will learn how to send custom Broadcasts
+* Fellows will learn how to implement Broadcast Receivers
 
 ## Resources
 * [Core Concepts - Broadcasts](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-3-working-in-the-background/lesson-7-background-tasks/7-3-c-broadcasts/7-3-c-broadcasts.html)
