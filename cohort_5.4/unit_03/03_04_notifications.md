@@ -5,13 +5,13 @@
 
 ## Resources
 * [Core Concepts - Notifications](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-3-working-in-the-background/lesson-8-alarms-and-schedulers/8-1-c-notifications/8-1-c-notifications.html)
-- [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
-- [Notification Channels](https://medium.com/exploring-android/exploring-android-o-notification-channels-94cd274f604c)
-- [Notifications - Design Patterns](https://material.google.com/patterns/notifications.html)
-- [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
-- [IntentService](https://developer.android.com/reference/android/app/IntentService.html)
-- [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
-- [Starting Background Services](https://guides.codepath.com/android/Starting-Background-Services)
+* [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)
+* [Notification Channels](https://medium.com/exploring-android/exploring-android-o-notification-channels-94cd274f604c)
+* [Notifications - Design Patterns](https://material.google.com/patterns/notifications.html)
+* [PendingIntent](https://developer.android.com/reference/android/app/PendingIntent.html)
+* [IntentService](https://developer.android.com/reference/android/app/IntentService.html)
+* [BroadcastReceiver](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
+* [Starting Background Services](https://guides.codepath.com/android/Starting-Background-Services)
 
 ## Vocabulary
 
