@@ -1,7 +1,7 @@
 # Broadcasts
 
 ## Objectives
-* Fellows will expore the concept of Broadcasts in Android
+* Fellows will explore the concept of Broadcasts in Android
 * Fellows will learn how to send custom Broadcasts
 * Fellows will learn how to implement Broadcast Receivers
 
