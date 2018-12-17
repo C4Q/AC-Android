@@ -11,6 +11,6 @@
 
 ## Exercises
 
-* [Codelab - Broadcasts](https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..%2Fandroid-training#0)
+* [Codelab - Notifications](https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..%2Fandroid-training#0)
 
 You will have until 11:00pm EST to complete this codelab. Please push all code for the "Coding Challenge" section to a remote repository on your Github account, then post it on the exercises link for today's lesson on Canvas.
