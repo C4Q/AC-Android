@@ -210,63 +210,6 @@ Register your receiver in `AndroidManifest.xml`:
 </receiver>
 ```
 
-## Alarm Manager
-
-Suppose we wanted to periodically execute a background task, such as show a notification to the user with `MyNotificationService` every 15 minutes. In this case, we don't necessarily want a long running task that runs forever and could drain battery life significantly. Using `AlarmManager`, we can setup a scheduler that triggers our `IntentService` to run at a chosen interval.
-
-```java
-public class MyAlarmReceiver extends BroadcastReceiver {
-  public static final int REQUEST_CODE = 12345;
-  public static final String ACTION = "nyc.c4q.notificationdemo.alarm";
-
-  // Triggered by the Alarm periodically (starts the notification service)
-  @Override
-  public void onReceive(Context context, Intent intent) {
-    Intent i = new Intent(context, MyNotificationService.class);
-    context.startService(i);
-  }
-}
-```
-Register `MyAlarmReceiver` as a receiver in `AndroidManifest.xml`:
-
-```xml
-<receiver
-    android:name=".MyAlarmReceiver"
-    android:process=":remote" >
-</receiver>
-```
-
-We can setup the recurring alarm in our `Activity` `onCreate()`:
-
-```java
-public class MainActivity extends Activity {
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    scheduleAlarm();
-  }
-  
-  // Setup a recurring alarm every half hour
-  public void scheduleAlarm() {
-      
-    // Construct an intent that will execute the AlarmReceiver
-    Intent intent = new Intent(getApplicationContext(), MyAlarmReceiver.class);
-    
-    // Create a PendingIntent to be triggered when the alarm goes off
-    final PendingIntent pendingIntent = PendingIntent.getBroadcast(this, MyAlarmReceiver.REQUEST_CODE, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-
-    long firstMillis = System.currentTimeMillis(); // alarm is set right away
-    
-    AlarmManager alarm = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-    
-    // First parameter is the type: ELAPSED_REALTIME, ELAPSED_REALTIME_WAKEUP, RTC_WAKEUP
-    // Interval can be INTERVAL_FIFTEEN_MINUTES, INTERVAL_HALF_HOUR, INTERVAL_HOUR, INTERVAL_DAY
-    alarm.setInexactRepeating(AlarmManager.RTC_WAKEUP, firstMillis, AlarmManager.INTERVAL_HALF_HOUR, pendingIntent);
-  }
-}
-```
-
 ## Exercises
 
 * [Codelab - Notifications](https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..%2Fandroid-training#0)
