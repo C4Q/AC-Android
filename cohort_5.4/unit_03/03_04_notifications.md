@@ -36,7 +36,7 @@
 private static final int NOTIFICATION_ID = 555;
 
 // Setting a notification channel allows the user to make choices about groups of notifications in later Android versions
-private static final String NOTIFICATION_CHANNEL = "C4Q Notifications";
+private static final String NOTIFICATION_CHANNEL = "Pursuit Notifications";
 
 NotificationCompat.Builder builder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL)
                 .setSmallIcon(R.drawable.notification_icon)
@@ -67,7 +67,7 @@ The following code snippet displays a basic notification to the user:
 
 ```java
 int NOTIFICATION_ID = 555;
-String NOTIFICATION_CHANNEL = "C4Q Notifications";
+String NOTIFICATION_CHANNEL = "Pursuit Notifications";
 
 NotificationCompat.Builder builder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL)
                 .setSmallIcon(R.drawable.notification_icon)
