@@ -2,7 +2,7 @@
 
 ## Java Bootcamp / Android Refactoring
 
-***Due January 5 @ 11:59pm***
+***Due January 5th @ 11:59pm***
 
 **1)** Complete at least **two** exercises from [Hackerrank's Cracking the Coding Interview](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview) challenges. You'll submit a link to a GitHub gist with your solutions with the HW form.
 
