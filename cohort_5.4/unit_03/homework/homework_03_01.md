@@ -16,6 +16,7 @@
 * Open at least **five** [GitHub issues](https://guides.github.com/features/issues/) on the project, identifying bugs or feature requests.
 * Fix each of the identified bugs.
 * Modify your app so that if a user so chooses, they can receive a "Notification" to be reminded to view your particular profile page at a later time
+* Add **five** JUnit Tests to your project, which should test **five** individual methods with "non-void" return types from your project
 
 
 ## Homework Submission
