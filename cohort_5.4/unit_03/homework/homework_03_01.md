@@ -22,6 +22,6 @@
 ## Homework Submission
 
 Please Submit the following to Canvas by no later than January 5th 2019 at 11:59pm:
-* The link to your HackerRank profile
+* The link to your GitHub gist with your HackerRank solutions
 * The GitHub link to your forked repo of the Java Review Boot Camp project
 * The GitHub link to your forked repo of your groups portfolio project 
