@@ -4,7 +4,7 @@
 
 ***Due January 5th @ 11:59pm***
 
-**1)** Complete at least **two** exercises from [Hackerrank's Cracking the Coding Interview](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview) challenges. You'll submit a link to a GitHub gist with your solutions with the HW form.
+**1)** Complete at least **two** exercises from [The HackerRank Interview Preparation Kit](https://www.hackerrank.com/interview/interview-preparation-kit) challenges. You'll submit a link to a GitHub gist with your solutions with the HW form.
 
 **2)** **Java Review Boot Camp**: 
 
