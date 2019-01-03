@@ -1,9 +1,10 @@
-# Introduction to the Internet
+# Introduction to the Internet (and JSON)
 
 ## Objectives
 - Fellows will explore the concept of the Internet
 - Fellows will learn the difference between a Server and a Client
 - Fellows will identify IP Addresses and DNS 
+- Fellows will explore how to interpret JSON data in Java and Android
 
 ## Vocabulary 
 
@@ -167,3 +168,305 @@ Servers send HTTP status codes to provide quick information on the response sent
 - 3xx ( Redirection): Further action needs to be taken in order to complete the request 
 - 4xx (Client Error): The request contains bad syntax or cannot be fulfilled 
 - 5xx (Server Error): The server failed to fulfill an apparently valid request
+
+## What is JSON?
+
+"JSON" stands for JavaScript Object Notation and is a lightweight text based data interchange format and despite the name it is a mostly language independent way of specifying objects in key-value pairs. Its meant to be easy to understand by both machines and humans. Uses the filename extension .json
+
+## Why use JSON? 
+It's mainly used to transmit data between a server and a web application, web services and APIs use the JSON format to provide public data.
+
+* Example
+    ["skillz":{
+        "android":[
+            {"name": "java",
+             "years": 3
+            },
+            {"name": "kotlin",
+             "years": 1
+            }]
+        "database":[
+            {"name": "sql"
+             "years": 2
+            },
+            {"name": "postgresql"
+             "years": 1
+            }]
+    }]
+
+A JSON object is an unordered set of key/value pairs
+* The pairs are enclosed within braces, {}
+* There are colon's between the key and the value
+* Pairs are seperated by commas
+* Example: {"name": "java","years": 3}
+
+![json object](https://www.json.org/object.gif)
+
+A JSON array is an ordered collection of values
+* The values are enclosed in brackets, []
+* Values are also seperated by commas
+* Example: [{"name": "java","years": 3},{"name": "kotlin", "years": 1}]
+
+![json array](https://www.json.org/array.gif)
+
+### Values
+
+A value can be,
+* strings: enclosed in double quotes and contain an assortment of escaped characters
+
+![json strings](https://www.json.org/string.gif)
+* numbers: have Java syntax, numbers are decimal no octal or hexadecimal
+* booleans
+* nulls
+
+Values can be nested so they can contain
+* objects
+* arrays
+![json](https://www.json.org/value.gif)
+
+### JSON in Java
+
+Mapping JSON and Java entities
+
+  |      JSON     |     Java      |
+  | ------------- |:-------------:| 
+  | string        | java.lang.String |
+  | number        | java.lang.Number |
+  | true|false    | java.lang.Boolean | 
+  | null          | null |
+  | array         | java.util.List |
+  | object        | java.lang.Object |
+
+To start encoding and decoding JSON in Java you will need to install a JSON module in your project there are several libraries available in Android and Java for an Intellij/Java project import org.json library using gradle or download the library from [org.json](central.maven.org/maven2/org/json/json/20180813/json-20180813.jar)
+
+```java
+implementation "org.json:json:20180813"
+```
+#### To add the jar file to an Intellij Project:
+
+File > Project Structure > Project Settings > Modules > Dependencies > hit the "+" sign > JARs or directories > Select your Jar file and confirm
+
+The file will be added to the External Libraries folder 
+
+This library is available by default in AndroidStudio projects
+
+### Creating JSON objects in Java
+
+Let's create a JSONObject
+
+```java
+import org.json.JSONObject;
+
+public class MainActivity extends AppCompatActivity {
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    JSONObject blackjackhand = new JSONObject();
+  }
+}
+```
+Right now the object is empty so lets start adding keys and values to it but this will need to be wrapped by a try catch block and use logcat to see our new JSON object
+
+```java
+import android.util.Log;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class MainActivity extends AppCompatActivity {
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    JSONObject pokerHand = new JSONObject();
+
+    try{
+      pokerHand.put("rank" ,"Ace");
+    }catch (JSONException e){
+      e.printStackTrace();
+    }
+
+    Log.d("JSON: ","onCreate: " + pokerHand.toString());
+  }
+}
+```
+Next lets add an array to represent cards in a hand
+
+```java
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class MainActivity extends AppCompatActivity {
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    JSONObject pokerHand = new JSONObject();
+
+    try {
+      pokerHand.put("hand", new JSONArray().put(
+          new JSONObject().put("rank", "Queen")
+      ));
+    } catch (JSONException e) {
+      e.printStackTrace();
+    }
+
+    Log.d("JSON: ", "onCreate: " + pokerHand.toString());
+  }
+}
+```
+Finally lets add more card objects to this array and add more key/value pairs to each of these objects
+
+```java
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class MainActivity extends AppCompatActivity {
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    JSONObject pokerHand = new JSONObject();
+
+    try {
+      pokerHand.put("hand", new JSONArray()
+          .put(new JSONObject()
+              .put("rank", "Ace")
+              .put("suit", "CLUBS"))
+          .put(new JSONObject()
+              .put("rank", "King")
+              .put("suit", "DIAMONDS"))
+          .put(new JSONObject()
+              .put("rank", "Queen")
+              .put("suit", "HEARTS"))
+          .put(new JSONObject()
+              .put("rank", "Jack")
+              .put("suit", "SPADES"))
+          .put(new JSONObject()
+              .put("rank", "Ten")
+              .put("suit", "CLUBS"))
+      );
+    } catch (JSONException e) {
+      e.printStackTrace();
+    }
+
+    Log.d("JSON: ", "onCreate: " + pokerHand.toString());
+  }
+}
+```
+
+### Parsing JSON in Java
+So now that we have a json object we need to be able to use it. Typically we would be reciving a block of JSON text from a webservice or API so we will parse the string into more useful objects.
+
+```java
+String jsonString = pokerHand.toString();
+Log.d("JSON: ", "onCreate: " + jsonString);
+```
+Again we will have to wrap our code in a try catch block in order to safely parse the string into useful JSONObjects
+```java
+try{
+    JSONObject jsonParseObject = new JSONObject(jsonString);
+
+    JSONArray pokerHandArray = jsonParseObject.getJSONArray("hand");
+}catch (JSONException e){
+      e.printStackTrace();
+}
+```
+Since we've parsed our JSON array from our object lets map these values into the Java Models which are called "Plain Old Java Object's"or POJO's
+
+```java
+public class Card {
+
+  private final String rank;
+  private final Suit suit;
+
+  public Card(String rank, Suit suit) {
+    this.rank = rank;
+    this.suit = suit;
+  }
+
+  public String getRank() {
+    return rank;
+  }
+
+  public Suit getSuit() {
+    return suit;
+  }
+}
+
+public enum Suit {
+  CLUBS, DIAMONDS, HEARTS, SPADES;
+}
+```
+Next we need to create a List to hold our objects after they are parsed and for each key/value pair of every JSONObject we add these variables into a new POJO that will be added to the list finally we will print out our result
+
+```java
+try {
+      JSONObject jsonParseObject = new JSONObject(jsonString);
+
+      JSONArray pokerHandArray = jsonParseObject.getJSONArray("hand");
+      List<Card> cards = new ArrayList<>();
+      for (int i = 0; i < pokerHandArray.length(); i++) {
+        String cardRank = (String) pokerHandArray.getJSONObject(i).get("rank");
+        Suit cardSuit = Suit.valueOf((String) pokerHandArray.getJSONObject(i).get("suit"));
+        Card card = new Card(cardRank, cardSuit);
+        cards.add(card);
+      }
+
+      for (Card card : cards) {
+        Log.d("JSON", "onCreate: " + "\nRank: " + card.getRank() +
+            "\nSuit: " + card.getSuit());
+      }
+
+    } catch (JSONException e) {
+      e.printStackTrace();
+    }
+```
+Now that we've learned the basics of Parsing we can take a JSON response and parse it manually. But if you intend to use API's/web services in you Android app you should pick a different library as JSON responses because they become more complex and its hard to keep track of the dense logic. Moshi and GSON libraries are good options theyre open source libraries that make JSON parsing easy
+
+Add the Moshi Library using gradle
+```java
+implementation "com.squareup.moshi:moshi:1.8.0"
+```
+the code for this is alot shorter
+
+```java
+  Moshi moshi = new Moshi.Builder().build();
+    JsonAdapter<PokerHand> jsonAdapter = moshi.adapter(PokerHand.class);
+
+    try {
+      PokerHand pokerHandObject = jsonAdapter.fromJson(jsonString);
+      Log.d("JSON: ", "onCreate: " + pokerHandObject.getHand().toString());
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
+// PokerHand is a Class that holds our list of cards
+public class PokerHand {
+  public List<Card> hand;
+
+  public PokerHand(List<Card> hand) {
+    this.hand = hand;
+  }
+
+  public List<Card> getHand() {
+    return hand;
+  }
+}
+
+```
+### Exercises
+
+[HackerRank](https://www.hackerrank.com/contests/expansion-challenge/challenges/decoding-json)
+
+[LeetCode](https://leetcode.com/problems/mini-parser/)
