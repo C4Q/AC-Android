@@ -1,9 +1,15 @@
 # Introduction to the Internet
 
-# Objectives
+## Objectives
 - Fellows will explore the concept of the Internet
 - Fellows will learn the difference between a Server and a Client
 - Fellows will identify IP Addresses and DNS 
+
+## Vocabulary 
+
+- **URI:** a system for identifying pieces of information on the network. [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
+- **HTTP Methods:** the protocol currently contains 8 methods for requesting a URI: OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT. 
+- **HTTP Headers:** the headers are additional data sent by the user again to give more context about the transaction going on between the client and the server. Some of them will help the server reply in the most appropriate way.
 
 # Lecture
 
@@ -161,9 +167,3 @@ Servers send HTTP status codes to provide quick information on the response sent
 - 3xx ( Redirection): Further action needs to be taken in order to complete the request 
 - 4xx (Client Error): The request contains bad syntax or cannot be fulfilled 
 - 5xx (Server Error): The server failed to fulfill an apparently valid request
-
-## Vocabulary 
-
-- **URI:** a system for identifying pieces of information on the network. [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
-- **HTTP Methods:** the protocol currently contains 8 methods for requesting a URI: OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT. 
-- **HTTP Headers:** the headers are additional data sent by the user again to give more context about the transaction going on between the client and the server. Some of them will help the server reply in the most appropriate way.
