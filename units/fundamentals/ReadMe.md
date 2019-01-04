@@ -16,4 +16,4 @@
 10. [Arrays, ArrayLists, Maps](http://github.com/C4Q/AC-Android/blob/master/lessons/arrays-arraylists/arrays-ArrayLists-HashMaps/README.md)
 11. [Week 2 Review](https://github.com/C4Q/AC3.3/tree/master/lessons/review-list-maps)
 12. [Generics](https://github.com/C4Q/AC3.3/tree/master/lessons/generics)
-13. [Unit 1 Final Assessment]()
+13. [Unit 1 Final Assessment]
