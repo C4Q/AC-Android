@@ -1,4 +1,4 @@
-# Pursuit Android 5.4 Homework 02.02
+# Pursuit Android 5.4 Homework 03.02
 
 ## Create a "Notification List" App
 
