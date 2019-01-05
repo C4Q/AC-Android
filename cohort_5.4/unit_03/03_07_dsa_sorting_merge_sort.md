@@ -152,7 +152,7 @@ The operation that ends up taking the most time will be the during the merging p
 
 1) comparing the items that we want to combine together
 
-2) inserteing them in our array in sorted order 
+2) inserteing them in our array in sorted order
 
 And this operation will need to be preformed on every single element in the list
 
