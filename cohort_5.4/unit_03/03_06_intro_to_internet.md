@@ -465,8 +465,6 @@ public class PokerHand {
 }
 
 ```
-### Exercises
+## Exercises
 
-[HackerRank](https://www.hackerrank.com/contests/expansion-challenge/challenges/decoding-json)
-
-[LeetCode](https://leetcode.com/problems/mini-parser/)
+Please see the exercises available for today's lesson on Canvas.
