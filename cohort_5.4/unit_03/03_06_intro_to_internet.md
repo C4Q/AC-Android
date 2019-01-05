@@ -20,7 +20,7 @@ The Internet is the backbone of the Web, the infrastructure that makes the Web p
 
 What started in the 1960s as a US military research project, soon evolved into a public infrastructure. The various technologies that support the Internet have evolved over time, but the way it works hasn't changed that much: Internet is a way to connect computers all together.
 
-![Internet](assets/internet.jpg)
+![Internet](https://computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/1-27.jpg)
 
 ### Client vs. Server
 
@@ -92,6 +92,7 @@ When you type a web address into your browser:
 3. If the server approves the client's request, the server send the client a "200 Ok" message, which means "of course you can look at that website, here it is" and then starts sending the website's files to the browser as a series of small chunks called data packets. 
 4. The browser assembles the small chunks into a complete website and displays it to you. 
 
+[dns](https://blog.nameshield.com/wp-content/uploads/2017/05/DNS-resolution.jpg)
 
 **Let's see what a request -> response looks like using curl**   
 Go to your terminal and type in the following [curl](https://en.wikipedia.org/wiki/CURL) command:
@@ -177,35 +178,28 @@ Servers send HTTP status codes to provide quick information on the response sent
 It's mainly used to transmit data between a server and a web application, web services and APIs use the JSON format to provide public data.
 
 * Example
-    ["skillz":{
-        "android":[
-            {"name": "java",
-             "years": 3
-            },
-            {"name": "kotlin",
-             "years": 1
-            }]
-        "database":[
-            {"name": "sql"
-             "years": 2
-            },
-            {"name": "postgresql"
-             "years": 1
-            }]
-    }]
+```json
+    {"skillz":{ "android":[ {"name": "java", "years": 3 }, {"name": "kotlin", "years": 1 }] ,"database":[ {"name": "sql", "years": 2 }, {"name": "postgresql", "years": 1 }] }}
+```
 
 A JSON object is an unordered set of key/value pairs
-* The pairs are enclosed within braces, {}
+* The pairs are enclosed within braces, { }
 * There are colon's between the key and the value
 * Pairs are seperated by commas
-* Example: {"name": "java","years": 3}
+* Example:
+```json
+ {"name": "java","years": 3}
+ ```
 
 ![json object](https://www.json.org/object.gif)
 
 A JSON array is an ordered collection of values
-* The values are enclosed in brackets, []
+* The values are enclosed in brackets, [ ]
 * Values are also seperated by commas
-* Example: [{"name": "java","years": 3},{"name": "kotlin", "years": 1}]
+* Example: 
+```json
+"android":[ {"name": "java", "years": 3 }, {"name": "kotlin", "years": 1 }] 
+```
 
 ![json array](https://www.json.org/array.gif)
 
