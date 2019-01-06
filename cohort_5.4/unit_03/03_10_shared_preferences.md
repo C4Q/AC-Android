@@ -10,8 +10,11 @@
 * [Shared Preferences](https://developer.android.com/reference/android/content/SharedPreferences.html)
 * [Android Storage Options](https://developer.android.com/guide/topics/data/data-storage.html#pref)
 * [Shared Preferences Tutorial](https://developer.android.com/guide/topics/data/data-storage.html#pref)
+* [Core Concepts - Shared Preferences](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-9-preferences-and-settings/9-1-c-shared-preferences/9-1-c-shared-preferences.html)
 
 # Lecture
+
+* [Slide Deck - Shared Preferences](https://docs.google.com/presentation/d/1PGCQS6Z4a9c6zWWG8vWgLByxIdy41Hu5cucvZzRVsEI/edit#slide=id.p)
 
 Although we can use data structures in our apps, the data we store usually only lasts as long as the app, or activities within the app, are still active. One the activity is destroyed, so is the data. SharedPreferences allow us to save privitive data (and Strings too), well after the app has shut down.
 
