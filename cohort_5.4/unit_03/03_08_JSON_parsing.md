@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 	}
 }
 ```
@@ -164,9 +164,9 @@ public static final String TAG = "Json Example";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 
-		Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
+	Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
 	}
 }
 ```
@@ -189,15 +189,15 @@ public static final String TAG = "Json Example";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 
-		try {
+	try {
             	newJsonWeAreMaking.put("name", "Jose");
         } catch (JSONException e) {
             	e.printStackTrace();
         }
 
-		Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
+	Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
 	}
 }
 ```
@@ -220,16 +220,17 @@ public static final String TAG = "Json Example";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 
-		try {
+	try {
             	newJsonWeAreMaking.put("family_members", new JSONArray()
-                    .put(new JSONObject().put("name", "Jose")));
+			.put(new JSONObject()
+				.put("name", "Jose")));
         } catch (JSONException e) {
             	e.printStackTrace();
         }
 
-		Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
+	Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
 	}
 }
 ```
@@ -252,9 +253,9 @@ public static final String TAG = "Json Example";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 
-		try {
+	try {
             	newJsonWeAreMaking.put("family_members", new JSONArray()
                     .put(new JSONObject().put("name", "Jose"))
                     .put(new JSONObject().put("name", "Ramona"))
@@ -265,7 +266,7 @@ public static final String TAG = "Json Example";
             	e.printStackTrace();
         }
 
-		Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
+	Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
 	}
 }
 ```
@@ -316,9 +317,9 @@ public static final String TAG = "Json Example";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-		JSONObject newJsonWeAreMaking = new JSONObject();
+	JSONObject newJsonWeAreMaking = new JSONObject();
 
-		try {
+	try {
             newJsonWeAreMaking.put("family_members", new JSONArray()
                     .put(new JSONObject()
                             .put("name", "Jose")
@@ -344,7 +345,7 @@ public static final String TAG = "Json Example";
             e.printStackTrace();
         }
 
-		Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
+	Log.d(TAG, "onCreate: " + newJsonWeAreMaking.toString());
 	}
 }
 ```
@@ -411,7 +412,7 @@ JSONArray familyMembersJsonArray = oldJsonWeAreParsing.getJSONArray("family_memb
 ...
 ```
 
-Now, on to the tricky part - we'll need to map each of these values to a Java Data Model object schema into which we may store these values. This is also uncreatively known as a **POJO**, or "Plain Old Java Object". So dumb.
+Now, on to the tricky part - we'll need to map each of these values to a Java Data Model object schema into which we may store these values. This is also uncreatively known as a **POJO**, or "Plain Old Java Object". Silly, I know - but names are hard sometimes.
 
 In essence, we'll need to create a class that can hold all the values of the objects we wish to parse. For the data we are parsing today, we can use a class like this, with a constructor, and setters/getters for each member variable:
 
@@ -587,3 +588,7 @@ And Logcat shows us our hard work come to life:
 ```
 
 So, what can we do with a List of robust objects? Something to pass into a RecyclerView Adapter rings a bell....
+
+## Exercises
+
+Please see the exercises available for today's lesson on Canvas.
