@@ -1,11 +1,11 @@
-# Android SharedPreferences and Intents, Revisited
+# Shared Preferences
 
-# Objectives
+## Objectives
 
 * Fellows will learn the differences between RAM and Persistent Storage
 * Fellows will learn to utilize SharedPreferences and Intent Extras to store, recall, and exchange information
 
-# Resources
+## Resources
 
 * [Shared Preferences](https://developer.android.com/reference/android/content/SharedPreferences.html)
 * [Android Storage Options](https://developer.android.com/guide/topics/data/data-storage.html#pref)
