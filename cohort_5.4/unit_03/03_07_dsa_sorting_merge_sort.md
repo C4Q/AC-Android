@@ -18,7 +18,7 @@
 Definition
 A merge sort algorithm will split an unsorted list of n-elements into two halves. It then sorts these two halves and merges them together into one sorted list using recursion.
 
-[merge sort theory](https://cdn-images-1.medium.com/max/780/1*ZFpPwH6_ssRu5p8tM9T-vQ.jpeg)
+![merge sort theory](https://cdn-images-1.medium.com/max/780/1*ZFpPwH6_ssRu5p8tM9T-vQ.jpeg)
 
 The basic idea being that it tends to be much easier to sort two smaller sorted lists than sorting a large unsorted one.
 
@@ -55,7 +55,7 @@ But how does this algorithm really work in practice?
 
 ## Divide
 
-[divide](https://imgur.com/a/lMsxbcR)
+![divide](https://imgur.com/a/lMsxbcR)
 
 In the example above we took our list of six elements and split this into two unsorted lists then break that into four unsorted lists until finally we get six lists in total each containing only one item. Since we can't divide this any further we've reached our smallest subproblem. Our recursive base case will be a list with a single item in it because it is always going to be considered sorted.
 
@@ -81,7 +81,7 @@ public static void mergeSort(int left, int right, int[] arr) {
 ```
 ## Conquer and Combine
 
-[combine](https://imgur.com/a/gHqqjKQ)
+![combine](https://imgur.com/a/gHqqjKQ)
 
 Now we'll take our six lists and start merging them together into four lists by checking the first item in each list and combining while maintaining sorted order. We continue until there are two sorted lists and finish merging resulting in a final sorted list.
 
@@ -146,7 +146,7 @@ Dividing shouldnt be too expensive to run since we're only splitting our list an
 
 Sorting shouldnt be too difficult either since our base case means when our list has a size of one it is sorted and when we sort we're sorting two items at a time giving us an essentially constant runtime
 
-[sort runtime](https://imgur.com/a/R9mTMkB)
+![sort runtime](https://imgur.com/a/R9mTMkB)
 
 The operation that ends up taking the most time will be the during the merging process when we append elements and our append operation breaks down to
 
@@ -156,7 +156,7 @@ The operation that ends up taking the most time will be the during the merging p
 
 And this operation will need to be preformed on every single element in the list
 
-[combine](https://imgur.com/a/gHqqjKQ)
+![combine](https://imgur.com/a/gHqqjKQ)
 
 In our previous example we merged lists 3 times and since with have 6 total we have to perform 6 * 3 = (18) append operations
 
@@ -182,4 +182,13 @@ now if we multiply our log of n by the number of elements in our list (n) the to
 |:-------------:|:-------------|
 | time complexity | O(n log n) |
 | space complexity | O( n ) aka out-of-place|   
-| internal/external | external |   
+| internal/external | external |  
+| type | comparison |  
+
+### Exercises
+
+1) Given the following list of numbers: [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40] what list will be sorted after 3 recursive calls to mergesort?
+
+2) Given the following list of numbers: [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40] which two lists will be the first to be merged?
+
+3) [Leetcode](https://leetcode.com/problems/merge-sorted-array/)
