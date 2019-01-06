@@ -652,3 +652,7 @@ submitButton.setOnClickListener(new View.OnClickListener() {
 ```
 
 Great! We were able to leverage the power of Intents and SharedPreferences to create and maintain persistant states within our app!
+
+## Exercises
+
+Please visit the calendar on canvas for today's exercises.
