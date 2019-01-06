@@ -2,14 +2,14 @@
 
 ## Objectives
 
-* Fellows will learn how to design divide and conquer algorithims
+* Fellows will learn how to design divide and conquer algorithms
 * Fellows will explore how to implement Merge Sort and will learn about its runtime complexity
 
 ## Resources
 
-[Youtube](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
-[Java](https://www.baeldung.com/java-merge-sort)
-[Harvard](https://www.youtube.com/watch?v=sWtYJv_YXbo)
+* [Youtube](https://www.youtube.com/watch?v=EeQ8pwjQxTM)
+* [Java](https://www.baeldung.com/java-merge-sort)
+* [Harvard](https://www.youtube.com/watch?v=sWtYJv_YXbo)
 
 # Lecture
 
@@ -20,16 +20,16 @@ A merge sort algorithm will split an unsorted list of n-elements into two halves
 
 ![merge sort theory](https://cdn-images-1.medium.com/max/780/1*ZFpPwH6_ssRu5p8tM9T-vQ.jpeg)
 
-with the basic idea being that it tends to be much easier to sort two smaller sorted lists than sorting a large unsorted one.
+The basic idea being that it tends to be much easier to sort two smaller sorted lists than sorting a large unsorted one.
 
 But how do we magically split up the two halves of our list? By designing our algorithm to implement the divide and conquer technique
 
 ## Designing Algorithms
 
-There are a wide range of techniques we can choose to apply when we're designing an algorithim. For bubble sort we took an incremental/iterative approach: Walking through a list of elements we compared two elements at a time and swapped the out of order elmenents and continued to do this operation until we the entire list is sorted.
+There are a wide range of techniques we can choose to apply when we're designing an algorithm. For bubble sort we took an incremental/iterative approach: Walking through a list of elements we compared two elements at a time and swapped the out of order elmenents and continued to do this operation until we the entire list is sorted.
 The problem with this is that the running time is pretty inefficient because it has a quadratic runtime complexity in Big O notation this will be O(n<sup>2</sup>)
 
-Now we will examine an alternate design approach known as the "divide-and-conquer" strategy, Using this approach we'll write a sorting algorithim whose worst-case run-time will be much less than bubble sort.
+Now we will examine an alternate design approach known as the "divide-and-conquer" strategy, Using this approach we'll write a sorting algorithm whose worst-case run-time will be much less than bubble sort.
 
 ## The divide-and-conquer strategy
 
@@ -152,7 +152,7 @@ The operation that ends up taking the most time will be the during the merging p
 
 1) comparing the items that we want to combine together
 
-2) inserteing them in our array in sorted order 
+2) inserteing them in our array in sorted order
 
 And this operation will need to be preformed on every single element in the list
 
@@ -178,8 +178,8 @@ the number of merge operations can be abstracted to be log<sub>2</sub>n or just
 now if we multiply our log of n by the number of elements in our list (n) the total will be the total number of append operations performed for the sort so our run time complexity will be O (n * log n) since this is a combination of linear and logarithmic time we can refer to this as being in linearithmic time (quasilinear loglinear etc)
 
 ### Stats 
-|   | |    
-|-------------|:-------------:|
+| type | comparison | 
+|:-------------:|:-------------|
 | time complexity | O(n log n) |
 | space complexity | O( n ) aka out-of-place|   
 | internal/external | external |  
