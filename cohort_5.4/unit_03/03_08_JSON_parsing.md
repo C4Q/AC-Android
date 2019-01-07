@@ -417,7 +417,7 @@ Now, on to the tricky part - we'll need to map each of these values to a Java Da
 In essence, we'll need to create a class that can hold all the values of the objects we wish to parse. For the data we are parsing today, we can use a class like this, with a constructor, and setters/getters for each member variable:
 
 ```java
-package nyc.c4q.jsonexamples.model;
+package org.pursuit.jsonexamples.model;
 
 public class FamilyMember {
 
@@ -479,7 +479,7 @@ try {
 Nice! We've effectively parsed the JSON for the data we needed! Just to be sure, let's print to the debug log to confirm:
 
 ```java
-package nyc.c4q.jsonexamples;
+package org.pursuit.jsonexamples;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -492,7 +492,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import nyc.c4q.jsonexamples.model.FamilyMember;
+import org.pursuit.jsonexamples.model.FamilyMember;
 
 public class MainActivity extends AppCompatActivity {
 
