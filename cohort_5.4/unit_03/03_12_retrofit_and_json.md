@@ -113,11 +113,7 @@ It should have two String member variables that match the key names **EXACTLY AS
 
 ### Step 5: Create a Retrofit instance, using the Builder Pattern
 
-The Builder Pattern is a way to assign values to member variables/fields within a class using method chaining during instantiation - sort of like a constructor. However, it is arguably better - sort of the way you use beginTransaction() and commit() with a fragment.
-
-**YOU DO NOT NEED TO KNOW HOW THIS WORKS RIGHT NOW.**
-
-However, that's what's happening in the following code:
+The Builder Pattern is a way to assign values to member variables/fields within a class using method chaining during instantiation:
 
 ```java
 Retrofit retrofit = new Retrofit.Builder()
