@@ -274,7 +274,13 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<RandoPuppy> call, Response<RandoPuppy> response) {
                         Log.d(TAG, "onResponse: " + response.body().getMessage());
                         puppyUrl = response.body().getMessage();
+                        // Older Version of Picasso
                         Picasso.with(getApplicationContext())
+                                .load(response.body().getMessage())
+                                .into(imageView);
+                        // Newer Version of Picasso, no need for explicit context anymore
+                        // implementation 'com.squareup.picasso:picasso:2.71828'
+                        Picasso.get()
                                 .load(response.body().getMessage())
                                 .into(imageView);
                     }
