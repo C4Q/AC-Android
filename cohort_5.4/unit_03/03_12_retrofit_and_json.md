@@ -274,12 +274,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<RandoPuppy> call, Response<RandoPuppy> response) {
                         Log.d(TAG, "onResponse: " + response.body().getMessage());
                         puppyUrl = response.body().getMessage();
-                        // Older Version of Picasso
-                        Picasso.with(getApplicationContext())
-                                .load(response.body().getMessage())
-                                .into(imageView);
-                        // Newer Version of Picasso, no need for explicit context anymore
-                        // implementation 'com.squareup.picasso:picasso:2.71828'
                         Picasso.get()
                                 .load(response.body().getMessage())
                                 .into(imageView);
@@ -304,12 +298,11 @@ So, how are we able to take the URL we get as a response from Retrofit's parsing
 First, add this dependency to your app's build.gradle file:
 
 ```groovy
-    implementation 'com.squareup.picasso:picasso:2.5.2'
+implementation 'com.squareup.picasso:picasso:2.71828'
 ```
 
 Next, let's break down the steps:
-* ```Picasso.with(getApplicationContext())``` - using the current context....
-          * In newer versions of Picasso: ```Picasso.get()``` - the Picasso Instance
+* In newer versions of Picasso: ```Picasso.get()``` - the Picasso Instance
 * ```.load(response.body().getMessage())``` - load the image being pointed to in the link
 * ```.into(imageView);``` - into the ImageView you want
 
@@ -367,7 +360,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<RandoPuppy> call, Response<RandoPuppy> response) {
                         Log.d(TAG, "onResponse: " + response.body().getMessage());
                         puppyUrl = response.body().getMessage();
-                        Picasso.with(getApplicationContext())
+                        Picasso.get()
                                 .load(response.body().getMessage())
                                 .into(imageView);
                     }
