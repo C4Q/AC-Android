@@ -309,6 +309,7 @@ First, add this dependency to your app's build.gradle file:
 
 Next, let's break down the steps:
 * ```Picasso.with(getApplicationContext())``` - using the current context....
+          * In newer versions of Picasso: ```* ```Picasso.get()``` - the Picasso Instance
 * ```.load(response.body().getMessage())``` - load the image being pointed to in the link
 * ```.into(imageView);``` - into the ImageView you want
 
