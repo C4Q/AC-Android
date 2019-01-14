@@ -11,4 +11,12 @@
 [SQLite Primer - Slide Deck](https://docs.google.com/presentation/d/1JeRAAHJhjprO-MwnyX0CGAU1GiaBqWF5jDYceXdHmIc/edit#slide=id.p)
 
 ## Exercises
-Please visit the canvas calendar for today's exercises.
+Create your own database and tables online using this [SQLite Query Simulator](https://www.tutorialspoint.com/execute_sql_online.php). Experiment with the following keywords:
+* CREATE
+* TABLE
+* INSERT
+* INTO
+* VALUES()
+* SELECT
+* FROM
+* WHERE
