@@ -10,7 +10,7 @@
 
 * [Glossary of commonly used SQL commands](https://www.codecademy.com/articles/sql-commands)
 * [Datatypes in SQLite](https://www.sqlite.org/datatype3.html)
-* [SQLite Online Emulator](http://kripken.github.io/sql.js/GUI/)
+* [SQLite Online Emulator](https://www.tutorialspoint.com/execute_sql_online.php)
 * [SQLite in Android](http://www.grokkingandroid.com/sqlite-in-android/)
 * [Saving Data in SQL Databases - developer.android.com](https://developer.android.com/training/basics/data-storage/databases.html)
 * [Easier SQL with Cupboard](https://guides.codepath.com/android/Easier-SQL-with-Cupboard)
@@ -282,7 +282,7 @@ SQLite is a popular choice for databases in phones (it is the default embedded d
 
 One great way to experiment with SQLite is to mess around with a **sandbox**, or a safe way to mess around with a new language, without actually setting your house on fire.
 
-A great resource is this [online emulator](http://kripken.github.io/sql.js/GUI/)!
+A great resource is this [online emulator](https://www.tutorialspoint.com/execute_sql_online.php)!
 
 ## How can we use SQLite to create, update, and administer a relational database in Android Applications?
 
