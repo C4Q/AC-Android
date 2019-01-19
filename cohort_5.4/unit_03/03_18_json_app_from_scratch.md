@@ -47,7 +47,7 @@ Make a new activity that displays the data contained in an instance of the data 
 ### When a List Tile is clicked, it should pass data to, and move to, the Display Activity (5 Minutes)
 Make the itemview clickable, then fire off an intent with intent extras that moves to the display activity
 
-### Display Activity should display the data received from the sending Intent
+### Display Activity should display the data received from the sending Intent (10 Minutes)
 Take the four values received from the sending intent, and display them in views within the Display Activity.
 
 ## Exercises
