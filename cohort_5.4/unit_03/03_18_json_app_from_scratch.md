@@ -5,8 +5,8 @@
 * Fellows will demonstrate this step in front of the class with the instructor
 
 ## Resources
-* []() 
-* []()
+* [RecyclerView Review](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_20_recyclerview_review.md) 
+* [Retrofit and JSON](https://github.com/joinpursuit/Pursuit-Core-Android/edit/master/cohort_5.4/unit_03/03_18_json_app_from_scratch.md)
 
 # Lecture
 
