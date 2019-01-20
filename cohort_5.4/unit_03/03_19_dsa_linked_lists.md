@@ -134,6 +134,21 @@ However if we were to insert a node at a known position like the head of our lin
   }
 ```
 
+## List-Print
+
+Heres a method that will print our list
+
+```java
+  public void print() {
+    LinkedListNode current = head;
+
+    while (current != null) {
+      System.out.print(current.data + "---> ");
+      current = current.next;
+    }
+    System.out.println("NIL\n");
+  }
+```
 
 ## List-Delete
 
@@ -176,6 +191,7 @@ public class LinkedList {
 ```
 
 To keep track of the list size or length insert and delete operations should either increment or decrement the size field.
+
 
 ## Review
 
