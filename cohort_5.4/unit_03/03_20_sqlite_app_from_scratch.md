@@ -14,7 +14,7 @@ Today we will build an "App From Scratch", for time. The goal of today's lesson 
 * you may be able to complete assessments within the time allotted
 * you may be able to complete coding challenges within the time allotted
 
-For our previous "App from Scratch" challenge, we worked with
+For our previous "App from Scratch" challenge, we worked with receiving data from a JSON Endpoint, then passing it into a RecyclerView. This challenge will involve creating an app that will accept data from a user, save it to a database, then display that data in a RecyclerView.
 
 The tasks are as follows:
 
