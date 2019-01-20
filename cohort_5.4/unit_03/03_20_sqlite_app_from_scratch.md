@@ -49,4 +49,4 @@ Create an Adapter class, which overrides all inherited methods, and binds the li
 Add a RecyclerView to your activity, then pass a list of data to it, the list received from the Database Table.
 
 ## Exercises
-Push this project to Github, then submit the link to the exercises page on the cnvas calendar for today's date.
+Push this project to Github, then submit the link to the exercises page on the canvas calendar for today's date.
