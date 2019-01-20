@@ -24,11 +24,14 @@ Open up a new Android Studio Project, using an Empty Activity.
 ### Make data model class(es) based on how we want our Rows to store Data (10 Minutes)
 Consider a note, which is meant to be unique, then structure a class to contain the note's contents.
 
-### Create Singleton Class for Subclassed SQLiteOpenHelper Instance (20 Minutes)
+### Create Singleton Class for Subclassed SQLiteOpenHelper Instance (10 Minutes)
 Create a Singleton class using the Static Factory Method design pattern, to contain a unique single instance of the Subclassed SQLiteOpenHelper class.
 
+### Create Methods for adding and getting Data from the Database Table (10 Minutes)
+Create methods which allow a user to add a note, and allow a user to get all the notes saved in the database table.
+
 ### Create a Main Activity (20 Minutes)
-Create an Activity with two buttons: one that moves to a Note Submission Activity, and another that moves to a Note Display RecyclerView Activity
+Create an Activity with two buttons: one that moves to a Note Submission Activity, and another that moves to a Note Display RecyclerView Activity.
 
 ### Create a Note Submission Activity (20 Minutes)
 Create an Activity with an EditText to enter a note, and a button which will add the note to the database table. It should fire off a toast letting the user know that the note was added.
