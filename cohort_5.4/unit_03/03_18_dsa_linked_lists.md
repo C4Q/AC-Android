@@ -134,6 +134,7 @@ However if we were to insert a node at a known position like the head of our lin
   }
 ```
 
+
 ## List-Delete
 
 ```java
@@ -174,7 +175,7 @@ public class LinkedList {
    ...
 ```
 
-to keep track of the list size or length insert and delete operations should either increment or decrement the size field.
+To keep track of the list size or length insert and delete operations should either increment or decrement the size field.
 
 ## Review
 
