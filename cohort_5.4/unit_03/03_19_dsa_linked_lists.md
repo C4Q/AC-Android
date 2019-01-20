@@ -1,9 +1,9 @@
-# DSA Linked List
+# DS&A Data Structures: Linked Lists
 
 ## Objectives
 
-* Review Linked lists and implementations of methods
-* Identify the runtime complexity of each implemented operation
+* Fellows will review Linked lists and implementations of methods
+* Fellows will identify the runtime complexity of each implemented operation
 
 ## Resources
 
@@ -15,7 +15,7 @@ A data structure is a way to store and organize data so that we are able to easi
 
 ## Array Review
 
-Arrays are the most common data structures used to store collections of elements. In most programming languages arrays are convenient to declare and use [ ] syntax to access elements by their index.
+Arrays are the most common data structures used to store collections of elements. In most programming languages arrays are convenient to declare and use \[ \] syntax to access elements by their index.
 
 ```java
 public class ArrayDemo {
