@@ -7,6 +7,7 @@
 ## Resources
 * [RecyclerView Review](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_20_recyclerview_review.md) 
 * [SQLite and SQLiteOpenHelper](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03/03_16_sqlite_%20and_sqliteopenhelper.md)
+* [Retrofit and SQLiteOpenHelper Project](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03/projects/DogBreedsSQLite.zip)
 
 # Lecture
 
