@@ -17,7 +17,7 @@
 
 Stacks are dynamic sets of data which is made up of a bunch of elements. Stacks are similar to Arrays and Linked Lists because it is an linear structure. Meaning that there is an order to how they are built or how the structure is traversed.
 
-![Plates](https://imgur.com/DC6k7b5)
+![Plates](https://i.imgur.com/DC6k7b5.png)
 
 Similar to how we would handle a stack of plates, there is only one direction to the stack (if we don't want to deal with a mess). If we want to add an element or take something from it we have to do it from the "top". This is because if we had a large stack say 100 plates it be difficult to add this to the first position in the stack or the bottom
 
@@ -109,7 +109,7 @@ Print will just display the contents of our stack
 
 It appears that stacks and linked lists have a lot of similarities we can see that this example is implemented by using a Linked List since we only want to grow the stack in one direction and the top of the stack would essentially be the head of our list. That being said linked lists are not the only option we have. 
 
-![Array](https://imgur.com/iGSidci)
+![Array](https://i.imgur.com/iGSidci.png)
 
 A Stack can also be implemented using an array but there would be drawbacks to doing this.
 
