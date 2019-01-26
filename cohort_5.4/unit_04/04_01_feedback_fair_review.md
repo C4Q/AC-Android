@@ -1,7 +1,5 @@
 # Feedback Fair Review
 
-# Feedback Fair Review
-
 ## Objectives
 * Fellows will walk through the tasks volunteers expected them to complete
 * Fellows will explore possible solutions for each of these tasks
