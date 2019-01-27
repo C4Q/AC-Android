@@ -2,7 +2,7 @@
 
 ## Create a "Notification List" App
 
-### Project overview
+### Project Overview
 
 Create an Android Application that allows users to explore a scrolling list of Notifications, then send one when the choice is clicked.
 
