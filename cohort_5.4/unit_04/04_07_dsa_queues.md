@@ -33,7 +33,7 @@ This behavior is described as First in First Out. Where an item is inserted at o
 
 ![FIFO](https://foodsafetyblog.statefoodsafety.com/wp-content/uploads/2017/03/SFS_2015_First_In_First_Out.jpg)
 
-Similar to how we would handle food safety, lines at a bodega or any other store, elements of a queue take a number and wait their turn. The element up front is the first one to be processed or run by whatever program or algorithim is running.
+Similar to how we would handle food safety, lines at a bodega or any other store, elements of a queue take a number and wait their turn. The element up front is the first one to be processed or run by whatever program or algorithm is running.
 
 This is the most important difference between stacks and queues stacks are considered Last in, First Out structures LIFO and Queues are First in First Out structures or FIFO
 
@@ -47,11 +47,13 @@ Queues and Stacks come up together often as a single topic because they end up u
 2) A Stacks pop function will be the same as a queues dequeue function
 3) size and isEmpty are helper functions they generally share
 
-Remember how stacks can be implemented as an array and can result in messy stack overflows if we go out of bounds of the allocated memory. Well it turns out its an even worse idea to implement this using queues.
+Remember how stacks can be implemented as an array and can result in messy stack overflows if we go out of bounds of the allocated memory. Well it turns out it's an even worse idea to implement this using queues.
 
-Arrays are useful when we know the size of the structure we need ahead of time. But if we dont then we meed to go through a expensive process of copying over contents of one array to another once we've run out of allocated memeory. and then enqueue a new element onto the new end. And if the size of the array grows accessing the end of the queue will cause the space time complexity to grow
+Arrays are useful when we know the size of the structure we need ahead of time. But if we don't then we need to go through a expensive process of copying over contents of one array to another once we've run out of allocated memory. and then enqueue a new element onto the new end. And if the size of the array grows accessing the end of the queue will cause the space time complexity to grow.
 
-So using a linked list implementation of a queue will help us avoid this problem since memory will be evenly distributed and our structure can now grow dynamically. (as long as we dont use the entire machines memory). Enqueueing and dequeueing gets alot easier if we use Nodes and have each node point to the next neighbor its important to recognize the differences between these implementations and decide what is more useful for the current situation.
+![implementation](https://i.imgur.com/jE26dDr.png)
+
+So using a linked list implementation of a queue will help us avoid this problem since memory will be evenly distributed and our structure can now grow dynamically. (as long as we dont use the entire machines memory). Enqueuing and dequeuing gets a lot easier if we use Nodes and have each node point to the next neighbor it's important to recognize the differences between these implementations and decide what is more useful for the current situation.
 
 ## Enqueue
 
@@ -67,6 +69,8 @@ So using a linked list implementation of a queue will help us avoid this problem
     }
   }
 ```
+
+Inserting into a queue can only happen at the back of the queue, similar to someone getting in line for a delicious Burger at In 'n Out. Assuming an efficient queue implementation, queue insertion is O(1).
 
 ## Dequeue
 
@@ -84,6 +88,8 @@ So using a linked list implementation of a queue will help us avoid this problem
   }
 ```
 
+Deleting from a queue happens at the front of the queue. Assuming an efficient queue implementation, queue deletion is O(1).
+
 ## Peek
 
 ```java
@@ -95,6 +101,8 @@ So using a linked list implementation of a queue will help us avoid this problem
   }
 ```
 
+Returns the top of the queue. Since this position happens to be at the front of the queue we will just the return the data stored there. Runtime for this will be O(1)
+
 ## isEmpty()
 
 ```java
@@ -102,6 +110,8 @@ So using a linked list implementation of a queue will help us avoid this problem
     return first == null;
   }
 ```
+
+This method returns true if and only if the queue is empty
 
 ## Print
 
@@ -115,13 +125,21 @@ So using a linked list implementation of a queue will help us avoid this problem
   }
 ```
 
+## Queues in the wild
+
+![Imgur](https://i.imgur.com/zB9Qz7U.png)
+
+An example of real world applications of queues would be request queueing. When multiple devices send requests for data to some api or web application a server has to work to process these requests. Generally when we want to handle data requests on the internet like an Amazon web server handling sales on black friday. The incoming request will be stored in a queue. The requests are then processed one by one and the responses will be loaded into an outgoing response queue in the order that they have been processed. These responses are then returned back into the world
+
 ## Exercises
 
 1) Show how to implement a queue using two stacks. Analyze the running time of the queue operations.
 
 2) Show how to implement a stack using two queues. Analyze the running time of the stack operations.
 
-3) Problem: You are given an array A consisting of n integers. Array A represents a scenario in a grocery store, and contains only 0s and/or 1s:
+3) Handle the case where the queue is empty and you try to dequeue or if the stack is full and you try to enqueue i.e handling under-flows and overflows
+
+4) Problem: You are given an array A consisting of n integers. Array A represents a scenario in a grocery store, and contains only 0s and/or 1s:
 
 • 0 represents the action of a new person joining the line in the grocery store,
 • 1 represents the action of the person at the front of the queue being served and leaving
