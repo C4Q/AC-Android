@@ -1,4 +1,4 @@
-# DSA Data Structures: Queues
+# DS&A Data Structures: Queues
 
 ## Objectives
 
