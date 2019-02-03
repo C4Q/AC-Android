@@ -15,13 +15,13 @@
 
 # Lecture
 
-Queues and Stacks are often taught together because they are very similar even though their uses and implementations can be very different. A queue queues things in a queue. and this can be illustrated by a line customers in a store. New people join the back of the queue and the next person to be served will be first in line
+Queues and Stacks are often taught together because they are very similar even though their implementations can be very different. A Queue is an linear data structure just like a stack but instead elements are inserted from one end called the REAR or TAIL and removed from the other end called the FRONT or HEAD. This can be illustrated by a line customers in a store, new people join the back of the queue/line and the next person to be served will be first in the queue/line.
 
 ![Line](https://3.bp.blogspot.com/_w9XO9zBePXE/SKFjlee6K-I/AAAAAAAAAdk/iRjNgU62cmM/s1600/royston_queue.jpg)
 
-A queue is a linear data structure that will contain a long list of elements a that can grow through a process called enqueuing and shrinks through a process called dequeuing.
+The queue is a long list of elements that can grow through a process called enqueuing and shrinks through a process called dequeuing.
 
-A queue is also like an array but comes with additional rules:
+A queue is also like an array but it comes with additional rules:
 
 * You can't access values randomly using an index
 * You can only add values in one end and retrieve them from the other
@@ -33,21 +33,21 @@ This behavior is described as First in First Out. Where an item is inserted at o
 
 ![FIFO](https://foodsafetyblog.statefoodsafety.com/wp-content/uploads/2017/03/SFS_2015_First_In_First_Out.jpg)
 
-Similar to how we would handle food safety, lines at a bodega or any other store, elements of a queue take a number and wait their turn. The element up front is the first one to be processed or run by whatever program or algorithm is running.
+Similar to how we would handle food safety, lines at a bodega or any other store, elements inside of a queue basically take a number and wait their turn. The element at the front of the line is the first one to be processed by the program/algorithm that created it.
 
-This is the most important difference between stacks and queues stacks are considered Last in, First Out structures LIFO and Queues are First in First Out structures or FIFO
+This is one of the most important difference's between stacks and queues. Stacks are considered Last in First Out data structures (LIFO) and Queues are First in First Out data structures (FIFO)
 
 ![FIFOLIFO](https://i.ytimg.com/vi/tbUlRMER_9w/hqdefault.jpg)
 
 ## Implementation
 
-Queues and Stacks come up together often as a single topic because they end up using similar functions and implement the same data type.
+Queues and Stacks come up together often as a single topic because they end up using similar functions
 
 1) A stack push function will be similar to the Enqueue function
 2) A Stacks pop function will be the same as a queues dequeue function
 3) size and isEmpty are helper functions they generally share
 
-Remember how stacks can be implemented as an array and can result in messy stack overflows if we go out of bounds of the allocated memory. Well it turns out it's an even worse idea to implement this using queues.
+Remember how stacks can be implemented as an array, unfortunately this can result in messy stack overflows if we go out of bounds of the allocated memory. Turns out it can be just as bad of an idea to implement queues using arrays.
 
 Arrays are useful when we know the size of the structure we need ahead of time. But if we don't then we need to go through a expensive process of copying over contents of one array to another once we've run out of allocated memory. and then enqueue a new element onto the new end. And if the size of the array grows accessing the end of the queue will cause the space time complexity to grow.
 
