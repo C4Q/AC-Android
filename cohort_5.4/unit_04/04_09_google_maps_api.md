@@ -18,7 +18,7 @@
 
 Just like with Views, Activities, RecyclerViews, Fragments, SharedPreferences, JSON Parsing, Internet Connectivity, Database Management, Background Services, and Notifications - it makes sense to first explore the bare minimum required for basic implementations, rather than their most optimal forms - in order to get a better understanding of the concepts at the very beginning of the learning process.
 
-The Google Maps API, much like most other Google API's, is incredibly robust, with seemingly countless features (bells and whistles, so to speak), and seemingly infinite use cases. However, in today's lecture we will not spend time diving deep into various animated frament layouts for MapViews, and making Map location markers change based on itemview clicks, or address changes. Rather, we will focus on the absolute minimum necessary to create a map, interact with it via touch events, add markers based on exact locations, and access actual, current location data from a user's Android device.
+The Google Maps API, much like most other Google API's, is incredibly robust, with seemingly countless features (bells and whistles, so to speak), and seemingly infinite use cases. However, in today's lecture we will NOT spend time diving deep into various animated frament layouts for MapViews, and making Map location markers change based on itemview clicks, or address changes. Rather, we will focus on the absolute minimum necessary to create a map, interact with it via touch events, add markers based on exact locations, and access actual, current location data from a user's Android device.
 
 ### 1. Confirm your SDK Settings
 
