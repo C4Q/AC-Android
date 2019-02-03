@@ -1,5 +1,9 @@
 # Google Maps API and Location Services - First Principles Edition
 
+## Objectives
+* Fellows will explore how to manipulate Google Maps in their Apps
+* Fellows will learn how to integrate lat/long, and address location data into their Maps
+
 ## Resources
 
 * [Google Maps API](https://developers.google.com/maps/documentation/android-api/)
