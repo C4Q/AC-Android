@@ -11,7 +11,36 @@
 
 ## Warm-up
 
-[Baseball](https://leetcode.com/problems/baseball-game/)
+Java Postfix Calculator
+
+Postfix is a expression of Arithmetic Expressions in which the operands are placed before their operators. There are no precedence rules, no parentheses needed. It's much easier for us to calculate Postfix Expression by using a stack. Example the expression 3 * (10 + 5) would look be 3 10 5 + * in postfix notation
+
+Example output  3 10 5 + *
+
+```
+3 10 5 + *
+-> 3
+    push 3
+-> 10
+    push 10
+-> 5
+    push 5
+-> +
+    pop 5, 10
+    push 15
+-> *
+    pop 15, 3
+    push 45
+```
+
+finish the method
+
+```java
+    public static double postFixCalculator(String[] strArr) {
+   
+      
+    }
+```
 
 # Lecture
 
