@@ -27,6 +27,15 @@ A queue is also like an array but it comes with additional rules:
 * You can only add values in one end and retrieve them from the other
 * It has two explicit methods
 
+Pop Quiz - Which one of these situations would require a stack and which would require a queue
+
+[A] People standing in line at the store
+[B] List of print jobs waiting to be printed
+[C] Set of tennis balls in their container
+[D] Vehicles lined up behind a toll booth
+[E] Patients waiting to see the doctor
+[F] An order of pancakes
+
 ## FIFO
 
 This behavior is described as First in First Out. Where an item is inserted at one end (called the rear of the queue) and deleted from the other end (the front)
@@ -47,13 +56,30 @@ Queues and Stacks come up together often as a single topic because they end up u
 2) A Stacks pop function will be the same as a queues dequeue function
 3) size and isEmpty are helper functions they generally share
 
-Remember how stacks can be implemented as an array, unfortunately this can result in messy stack overflows if we go out of bounds of the allocated memory. Turns out it can be just as bad of an idea to implement queues using arrays.
+Remember how stacks can be implemented as an array, unfortunately this can result in messy stack overflows if we go out of bounds of the allocated memory. And as it turns out it can be just as bad of an idea to implement an queue using an array.
 
-Arrays are useful when we know the size of the structure we need ahead of time. But if we don't then we need to go through a expensive process of copying over contents of one array to another once we've run out of allocated memory. and then enqueue a new element onto the new end. And if the size of the array grows accessing the end of the queue will cause the space time complexity to grow.
+Arrays are useful when we know the size of the structure we need ahead of time. But if we don't then we need to go through an expensive process of copying over contents of one array to another once we've run out of allocated memory. Once this is done then you'll have to enqueue the element onto the new end. And if the size of the array continues to grow, trying to access the tail of the queue will cause the space time complexity to grow as well.
 
 ![implementation](https://i.imgur.com/jE26dDr.png)
 
-So using a linked list implementation of a queue will help us avoid this problem since memory will be evenly distributed and our structure can now grow dynamically. (as long as we dont use the entire machines memory). Enqueuing and dequeuing gets a lot easier if we use Nodes and have each node point to the next neighbor it's important to recognize the differences between these implementations and decide what is more useful for the current situation.
+So using a linked list implementation of a queue will help us avoid this problem since memory will be evenly distributed and our structure can now grow dynamically, (as long as we dont use the entire machines memory). Enqueuing and dequeuing gets a lot easier if we use Nodes and have each node point to the next neighbor. It's important to recognize the differences between these implementations and decide what is useful for the current situation.
+
+## QueueNode
+
+```java
+public class QueueNode {
+
+   int data;
+   QueueNode next;
+
+  public QueueNode(int data) {
+    this.data = data;
+    next = null;
+  }
+}
+```
+
+Our node is just like a linked list node, we have some kind of data and we have a pointer to the next node in the queue
 
 ## Enqueue
 
@@ -70,7 +96,7 @@ So using a linked list implementation of a queue will help us avoid this problem
   }
 ```
 
-Inserting into a queue can only happen at the back of the queue, similar to someone getting in line for a delicious Burger at In 'n Out. Assuming an efficient queue implementation, queue insertion is O(1).
+Inserting into a queue can only happen at the back of the queue, similar to someone getting in line for a delicious Burger at shake shack. We can make this operation efficient by saving the location of the last node and attaching our input to become the new tail, queue insertion will be O(1).
 
 ## Dequeue
 
@@ -88,7 +114,7 @@ Inserting into a queue can only happen at the back of the queue, similar to some
   }
 ```
 
-Deleting from a queue happens at the front of the queue. Assuming an efficient queue implementation, queue deletion is O(1).
+Deleting from a queue happens at the front of the queue. This will be efficient because we have saved the location of the node at the front of the line, queue deletion will be O(1).
 
 ## Peek
 
