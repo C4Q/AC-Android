@@ -7,9 +7,12 @@
 
 # Lecture
 
-## Warm-Up - DO THIS FIRST (15 Minutes)!
+## Warm-Up - DO THIS FIRST (20 Minutes)!
 
-Read through the documentation in the [Google Maps API](https://developers.google.com/maps/documentation/android-api/) to become familiar with the integration process.
+* Confirm that "Google Play Services" is installed and updated on your device or emulator
+* Read through the documentation in the [Google Maps API](https://developers.google.com/maps/documentation/android-api/) to become familiar with the integration process.
+
+
 
 ## Google Maps API - First Principles
 
