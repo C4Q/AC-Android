@@ -16,8 +16,6 @@
 * Confirm that "Google Play Services" is installed and updated on your device or emulator
 * Read through the documentation in the [Google Maps API](https://developers.google.com/maps/documentation/android-api/) to become familiar with the integration process.
 
-
-
 ## Google Maps API - First Principles
 
 Just like with Views, Activities, RecyclerViews, Fragments, SharedPreferences, JSON Parsing, Internet Connectivity, Database Management, Background Services, and Notifications - it makes sense to first explore the bare minimum required for basic implementations, rather than their most optimal forms - in order to get a better understanding of the concepts at the very beginning of the learning process.
@@ -92,7 +90,7 @@ task clean(type: Delete) {
 }
 ```
 
-### 5. Add Permissions to your Manifest
+### 5. Add Permissions and Library Use to your Manifest
 
 In order to access the Internet, or get location information from your Android device, you'll need to add device permissions first. Add the following permissions to your `AndroidManifest.xml` file, above the application opening tag:
 
@@ -100,6 +98,14 @@ In order to access the Internet, or get location information from your Android d
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+```
+
+Due to issues related to more recent API's (API version 26+), it may also be necessary to add this within the `application` tags of your `AndroidManifest.xml` file:
+
+```
+<uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 ```
 
 ### 6. Add Markers to the Map
