@@ -21,7 +21,7 @@ Today we will build an "App From Scratch", for time. The goal of today's lesson 
 * Send an intent with data to the Map Activity
 * Display that data as a marker on a Map
 
-The JSON Endpoint we will be working with today [can be found here](https://raw.githubusercontent.com/JDVila/storybook/master/planets.json). First you will be asked to complete a task within a certain block of time. Then, once the time alloted has ended, a fellow will be randomly selected by the instructor, and asked to complete the task in front of the class.
+The JSON Endpoint we will be working with today [can be found here](https://raw.githubusercontent.com/JDVila/storybook/master/museums.json). First you will be asked to complete a task within a certain block of time. Then, once the time alloted has ended, a fellow will be randomly selected by the instructor, and asked to complete the task in front of the class.
 
 We are tasked to complete this challenge within 3 (three) hours.
 
