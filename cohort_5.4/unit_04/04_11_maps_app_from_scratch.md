@@ -38,11 +38,11 @@ Create a Singleton class using the Static Factory Method design pattern, to cont
 ### Create Retrofit Service Interface (15 Minutes)
 Create an Interface for a Retrofit service, adding methods for creating get requests that include the path that comes after the base url.
 
-### Make a Retrofit Get Request, then use the Response (15 Minutes)
-Make a request to the JSON endpoint, then receive the data from the response body.
-
 ### Make a Fragment within the MainActivity
 Host a Fragment within the MainActivity, with both a static factory method, and interface callbacks.
+
+### Make a Retrofit Get Request, then use the Response (15 Minutes)
+Make a request to the JSON endpoint, then receive the data from the response body.
 
 ### Subclass a RecyclerView ViewHolder Class, with corresponding ItemView XML Layout (15 Minutes)
 Create a ViewHolder class, which references the views declared in an ItemView XML Layout.
