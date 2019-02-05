@@ -1,4 +1,4 @@
-# Fragments "App From Scratch"
+# Maps "App From Scratch"
 
 ## Objectives
 * Fellows will attempt to follow steps within a mock coding challenge
