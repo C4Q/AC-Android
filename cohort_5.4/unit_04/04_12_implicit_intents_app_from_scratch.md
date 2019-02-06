@@ -58,7 +58,7 @@ Make the itemview clickable, then fire off an intent with intent extras that mov
 ### Display Activity should display the data received from the sending Intent (20 Minutes)
 Take the three values received from the sending intent, and display them in views within the Display Activity.
 
-### Add a clickable button which triggers an implicit intent
+### Add a clickable button which triggers an implicit intent (10 Minutes)
 Take the name value, combine it with the horoscope url, and move to a browser app that will display today's horoscope for the selected zodiac sign.
 
 ## Exercises
