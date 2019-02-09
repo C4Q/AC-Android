@@ -34,16 +34,16 @@ JUnit utilizes `assert` methods to confirm whether a class's methods provide exp
 
 If you want to test the boolean conditions (true or false), you can use following assert methods
 
-    1. `assertTrue(condition)`
-    1. `assertFalse(condition)`
+1. `assertTrue(condition)`
+1. `assertFalse(condition)`
 
 Here the condition is a boolean value.
 Null object
 
 If you want to check the initial value of an object/variable, you have the following methods:
 
-    1. `assertNull(object)`
-    1. `assertNotNull(object)`
+1. `assertNull(object)`
+1. `assertNotNull(object)`
 
 Here object is a Java object e.g. assertNull(actual);
 
@@ -51,14 +51,14 @@ Here object is a Java object e.g. assertNull(actual);
 
 If you want to check whether the objects are identical (i.e. comparing two references to the same java object), or different.
 
-    1. `assertSame(expected, actual)`, It will return true if expected == actual
-    1. `assertNotSame(expected, actual)`
+1. `assertSame(expected, actual)`, It will return true if expected == actual
+1. `assertNotSame(expected, actual)`
 
 * Assert Equals
 
 If you want to test equality of two objects, you have the following methods
 
-    1. `assertEquals(expected, actual)`
+1. `assertEquals(expected, actual)`
 
 It will return true if: expected.equals( actual ) returns true.
 
@@ -66,22 +66,22 @@ It will return true if: expected.equals( actual ) returns true.
 
 If you want to test equality of arrays, you have the following methods as given below:
 
-    `assertArrayEquals(expected, actual)`
+`assertArrayEquals(expected, actual)`
 
 Above method must be used if arrays have the same length, for each valid value for i, you can check it as given below:
 
-    `assertEquals(expected[i],actual[i])`
-    `assertArrayEquals(expected[i],actual[i])`
+`assertEquals(expected[i],actual[i])`
+`assertArrayEquals(expected[i],actual[i])`
 
 Fail Message
 
 If you want to throw any assertion error, you have fail() that always results in a fail verdict.
 
-    `Fail(message);`
+`Fail(message);`
 
 You can have assertion method with an additional String parameter as the first parameter. This string will be appended in the failure message if the assertion fails. E.g. fail( message ) can be written as
 
-    `assertEquals( message, expected, actual)`
+`assertEquals( message, expected, actual)`
     
 ### JUnit Testing in Practice
 
