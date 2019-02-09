@@ -85,7 +85,7 @@ You can have assertion method with an additional String parameter as the first p
     
 ### JUnit Testing in Practice
 
-Please download [this project here](), unzip it, and run it in Android Studio. In the file `SillyTranslator.java`, we can see 10 different methods - all of which accept a `String` as an argument for its parameter, and a return type of `String`.
+Please download [this project here](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/projects/testing_revisited_creating_tests.zip), unzip it, and run it in Android Studio. In the file `SillyTranslator.java`, we can see 10 different methods - all of which accept a `String` as an argument for its parameter, and a return type of `String`.
 
 We will then go over how to set up the testing suite, prepare the environment, then compose tests for the first two methods. For the remainder of the methods, a fellow will be randomply selected to create a test for each method in the class `SillyTranslator.java` in `SillyTranslatorUnitTest.java`, in front of the class.
 
