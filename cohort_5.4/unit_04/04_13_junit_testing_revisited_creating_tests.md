@@ -17,20 +17,20 @@ The most frequently used annotations for the testing environment are as follows:
 * `@BeforeClass` and `@AfterClass` - bookends all of the test methods in a JUnit test class
 
 When you run the JUnit test class below, each method is run based on their particular annotation. The execution order is as follows:
-  * Method annotated with @BeforeClass
-  * Method annotated with @Before
-  * First method annotated with @Test i.e. test1().
-  * Method annotated with @After
-  * Method annotated with @Before
-  * Second method annotated with @Test i.e. test2().
-  * Method annotated with @After
-  * Method annotated with @AfterClass
+  * Method annotated with `@BeforeClass`
+  * Method annotated with `@Before`
+  * First method annotated with `@Test` i.e. `test1()`
+  * Method annotated with `@After`
+  * Method annotated with `@Before`
+  * Second method annotated with `@Test` i.e. `test2()`
+  * Method annotated with `@After`
+  * Method annotated with `@AfterClass`
 
 ### JUnit Assert methods
 
 JUnit utilizes `assert` methods to confirm whether a class's methods provide expected return values based on particular inputs.
 
-* Boolean
+#### Boolean
 
 If you want to test the boolean conditions (true or false), you can use following assert methods
 
@@ -47,14 +47,14 @@ If you want to check the initial value of an object/variable, you have the follo
 
 Here object is a Java object e.g. assertNull(actual);
 
-* Identical
+#### Identical
 
 If you want to check whether the objects are identical (i.e. comparing two references to the same java object), or different.
 
 1. `assertSame(expected, actual)`, It will return true if expected == actual
 1. `assertNotSame(expected, actual)`
 
-* Assert Equals
+#### Assert Equals
 
 If you want to test equality of two objects, you have the following methods
 
@@ -62,7 +62,7 @@ If you want to test equality of two objects, you have the following methods
 
 It will return true if: expected.equals( actual ) returns true.
 
-* Assert Array Equals
+#### Assert Array Equals
 
 If you want to test equality of arrays, you have the following methods as given below:
 
@@ -73,7 +73,7 @@ Above method must be used if arrays have the same length, for each valid value f
 `assertEquals(expected[i],actual[i])`
 `assertArrayEquals(expected[i],actual[i])`
 
-Fail Message
+#### Fail Message
 
 If you want to throw any assertion error, you have fail() that always results in a fail verdict.
 
