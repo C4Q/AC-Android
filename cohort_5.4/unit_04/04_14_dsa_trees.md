@@ -249,3 +249,17 @@ public boolean contains(int val) {
 * 1, 3, 4
 * 3, 1, 4
 * 5, 3, 8, 4, 0, 6, 7
+
+Given the tree
+
+                 7
+              /     \
+             5       8
+           /   \    /  \
+          3     4  6    15
+         /
+        0
+
+* Write a tree minimum method that returns the smallest value from a tree
+
+* Write a tree maximum method that returns the maximum value from the tree
