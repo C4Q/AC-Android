@@ -68,25 +68,124 @@ Tree nodes will have descriptions depending on where there position is in the tr
 * Sibling: Group of nodes that are children of the same node
 * Leaf: Nodes that does not have children. These nodes are at the end of the tree
 
+Trees will work the same way that a hierarchy does like a family tree a corporate ladder or a royalties line of succession. The Queen will be the root node at the top. The Queen will delegate to other parent nodes which may or may not have children of their own. And as the family continues to grow layers will get added to the tree and these parents and children will all be ancestors of the root node.
+
 # Implementation
 
 ## Insert
 
+```java
+public void insert(int val){
+    if(val <= data){
+        if(left == null){
+            left = new TreeNode(val);
+        } else{
+            left.insert(val);
+        }
+    }else{
+        if(right == null){
+            right = new TreeNode(val);
+        }else{
+            right.insert(val)
+        }
+    }
+}
+```
+
+## Contains
+
+```java
+public boolean contains(int val){
+    if(val == data){
+        return true;
+    } else if(value < data) {
+        if(left == null){
+            return false;
+        }else{
+            return left.contains(val);
+        }
+    } else {
+        if(right == null){
+            return false;
+        }else {
+            return right.contains(val)
+        }
+    }
+}
+```
+
 ## Breadth First Search
+
+```java
+public void BFS(TreeNode root){
+    Queue<TreeNode> nodeQueue = new LinkedList<>();
+    nodeQueue.add(root);
+    while(!nodeQueue.isEmpty()){
+        TreeNode current = nodeQueue.remove();
+        if(current.left != null){
+            nodeQueue.add(left);
+        }
+        System.out.println(current.data);
+        if(current.right != null){
+            nodeQueue.add(right);
+        }
+    }
+}
+```
 
 ## Depth First Search
 
 ### Pre Order
 
+```java
+public void preOrderDFS(TreeNode current){
+
+    if(current.left != null){
+        preOrderDFS(current.left);
+    }
+
+    System.out.println(current.data);
+
+    if(current.right != null){
+        preOrderDFS(current.right);
+    }
+}
+```
+
 ### InOrder
+
+```java
+public void inorderDFS(TreeNode current){
+
+    if(current.left != null){
+        inorderDFS(current.left);
+    }
+
+    System.out.println(current.data);
+
+    if(current.right != null){
+        inorderDFS(current.right);
+    }
+}
+```
 
 ### PostOrder
 
-## Find
+```java
+public void postOrderDFS(TreeNode current){
 
-## Size
+    if(current.left != null){
+        postOrderDFS(current.left);
+    }
 
-1
+    System.out.println(current.data);
+
+    if(current.right != null){
+        postOrderDFS(current.right);
+    }
+}
+```
+
 You work with tree data structures every day: Think about your computers file system:
 
 ![Mac-File](https://cdn.macpaw.com/uploads/images/Screen%20Shot%202015-04-06%20at%208_52_24%20PM.png)
