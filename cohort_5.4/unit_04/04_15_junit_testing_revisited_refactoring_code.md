@@ -23,7 +23,7 @@ For today's lesson, we will imagine that we are brought in to refactor code for 
 * Add new tests to test the remainder of the methods, based on the expectations set for them in each method's comments
 * Refactor each method until each new test passes
 
-Download [this project here](), and modify it's code until each old and new test passes, based on the correct assumptions set forth by the docs.
+Download [this project here](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/projects/testing_revisited_refactoring_code.zip), and modify it's code until each old and new test passes, based on the correct assumptions set forth by the docs.
 
 ## Exercises
 
