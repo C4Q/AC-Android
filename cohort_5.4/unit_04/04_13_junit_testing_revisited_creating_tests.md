@@ -6,6 +6,8 @@
 
 ## Resources
 
+* [Unit Testing in Android](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_08_app_testing.md)
+
 # Lecture
 
 JUnit 4 Testing involves the use of annotations and assert methods to setup, run, and confirm that all tests either pass or fail.
