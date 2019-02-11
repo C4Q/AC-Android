@@ -42,7 +42,7 @@ Create at least two tests in the `StringManipulatorUnitTest.java` class to confi
 ### Create a method called `zipperWords(String first, String second)` in `StringManipulator.java` (10 Minutes)
 This method should:
 * return a `String` value
-* return a `String` that consists of the characters from both parameters "zippered" together, i.e. - the words `apple` and `orange` should be zippered into `aoprpalngee`
+* return a `String` that consists of the characters from both parameters "zippered" together, i.e. - the words `apple` and `orange` should be zippered into `aoprpalnege`
 * add the remainder of the longest word to the end of the newly zippered word
 
 Create at least one test in the `StringManipulatorUnitTest.java` class to confirm that this method runs as expected.
