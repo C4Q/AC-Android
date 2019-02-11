@@ -6,7 +6,7 @@
 
 ## Resources
 * [RecyclerView Review](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_20_recyclerview_review.md) 
-* [Retrofit and JSON](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03
+* [Retrofit and JSON](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03)
 
 # Lecture
 
@@ -61,13 +61,19 @@ This method should:
 
 Create at least one test in the `StringManipulatorUnitTest.java` class to confirm that this method runs as expected.
 
-### Create a method called `wordSum(String first, String second)` in `StringManipulator.java` (10 Minutes)
+### Create a method called `longestWord(String[] words)` in `StringManipulator.java` (10 Minutes)
 This method should:
-* return an `int` value
-* return the sum of the lengths of both strings passed as arguments
+* return a `String` value
+* return the word with the longest number of characters in the `String` array 
 
 Create at least one test in the `StringManipulatorUnitTest.java` class to confirm that this method runs as expected.
 
+### Create a method called `wordSort(String[] words)` in `StringManipulator.java` (10 Minutes)
+This method should:
+* return a `String[]` array
+* return the contents of the original array, but sorted by length from smallest to largest
+
+Create at least one test in the `StringManipulatorUnitTest.java` class to confirm that this method runs as expected.
 
 ## Exercises
 Push project to Github, then submit the link to the exercises page on the canvas calendar for today's date.
