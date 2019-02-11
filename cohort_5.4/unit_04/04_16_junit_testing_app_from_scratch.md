@@ -5,8 +5,8 @@
 * Fellows will demonstrate this step in front of the class with the instructor
 
 ## Resources
-* [RecyclerView Review](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_20_recyclerview_review.md) 
-* [Retrofit and JSON](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03)
+* [Unit Testing in Android](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_08_app_testing.md)
+* [JUnit Testing Revisited](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/04_13_junit_testing_revisited_creating_tests.md)
 
 # Lecture
 
