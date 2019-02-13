@@ -1,6 +1,6 @@
 # Oh, the Topics You'll Know....
 
-#### Unit 01
+### Unit 01
 - [ ] Basic Bash Commands
 - [ ] Java primitive values and variable assignment: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, and `boolean`
 - [ ] Java arithmetic operations with primitive values
