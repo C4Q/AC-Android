@@ -65,6 +65,7 @@
 - [ ] Menus and Pickers
 - [ ] Context in Android
 - [ ] Material Design
+- [ ] ADB Shell
 - [ ] JUnit Testing
 - [ ] UI Testing
 - [ ] Bubble Sort
@@ -91,4 +92,16 @@
 
 ### Unit 04
 
-- [ ] 
+- [ ] Fragments, FragmentManager, and FragmentTransaction
+- [ ] Fragment Lifecycle Callback methods
+- [ ] Fragment Bundle Arguments
+- [ ] Fragment Static Factory Methods
+- [ ] Fragment Interface Callbacks
+- [ ] Location Services
+- [ ] Google Maps API
+- [ ] Layout Inspector
+- [ ] Android Profiler
+- [ ] Packages, Single Responsibility, and Application Architecture
+- [ ] Stacks
+- [ ] Queues
+- [ ] Trees
