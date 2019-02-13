@@ -1,4 +1,42 @@
 # Oh, the Topics You'll Know...
 
-- [ ] one
-- [x] two
+#### Unit 01
+- [ ] Basic Bash Commands
+- [ ] Java primitive values and variables
+- [ ] Java arithmetic operations with primitive values
+- [ ] Concatenation and printing `String` values
+- [ ] Logical Expressions
+- [ ] Control flow with conditions: if/then/else, switch, and ternary
+- [ ] While and Do-While Loops
+- [ ] For Loops
+- [ ] Getting input from console using Scanner objects
+- [ ] Methods, parameters, and return types
+- [ ] Object Oriented Programming (Encapsulation, Inheritance, Polymorphism)
+- [ ] Classes, constructors, and overloaded methods
+- [ ] Static vs non-static
+- [ ] Access modifiers: public, private, protected, and default/package-private
+- [ ] Generics and parameterized return types
+- [ ] Getters and Setters
+- [ ] Encapsulation and Abstraction
+- [ ] Classes and Inheritance
+- [ ] Interfaces and overriding methods
+- [ ] Abstract classes and the `super()` constructor
+- [ ] Casting and Polymorphism
+- [ ] Anonymous Classes
+- [ ] Static Factory Methods
+- [ ] Singletons
+- [ ] Enums
+- [ ] Builders
+- [ ] Big "O" Fundamentals: Time vs. Space Complexity
+- [ ] Recursion
+- [ ] Arrays
+- [ ] Lists and ArrayLists
+- [ ] Maps and HashMaps
+- [ ] Sets and HashSets
+- [ ] O(1) and Constant Time vs. O(n) and Linear Time
+- [ ] 2D Arrays and O(n^2) Quadratic Time
+- [ ] Binary Search and O(log(n)) Logarithmic Time
+- [ ] Bits and Bytes
+- [ ] Regular Expressions
+- [ ] Trello and Project Management
+- [ ] Git, Github, and Software Version Control
