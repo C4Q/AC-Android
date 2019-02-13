@@ -59,6 +59,7 @@
 - [ ] CardView
 - [ ] RecyclerView: Adapters, ViewHolders, binding data and inflating views
 - [ ] Android Application, and Activity Livecycle Callback Methods
+- [ ] Intents and Extras: Explicit and Implicit Intents
 - [ ] Orientation Change, and onSavedInstanceState
 - [ ] User Navigation, and Navigation Drawer
 - [ ] Menus and Pickers
@@ -66,3 +67,7 @@
 - [ ] Material Design
 - [ ] JUnit Testing
 - [ ] UI Testing
+
+
+### Unit 03
+- [ ]
