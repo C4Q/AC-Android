@@ -85,6 +85,7 @@
 - [ ] Data Models
 - [ ] Retrofit2, GSON, and connecting to JSON Endpoints
 - [ ] Picasso and Image Urls
+- [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Linked Lists
 
