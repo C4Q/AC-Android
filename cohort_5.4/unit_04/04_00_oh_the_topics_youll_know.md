@@ -46,7 +46,8 @@
 
 ### Unit 02
 - [ ] Starting an Android Studio Project
-- [ ] XML Properties, and 
+- [ ] Creating Emulators and using devices in Developer Mode
+- [ ] XML Properties, and Layout Files
 - [ ] ViewGroups vs Views
 - [ ] LinearLayout and Orientation
 - [ ] ConstraintLayout
@@ -69,6 +70,7 @@
 - [ ] ADB Shell
 - [ ] JUnit Testing
 - [ ] UI Testing
+- [ ] Logging and Debugging
 - [ ] Bubble Sort
 
 ### Unit 03
