@@ -13,7 +13,7 @@
 - [ ] Methods, parameters, and return types
 - [ ] Object Oriented Programming (Encapsulation, Inheritance, Polymorphism)
 - [ ] Classes, constructors, and overloaded methods
-- [ ] Static vs non-static
+- [ ] Accessing fields and methods statically vs. from instances/objects: `Apple.getSeedCount();` vs `Apple apple = new Apple(); apple.getSeedCount();`
 - [ ] Access modifiers: public, private, protected, and default/package-private
 - [ ] Generics and parameterized return types
 - [ ] Getters and Setters
@@ -22,6 +22,7 @@
 - [ ] Interfaces and overriding methods
 - [ ] Abstract classes and the `super()` constructor
 - [ ] Casting and Polymorphism
+- [ ] Static and Dynamic object types: `Apple apple = new Apple()` vs `Fruit apple2 = new Apple()`
 - [ ] Anonymous Classes
 - [ ] Static Factory Methods
 - [ ] Singletons
