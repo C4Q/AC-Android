@@ -111,3 +111,5 @@
 - [ ] Stacks
 - [ ] Queues
 - [ ] Trees
+- [ ] Timed Coding Challenges
+- [ ] Live Debugging
