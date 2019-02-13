@@ -1,6 +1,6 @@
 # Oh, the Topics You'll Know....
 
-![Oh, the Topics You'll Know....](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/images/oh-the-topics-youll-know-pursuit-core-android-54-cohort.jpg)
+![Oh, the Topics You'll Know....](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/images/oh-the-topics-youll-know-pursuit-core-android-54.jpg)
 
 ### Unit 01
 - [ ] Basic Bash Commands
