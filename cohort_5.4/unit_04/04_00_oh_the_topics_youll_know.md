@@ -40,6 +40,7 @@
 - [ ] Try/Catch blocks and Exceptions
 - [ ] Bits and Bytes
 - [ ] Regular Expressions
+- [ ] Code Formatting
 - [ ] Trello and Project Management
 - [ ] Git, Github, and Software Version Control
 
@@ -86,6 +87,7 @@
 - [ ] Data Models
 - [ ] Retrofit2, GSON, and connecting to JSON Endpoints
 - [ ] Picasso and Image Urls
+- [ ] Managing Gradle Dependencies
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Linked Lists
