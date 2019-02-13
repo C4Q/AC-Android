@@ -111,5 +111,6 @@
 - [ ] Stacks
 - [ ] Queues
 - [ ] Trees
+- [ ] Test Driven Development
 - [ ] Timed Coding Challenges
-- [ ] Live Debugging
+- [ ] Live Debugging with Mock Interviewers
