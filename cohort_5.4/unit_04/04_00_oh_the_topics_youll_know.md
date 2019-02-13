@@ -4,7 +4,7 @@
 - [ ] Basic Bash Commands
 - [ ] Java primitive values and variable assignment: `byte`, `short`, `int`, `long`, `float`, `double`, `char`, and `boolean`
 - [ ] Java arithmetic operations with primitive values
-- [ ] Concatenation and printing `String` values
+- [ ] Concatenation and printing values as `String` objects
 - [ ] Logical Expressions and Comparisons
 - [ ] Control flow with conditions: if/then/else, switch, and ternary
 - [ ] While and Do-While Loops
