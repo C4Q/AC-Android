@@ -1,4 +1,4 @@
-# Android Profiler Basics and Memeory Management
+# Android Profiler Basics and Memory Management
 
 ## Objectives
 * Fellows will explore the concept of Settings Activities in Android
