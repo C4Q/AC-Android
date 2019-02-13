@@ -67,7 +67,27 @@
 - [ ] Material Design
 - [ ] JUnit Testing
 - [ ] UI Testing
-
+- [ ] Bubble Sort
 
 ### Unit 03
-- [ ]
+- [ ] AsyncTasks and Main / UI Thread
+- [ ] Broadcasts
+- [ ] Services
+- [ ] Notifications
+- [ ] Alarms
+- [ ] JobScheduler
+- [ ] Internet Requests
+- [ ] Internal and External Device Storage
+- [ ] Shared Preferences
+- [ ] SQLite Commands and Queries
+- [ ] SQLiteOpenHelper
+- [ ] JSON, JSON Parsing, JSONObjects and JSONArrays
+- [ ] Data Models
+- [ ] Retrofit2, GSON, and connecting to JSON Endpoints
+- [ ] Picasso and Image Urls
+- [ ] Quick Sort
+- [ ] Linked Lists
+
+### Unit 04
+
+- [ ] 
