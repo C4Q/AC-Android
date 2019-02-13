@@ -117,4 +117,6 @@ With every life-changing journey, it's easy to look at results and assume that n
 - [ ] Timed Coding Challenges
 - [ ] Live Debugging with Mock Interviewers
 
+## How to Use this List
+
 Use this list as a checklist to scratch off all the topics you feel you are pretty good at, and a guide for all the topics you feel you'd like to review a bit more. Later units will either review past topics, or cover more advanced topics that junior developers aren't necessarily expected to know prior to starting with a company - so if you see anything on this list that you feel you should exlpore a bit more, share those topics with your mentors, volunteers, as well as any other member of the instructional staff. You have all learned a great deal, and attempted even more than you may think! Let's keep it going!
