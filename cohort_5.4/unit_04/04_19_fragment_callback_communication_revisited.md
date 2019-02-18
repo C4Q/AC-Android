@@ -35,7 +35,7 @@ public interface NorseFighter {
 And a class that implements the interface called "Thor.java"
 
 ``` java
-public class Thor implements NoreseFighter {
+public class Thor implements NorseFighter {
 
   @Override
   public void sayMyName() {
