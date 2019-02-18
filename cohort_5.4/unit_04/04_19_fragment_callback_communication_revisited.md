@@ -35,11 +35,16 @@ String weapon(String name);
 And a class that implements the interface called "Thor.java"
 
 ``` java
+
+  
 public class Thor implements NoreseFighter {
+
+  @Override
   public void sayMyName() {
     System.out.println("I am Thor, king of Asgard");
   }
   
+  @Override
   public String weapon(String name) {
     if (name.equals("Thor")) {
       return "Stormbreaker";
