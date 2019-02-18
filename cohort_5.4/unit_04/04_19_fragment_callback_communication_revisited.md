@@ -12,4 +12,16 @@
 
 # Lecture
 
+So far, we've discussed the Fragment Lifecycle, Fragment Management, Fragment Transactions, Bundle Arguments, and the Backstack. We've even discussed Fragment static factory methods, and the use of interface callback methods to communicate between a Fragment, and its hosting Activity. Today, we'll explicitly explore these last two topics together.
+
+### What Is an Interface?
+
+According to the Java docs:
+
+```
+In its most common form, an interface is a group of related methods with empty bodies... To implement this interface, the name of your class would change, and you'd use the implements keyword in the class declaration... Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code before the class will successfully compile.
+```
+
+In other words, an `interface` is a promise of sorts - if you implement the interface, it is expected that you will have to fill each of those abstract methods' method bodies (the space within its `{` and `}` curly braces/brackets) with code that matches its expected behavior. For example,
+
 ## Exercises
