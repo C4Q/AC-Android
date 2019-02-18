@@ -26,8 +26,8 @@ In other words, an `interface` is a promise of sorts - if you implement the inte
 ``` java 
 public interface NorseFighter {
 
-void sayMyName();
-String weapon(String name);
+  void sayMyName();
+  String weapon(String name);
 
 }
 ```
@@ -35,13 +35,11 @@ String weapon(String name);
 And a class that implements the interface called "Thor.java"
 
 ``` java
-
-  
 public class Thor implements NoreseFighter {
 
   @Override
   public void sayMyName() {
-    System.out.println("I am Thor, king of Asgard");
+    System.out.println("I am Thor, King of Asgard!");
   }
   
   @Override
