@@ -18,9 +18,8 @@ So far, we've discussed the Fragment Lifecycle, Fragment Management, Fragment Tr
 
 According to the Java docs:
 
-```
-In its most common form, an interface is a group of related methods with empty bodies... To implement this interface, the name of your class would change, and you'd use the implements keyword in the class declaration... Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code before the class will successfully compile.
-```
+*"In its most common form, an interface is a group of related methods with empty bodies... To implement this interface, the name of your class would change, and you'd use the implements keyword in the class declaration... Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code before the class will successfully compile."*
+
 
 In other words, an `interface` is a promise of sorts - if you implement the interface, it is expected that you will have to fill each of those abstract methods' method bodies (the space within its `{` and `}` curly braces/brackets) with code that matches its expected behavior. For example,
 
