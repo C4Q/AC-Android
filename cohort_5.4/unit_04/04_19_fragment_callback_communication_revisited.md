@@ -254,7 +254,7 @@ public void onAttach(Context context) {
 }
 ```
 
-Now, when an event is triggered from within the fragment, it can call the overridden ` ` method in the activity, through the reference in the ` ` object:
+Now, when an event is triggered from within the fragment, it can call the overridden `onInputFragmentInteraction(input)` method in the activity, through the reference in the `OnInputFragmentInteractionListener mListener` object:
 
 ``` java
 @Override
