@@ -58,7 +58,7 @@ public class Thor implements NorseGod {
         weapon = "Stormbreaker";
         break;
       default:
-        weapon: "Unbridled Electricity";
+        weapon = "Unbridled Electricity";
         break;
     }
     return weapon;
