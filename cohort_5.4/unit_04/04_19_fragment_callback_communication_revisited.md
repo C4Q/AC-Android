@@ -11,6 +11,9 @@
 * [Fragments Review](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/04_06_fragments_review.md)
 * [Creating Custom Listeners](https://guides.codepath.com/android/Creating-Custom-Listeners)
 
+## Warm-Up - DO THIS FIRST!!! (10 Minutes)
+Unzip the [project file here](), and describe in your own words, exactly how the fragments exchange data between the activity that hosts it.
+
 # Lecture
 
 So far, we've discussed the Fragment Lifecycle, Fragment Management, Fragment Transactions, Bundle Arguments, and the Backstack. We've even discussed Fragment static factory methods, and the use of interface callback methods to communicate between a Fragment, and its hosting Activity. Today, we'll explicitly explore these last two topics together.
