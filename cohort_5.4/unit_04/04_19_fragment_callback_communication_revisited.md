@@ -302,3 +302,4 @@ You've done well. Here are a couple of fun piglets swimming in the caribbean sea
 ![fun piglets swimming in the caribbean sea](https://www.fb101.com/wp-content/uploads/2014/06/7875531868_9f9ec85b6b_o.jpg.CROP_.promo-large2.jpg)
 
 ## Exercises
+Please visit the canvas calendar for today's date, to find today's exercises.
