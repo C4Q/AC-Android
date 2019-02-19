@@ -254,4 +254,38 @@ public void onAttach(Context context) {
 }
 ```
 
+Now, when an event is triggered from within the fragment, it can call the overridden ` ` method in the activity, through the reference in the ` ` object:
+
+``` java
+@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    rootView = inflater.inflate(R.layout.fragment_input, container, false);
+    inputEditText = rootView.findViewById(R.id.input_fragment_editText);
+    inputSubmitButton = rootView.findViewById(R.id.input_fragment_submit_button);
+    inputSubmitButton.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String inputTextString = inputEditText.getText().toString();
+            
+            // when the button is clicked, the overridden interface listener method is called:
+            onButtonPressed(inputTextString);
+            
+        }
+    });
+    return rootView;
+}
+
+....
+
+public void onButtonPressed(String input) {
+    if (mListener != null) {
+        mListener.onInputFragmentInteraction(input);
+    }
+}
+
+```
+
+
+
+
 ## Exercises
