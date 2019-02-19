@@ -223,4 +223,18 @@ Alright - that was intense. Let's take a moment to appreciate this cat eating a 
 
 Everyone good? Great - let's talk more about how that listener is passed to the fragment in the first place.
 
+Remember Fragment Lifecycle Callbacks? There are a lot of them, and you're forgiven for not knowing them all by heart. Here's a quick list of them:
+
+1. onAttach()
+1. onCreate()
+1. onCreateView()
+1. onViewCreated()
+1. onActivityCreated()
+1. onStart()
+1. onPause()
+1. onStop()
+1. onDestroyView()
+1. onDestroy()
+1. onDetach()
+
 ## Exercises
