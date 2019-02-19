@@ -215,7 +215,7 @@ public void onInputFragmentInteraction(String input) {
 }
 ```
 
-This method, when called, starts the process of having the MainActivity replace one fragment with another one. This method is expected to be called in the `InputFragment`, triggered by an event from within that particular fragment - perhaps a button click. The actual triggering event doesn't matter - what matters is that when the event does occur, it calls that activity method from within the fragment, causing the activity to swap fragments. The `InputFragment` doesn't need to know that the `MainActivity` will call logic that will switch activities - it just needs to tell the activity that something in the fragment happened. The fragment is ignorant to what the activity does, but the activity is aware of what the fragment does, because that particular listener method was called. 
+This method, when called, starts the process of having the MainActivity replace one fragment with another one. This method is expected to be called in the `InputFragment`, triggered by an event from within that particular fragment - perhaps a button click. The actual triggering event doesn't matter - what matters is that when the event does occur, it calls that activity method from within the fragment, causing the activity to swap fragments. The `InputFragment` doesn't need to know that the `MainActivity` will call logic that will switch activities - it just needs to tell the activity that something in the fragment happened. The fragment is ignorant to what the activity does, but the activity is aware of what the fragment does, because that particular listener method was called from that particular fragment. 
 
 Alright - that was intense. Let's take a moment to appreciate this cat eating a sandwich:
 
