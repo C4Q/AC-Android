@@ -55,7 +55,7 @@ Then `Thor` would have to implement each of `NorseGod`'s methods.
 
 ### What are Listeners?
 
-Listeners represent the interfaces responsible to handle events. Effectively, interfaces are implemented by classes, the classes are instantiated, the methods are overridden, and their reference is then passed to other classes, which can then call the overridden methods as needed, triggering the code within the overridden methods to run. 
+Listeners represent the interfaces responsible for handling events. Effectively, interfaces are implemented by classes, the classes are instantiated, the methods are overridden, and their reference is then passed to other classes, which can then call the overridden methods as needed, triggering the code within the overridden methods to run. 
 
 That was a lot. Here's a Dalmation eating some ice cream:
 
