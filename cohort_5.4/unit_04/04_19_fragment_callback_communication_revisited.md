@@ -328,7 +328,7 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-This process of using implemented subclassed interfaces as listeners is foundational to a number of application architectural design patterns. By doing this, we are effectively "separating concerns" between the views (Fragments), and the classes that control them/respond to their events (Activities).
+This process of using implemented subclassed interfaces as listeners is foundational to a number of application architectural design patterns. By doing this, we are effectively "separating concerns" between the views (Fragments), and the classes that control them and/or respond to their events (Activities).
 
 You've done well. Here are a couple of fun piglets swimming in the caribbean sea:
 
