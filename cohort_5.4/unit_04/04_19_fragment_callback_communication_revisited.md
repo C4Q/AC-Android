@@ -237,4 +237,21 @@ Remember Fragment Lifecycle Callbacks? There are a lot of them, and you're forgi
 1. onDestroy()
 1. onDetach()
 
+The methods that concern us in relation to getting and cleaning up our listener in this case are `onAttach()` and `onDetach()`.
+
+`onAttach()` is called first when a fragment is live, even before `onCreate()`, letting us know that our fragment has been attached to an activity. We are passed the context of the Activity that hosts our fragment. This means that we can take this context (essentially `MainActivity`), then cast it back to the static type of the `OnInputFragmentInteractionListener` interface (since it implements this interface), and store this object globally within our particular fragment:
+
+``` java
+@Override
+public void onAttach(Context context) {
+    super.onAttach(context);
+    if (context instanceof OnInputFragmentInteractionListener) {
+        mListener = (OnInputFragmentInteractionListener) context;
+    } else {
+        throw new RuntimeException(context.toString()
+                + " must implement OnInputFragmentInteractionListener");
+    }
+}
+```
+
 ## Exercises
