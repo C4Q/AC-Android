@@ -21,7 +21,7 @@ According to the Java docs:
 *"In its most common form, an interface is a group of related methods with empty bodies... To implement this interface, the name of your class would change, and you'd use the implements keyword in the class declaration... Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code before the class will successfully compile."*
 
 
-In other words, an `interface` is a promise of sorts - if you implement the interface, it is expected that you will have to fill each of those abstract methods' method bodies (the space within its `{` and `}` curly braces/brackets) with code that matches its expected behavior. For example, if there exists an interface called "NorseGod.java":
+In other words, an `interface` is a promise of sorts - if you implement the interface, it is expected that you will have to fill each of those abstract methods' method bodies (the space within its `{` and `}` curly braces/brackets) with code that matches its expected behavior. For example, if there exists an interface called `NorseGod.java`:
 
 ``` java 
 public interface NorseGod {
@@ -32,7 +32,7 @@ public interface NorseGod {
 }
 ```
 
-And a class that implements the interface called "Thor.java":
+And a class that implements the interface called `Thor.java`:
 
 ``` java
 public class Thor implements NorseGod {
@@ -52,6 +52,17 @@ public class Thor implements NorseGod {
 ```
 
 Then `Thor` would have to implement each of `NorseGod`'s methods.
+
+### What are Listeners?
+
+Listeners represent the interfaces responsible to handle events. Effectively, interfaces are implemented by classes, the classes are instantiated, the methods are overridden, and their reference is then passed to other classes, which can then call the overridden methods as needed, triggering the code within the overridden methods to run. 
+
+That was a lot. Here's a Dalmation eating some ice cream:
+
+![dalmation eating ice cream](http://pawedpets.org/wp/wp-content/uploads/dalmation-eating-ice-cream.jpg)
+
+Okay, back to listeners.
+
 
 
 ## Exercises
