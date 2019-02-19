@@ -285,7 +285,20 @@ public void onButtonPressed(String input) {
 
 ```
 
+Finally, to avoid holding a reference to the hosting activity for longer than we should, we override the `onDetach()` method, to make sure we've availed it to garbage collection, whenever the activity is finally destroyed:
 
+``` java
+@Override
+public void onDetach() {
+    super.onDetach();
+    mListener = null;
+}
+```
 
+This process of using implemented subclassed interfaces as listeners is foundational to a number of application architectural design patterns. By doing this, we are effectively "separating concerns" between the views (Fragments), and the classes that control them/respond to their events (Activities).
+
+You've done well. Here are a couple of fun piglets swimming in the caribbean sea:
+
+![fun piglets swimming in the caribbean sea](https://www.fb101.com/wp-content/uploads/2014/06/7875531868_9f9ec85b6b_o.jpg.CROP_.promo-large2.jpg)
 
 ## Exercises
