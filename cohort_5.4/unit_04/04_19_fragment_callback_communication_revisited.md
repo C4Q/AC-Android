@@ -295,6 +295,39 @@ public void onDetach() {
 }
 ```
 
+The activity can now pass the data from the first fragment, pass that data to a second fragment, then swap the first fragment for the second one - all without either fragment being aware of the process:
+
+``` java
+@Override
+public void onInputFragmentInteraction(String input) {
+    DisplayFragment displayFragment = DisplayFragment.newInstance(input);
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+    fragmentTransaction.replace(R.id.main_activity_container, displayFragment)
+            .addToBackStack(DisplayFragment.KEY).commit();
+}
+```
+
+And how does that other fragment get access to that data passed to it without explicitly setting bundle arguments? It does it internally using a static factory instance method:
+
+``` java
+public static DisplayFragment newInstance(String param1) {
+    DisplayFragment fragment = new DisplayFragment();
+    Bundle args = new Bundle();
+    args.putString(ARG_PARAM1, param1);
+    fragment.setArguments(args);
+    return fragment;
+}
+
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    if (getArguments() != null) {
+        mParam1 = getArguments().getString(ARG_PARAM1);
+    }
+}
+```
+
 This process of using implemented subclassed interfaces as listeners is foundational to a number of application architectural design patterns. By doing this, we are effectively "separating concerns" between the views (Fragments), and the classes that control them/respond to their events (Activities).
 
 You've done well. Here are a couple of fun piglets swimming in the caribbean sea:
