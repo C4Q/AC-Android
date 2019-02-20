@@ -49,8 +49,8 @@ When the button is clicked, move data from the fragment, to the activity.
 ### Create a new DisplayFragment class to display the 3 (three) Strings in the form of a fun sentence (15 Minutes)
 Create a new fragment class to display a sentence consisting of strings from the previous fragment.
 
-### Swap the first fragment with the second fragment (15 Minutes)
-Swap the first fragment with the second fragment, passing the Strings from the Activity to the Fragment, using the second fragments static facorty method.
+### Swap the First Fragment with the Second Fragment (15 Minutes)
+Swap the first Fragment with the second Fragment, passing the Strings from the Activity to the Fragment, using the second fragments static facorty method.
 
 ## Exercises
 Push this project to Github, then submit the link to the exercises page on the cnvas calendar for today's date.
