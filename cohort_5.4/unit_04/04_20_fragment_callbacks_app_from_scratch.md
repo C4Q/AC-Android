@@ -44,7 +44,7 @@ Have the MainActivity implement the Fragment's Interface, then override the inte
 Assign the context (after casting it) to a listener variable. Clean up the reference in the `onDetach()` method.
 
 ### Pass data from the EditTexts to the fragment listener, based on the onClick action (10 Minutes)
-When the button is clicked, move data from the fragment, to the activity.
+Pass data from the EditTexts to the fragment listener, based on the onClick action. When the button is clicked, move data from the fragment, to the activity.
 
 ### Create a new DisplayFragment class to display the 3 (three) Strings in the form of a fun sentence (15 Minutes)
 Create a new fragment class to display a sentence consisting of strings from the previous fragment.
