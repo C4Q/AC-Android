@@ -9,6 +9,14 @@
 
 ## Resources
 
+[](https://leetcode.com/discuss/interview-question/object-oriented-design/?currentPage=1&orderBy=recent_activity&query=)
+
+[](https://www.careercup.com/page?pid=object-oriented-design-interview-questions)
+
+[](https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260)
+
+[](https://itnext.io/what-pizzas-can-teach-you-about-object-oriented-programming-3570143aef3f)
+
 ## Lecture
 
 ### Trees
@@ -58,6 +66,8 @@ But how do we solve the problem of traversing a tree in level order, we need to 
 
 BFS will lean on the queue data structure because we will be able to add nodes that we have discovered and not visited yet to our queue and then come back to them later
 
+![Queue](https://i.imgur.com/aClaJ0z.jpg)
+
 while we traverse the tree we are discovering nodes. A discovered node is one that we will add to our queue but we have not personally visited yet so we can store it in our queue until we are ready to move on.
 
 When we start the root node will be the first discovered node once this node is in our queue we can start visiting the nodes and adding their children to the queue we can describe this process with the next couple of steps
@@ -69,7 +79,6 @@ While our queue is not empty
 1) Visit the node f (print)
 2) Enqueue left child
 3) Enqueue right child
-
 
 ### Depth First Search
 
@@ -119,5 +128,65 @@ public void postOrderTraversal(TreeNode node){
 
 ### AMA
 
-### Object Oriented
+### Object Oriented Design
 
+When you walk into a whiteboarding interview there are two types of questions you'll likely see. The first of the two will focus on Algorithm design where will use our knowledge of data structures and runtime complexity to solve some problem. 
+
+The next type of question would be an Object Oriented Design question which will be more interesting. We have learned textbook knowledge of how interfaces and interfaces work OOD challenges the programmer to apply these concepts into practice.
+
+OOD questions will generally start the same there will be an intentionally vague set of constraints. Unlike a programming challenge where code either works or it doesn't. There isn't a right answer, these problems are meant to allow the interview a chance to explain and handle design trade offs and how systems are impacted by these decisions.
+
+### Approach
+
+* Find the right level
+* Talk through use cases
+* Set your objects
+* Wire relationships
+
+A typical OOD questions would be "Lets design a program to play a game of cards like blackjack"
+
+### Finding the right level
+
+The very first thing to do is ask questions. Don't be afraid to ask for clarification. For example if it wasn't made clear you should ask if the interview wants you to implement the design or is only looking for how the class should be structured. Don't get lost in the details ask questions to determine what level of complexity you should be working on.
+
+### Talk through use cases
+
+Do you know how to play blackjack? Now is the time to ask for details because this is where use cases will be hashed out. You'll need to describe the game of blackjack lets break it down into two things.
+
+* What you need
+* How to play
+
+### Set your objects
+
+Lets look back at the sentence we wrote above and take note of each noun and property and try to represent them as objects and use to verbs to model a behavior that interacts with these objects
+
+For example heres a noun we should model
+
+* Deck
+
+and heres a behavior we will need to model
+
+* Dealing cards
+
+### Wire the relationships
+
+Its best to solve these types of problems bottom up where we describe the smallest set of behaviors before you work your way up to larger pieces. Working top down will be much more difficult if you end up having to do things with objects or behaviors that haven't been defined yet.
+
+For example a Deck should be composed of cards and you should be able to drawCards and shuffleCards
+
+We started with some vague questions added in our use cases and came up with a design that should model these behaviors. We should always keep in mind that our design should be flexible and reflect real life.
+
+### Exercises
+
+Parking Lot Design Using OO Design
+
+Parking can be single-level or multilevel.
+
+1 Types of vehicles that can be parked, separate spaces for each type of vehicle.
+  
+2 Constraints
+  Number of vehicles that can be accommodated of any type.
+
+3 Basic Design/High-Level Components
+  Vehicle/Type of vehicle.
+  Different spots for vehicles.
