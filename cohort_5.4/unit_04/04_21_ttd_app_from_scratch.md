@@ -1,4 +1,4 @@
-# JUnit Testing "App from Scratch"
+# JUnit Test-Driven Development "App from Scratch"
 
 ## Objectives
 * Fellows will attempt to follow steps within a mock coding challenge
