@@ -9,9 +9,29 @@
 
 # Lecture
 
-Whiteboarding... is a thing. Many companies hate them - some hiring managers love them. Max Howell, the creator of the Mac library installer "Homebrew", has some NSFW thoughts on the issue (Google it).
+What is the point of this program? The point of this program is transformation - transforming your life and career trajectory from where you were when you applied, to where you want to be by graduation. Fotr some, this is a change in job hours and level of responsibility, for others it will be an increase in income, access to health and fiscal benefits, as well as the opportunity to make apps for a living.
 
-However, whiteboarding method functions forces a developer to consider how best to approach a problem before ever writing a single line of code. 
+To get a job in tech as a Junior Android Developer in NYC/NJ, you'll likely need these qualifications:
+
+- [ ] Some training (either in a school or self-taught on-your-own) in Android Development
+- [ ] Experience with solving basic to intermediate DS&A Questions, either online or in-person
+- [ ] The ability to "tell your story" on-command (30 second to 1 minute elevator pitch)
+- [ ] The ability to answer technical and personal questions effectively and prefessionally.
+- [ ] Being on-time for interviews, and always sending "thank you" emails after the interviews (and rejections), and occasionally "follow-up" emails after at least a week has passed between interviews/submissions
+- [ ] Basic Git version control and Bash Knowledge
+- [ ] A clearly-written one-page resume detailing your career strengths and skillset
+- [ ] A one-page cover letter tailored to each job application
+- [ ] A cleaned-up Github account with robust public projects (make repos with clumsy code "private")
+- [ ] A fleshed-out LinkedIn profile with a number of connections, and personal recommendations
+- [ ] AT LEAST ONE (1) app on the Google Play Store demonstrating knowledge of Internet conectivity, clickable RecyclerViews, image displays, user input, data persistance, clean architecture, and possibly multiple threads
+- [ ] A private job tracker for following up with prospective employers (more on that later)
+
+
+### But Why the Whiteboarding?
+
+Whiteboarding... is a thing. Many companies hate them - some hiring managers love them. Max Howell, the creator of the Mac library installer "Homebrew", has some NSFW thoughts on the issue (Google it - just not here).
+
+However, the process of whiteboarding method functions forces a developer to consider how best to approach a problem before ever writing even a single line of code. 
 
 During a technical interview, outside of the coding challenge (completing an Android project on your own), you may be asked to either solve a problem on a whiteboard during an on-site, or share your screen remotely with an interviewer to solve a coding problem together. The latter tends to be the more frequent technique as of 2019.
 
