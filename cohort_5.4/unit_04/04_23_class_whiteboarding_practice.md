@@ -16,7 +16,7 @@ To get a job in tech as a Junior Android Developer in NYC/NJ with limited to no 
 - [ ] Some training (either in a school or self-taught on-your-own) in Android Development
 - [ ] Experience with solving basic to intermediate DS&A Questions, either online or in-person
 - [ ] The ability to "tell your story" on-command (30 second to 1 minute elevator pitch)
-- [ ] The ability to answer technical and personal questions effectively and prefessionally (both behavioral and technical)
+- [ ] The ability to answer technical and personal questions effectively and professionally (both behavioral and technical)
 - [ ] Being on-time for interviews, and always sending "thank you" emails after the interviews (and rejections), and occasionally "follow-up" emails after at least a week has passed between interviews/submissions
 - [ ] Basic Git version control and Bash Knowledge
 - [ ] A clearly-written one-page resume detailing your career strengths and skillset
