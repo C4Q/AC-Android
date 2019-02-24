@@ -37,7 +37,7 @@ During a technical interview, outside of the coding challenge (completing an And
 
 Whenever approaching a new problem, it's good to consider these steps:
 
-1. What kinds of parameters wil this method use to accept arguments?
+1. What kinds of parameters will this method use to accept arguments?
 1. What value and type is this method expected to return?
 1. Identify useful variables which might be useful for storing code, or for handling edge cases
 1. Write pseudocode, before writing any real code - to talk through your thought process, and explore possible solutions with your interviewer
