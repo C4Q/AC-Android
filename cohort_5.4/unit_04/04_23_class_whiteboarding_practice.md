@@ -29,7 +29,38 @@ Today, we will pick four fellows for four half-hour long whiteboarding sessions.
 Given start and end numbers, return a new array containing the sequence of integers from start up to but not including end, so start=5 and end=10 yields {5, 6, 7, 8, 9}. The end number will be greater or equal to the start number. Note that a length-0 array is valid.
 
 ```
-fizzArray3(5, 10) → [5, 6, 7, 8, 9]
-fizzArray3(11, 18) → [11, 12, 13, 14, 15, 16, 17]
-fizzArray3(1, 3) → [1, 2]
+subArray(5, 10) → [5, 6, 7, 8, 9]
+subArray(11, 18) → [11, 12, 13, 14, 15, 16, 17]
+subArray(1, 3) → [1, 2]
 ```
+
+### zipperString
+
+Given two strings, a and b, create a bigger string made of the first char of a, the first char of b, the second char of a, the second char of b, and so on. Any leftover chars go at the end of the result.
+
+```
+zipperString("abc", "xyz") → "axbycz"
+zipperString("Hi", "There") → "HTihere"
+zipperString("xxxx", "There") → "xTxhxexre"
+```
+
+### bobThere
+
+Return true if the given string contains a "bob" string, but where the middle 'o' char can be any char.
+
+```
+bobThere("abcbob") → true
+bobThere("b9b") → true
+bobThere("bac") → false
+```
+
+### repeatSeparator 
+
+Given two strings, word and a separator sep, return a big string made of count occurrences of the word, separated by the separator string.
+
+```
+repeatSeparator("Word", "X", 3) → "WordXWordXWord"
+repeatSeparator("This", "And", 2) → "ThisAndThis"
+repeatSeparator("This", "And", 1) → "This"
+```
+
