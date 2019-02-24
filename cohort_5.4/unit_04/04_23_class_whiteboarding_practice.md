@@ -24,6 +24,7 @@ To get a job in tech as a Junior Android Developer in NYC/NJ with limited to no 
 - [ ] A cleaned-up Github account with robust public projects (make repos with clumsy code "private")
 - [ ] A fleshed-out LinkedIn profile with a number of connections, and personal recommendations
 - [ ] AT LEAST ONE (1) app on the Google Play Store demonstrating knowledge of Internet conectivity, clickable RecyclerViews, image displays, user input, data persistance, clean architecture, and possibly multiple threads
+- [ ] Apply to AT LEAST 50+ open job postings (as a career changer, possibly 300+)
 - [ ] A private job tracker for following up with prospective employers (more on that later)
 
 
