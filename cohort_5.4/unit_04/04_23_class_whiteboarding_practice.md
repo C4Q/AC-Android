@@ -22,7 +22,7 @@ Whenever approaching a new problem, it's good to consider these steps:
 1. Identify useful variables which might be useful for storing code, or for handling edge cases
 1. Write pseudocode, before writing any real code - to talk through your thought process, and explore possible solutions with your interviewer
 
-Today, we will pick four fellows for four half-hour long whiteboarding sessions. We will randomly select four of the following questions:
+Today, we will pick four fellows for four half-hour long whiteboarding sessions. We will randomly select four of the following six questions:
 
 ### subArray
 
