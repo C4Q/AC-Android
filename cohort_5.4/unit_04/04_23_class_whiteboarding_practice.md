@@ -27,6 +27,7 @@ To get a job in tech as a Junior Android Developer in NYC/NJ with limited to no 
 - [ ] Apply to AT LEAST 50+ open job postings (as a career changer, possibly 300+)
 - [ ] A private job tracker for following up with prospective employers (more on that later)
 
+![apply to at least 50 to 300 jobs](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/images/apply_to_50_jobs_at_least.png)
 
 ### But Why the Whiteboarding?
 
