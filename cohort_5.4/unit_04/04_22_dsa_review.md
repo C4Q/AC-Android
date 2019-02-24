@@ -9,13 +9,13 @@
 
 ## Resources
 
-[](https://leetcode.com/discuss/interview-question/object-oriented-design/?currentPage=1&orderBy=recent_activity&query=)
+[Object Oriented Design](https://leetcode.com/discuss/interview-question/object-oriented-design/?currentPage=1&orderBy=recent_activity&query=)
 
-[](https://www.careercup.com/page?pid=object-oriented-design-interview-questions)
+[OOP Interview Questions](https://www.careercup.com/page?pid=object-oriented-design-interview-questions)
 
-[](https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260)
+[OOP Concepts](https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260)
 
-[](https://itnext.io/what-pizzas-can-teach-you-about-object-oriented-programming-3570143aef3f)
+[Pizza and OOP](https://itnext.io/what-pizzas-can-teach-you-about-object-oriented-programming-3570143aef3f)
 
 ## Lecture
 
