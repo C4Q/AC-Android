@@ -29,7 +29,7 @@ To get a job in tech as a Junior Android Developer in NYC/NJ with limited to no 
 
 ### But Why the Whiteboarding?
 
-Whiteboarding... is a thing. Many companies hate them - some hiring managers love them. Max Howell, the creator of the Mac library installer "Homebrew", has some NSFW thoughts on the issue (Google it - just not here).
+Whiteboarding... is a thing. Many companies hate them - some hiring managers love them. Max Howell, the creator of the Mac library installer "Homebrew", has some NSFW thoughts on the issue in his now-infamous twitter rant (Google it - just not here).
 
 However, the process of whiteboarding method functions forces a developer to consider how best to approach a problem before ever writing even a single line of code. 
 
