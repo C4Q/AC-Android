@@ -103,3 +103,7 @@ blackjack(19, 21) → 21
 blackjack(21, 19) → 21
 blackjack(19, 22) → 19
 ```
+
+## Exercises
+
+Look through the [Technical Knowledge checklist here](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/04_00_oh_the_topics_youll_know.md). For every topic, write 2-to-4 sentences describing in your own words your understanding of the topics.
