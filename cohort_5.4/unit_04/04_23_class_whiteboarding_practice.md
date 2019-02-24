@@ -9,7 +9,7 @@
 
 # Lecture
 
-What is the point of this program, "Pursuit"? The point of this program is transformation - transforming your life and career trajectory from where you were when you applied, to where you want to be by graduation. For some, this is a change in job hours and level of responsibility, for others it will be an increase in income, access to health and fiscal benefits, as well as the opportunity to make apps for a living.
+What is the goal of this program, "Pursuit"? The point of this program is transformation - transforming your life and career trajectory from where you were when you applied, to where you want to be by graduation. For some, this is a change in job hours and level of responsibility, for others it will be an increase in income, access to health and fiscal benefits, as well as the opportunity to make apps for a living.
 
 To get a job in tech as a Junior Android Developer in NYC/NJ with limited to no prior experience, you'll likely need these qualifications:
 
