@@ -34,7 +34,7 @@
 **Expectations:** Fellows are expected to utilize the RecyclerView API implement their own Adapter and ViewHolder classes, pass a list of data to the adapter, and manage the layout of the RecyclerView implementation. Fellows are also expected to handle click events for each RecyclerView itemview.
 
 ### Picasso
-**Expectations** Fellows are expected to utilize the Picasso API to pass in String Web URLs to Picasso, and pass images into ImageView instances. 
+**Expectations:** Fellows are expected to utilize the Picasso API to pass in String Web URLs to Picasso, and pass images into ImageView instances. 
 
 ### Fragments
-**Expectations** Fellows are expected to subclass the Fragment class, and make their own fragments. Fellows are expected to inflate and swap fragments using a container layout within a host activity's layout. Fellows are expected to create static factory methods for their subclassed fragments to pass data from the activity to the fragments. Fellows are expected to communicate events and send data from fragments to their hosting activity using the listener pattern.
+**Expectations:** Fellows are expected to subclass the Fragment class, and make their own fragments. Fellows are expected to inflate and swap fragments using a container layout within a host activity's layout. Fellows are expected to create static factory methods for their subclassed fragments to pass data from the activity to the fragments. Fellows are expected to communicate events and send data from fragments to their hosting activity using the listener pattern.
