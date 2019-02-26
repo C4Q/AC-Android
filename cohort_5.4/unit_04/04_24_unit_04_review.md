@@ -15,9 +15,6 @@
 ### Resources
 **Expectations:** Fellows are expected to add all hardcoded values to resources files within the values folder. Fellows are expected to be able to reference String resouces directly in Java classes, and access them as necessary.
 
-### Shared Preferences
-**Expectations:** Fellows are expected to be able to add data to the Shared Preferences file for their application, using the application's context, and retreive data from the Shared Preferences file, using key/value pairs.
-
 ### Android Manifest
 **Expectations:** Fellows are expected to be able to add internet permissions to the Android Manifest, as well as parent activity names to child activities to aid in effective activity backstack navigation.
 
