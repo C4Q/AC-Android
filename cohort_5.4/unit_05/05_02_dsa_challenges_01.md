@@ -2,7 +2,15 @@
 
 ## Objectives
 
+* To give fellows experience with technical interviews
+* Apply Data structures in an efficient way
+* Analyze runtime complexity and design efficient algorithms
+
 ## Resources
+
+* [Tech Interview Handbook (github)](https://github.com/yangshun/tech-interview-handbook)
+* [Interview Prep Kit (hackerrank)](https://www.hackerrank.com/interview/interview-preparation-kit)
+* [Whiteboarding tips (blog post)](https://codewithoutrules.com/2016/04/04/interview-puzzles/)
 
 ## DSA Challenges
 
@@ -25,6 +33,25 @@ Weaknesses:
 
 * Fixed size:
 * Expensive inserts and deletes:
+
+Sorting:
+
+We can use algorithms like merge sort or quick sort to sort an array but we have methods like Arrays.sort() that implement merge sort for us.
+
+However if we want to sort a List we would use Collections.sort() instead where the input parameters will be the List and a custom Comparator.
+
+A Comparator will take two objects in the list and compare them, it asks “Which is greater?” the compare method will then returns -1, 0 or 1 to say if it is less than, equal, or greater to the other. It uses this result to then determine if they should be swapped for its sort.
+
+```java
+new Comparator<Meeting>() {
+        @Override
+        public int compare(Meeting m1, Meeting m2) {
+            return m1.getStartTime() - m2.getStartTime();
+        }
+    });
+```
+
+If we need to sort two meetings time we would implement this Comparator and would return the result of subtracting the meeting start times. If the result is negative we know that the first meeting is starts before our second meeting. If the result is 0 we know that our meetings start at the same time, if the result is positive we know that the second meeting starts earlier than the first
 
 ### Merging Meeting Times
 
