@@ -13,7 +13,7 @@
 
 Wikipedia describes a postmortem as:
 
-*"A project post-mortem is a process, usually performed at the conclusion of a project, to determine and analyze elements of the project that were successful or unsuccessful. Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices."*
+*"A project post-mortem is a process, usually performed at the conclusion of a project, to determine and analyze elements of the project that were successful or unsuccessful... Project post-mortems are intended to inform process improvements which mitigate future risks and to promote iterative best practices."*
 
 In class today, we will do the same. A fellow will be called, one-by-one, to come up and complete the task. Then, after each turn, the class will discuss whether the fellow completed the task correctly, or their task will need improvement. However, all comments must be followed by a contribution of actual solution code.
 
