@@ -5,7 +5,7 @@
 * Fellows will figure out what they got wrong, and complete the assessment again **IN A NEW REPO AS A NEW PROJECT**
 
 ## Resources
-* All of [Unit 04](https://github.com/joinpursuit/Pursuit-Core-Android/tree/master/cohort_5.4/unit_04)
+* All of [Unit 02](https://github.com/joinpursuit/Pursuit-Core-Android/tree/master/cohort_5.4/unit_02), [Unit 03](https://github.com/joinpursuit/Pursuit-Core-Android/tree/master/cohort_5.4/unit_03), and [Unit 04](https://github.com/joinpursuit/Pursuit-Core-Android/tree/master/cohort_5.4/unit_04)
 
 # Lecture
 
