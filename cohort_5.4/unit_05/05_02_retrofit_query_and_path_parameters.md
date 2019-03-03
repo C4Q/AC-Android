@@ -16,7 +16,7 @@ Very often in class - we've encountered json endpoints that existed as a full ur
 https://github.com/JDVila/storybook/blob/master/echinoderms.json
 ```
 
-The url does not change based on what we need from it - it ismply is, and is call as-is.
+The url does not change based on what we need from it - it simply is, and is called as-is.
 
 This url consists of two parts...
 
