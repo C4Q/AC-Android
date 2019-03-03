@@ -31,8 +31,8 @@ Strengths:
 
 Weaknesses:
 
-* Fixed size:
-* Expensive inserts and deletes:
+* Fixed size
+* Expensive inserts and deletes
 
 Sorting:
 
