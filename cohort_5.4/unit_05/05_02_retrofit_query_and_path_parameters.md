@@ -117,7 +117,7 @@ public interface StarWarsService {
     @GET("api/films/5/?format=json")
     Call<StarWarsMovie> getAttackOfTheClones();
     
-    // This is the least horroble of all the prequels
+    // This is the least horrible of all the prequels
     @GET("api/films/6/?format=json")
     Call<StarWarsMovie> getRevengeOfTheSith();
     
