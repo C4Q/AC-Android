@@ -44,10 +44,12 @@ Retrofit retrofit = new Retrofit.Builder()
 The use the path in a service interface with a `@GET` annotated method:
 
 ```
-public interface PuppyService {
+public interface EchinodermService {
     @GET("JDVila/storybook/blob/master/echinoderms.json")
     Call<Echinoderms> getEchinoderms();
 }
 ```
 
-Our Url is pretty simple, and does not need any other modification. This is because it is a ***static***, or non-changing endpoint. However, this is not always the case, because most endpoints update when the database it pulls from updates. Also, an api endpoint might have too large of a dataset to send all at once, and will use **pagination**, or sending small sets of data every time you ask for more data (i.e. - sending 10 items at a time, rather than sending thousands, and expecting you to know what to do with it).
+Our Url is pretty simple, and does not need any other modification. This is because it is a ***static***, or non-changing endpoint. However, this is not always the case, because most endpoints update when the database it pulls from updates. Also, an api endpoint might have too large of a dataset to send all at once, and will use **pagination**, or the technique of sending small sets of data every time you ask for more data (i.e. - sending 10 items at a time, rather than sending thousands, and expecting you to know what to do with it). Additionally, some endpoints might provide different sets of data, but all have the same endpoint, and how they vary can be based on a path name, or the values of query parameters passed in.
+
+
