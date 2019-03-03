@@ -164,7 +164,7 @@ switch(movieChoice) {
     filmNumber = "7";
     break;
   default:
-    filmNumber = 1;
+    filmNumber = "1";
     break;
 }
 
