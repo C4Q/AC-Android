@@ -41,7 +41,7 @@ Retrofit retrofit = new Retrofit.Builder()
                 .build();
 ```
 
-The use the path in a service interface with a `@GET` annotated method:
+Then use the path in a service interface with a `@GET` annotated method:
 
 ```
 public interface EchinodermService {
