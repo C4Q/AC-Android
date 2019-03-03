@@ -1,6 +1,6 @@
 # Retrofit Query and Path Parameters
 
-# Objectives
+## Objectives
 * Fellows will explore how to receive data from multiple endpoints with the same base url
 * Fellows will explore how to pass values for different url paths, and url queries
 
