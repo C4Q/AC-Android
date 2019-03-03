@@ -80,4 +80,107 @@ https://www.google.com/search?source=hp&ei=Mm97XN3WBufm5gK3vJGwCw&q=puppies&btnK
 
 As you can see, although the first query came immediately after a `?` character, all subsequent queries were preceded by an `&` character.
 
+Now, if you wanted to get the data for an individual film in the saga, you could hit the following endpoint:
+
+```
+https://swapi.co/api/films/?format=json
+```
+
+Then search through every single entry returned from the `@GET` annotated method:
+
+```
+public interface StarWarsService {
+    @GET("api/films/?format=json")
+    Call<StarWarsData> getStarWarsData();
+}
+```
+
+This is... fine. However, it involves a lot of iterative searching to find the right film. You could, if you wanted to, make multiple methods to connect to multiple paths, but this would involve writing a lot of individual methods specific to each film:
+
+```
+public interface StarWarsService {
+
+    @GET("api/films/1/?format=json")
+    Call<StarWarsMovie> getANewHopeData();
+    
+    @GET("api/films/2/?format=json")
+    Call<StarWarsMovie> getTheEmpireStrikesBack();
+    
+    @GET("api/films/3/?format=json")
+    Call<StarWarsMovie> getReturnOfTheJedi();
+    
+    // This is a terrible movie
+    @GET("api/films/4/?format=json")
+    Call<StarWarsMovie> getThePhantomMenace();
+    
+    // This is also a bad film
+    @GET("api/films/5/?format=json")
+    Call<StarWarsMovie> getAttackOfTheClones();
+    
+    // This is the least horroble of all the prequels
+    @GET("api/films/6/?format=json")
+    Call<StarWarsMovie> getRevengeOfTheSith();
+    
+    @GET("api/films/7/?format=json")
+    Call<StarWarsMovie> getTheForceAwakens();
+    
+}
+```
+
+This is a pretty good solution, but these methods are not DRY, in the sense that we end up calling an almost identical endpoint every single time, but only with a minor change to the chronological number path value - yet we have 7 distinct methods. We can instead create one method signature, that accepts a single parameter from where the actual retrofit call is being made - that way we can leave the business logic to another class to determine which film's data you actually want. For example, we could change our interface to look like this:
+
+```
+public interface StarWarsService {
+
+    @GET("api/films/{filmOrder}/?format=json")
+    Call<StarWarsMovie> getMovieData(@Path("filmOrder") String filmOrder);
+}
+```
+
+And make a call that looks like this:
+
+```
+String filmNumber = "-1";
+switch(movieChoice) {
+  case "The Phantom Menace":
+    filmNumber = "4";
+    break;
+  case "Attack of the Clones":
+    filmNumber = "5";
+    break;
+  case "Revenge of the Sith":
+    filmNumber = "6";
+    break;
+  case "A New Hope":
+    filmNumber = "1";
+    break;
+  case "The Empire Strikes Back":
+    filmNumber = "2";
+    break;
+  case "Return of the Jedi":
+    filmNumber = "3";
+    break;
+  case "The Force Awakens":
+    filmNumber = "7";
+    break;
+  default:
+    filmNumber = 1;
+    break;
+}
+
+starWarsService = retrofit.create(StarWarsService.class);
+
+Call<StarWarsMovie> movie = starWarsService.getMovieData(filmNumber);
+                puppy.enqueue(new Callback<StarWarsMovie>() {
+                    @Override
+                    public void onResponse(Call<StarWarsMovie> call, Response<StarWarsMovie> response) {
+                        Log.d(TAG, "onResponse: " + response.body());
+                    }
+
+                    @Override
+                    public void onFailure(Call<StarWarsMovie> call, Throwable t) {
+                        Log.d(TAG, "onResponse: " + t.toString());
+                    }
+                });
+```
 
