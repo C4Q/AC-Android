@@ -171,16 +171,42 @@ switch(movieChoice) {
 starWarsService = retrofit.create(StarWarsService.class);
 
 Call<StarWarsMovie> movie = starWarsService.getMovieData(filmNumber);
-                puppy.enqueue(new Callback<StarWarsMovie>() {
-                    @Override
-                    public void onResponse(Call<StarWarsMovie> call, Response<StarWarsMovie> response) {
-                        Log.d(TAG, "onResponse: " + response.body());
-                    }
-
-                    @Override
-                    public void onFailure(Call<StarWarsMovie> call, Throwable t) {
-                        Log.d(TAG, "onResponse: " + t.toString());
-                    }
-                });
 ```
 
+Queries work in a similar way, except you don't have to worry about adding a placeholder to the path - you can simply add the path, ignore adding the queries directly to the path, then pass in each query to the method. For example, for the url:
+
+```
+https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1&api_key=DEMO_KEY
+```
+
+We could create a `Retrofit` object like this:
+
+```
+Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.nasa.gov/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+```
+
+With an interface like this:
+
+```
+public interface NasaPhotoService {
+    @GET("mars-photos/api/v1/rovers/curiosity/photos")
+    Call<NasaPhotos> getPhotos(@Query("sol") String sol, @Query("api_key") String api_key);
+}
+```
+
+Then assign the actual call:
+
+```
+NasaPhotoService = retrofit.create(NasaPhotoService.class);
+
+Call<NasaPhotos> movie = NasaPhotoService.getPhotos("1", "DEMO_KEY");
+```
+
+Queries can be used to pass API keys, however this isn't always the best way to do this, since API keys should be kept private, and passing an API key as a query can expose this data directly in the Url. We will discuss this further in another lesson. However, these techniques will get you pretty far when querying data or when attempting to reach multiple endpoint paths, with the same base url, without having to rewrite too much code.
+
+## Exercises
+
+Please see the canvas calendar for today's date for the exercises associated with today's lesson.
