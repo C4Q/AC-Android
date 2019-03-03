@@ -50,4 +50,4 @@ public interface PuppyService {
 }
 ```
 
-Our url is pretty simple, and does not need any other modification. This is because it is a *static*, or non-changing endpoint.
+Our Url is pretty simple, and does not need any other modification. This is because it is a ***static***, or non-changing endpoint. However, this is not always the case, because most endpoints update when the database it pulls from updates. Also, an api endpoint might have too large of a dataset to send all at once, and will use **pagination**, or sending small sets of data every time you ask for more data (i.e. - sending 10 items at a time, rather than sending thousands, and expecting you to know what to do with it).
