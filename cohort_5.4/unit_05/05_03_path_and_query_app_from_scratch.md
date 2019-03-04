@@ -11,6 +11,8 @@
 
 # Lecture
 
+Okay, you awesome fellows, you - you're ready for the "Real Deal". For the past few months, we've practiced completing specific tasks within a 3-hour period. This is no coincidence - we wanted to replicate an actual coding challenge experience from the real world. Well, guess what?! If you were able to complete the last two final assessments with passing grades - then you are definitely ready for today's challenge. If you've had a tough time passing the previous assessments, the following challenge will also be useful - since the assessments were sculpted in such a way where we'd be able to assess whether you've understood new topics. This challenge was sculpted in such a way so as to check whether an applicant is job-ready. This challenge is a great way to see the parts of code you'll still need to practice to be ready for actual coding challenges, rather than simply passing tests! The challenge is as follows:
+
 ## Weather app
 
 There are a number of free APIs available with weather forecasts. Your goal is to use one to create an app that shows the weather forecast for New York.
