@@ -53,11 +53,14 @@ Please work through these tasks, completing as many as you can in the allotted t
 
 1. Create a GitHub repo and commit your app to it.
 
-1. A set of weather icons is available as zip file in this repo. Each forecast includes an `icon` field, which names an icon from this collection.  For each day, show the icon corresponding to the forecast weather.
+1. A set of weather icons is available as zip file [in this repo](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/icons.zip). Each forecast includes an `icon` field, which names an icon from this collection.  For each day, show the icon corresponding to the forecast weather.
 
 1. Add an interactive control to toggle between Farenheit and Celcius temperatures.
 
-Use your best judgement in designing the user interface. [Here's](./example.png) a sample of what it might look like.
-
+Use your best judgement in designing the user interface. [Here's](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/example.png) a sample of what it might look like.
 
 Your submission will be evaluated on functionality, code quality, and style.
+
+## Exercises
+
+Please check the canvas calendar for today's date to submit today's exercise.
