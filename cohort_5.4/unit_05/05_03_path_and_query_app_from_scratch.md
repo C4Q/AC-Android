@@ -5,9 +5,9 @@
 * Fellows will build an app based on an **ACTUAL CODING CHALLENGE FOR A PROFESSIONAL CODING JOB**
 
 ## Resources
-* []()
-* []()
-* []()
+* [RecyclerView](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_02/02_20_recyclerview_review.md)
+* [Retrofit](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_03/03_12_retrofit_and_json.md)
+* [Paths and Queries](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/05_02_retrofit_query_and_path_parameters.md)
 
 # Lecture
 
