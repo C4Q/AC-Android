@@ -5,7 +5,7 @@
 ### Project Overview
 
 #### Requirements:
-Create an app that consists of these three screens (3 Activities and 1 Fragment):
+Create an app that consists of these two screens (2 Activities and 1 Fragment):
 - Screen 1 (Fragment1 in Activity1): User List screen
     - Display first and last name 
     - Onclick: move to screen 2
@@ -15,8 +15,6 @@ Create an app that consists of these three screens (3 Activities and 1 Fragment)
       - Phone: take you to phone app 
       - Email: take you to email app 
       - Location: move to screen 3
-- Screen 3 (Activity3): Location screen
-    - Display google maps showing user’s location
 
 #### API:
 - https://jsonplaceholder.typicode.com/users
