@@ -14,7 +14,6 @@ Create an app that consists of these two screens (2 Activities and 1 Fragment):
     - Onclick 
       - Phone: take you to phone app 
       - Email: take you to email app 
-      - Location: move to screen 3
 
 #### API:
 - https://jsonplaceholder.typicode.com/users
