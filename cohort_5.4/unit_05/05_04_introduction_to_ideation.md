@@ -66,3 +66,4 @@ Designers or evaluators rigorously test the complete product using the best solu
 
 ## Exercises
 
+Break into groups of four - and on a peice of paper (or whiteboard, or Google Doc), come up with a number of ideas using at least one of the techniques listed above. Keep 5 of your favorite ideas (even if other fellows like a few of those ideas as well), then see which one of those ideas you could build on your own if you only had 14 days to do it, using only what you've learned at Pursuit over the past seven months.
