@@ -16,7 +16,7 @@ However, well-made apps just don't pop up out of thin air. They involve planning
 
 ### "Sharpening the Saw"
 
-Dr Steven Covey, the author of "7 Habits of Highly Effective People", describes this quote as the foundation behind his 7th effective habit:
+Dr. Steven Covey, the author of "7 Habits of Highly Effective People", describes this quote as the foundation behind his 7th effective habit:
 
 ```
 Give me 8 hours to chop down a tree, and I will spend the first 6 in sharpening the axe (saw).
