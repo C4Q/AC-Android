@@ -1,7 +1,8 @@
 # Introduction to Ideation
 
 ## Objectives
-*
+* Fellows will explore the concepts behind Design Thinking and Ideation
+* Fellows will come up with ideas for what may become their Solo App Projects
 
 ## Resources
 * [Design Thinking](https://en.wikipedia.org/wiki/Design_thinking)
