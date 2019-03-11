@@ -10,7 +10,7 @@
 
 # Lecture
 
-Android applications, as you've seen over the past 7 months, are not that hard to make - truly. Yes, clean code is important, core readability is invaluable, and the speed of your algorithms and libraries you use can make the difference between a frequently used app, and a frequently uninstalled one.
+Android applications, as you've seen over the past 7 months, are not that hard to make - truly. Yes, clean code is important, code readability is invaluable, and the speed of your algorithms and libraries you use can make the difference between a frequently used app, and a frequently uninstalled one.
 
 However, well-made apps just don't pop up out of thin air. They involve planning, understanding the possible users of your app, and contemplating possible solutions. In essence, they require ideation.
 
