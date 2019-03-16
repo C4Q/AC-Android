@@ -21,7 +21,7 @@ Each fellow will have a half-hour to complete a given question. If the fellow co
 
 Three (3) fellows will be randomly selected within a two (2) hour period. Please select from one of the following:
 
-### Pairs:
+### pairs:
 
 Given an `Array` of non-empty strings, create and return a `Map<String, String>` as follows: for each string add its first character as a key with its last character as the value.
 
