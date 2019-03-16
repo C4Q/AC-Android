@@ -51,3 +51,7 @@ First, after loading a new project, select `More Shapes...` at the bottom left c
 You can add views to your mockup by either clicking on them, or dragging them to their desired spots on the screen:
 
 ![drag and drop](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/android_mockup.png)
+
+## Exercises
+
+First, plan out your wireframes using a pencil and paper. When you have an idea of what you'd like your app to look like, use draw.io to plan it out digitally. At around 4:00pm, fellows will be randomly selected by the instructor to display their wireframes, and describe how your app would work, in front of the class, for no more than five (5) minutes for each presentation. 
