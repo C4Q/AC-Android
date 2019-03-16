@@ -1,4 +1,4 @@
-# Whiteboarding Challenges
+# Whiteboarding Challenges, Revisited
 
 ## Objectives
 * Fellows will explore how to practice whiteboarding questions with an interviewer
