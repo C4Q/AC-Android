@@ -25,10 +25,14 @@ Wireframes are - simply put - a way to organize the views of your application, a
 3. They can help you visually organize the flow of execution based on particular user interactions
 4. They can help you visually catalog the number of pages your app is expected to display in order to reach "minimum viable product"
 
-### How can you make a Wireframe
+### How can you make a Wireframe?
 
 In the paraphrased words of Walt Disney - "If you can draw it, you can do it!"
 
-The simplist way to produce a wireframe, is to simply illustrate how you'd like your app to appear using a whiteboard and marker, a pencil and paper - anything that would allow you to easily draw your wireframes. Journals with guides, such as graph paper or bullet journals, can be a great and affordable way to visualize how you'd like your app to look before creating it.
+The simplest way to produce a wireframe, is to simply illustrate how you'd like your app to appear using a whiteboard and marker, a pencil and paper - anything that would allow you to easily draw your wireframes. Journals with guides, such as graph paper or bullet journals, can be a great and affordable way to visualize how you'd like your app to look before creating it:
 
-![journal](https://i.pinimg.com/736x/70/d6/d9/70d6d992165718d493c9931dfcecc6bf--wireframe-bullet-journal.jpg)
+![journal wireframe](https://i.pinimg.com/736x/70/d6/d9/70d6d992165718d493c9931dfcecc6bf--wireframe-bullet-journal.jpg)
+
+If you'd like to avoid damaging clean sheets of paper, or getting your hands dirty, you can just as easily use free or paid software to illustrate how you'd like your app to appear:
+
+![digital wireframe](https://cdn.visual-paradigm.com/vpuml/tutorials/androidwireframe_screenshots/01_android_wireframes_samples.png)
