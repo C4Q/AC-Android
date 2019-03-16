@@ -5,8 +5,9 @@
 * Fellows will "draw out" their UI's using wireframes
 
 ## Resources
-* []()
-* []()
+* [Introduction to Ideation](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/05_04_introduction_to_ideation.md)
+* [Sketch](https://www.sketchapp.com/)
+* [draw.io](https://www.draw.io/)
 
 # Lecture
 
@@ -42,3 +43,11 @@ The "industry standard" for UI/UX work is a platform called [Sketch](https://www
 The cheapest path (other than pencil and paper), would be to use something like Google Docs, or even better, [draw.io](https://www.draw.io/):
 
 ![draw.io](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/draw_io_wireframe.png)
+
+Draw.io does not have Android wireframing out-of-the-box - it will though require only minimal modification.
+
+First, after loading a new project, select `More Shapes...` at the bottom left corner of the screen. Next, under software, check off the boxes for `Android` and `Mockups`, then click `Apply`. After that, choose whatever Android model you wish as a backdrop! The defailt for the Android backdrop is white - to change the color to black, select the backdrop chosen, then fill its color to black.
+
+You can add views to your mockup by either clicking on them, or dragging them to their desired spots on the screen:
+
+![drag and drop](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/android_mockup.png)
