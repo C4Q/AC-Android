@@ -8,6 +8,9 @@
 * [Class Whiteboarding Practice](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_04/04_23_class_whiteboarding_practice.md)
 * [Interview Prep](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/05_01_dsa_challenges_01.md)
 
+## Warm-Up - DO THIS NOW!!! (5 Minutes)
+List all of the data structures discussed in class so far - and in one sentence - describe what makes them useful, and unique from other data structures, for each one on your list.
+
 # Lecture
 
 Based on feedback fair responses from fellows, we will practice, as a class, completing coding questions on the whiteboard.
