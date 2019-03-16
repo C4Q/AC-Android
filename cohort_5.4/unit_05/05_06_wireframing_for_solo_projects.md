@@ -36,3 +36,9 @@ The simplest way to produce a wireframe, is to simply illustrate how you'd like 
 If you'd like to avoid damaging clean sheets of paper, or getting your hands dirty, you can just as easily use free or paid software to illustrate how you'd like your app to appear:
 
 ![digital wireframe](https://cdn.visual-paradigm.com/vpuml/tutorials/androidwireframe_screenshots/01_android_wireframes_samples.png)
+
+The "industry standard" for UI/UX work is a platform called [Sketch](https://www.sketchapp.com/), however, this may be too rubust for our needs, and prohibitively expensive for a simple, free Android app. There are many other alternatives, some of which are free, but most are only free with a very limited number of features.
+
+The cheapest path (other than pencil and paper), would be to use something like Google Docs, or even better, [draw.io](https://www.draw.io/):
+
+![draw.io](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_05/images/draw_io_wireframe.png)
