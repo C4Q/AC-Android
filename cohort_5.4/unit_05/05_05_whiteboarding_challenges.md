@@ -11,6 +11,9 @@
 ## Warm-Up - DO THIS NOW!!! (5 Minutes) :fire::fire::fire:
 List all of the data structures discussed in class so far - and in one sentence - describe what makes them useful, and unique from other data structures, for each one on your list.
 
+For example:
+1. Array - an immutable data structure, containing elements assigned to an index, with the size of the structure designated prior to compile time.
+
 # Lecture
 
 Based on feedback fair responses from fellows, we will practice, as a class, completing coding questions on the whiteboard.
