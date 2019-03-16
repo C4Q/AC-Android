@@ -16,7 +16,7 @@ A fellow will be selected at random, to complete a question on the board, while 
 
 Each fellow will have a half-hour to complete a given question. If the fellow completes the question within the time alloted, they may be asked to optomize their algorithm. This is completely normal, and expected in the interview process. Be willing to first provide a brute-force solution, then be prepared to refactor the algorithm, to make it either more elegant, or efficient, if necessary.
 
-Three (3) fellows will be randomly selected within a two (2) period. Please select from one of the following:
+Three (3) fellows will be randomly selected within a two (2) hour period. Please select from one of the following:
 
 ### Pairs:
 
