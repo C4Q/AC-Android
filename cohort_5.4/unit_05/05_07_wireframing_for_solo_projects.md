@@ -54,4 +54,4 @@ You can add views to your mockup by either clicking on them, or dragging them to
 
 ## Exercises
 
-First, plan out your wireframes using a pencil and paper. When you have an idea of what you'd like your app to look like, use draw.io to plan it out digitally. At around 4:00pm, fellows will be randomly selected by the instructor to display their wireframes, and describe how your app would work, in front of the class, for no more than five (5) minutes for each presentation. 
+First, plan out your wireframes using a pencil and paper. When you have an idea of what you'd like your app to look like, use draw.io to plan it out digitally. Create a Trello Board for your project, and create a list called "Wireframes", then add each image as a new card. At around 4:00pm, fellows will be randomly selected by the instructor to display their wireframes, and describe how your app would work, in front of the class, for no more than five (5) minutes for each presentation.
