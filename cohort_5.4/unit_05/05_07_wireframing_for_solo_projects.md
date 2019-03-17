@@ -23,8 +23,8 @@ Wireframes are - simply put - a way to organize the views of your application, a
 
 1. They can help you visually describe which views you'd like to use
 2. They can help you visually describe how you would like these views to be arranged
-3. They can help you visually organize the flow of execution based on particular user interactions
-4. They can help you visually catalog the number of pages your app is expected to display in order to reach "minimum viable product"
+3. They can help you visually organize the **flow of execution** based on particular user interactions
+4. They can help you visually catalog the number of ***pages*** your app is expected to display in order to reach **Minimum Viable Product**
 
 ### How can you make a Wireframe?
 
