@@ -19,6 +19,8 @@ In class, we have explored a number of list-like views in Android:
 
 All of these views display lists of items on the screen, and in some cases, as in the itemview of a RecyclerView, can be quite complex. You can even display these views either horizontal, or vertical. However, individual itemviews do not fill the entire screen, and if they do, they do not stay in place. This is where `ViewPager` implementations can become handy.
 
+![viewpager](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fi.imgur.com%2FUXpVigQ.gif)
+
 ### What is a ViewPager?
 
 A ViewPager is the widget that allows the user to swipe left or right to see an entirely new screen. It also has the ability to dynamically add and remove pages at anytime. Consider the idea of grouping search results by certain categories, and showing each category in a separate list. With the ViewPager, the user could then swipe left or right to see other categorized lists.
