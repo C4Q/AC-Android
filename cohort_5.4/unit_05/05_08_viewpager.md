@@ -131,23 +131,25 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 public class ViewPagerFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
     private String mParam1;
-    private int mParam2;
+    private String mParam2;
     private TextView textView;
     private ImageView imageView;
 
     public ViewPagerFragment() {
     }
 
-    public static ViewPagerFragment newInstance(String param1, int param2) {
+    public static ViewPagerFragment newInstance(String param1, String param2) {
         ViewPagerFragment fragment = new ViewPagerFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
-        args.putInt(ARG_PARAM2, param2);
+        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -157,7 +159,7 @@ public class ViewPagerFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getInt(ARG_PARAM2);
+            mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
 
@@ -173,7 +175,7 @@ public class ViewPagerFragment extends Fragment {
         textView = view.findViewById(R.id.viewpager_textView);
         imageView = view.findViewById(R.id.viewpager_imageview);
         textView.setText(mParam1);
-        imageView.setImageResource(mParam2);
+        Picasso.get().load(mParam2).into(imageView);
     }
 }
 ```
@@ -214,9 +216,10 @@ Finally, let's create a list of individually unique fragement instances:
 ``` java
 List<Fragment> fragmentList = new ArrayList<>();
 
-fragmentList.add(ViewPagerFragment.newInstance("Apple", R.drawable.apple));
-fragmentList.add(ViewPagerFragment.newInstance("Orange", R.drawable.orange));
-fragmentList.add(ViewPagerFragment.newInstance("Banana", R.drawable.banana));
+fragmentList.add(ViewPagerFragment.newInstance("Apple", "https://www.dialfredo.com/wp-content/uploads/2015/05/redapplepic.jpg"));
+fragmentList.add(ViewPagerFragment.newInstance("Orange", "https://colourchroma.files.wordpress.com/2011/08/orange.jpg"));
+fragmentList.add(ViewPagerFragment.newInstance("Banana", "https://target.scene7.com/is/image/Target/GUEST_f5d0cfc3-9d02-4ee0-a6c6-ed5dc09971d1?wid=488&hei=488&fmt=pjpeg"));
+
 ```
 
 And add the list to an adapter, and set that adapter to the ViewPager:
@@ -246,9 +249,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         List<Fragment> fragmentList = new ArrayList<>();
 
-        fragmentList.add(ViewPagerFragment.newInstance("Apple", R.drawable.apple));
-        fragmentList.add(ViewPagerFragment.newInstance("Orange", R.drawable.orange));
-        fragmentList.add(ViewPagerFragment.newInstance("Banana", R.drawable.banana));
+        fragmentList.add(ViewPagerFragment.newInstance("Apple", "https://www.dialfredo.com/wp-content/uploads/2015/05/redapplepic.jpg"));
+        fragmentList.add(ViewPagerFragment.newInstance("Orange", "https://colourchroma.files.wordpress.com/2011/08/orange.jpg"));
+        fragmentList.add(ViewPagerFragment.newInstance("Banana", "https://target.scene7.com/is/image/Target/GUEST_f5d0cfc3-9d02-4ee0-a6c6-ed5dc09971d1?wid=488&hei=488&fmt=pjpeg"));
 
         ViewPager viewPager = findViewById(R.id.mainActivity_viewPager);
         viewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager(), fragmentList));
