@@ -5,7 +5,7 @@
 * Fellows will learn how to implement a ViewPager within an Android Application
 
 ## Resources
-* []()
+* [Android ViewPager](https://developer.android.com/reference/android/support/v4/view/ViewPager)
 
 # Lecture
 
