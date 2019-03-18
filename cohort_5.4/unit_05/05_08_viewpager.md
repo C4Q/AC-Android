@@ -259,7 +259,7 @@ public class MainActivity extends FragmentActivity {
 }
 ```
 
-There are more complicated ways to build a ViewPager, but if you are familiar with building ViewPagers in this way, you can modify it to fit your needs - i.e, using a LayoutInflator, rather than Fragments, etc.
+There are more complicated ways to build a ViewPager, but if you are familiar with building ViewPagers in this way, you can modify it to fit your needs - i.e, using a LayoutInflator directly rather than Fragments, fun animations, etc.
 
 ## Exercises
 Visit the canvas calendar for today's date to find today's exercises.
