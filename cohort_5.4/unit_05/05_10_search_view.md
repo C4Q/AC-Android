@@ -10,6 +10,6 @@
 
 # Lecture
 
-RecyclerViews are amazing. You can pass them a list of objects (with values), extract values from those objects, and display those values within itemviews.
+RecyclerViews are amazing. You can pass them a list of objects (with values), extract values from those objects, and display those values within itemviews. However, 
 
 ## Exercises
