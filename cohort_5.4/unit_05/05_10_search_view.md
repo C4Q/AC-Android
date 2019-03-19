@@ -10,6 +10,6 @@
 
 # Lecture
 
-RecyclerViews are amazing. You can pass them a list of objects (with values), extract values from those objects, and display those values within itemviews. However, 
+RecyclerViews truly are amazing. You can pass them a list of objects (with values), extract values from those objects, and display those values within recycled itemviews. However, previous implementations have forced us to display a fixed list - and if we ever updated the list, we'd have to call `notifyDataSetChanged()` to update the RecyclerView. This is still great! However, this is usually based on a change made in an external dataset (update from a Retrofit call, added new data), but not based on any user changes in realtime. What if we want to only show items in a list that matches a user's specific criteria, as they enter it?
 
 ## Exercises
