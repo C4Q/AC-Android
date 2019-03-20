@@ -18,7 +18,7 @@ A SearchView is a widget that allows users to enter in search parameters, which 
 
 ``` xml
 <android.support.v7.widget.SearchView
-    android:id="@+id/city_searchview"
+    android:id="@+id/name_searchview"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:iconifiedByDefault="false">
