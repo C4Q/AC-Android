@@ -41,7 +41,7 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
 
     // member fields...
     
-    private List<Names> namesList;
+    private List<Name> namesList;
     private RecyclerView namesRecyclerView;
     private NameAdapter nameAdapter;
     
