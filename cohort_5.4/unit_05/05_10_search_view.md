@@ -43,6 +43,7 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
     
     private List<Names> namesList;
     private RecyclerView namesRecyclerView;
+    private NameAdapter nameAdapter;
     
     ....
     
@@ -62,4 +63,125 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
 
 ### Filtering Data and Updating the RecyclerView
 
+Let's say we have a list of objects containing the names of clients. However, we also want the users of our app to filter the names based on certain criteria. We can accept user information, then filter that information through our list - and only display names that start with the right letters:
+
+``` java
+    @Override
+    public boolean onQueryTextChange(String s) {
+        List<City> newNamesList = new ArrayList<>();
+        for(Name name : namesList) {
+            if(name.getFullName().contains(s)) {
+                newNamesList.add(name);
+            }
+        }
+        return false;
+    }
+```
+
+However, `.contains()` might not be sufficient, as the name could contain those numbers anywhere in its String. We would be better off using the String method `.startsWith()` instead:
+
+``` java
+    @Override
+    public boolean onQueryTextChange(String s) {
+        List<City> newNamesList = new ArrayList<>();
+        for(Name name : namesList) {
+            if(name.getFullName().startsWith(s)) {
+                newNamesList.add(name);
+            }
+        }
+        return false;
+    }
+```
+
+We're on the right path, but this will only give us the results that match the beginning of the string EXACTLY, i.e. if a user searches for "Lan", it will ignore names that have case variations, like "lAn", "LaN", "LAN", or "lan". Let's modify our search to be more inclusive, by only comparing their lowercase versions:
+
+
+``` java
+    @Override
+    public boolean onQueryTextChange(String s) {
+        List<City> newNamesList = new ArrayList<>();
+        for(Name name : namesList) {
+            if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
+                newNamesList.add(name);
+            }
+        }
+        return false;
+    }
+```
+
+Great! Now that we've made a list specific to whatever the user searches for, we can update our RecyclerView data! The easiest way would simply be to add the list to a new RecyclerView Adapter instance, then set a new adapter for the RecyclerView:
+
+
+``` java
+    @Override
+    public boolean onQueryTextChange(String s) {
+        List<City> newNamesList = new ArrayList<>();
+        for(Name name : namesList) {
+            if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
+                newNamesList.add(name);
+            }
+        }
+        namesRecyclerView.setAdapter(new NameAdapter(newNamesList));
+        return false;
+    }
+```
+
+Although this works, it involves creating a number of new adapter instances in memory whenever a user searches for something. A way to avoid this would be to add a method to the RecyclerView Adapter class that updates the actual list the adapter uses to display data on the screen:
+
+``` java
+public class NameAdapter extends RecyclerView.Adapter<NameViewHolder> {
+
+    private List<City> nameList;
+
+    public NameAdapter(List<Name> nameList) {
+        this.nameList = nameList;
+    }
+
+    @NonNull
+    @Override
+    public NameViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+        View childView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.name_itemview, viewGroup, false);
+        return new NameViewHolder(childView);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull NameViewHolder nameViewHolder, int i) {
+        Name name = nameList.get(i);
+        nameViewHolder.onBind(name);
+    }
+
+    @Override
+    public int getItemCount() {
+        return nameList.size();
+    }
+    
+    // update list method
+    
+    public void setData(List<Name> newNameList) {
+        this.nameList = newNameList;
+        notifyDataSetChanged();
+    }
+}
+```
+
+Now, we can simply update the data contained in the adapter:
+
+``` java
+    @Override
+    public boolean onQueryTextChange(String s) {
+        List<City> newNamesList = new ArrayList<>();
+        for(Name name : namesList) {
+            if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
+                newNamesList.add(name);
+            }
+        }
+        nameAdapter.setData(newNamesList);
+        return false;
+    }
+```
+
+And Voila! You have an updated RecyclerView list, updated in real-time!
+
 ## Exercises
+
+Please visit the canvas calendar for today's date to find today's exercises.
