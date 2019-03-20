@@ -78,7 +78,7 @@ Let's say we have a list of objects containing the names of clients. However, we
     }
 ```
 
-However, `.contains()` might not be sufficient, as the name could contain those numbers anywhere in its String. We would be better off using the String method `.startsWith()` instead:
+However, `.contains()` might not be sufficient, as the name could contain those letters anywhere in its String. We would be better off using the String method `.startsWith()` instead:
 
 ``` java
     @Override
