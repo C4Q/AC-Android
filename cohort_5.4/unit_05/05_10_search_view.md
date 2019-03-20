@@ -36,6 +36,7 @@ An `OnQueryTextListener`, specifically `SearchView.OnQueryTextListener`, when im
 
 We will not focus on the first method today, though it is useful for submitting String values. We will concentrate on the method `onQueryTextChange(String s)`, as we want to be notified whenever a value is entered or modified within our SearchView. For example:
 
+``` java
 @Override
     public boolean onQueryTextSubmit(String s) {
         return false;
@@ -46,6 +47,7 @@ We will not focus on the first method today, though it is useful for submitting 
         // TODO - add filtering logic here
         return false;
 }
+```
 
 ### Filtering Data and Updating the RecyclerView
 
