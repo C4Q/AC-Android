@@ -68,7 +68,7 @@ Let's say we have a list of objects containing the names of clients. However, we
 ``` java
     @Override
     public boolean onQueryTextChange(String s) {
-        List<City> newNamesList = new ArrayList<>();
+        List<Name> newNamesList = new ArrayList<>();
         for(Name name : namesList) {
             if(name.getFullName().contains(s)) {
                 newNamesList.add(name);
@@ -83,7 +83,7 @@ However, `.contains()` might not be sufficient, as the name could contain those 
 ``` java
     @Override
     public boolean onQueryTextChange(String s) {
-        List<City> newNamesList = new ArrayList<>();
+        List<Name> newNamesList = new ArrayList<>();
         for(Name name : namesList) {
             if(name.getFullName().startsWith(s)) {
                 newNamesList.add(name);
@@ -99,7 +99,7 @@ We're on the right path, but this will only give us the results that match the b
 ``` java
     @Override
     public boolean onQueryTextChange(String s) {
-        List<City> newNamesList = new ArrayList<>();
+        List<Name> newNamesList = new ArrayList<>();
         for(Name name : namesList) {
             if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
                 newNamesList.add(name);
@@ -115,7 +115,7 @@ Great! Now that we've made a list specific to whatever the user searches for, we
 ``` java
     @Override
     public boolean onQueryTextChange(String s) {
-        List<City> newNamesList = new ArrayList<>();
+        List<Name> newNamesList = new ArrayList<>();
         for(Name name : namesList) {
             if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
                 newNamesList.add(name);
@@ -131,7 +131,7 @@ Although this works, it involves creating a number of new adapter instances in m
 ``` java
 public class NameAdapter extends RecyclerView.Adapter<NameViewHolder> {
 
-    private List<City> nameList;
+    private List<Name> nameList;
 
     public NameAdapter(List<Name> nameList) {
         this.nameList = nameList;
@@ -169,7 +169,7 @@ Now, we can simply update the data contained in the adapter:
 ``` java
     @Override
     public boolean onQueryTextChange(String s) {
-        List<City> newNamesList = new ArrayList<>();
+        List<Name> newNamesList = new ArrayList<>();
         for(Name name : namesList) {
             if(name.getFullName().toLowerCase().startsWith(s.toLowerCase())) {
                 newNamesList.add(name);
