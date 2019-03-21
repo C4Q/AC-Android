@@ -40,10 +40,23 @@ We will not focus on the first method today, though it is useful for submitting 
 public class SearchFragment extends Fragment implements SearchView.OnQueryTextListener{
 
     // member fields...
-    
     private List<Name> namesList;
     private RecyclerView namesRecyclerView;
     private NameAdapter nameAdapter;
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        searchView = findViewById(R.id.carb_search_view);
+        recyclerView = findViewById(R.id.carb_recyclerview);
+        adapter = new CarbAdapter(carbsList);
+        searchView.
+        recyclerView.setAdapter(adapter);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(linearLayoutManager);
+        searchView.setOnQueryTextListener(this);
+    }
     
     ....
     
