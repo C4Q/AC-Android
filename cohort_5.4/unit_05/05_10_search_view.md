@@ -51,11 +51,10 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
         searchView = findViewById(R.id.carb_search_view);
         recyclerView = findViewById(R.id.carb_recyclerview);
         adapter = new CarbAdapter(carbsList);
-        searchView.
+        searchView.setOnQueryTextListener(this);
         recyclerView.setAdapter(adapter);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(linearLayoutManager);
-        searchView.setOnQueryTextListener(this);
     }
     
     ....
