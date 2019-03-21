@@ -43,6 +43,7 @@ public class SearchFragment extends Fragment implements SearchView.OnQueryTextLi
     private List<Name> namesList;
     private RecyclerView namesRecyclerView;
     private NameAdapter nameAdapter;
+    private SearchView searchView;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
