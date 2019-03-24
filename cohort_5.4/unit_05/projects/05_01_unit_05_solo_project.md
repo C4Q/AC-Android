@@ -45,6 +45,10 @@ Unit 05 will culminate in the completion of a solo project based on your choice 
 * all requirements should be broken down into actionable tasks, and tracked using a public Trello Board, as per [this lesson](https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/cohort_5.4/unit_01/01_29_Project_Management.md), the link for which should be posted in your Github repo's README.md file
 * a slide deck must be produced, for a 5 minute presentation on your App
 
+### Additional Notes
+
+This project is open-ended, in that additional libraries may be used to reach your goals (Room, Glide, RxJava, etc.), as well as additional Fragments and view elements. However, all requirements must be met prior to exceeding MVP, and submitting your project.
+
 ### Due Date
 
 This project will be due Wednesday, April 10th, 2019 at 11:59pm EST. Please submit your repository link here.
