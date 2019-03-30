@@ -1,4 +1,4 @@
-# OOP Design Questions
+# OOP Design Practice
 
 ## Objectives
 * Fellows will explore how to tackle questions related to program design
