@@ -50,3 +50,5 @@ as "scope-creep" is always a concern. MVP, or "Minimum Viable Product", might no
 
 Guess what? If you were able to complete the features specific to your particular chosen path, then you have reached MVP for your project! Although the final version of the Unit 05 Solo Project that you are expected to submit should also include the additional requirements described in the assignment (splash page, single activity/multiple fragments, unit tests, demo deck, etc.), those aren't really MVP, those are your production requirements. MVP should be thought of as **THE BARE MINIMUM TO QUALIFY AS MEETING THE SPECIFICATIONS.**
 
+## In-Class Exercise
+Ten (10) fellows will be selected to demo what they have created so far, as it pertains to their version of MVP for their apps. You will not be required to show off a slide deck, or a visually stunning application. You only have to show a demo version of your Android Application in its MVP form.
