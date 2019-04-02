@@ -8,7 +8,6 @@
 
 ## Resources
 
-
 * [Tech Interview Handbook (github)](https://github.com/yangshun/tech-interview-handbook)
 * [Interview Prep Kit (hackerrank)](https://www.hackerrank.com/interview/interview-preparation-kit)
 * [Whiteboarding tips (blog post)](https://codewithoutrules.com/2016/04/04/interview-puzzles/)
