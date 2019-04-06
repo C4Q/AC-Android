@@ -9,7 +9,7 @@
 
 ## Warmup - DO THIS NOW!!! (15 Minutes) :fire::fire::fire:
 
-If you had to describe your app, by boiling down a description down to its intended purpose, and its most important features in under 30 seconds - how would it sound? Write a quick 30-second description of your solo project.
+If you had to describe your app, by boiling a description down to its intended purpose, and its most important features in under 30 seconds - how would it sound? Write a quick 30-second description of your solo project.
 
 # Lecture
 
