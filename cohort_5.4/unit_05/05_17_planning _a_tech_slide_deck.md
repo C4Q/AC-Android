@@ -45,7 +45,7 @@ A good way to answer an audience member's question before they get to ask it, wo
 
 Use this slide as a way to throw shade on the competition, while also foreshadowing, or setting up the introduction of your apps features.
 
-#### Solution and App Features
+#### 5. Solution and App Features
 
 Now for the big reveal! Describe your app, how it can solve the problem statement, and a few of the apps more unique features. For example:
 
@@ -53,7 +53,7 @@ Now for the big reveal! Describe your app, how it can solve the problem statemen
 
 This slide can inlude a bullet-pointed list of features, or a few images of your app in action. It should be used as a way to share the most important, MVP style features of what your app can provide.
 
-#### User Story
+#### 6. User Story
 
 This slide should explore a day in the life of a hypothetical prospective user of your app, and how your app can help them. For example:
 
@@ -61,7 +61,7 @@ This slide should explore a day in the life of a hypothetical prospective user o
 
 Tell a story that allows the audience member to stand in your user story person's shoes, and sets up the live demo of your app.
 
-#### Demo Slide
+#### 7. Demo Slide
 
 This slide can be used in many ways - some people like to share a GIF image of their app in action, while others prefer videos. However, the most effective demo card is simply a backdrop for an actual live demonstration:
 
@@ -71,17 +71,16 @@ The audience should now have a clear idea of what your app looks like, how it wo
 
 **Paw-some! After the play-date, the dogs are now best friends themselves, and the owners are interested in setting up another date in the future!**
 
-#### Next Steps
+#### 8. Next Steps
 
 No app is ever really complete - and your app is definitely NOT the exception. The app you're presenting could always use new features, so use this slide as a way to let the audience know what you'd like to add in the near future:
 
 **Next Steps for BestFriend include: a way to use Geolocation to only find partners near a favorite dog park, a gallery for saving photos from your fun play-dates, and a social media sharing feature for sharing updates to your friends and family!**
 
-#### Closing Slide
+#### 9. Closing Slide
 
 The closing slide is often optional, but suggested. Use this slide to again share your social media links, a thank you to everyone involved in the creation of the app (or just a thank you to the people in attendance), and a call to action from the audience for questions.
 
 ## Exercises
 
 Make a draft of a presentation for your solo project. Then the instructor will select volunteers brave enough to share their slide deck with a live demo in front of the class.
-
