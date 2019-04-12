@@ -16,7 +16,7 @@
 **Expectations:** Fellows are expected to add all hardcoded values to resources files within the values folder. Fellows are expected to be able to reference String resouces directly in Java classes, and access them as necessary.
 
 ### Android Manifest
-**Expectations:** Fellows are expected to be able to add internet permissions to the Android Manifest, as well as parent activity names to child activities to aid in effective activity backstack navigation.
+**Expectations:** Fellows are expected to be able to add internet, fine location, and course location permissions to the Android Manifest, as well as parent activity names to child activities to aid in effective activity backstack navigation.
 
 ### Gradle Dependencies
 **Expectations:** Fellows are expected to be able to add library dependencies in gradle, by adding them directly to `build.gradle` files, or by utilizing the `Project Structure` menu option in the Android Studio IDE.
@@ -40,4 +40,4 @@
 **Expectations:** Fellows are expected to either implement their own sorting algorithms, or utilize sorting classes like `Collections`, `Comparator`, and/or `Comparable` to sort one or more values stored within one or more fields of an object within a data structure.
 
 ### Maps and MapFragments
-**Expectations:** Fellows are expected to sublclass or utilize existing MapFragment classes, to display pin markers on a Google map within their own applications. Fellows should be able to display pin markers for specific lat/long coordinates, center their pins within a certain region, and add labels to their pins describing the names associated with their locations.
+**Expectations:** Fellows are expected to sublclass or utilize existing MapFragment classes, to display pin markers on a Google map within their own applications. Fellows should be able to display pin markers for specific lat/long coordinates, center their pins within a certain region, and add labels to their pins describing the names associated with their locations. Fellows should also be able to obtain required api keys from the Google Maps API.
