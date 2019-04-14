@@ -35,11 +35,14 @@
 ### Fragments
 **Expectations:** Fellows are expected to subclass the Fragment class, and make their own fragments. Fellows are expected to inflate and swap fragments using a container layout within a host activity's layout. Fellows are expected to create static factory methods for their subclassed fragments to pass data from the activity to the fragments. Fellows are expected to communicate events and send data from fragments to their hosting activity using the listener pattern. Fellows are expected to add Fragments to the backstack as needed.
 
-### SearchView
-**Expectations:** Fellows are expected to implement SearchViews within their apps that change the data listed within their RecyclerViews, in such a way that only values which match particular search criteria are listed. Fellows should be able to update their RecyclerViews whenever characters are added or removed from the SearchView field.
+### Strings
+**Expectations:** Fellows are expected to be able to manipulate and compare Strings using methods from the String API, i.e. - `charAt()`, `equals()`, `toLowerCase()`, `toUpperCase()`, `length()`, etc.
 
 ### Sorting Algorithms and Sorting Helper Classes
 **Expectations:** Fellows are expected to either implement their own sorting algorithms, or utilize sorting classes like `Collections`, `Comparator`, and/or `Comparable` to sort one or more values stored within one or more fields of an object within a data structure.
+
+### SearchView
+**Expectations:** Fellows are expected to implement SearchViews within their apps that change the data listed within their RecyclerViews, in such a way that only values which match particular search criteria are listed. Fellows should be able to update their RecyclerViews whenever characters are added or removed from the SearchView field.
 
 ### Maps and MapFragments
 **Expectations:** Fellows are expected to sublclass or utilize existing MapFragment classes, to display pin markers on a Google map within their own applications. Fellows should be able to display pin markers for specific lat/long coordinates, center their pins within a certain region, and add labels to their pins describing the names associated with their locations. Fellows should also be able to obtain required api keys from the Google Maps API.
