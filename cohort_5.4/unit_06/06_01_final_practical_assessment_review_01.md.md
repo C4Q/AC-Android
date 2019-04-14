@@ -38,7 +38,7 @@
 ### SearchView
 **Expectations:** Fellows are expected to implement SearchViews within their apps that change the data listed within their RecyclerViews, in such a way that only values which match particular search criteria are listed. Fellows should be able to update their RecyclerViews whenever characters are added or removed from the SearchView field.
 
-### Sorting
+### Sorting Algorithms and Sorting Helper Classes
 **Expectations:** Fellows are expected to either implement their own sorting algorithms, or utilize sorting classes like `Collections`, `Comparator`, and/or `Comparable` to sort one or more values stored within one or more fields of an object within a data structure.
 
 ### Maps and MapFragments
