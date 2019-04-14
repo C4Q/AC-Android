@@ -6,6 +6,8 @@
 ## Resources
 * All lessons from Units 01 through 05
 
+# Lecture
+
 ### Activities
 **Expectations:** Fellows are expected to be able to make their own activity classes that inherit from AppCompatActivity, and add a corresponding XML Layout File. Fellows are expected to override Activity Lifecycle callback methods as necessary.
 
