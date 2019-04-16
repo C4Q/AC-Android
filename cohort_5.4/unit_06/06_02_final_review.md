@@ -232,3 +232,5 @@ public class LibraryFragment extends Fragment implements OnMapReadyCallback {
     }
 }
 ```
+
+![we're in the endgame now](https://78.media.tumblr.com/ff0a1b3506252a740e961d3ff4c5f8e5/tumblr_pcpjptx7oc1sc0ffqo1_400.gif)
