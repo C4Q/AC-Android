@@ -115,7 +115,7 @@ Implementing a Map as a Fragment is actually pretty easy, but a few steps need t
 1. Add metadata to the manifest within the `<application>` tags: `<meta-data android:name="com.google.android.geo.API_KEY" android:value="ABcde456fGHijkL9854mnoPqRsTUV_wxyz" />`
 1. Add the `<uses-feature>` tag **OUTSIDE** the `<application>` tags, but **INSIDE** the `<manifest>` tags: `<uses-feature android:glEsVersion="0x00020000" android:required="true" />`
 
-Once these steps are completed, you can finally begin to implement your map fragment. First, simply generate a Fragment by going to the menu, and creating a new fragment (or compose the fragment from scratch). Next, add the view `<om.google.android.gms.maps.MapView>` to the fragments layout file, and have it fill the screen:
+Once these steps are completed, you can finally begin to implement your map fragment. First, simply generate a Fragment by going to the menu, and creating a new fragment (or compose the fragment from scratch). Next, add the view `<com.google.android.gms.maps.MapView>` to the fragments layout file, and have it fill the screen:
 
 ```java
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
