@@ -20,7 +20,7 @@ When your class implements `Comparable`, the `compareTo()` method of the class i
 
 A `Comparator` is its own definition of how to compare two objects, and can be used to compare objects in a way that might not align with the natural ordering.
 
-For example, Strings are generally compared alphabetically. Thus the "a".compareTo("b") would use alphabetical comparisons. If you wanted to compare Strings on length, you would need to write a custom comparator.
+For example, Strings are generally compared alphabetically, so "a".compareTo("b") would use alphabetical comparisons. If you wanted to compare Strings on length, you would need to write a custom comparator.
 
 `Comparable` is commonly used to define sorting expectations for classes which the developer can modify. `Comparator` is used to sort objects of classes which the developer **CANNOT** modify. In other words, if you have the ability to create or modify your own data model classes or POJO's, you should have those classes implement `Comparable` - otherwise, you'll have to subclass your own `Comparator` implementation.
 
