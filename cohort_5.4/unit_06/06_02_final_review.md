@@ -103,3 +103,132 @@ and inside the fragment, you could then access that object from the bundle argum
 ```java
 Avenger avenger = (Avenger) getArguments().getSerializable("avenger");
 ```
+
+### MapFragments
+
+Implementing a Map as a Fragment is actually pretty easy, but a few steps need to be implemented first before any code is actually written:
+
+1. Add `implementation 'com.google.android.gms:play-services-maps:16.1.0'` to your app's `build.gradle` file
+1. Add `google()` and `jcenter()` to the `buildscript` and `allprojects` repository sections of your project's `build.gradle` file
+1. Add `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>` and `<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>` permissions to your `AndroidManifest.xml` file
+1. Apply for an API Key from the Google Maps API website
+1. Add metadata to the manifest within the `<application>` tags: `<meta-data android:name="com.google.android.geo.API_KEY" android:value="ABcde456fGHijkL9854mnoPqRsTUV_wxyz" />`
+1. Add the `<uses-feature>` tag **OUTSIDE** the `<application>` tags, but **INSIDE** the `<manifest>` tags: `<uses-feature android:glEsVersion="0x00020000" android:required="true" />`
+
+Once these steps are completed, you can finally begin to implement your map fragment. First, simply generate a Fragment by going to the menu, and creating a new fragment (or compose the fragment from scratch). Next, add the view `<om.google.android.gms.maps.MapView>` to the fragments layout file, and have it fill the screen:
+
+```java
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LibraryFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/library_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
+```
+
+Next, have the fragment implement the callback `OnMapReadyCallback`:
+
+```java
+public class LibraryFragment extends Fragment implements OnMapReadyCallback
+```
+
+Then, set the map async on the MapView within the Fragment in `onViewCreated()`:
+
+```java
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mapView = view.findViewById(R.id.library_mapView);
+        if(mapView != null) {
+            mapView.onCreate(null);
+            mapView.onResume();
+            mapView.getMapAsync(this);
+        }
+    }
+```
+
+Finally, we'll have to override the `onMapReady(GoogleMap googleMap)` method:
+
+```java
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        MapsInitializer.initialize(getContext());
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(lat, lon)).title(name));
+        CameraPosition cameraPosition = new CameraPosition.Builder().target(new LatLng(lat, lon)).zoom(10.0f).build();
+        CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
+        googleMap.moveCamera(cameraUpdate);
+    }
+```
+
+In the end, your fragment class should look something like this:
+
+```java
+public class LibraryFragment extends Fragment implements OnMapReadyCallback {
+    private static final double ARG_PARAM1 = "param1";
+    private static final double ARG_PARAM2 = "param2";
+    private static final String ARG_PARAM3 = "param3";
+
+    private MapView mapView;
+    
+    private double lat;
+    private double lon;
+    private String name;
+
+    public LibraryFragment() {
+    }
+
+    public static LibraryFragment newInstance(double lat, double lon, String name) {
+        LibraryFragment fragment = new LibraryFragment();
+        Bundle args = new Bundle();
+        args.putString(ARG_PARAM1, lat);
+        args.putString(ARG_PARAM2, lon);
+        args.putString(ARG_PARAM3, name);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            lat = getArguments().getDouble(ARG_PARAM1);
+            lon = getArguments().getDouble(ARG_PARAM2);
+            name = getArguments().getString(ARG_PARAM3);
+        }
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_library, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mapView = view.findViewById(R.id.library_mapView);
+        if(mapView != null) {
+            mapView.onCreate(null);
+            mapView.onResume();
+            mapView.getMapAsync(this);
+        }
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        MapsInitializer.initialize(getContext());
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(lat, lon)).title(name));
+        CameraPosition cameraPosition = new CameraPosition.Builder().target(new LatLng(lat, lon)).zoom(10.0f).build();
+        CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
+        googleMap.moveCamera(cameraUpdate);
+    }
+}
+```
