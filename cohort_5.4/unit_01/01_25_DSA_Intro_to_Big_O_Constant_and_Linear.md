@@ -17,6 +17,8 @@
 
 Big Θ Notation is, in short, a framework used for discussing how optimal an Algorithm may be.
 
+**__Please Remember__: Big O Notation tells you how your method's runtime (Time Complexity) and required memory (Space Complexity) scales with input. Using this you can estimate how performant your code will be and how to improve.**
+
 As a primer, we will first explore [Interview Cake's article "The idea behind big O notation" here](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity).
 
 ## Key Take-aways
