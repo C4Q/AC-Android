@@ -20,21 +20,21 @@ https://github.com/Zhuinden/guide-to-kotlin
 
 ## Lecture
 
-Kotlin is a modern programming language developed by JetBrains. It is a statically typed with type infrence that is 100% interoperational with Java meaning that they are able to function together and it is now the preferred language for Android development by Google. It should feel strangely similar to Java but is reworked to be much more conise and easier to write meaning less code needs to be written meaning less code needs to be tested. It has built in safety to help you stop NullPointerExceptions and avoid plenty of other mistakes.
+Kotlin is a modern programming language developed by JetBrains. It is a statically typed with type infrence that is 100% interoperational with Java meaning that they are able to function together and it is now the preferred language for Android development of Google and many more companies. It should feel similar to Java but it is reworked to be much more concise and easier to write meaning less code needs to be written meaning less logic needs to be tested. It has built in safety to help you stop NullPointerExceptions and avoid plenty of other coding mistakes.
 
 ### Hello World
 
-```kotlin
+```java
 fun main(args: Array<String>){
     print("Hello World")
 }
 ```
 
-We declare a package level function main which returns an object of type Unit and will take an array of Strings as a param
+As opposed to java when we want to declare a main function it does not need to be in the class here the main method moves to the package level above the class. This method returns an object of type Unit which is similar to void in Java and will take an array of Strings as a param
 
 `Semi colons are optional`
 
-You can compile this code uing Kotlins compiler like this 
+You can compile this code uing Kotlin's compiler like this
 
 ```
 kotlinc hello.kt
@@ -43,29 +43,29 @@ kotlin HelloKt
 
 #### Variables and Data Types
 
-variables are locations in memory that store some kind of data. They will have a name and a data type. The type of the variable will set the range of values that variable could possibly have
+Variables are locations in memory that store some kind of data. They will have a name and a data type. The type of the variable will set the range of values that variable could possibly have
 
 A variable is either declared using the var or val keywords.
 
 A variable declared using val will be immutable (read-only) it cannot be reassigned after it is initialized
 
-```kotlin
+```java
 val name = "Margaret Hamilton"
 name = "Apollo 11" // Error: Val cannot be reassigned
 ```
 
 If you want to be able to change the variable, you would use the var keyword
 
-```kotlin
-val program = "Saturn"
+```java
+var program = "Saturn"
 program = "Apollo" // This works
 ```
 
 #### Type Inference
 
-Notice that the types of the variables variables were not declared earlier.
+Notice that the types of the variables were not declared earlier.
 
-Kotlin is statically typed but it does not require you to specify the type of the variable you are writing. It will infer the type of a variable from the initializing expression
+Kotlin is statically typed but it does not require you to specify the type of the variable you are writing. It will infer what the type of a variable should based off of the initializing expression.
 
 ```kotlin
 val message = "Hello, World" // Type would be inferred as `String`
@@ -79,14 +79,12 @@ val message: String = "Hello World"
 val year : Int = 2019
 ```
 
-However type declaration is mandatory if you are not going to intialize the variable when you declare it
+However type declaration is mandatory if you are not going to intialize the variable when you declare it since it will no longer have anything to infer from / make a guess about they type
 
-```kotlin
-/*
-Error the variable muse either hava a type or be initialized
+```java
+// Error the variable must either hava a type or be initialized
 var change
 change = 0.05
-*/
 
 var change: Double // Works
 change = 0.05
@@ -94,13 +92,13 @@ change = 0.05
 
 #### Data Types
 
-Similar to Java Kotlin has the same types like Int, Double, Boolean, Char
+Similar to Java, Kotlin has the types Byte, Short, Int, Float, Double, Boolean, Char, String
 
-But in Kotlin everything is an object / behaves like an object instead of just having seperate primitive types  int and wrappers like Integer.
+But in Kotlin everything behaves like an object so instead of just having seperate primitive types  int and wrappers like Integer. We would just be using the type classes.
 
-Here are some examples
+Here are some examples of number types
 
-```kotlin
+```java
 val myInt = 1025
 val myLong = 1000L // Suffix L specifies a long
 val myFloat = 126.78f // Suffix f or F represents Float
@@ -109,43 +107,54 @@ val myDouble = 325.49
 
 #### Arrays
 
-To create arrays we use the Array class and use the function arrayOf we can have mixed values but it is preferrable to declare the data type of the array
+To create arrays we use the Array class and use the function arrayOf. We can have mixed values in an array but it is preferrable to declare the data type of the array and stick to a single type.
 
-```kotlin
+```java
 var numbers = arrayOf(1,2,3)
 var letters = arrayOf<Char>('a','b','c')
 ```
 
 #### Type Conversion
 
-Kotlin supports conversion by calling helper functions that explicity convert one type to another
+Kotlin does not support functionallity like implicit type conversion. This would be like in java when you can pass a value of type int into a variable of type double and it would automatically accept and convert that value to a double.
 
-```kotlin
+```java
+// this works
+Double myNumber = 2
+```
+
+Instead conversion is handled by calling helper functions that explicity convert one type to another
+
+```java
+// Error variable of Type Double is being given an Integer instead
+var myNumber : Double = 2
 val myInt = 200
+// This works
 val myDouble = myInt.toDouble()
 val myString = myDouble.toString()
 ```
 
 ### Control Flow
 
-
 #### if and else
 
 if statements can be used as an expression instead of a statement so a variable can be used to represent the result of an if-else statement
 
-```kotlin
+```java
 var a = 32
 var b = 55
 
 var max = if(a > b) a else b
+
+// String interpolation is started by  adding a $ followed by the variable name to a string and the compiler looks for this value earlier and add this to the string
 println("max($a, $b) = $max")
 ```
 
 #### when
 
-When is a replacement for the standard switch statement
+When is a replacement for the standard switch statement in Java
 
-```kotlin
+```java
 var dayOfWeek = 4
 
 when(dayOfWeek) {
@@ -156,32 +165,33 @@ when(dayOfWeek) {
     5 -> println("friday")
 }
 
+// Similar to if and else statements the result of a when statement can be saved as a variable
 val someday = when(dayOfWeek) {
-    1 -> println("monday")
-    2 -> println("tuesday")
-    3 -> println("wednesday")
-    4 -> println("thursday")
-    5 -> println("friday")
+    1 -> someday = "Monday"
+    2 -> someday = "Tuesday"
+    3 -> someday = "Wednesday"
+    4 -> someday = "Thursday"
+    5 -> someday = "Friday"
 }
 
 /* when branches can be combined by using one comma
- can check if value is within a certain rain using the in val ... val notation or can check if something is equal using the is keyword */
+ can check if value is within a certain rain using the in val ... val notation or can check if something is the same data type the key word is would be used*/
 
 dayOfWeek = 7
 
 when(dayOfWeek) {
-    1,2,3,4,5 -> println("Weekday")
-    in 6..7 -> println("Weekend")
-    is 10 -> println("none of the above")
+    in 1..5 -> println("Weekday")
+    6, 7 -> println("Weekend")
+    is !Integer -> print("Not a number")
 }  
 
 ```
 
-#### for loops
+#### For loops
 
-looping through an array is similar to java but instead the keyword in is used an arrays in kotlin have the property indices which will give you the proper indexes of the array
+looping through an array is similar to java but instead the keyword ```in``` is used, Arrays in kotlin have the property indices which will give you the range of indexes of an array
 
-```kotlin
+```java
 val fibNumbers = arrayOf(0,1,1,2,3,5,8)
 
 for(index in fibNumbers.indices) {
@@ -193,26 +203,24 @@ for(index in fibNumbers.indices) {
 
 Avoiding nullpointer exceptions is a guard built into Kotlin. Nullability is part of the type system meaning that we are able to declare whether a variable can be a null value or not.
 
-This means NullPointerExceptions are caught in comile time reducing how many we would encounter variables are non nullable by default to allow null values a question mark needs to bne appended next to type declaration of a variable
+This means NullPointerExceptions are caught in compile time reducing how many we errors we would encounter. Variables are non nullable by default, to allow null values a question mark ```?``` needs to be appended next to type declaration of a variable
 
-```kotlin
-
+```java
 val nullableMessage: String?
-
 nullableMessage = null
 ```
 
-There are times though that we might have to work with nullable variables so in order to safely call methods/operations on a null value we need to do a safe call.
+There are times though that we might have to work with nullable variables so in order to safely call methods/operations on a null value we need to do a safe call which means adding a question mark before the method call these can be chained.
 
-```kotlin
+```java
 nullableMessage?.toLowerCase()
 ```
 
 this safely prints out the null value but if a value is set then it would print the message in lowercase
 
-If we dont want to do anything once the value is null we can instead perform a let operation. 
+If we dont want to do anything if the value is null we can instead perform a ```let``` operation instead of having to write a null check if statement.
 
-```kotlin
+```java
 val nullableMessage: String? = null
 
 nullableMessage?.let {
@@ -220,60 +228,70 @@ nullableMessage?.let {
 }
 ```
 
-the lamda inside of the let will only esecute if the variable is not null.
+The lamda inside of the let will only execute if the variable is not null.
 
-Finally if we want to provide a default value if the variable is null we can use an elvis operator ?:
+Finally if we want to provide a default value to the variable if it is null we can use an elvis operator ```?:```
 
-```kotlin
+```java
 val message = nullableMessage ?: "Hello"
 ```
 
-basically the elvis operator will take two values and return the first if not null otherwise it will return the default value.
+Basically the elvis operator will take two values and return the first if it is not null otherwise it will return the default value.
 
 ### Functions
 
-Every function has a function name a list of comma seperated params and a method body similar to java.
+Every function has a function name, a list of comma seperated params, and a method body similar to java.
 
 Return types however are optional due to the inferences made about type.
 
-If the function will only return a single value then return type and curly braces can be skipped.
+If the function will only return a single value then return type and curly braces can be skipped and the operation itself is returned
 
-```kotlin
+```java
 fun mean(a: Int, b: Int) = (a+b)/2
 ```
 
 #### Default arguments
 
-Default arguments can be specified for a functions parameter. The default value will be used when the argument is not used during the function call
+Default arguments can be specified for a functions parameter. The default value will be used when the argument is not passed in during the function call
 
-```kotlin
-    fun sayHello(message: String, greeting: String = "World") {
-        print($message, $greeting)
+```java
+    // if not value is passed in for message "World" will be used
+    fun sayHello(greeting: String, message: String = "World") {
+        print("$greeting, $message")
     }
 ```
 
 #### Named Args
 
-alternatively if you dont want to specify the values but want to specify the names of the arguments getting passed into the function you can, This makes methods much easier to read especially if you run into a method with lots of params to pass in. 
+Alternatively if you dont want to specify the values but want to specify the names of the arguments getting passed into the function you can map what value corresponds to what variable, This makes method calls much easier to read especially if you run into a method with lots of params to pass in.
 
-```kotlin
-fun multiMathSum(a: Int, b: Int,
-d: Int :Int {
- return a + b + c
-})
+```java
+fun multiMathSum(a: Int, b: Int, c: Int, d :Int) {
+  return a + b + c + d
+}
 
 // calling this method is easy
-
-mathSeriesSum(a = 100, b = 2000, c = 30000)
+multiMathSum(a = 100, b = 2000, c = 30000, d = 10000)
 ```
 
 #### Variable number of arguments
 
-Finally if the number of parameters that you need to pass to a function will be unknown you should use vararg key word in the function.
+Finally if the number of parameters that you need to pass to a function will be unknown you should use vararg key words in the function.
 
-```kotlin
+```java
 fun multiNumberSum(vararg nums : Float) : Float {
     val sum : Float = 0.0f
-
 }
+
+multiNumberSum(5f,6f,7f,8f,9f,10f)
+```
+
+In this case that you have more variables as parameters other than the vararg then when passing in values to the function you will need to Name the arguments during the function call
+
+```java
+fun multiNumberSum(vararg nums : Float, message : String) : Float {
+    val sum : Float = 0.0f
+}
+
+multiNumberSum(1f,2f,3f,4f,5f,6f, message = "Hello")
 ```
